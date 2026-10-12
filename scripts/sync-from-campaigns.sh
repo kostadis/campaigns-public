@@ -36,6 +36,9 @@ done
 for c in "${NPC_CAMPAIGNS[@]}"; do
     patterns+=("/$c/docs/npcs/*.md")
 done
+# gm-assistant: the skills and their index docs only (not working/,
+# profiles/, converted/).
+patterns+=('/gm-assistant/skills/' '/gm-assistant/README.md' '/gm-assistant/SKILLS.md')
 
 echo "Cloning $SRC_REPO ($BRANCH)..."
 git clone --quiet --depth 1 --filter=blob:none --sparse --branch "$BRANCH" \
@@ -77,6 +80,13 @@ for c in "${NPC_CAMPAIGNS[@]}"; do
     done
     echo "$c: copied $n NPC files to $c/npcs/"
 done
+
+# gm-assistant/skills/ is mirrored (replaced wholesale) each run.
+rm -rf "$DEST/gm-assistant/skills"
+mkdir -p "$DEST/gm-assistant"
+cp -r "$src/gm-assistant/skills" "$DEST/gm-assistant/"
+cp "$src/gm-assistant/README.md" "$src/gm-assistant/SKILLS.md" "$DEST/gm-assistant/"
+echo "gm-assistant: copied $(ls "$DEST/gm-assistant/skills" | wc -l) skills to gm-assistant/skills/"
 
 echo
 echo "Done (source $SRC_REPO @ $rev). Review with: git -C \"$DEST\" status"
