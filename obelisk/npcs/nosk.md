@@ -1,4 +1,4 @@
-<!-- published by summary_native npc-publish | source: summary_native | npc: Nosk | range: ch001-012 | draft run: 20261011T032539Z | draft sha256: 5628ff52f67a86b7a1491789572a37036ac1acfdc23c958c99c43ced64789079 | authored sha256: none | verify: pass | published sha256: 1b917124b82bb32fb2b35d0e61b63a1a9e02c6987635d2ac9baeb82a05589c3a -->
+<!-- published by summary_native npc-publish | source: summary_native | npc: Nosk | range: ch001-013 | draft run: delta-ch013-20261019 | draft sha256: c14dee747510a4434392fe6c76bfdf4328496f32ea11f100a316b231545ea7a6 | authored sha256: none | verify: pass | published sha256: f951c3d027e102f1daed6e1223d7a6736299e6a153fc2c1a59e7b3a805bd0322 -->
 ---
 subject: Nosk
 type: npc
@@ -6,17 +6,19 @@ global: true
 exclusion: null
 aliases_used: [Nosk]
 first_seen: 9
-last_seen: 12
-chapters: [9, 10, 12]
-n_entries: 3
-n_scenes: 4
-n_moments: 7
-range: 1-12
+last_seen: 13
+chapters: [9, 10, 12, 13]
+n_entries: 4
+n_scenes: 7
+n_moments: 9
+range: 1-13
 source_kind: summary_native_npc_link
 ---
 
 ## Identity
 Nosk is the leader of a group of four bugbears, identified in the campaign record as the "Scarlet Fist," sent by the Black Spider to reinforce the Redbrand faction in Phandalin [ch 009 / entry; ch 010 / entry]. He is a direct subordinate of the Black Spider, operating outside the chain of command of Glasstaff, the local Redbrand leader [ch 009 / 009.05]. Nosk possesses a morning star and commands a small team of bugbears and allied goblins, including a goblin named Droop who belongs to the Scraptops clan [ch 009 / 009.05]. In later chapters, his group is distinguished by singed fur, indicating survival of the fire at Tresendar Manor [ch 012 / 012.05].
+
+Nosk was the Scarlet Fist leader killed by Pip at the Stonehill Inn [ch 013 / entry; ch 013 / 013.01; ch 013 / 013.04].
 
 ## Personality and Motivations
 Nosk is aggressive and prone to rash decisions when embarrassed or provoked. In the barracks, Zenvon’s "rage-baiting" caused Nosk to impulsively reveal the Black Spider’s location (Cragmaw Castle), leading Nosk to immediately attempt murder to cover his mistake [ch 009 / 009.05; ch 009 / moment]. He views himself as superior to those he deems subordinate or lesser, mocking Zenvon’s authority as a Redbrand [ch 009 / 009.05].
@@ -35,10 +37,10 @@ Nosk is driven by a desire for retribution and restoring his standing with his s
 *   When the standoff collapsed into combat, Zenvon severely wounded Nosk with a sneak attack from his shortbow, dealing 12 points of damage [ch 012 / 012.06].
 *   The session concluded with Nosk bleeding heavily and the outcome of the battle undecided [ch 012 / 012.06].
 
-## Last Observed State
-The final observed interaction occurred during an ambush at the Stonehill Inn [ch 012 / 012.06]. Nosk held innkeeper Toblen Stonehill hostage at knifepoint to force the party into surrendering their weapons [ch 012 / 012.05; ch 012 / 012.06]. The negotiation collapsed into combat after Zenvon exposed Nosk's intent to betray the party. Nosk was severely wounded by a 12-point sneak attack from Zenvon’s shortbow and was bleeding heavily when the session concluded [ch 012 / 012.06]. The outcome of the battle was undecided at the end of the summary [ch 012 / 012.06].
+- In the resumed Stonehill Inn fight, Zenvon shot Nosk for 14 damage, leaving him with one hit point. Pip then killed him [ch 013 / 013.01].
 
-Status not established in the summaries.
+## Last Observed State
+Dead. Pip delivered the killing blow at the Stonehill Inn after Zenvon’s shortbow shot left Nosk with one hit point [ch 013 / 013.01]. Gorl subsequently identified Nosk as the Scarlet Fist’s leader and said he worked directly for the Spider [ch 013 / 013.03; ch 013 / 013.04].
 
 ## Relationships
 **Zenvon**: Nosk’s primary antagonism is directed at Zenvon. Nosk nearly incapacitated Zenvon with a morning star in the barracks and later targeted him during the Stonehill ambush. Zenvon successfully outmaneuvered Nosk through deception, intimidation, and insight, consistently exposing Nosk’s lies and tactical errors [ch 009 / 009.06; ch 012 / 012.06].

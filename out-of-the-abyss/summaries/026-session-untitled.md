@@ -35,7 +35,7 @@ Daz, recalling the non-disclosure terms, played coy about which egg Gartokkar me
 
 The party handed over the corrupted red dragon egg, noting plainly that it had been recovered from a dark ritual and bore strange markings, with no promises made about its condition. Gartokkar accepted it without ceremony. He explained that the egg's purpose was to provide a means of replacing the dragon Themberchaud before the beast grew wise to the fact that he was not truly in control of Gracklstugh. In a red dragon, that realization would end in catastrophic violence. The DM described Themberchaud as "a fat, blimped-out, overly pedantic red dragon." The DM also reminded the party that they had separately agreed to act as Themberchaud's agents. That was safe, he said, as long as the dragon doesn't notice them.
 
-Gartokkar paid the party their remaining fee, including the previously negotiated confidentiality sum. The original deal was 2,000 gp with 600 gp paid up front, plus a 1,000 gp confidentiality rider, for a total of 3,000 gp. This payment was 2,400 gp. He reminded them in no uncertain terms that their arrangement was to remain between them alone. After the split, the party's spreadsheet showed 1,042 gp plus one electrum each.
+Gartokkar paid the party their remaining fee, including the previously negotiated confidentiality sum. The original deal was 2,000 gp with 1,100 gp paid up front, plus a 1,000 gp confidentiality rider, for a total of 3,000 gp. This payment was 2,400 gp. He reminded them in no uncertain terms that their arrangement was to remain between them alone. After the split, the party's spreadsheet showed 1,042 gp plus one electrum each.
 
 As he paid them, Gartokkar repeated the rumor that the Deepking's agents were everywhere. They were a mercenary band of four so fierce that even the Stone Guard feared to face them, shadowy assassins with magic and blades. He asked how the party had survived, and Thorin replied that they simply appeared "small and insignificant." Gartokkar warned that the derro were on edge after the assassination of their leaders. The Stone Guard were doubling their patrols, fearing something was about to erupt.
 
@@ -224,7 +224,7 @@ The party stood amid the aftermath, the weight of the letter in their hands and 
   - Gartokkar calls him a fool, dismisses him as clearly not the Ember Vanguard, and demands the egg.
   - Daz, who holds the egg from the Misty Step plan, bristles and presses "what's in it for us?"
   - The others remind him the fee was already agreed.
-- The DM recaps the deal: 2,000 gp offered, 600 gp (30%) up front, plus a 1,000 gp confidentiality rider, for a total of 3,000 gp, with "severe consequences" for betrayal.
+- The DM recaps the deal: 2,000 gp offered, 600 gp (30%) up front (the up-front payment actually agreed in chapter 17 was 1,100 gp), plus a 1,000 gp confidentiality rider, for a total of 3,000 gp, with "severe consequences" for betrayal.
 - The party hands over the red dragon egg, noting that it is covered in ritualistic markings and its viability is uncertain.
   - They decline to clean the ritual drawings off, choosing to present the egg as-is.
   - Zalthir: "Here's the egg. We rescued it from a mysterious ritual. It has these markings on it…"

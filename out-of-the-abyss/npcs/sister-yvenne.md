@@ -1,4 +1,4 @@
-<!-- published by summary_native npc-publish | source: summary_native | npc: Sister Yvenne | range: ch002-071 | draft run: 20261011T212404Z | draft sha256: c32a7a45ff6b38c4c3706b81ac2b78096dee04c75201a5fe63f52c8a33503a05 | authored sha256: none | verify: pass | published sha256: 307081e95d19189dcb301182bcbd335d6308adadd07eced74bedd278fd57ca7c -->
+<!-- published by summary_native npc-publish | source: summary_native | npc: Sister Yvenne | range: ch002-072 | draft run: 20261016T014327Z | draft sha256: 2babf3491a866063ccb30bd0e4c5faef75d3b12e413e2b5affc9bce32f139d52 | authored sha256: none | verify: pass | published sha256: 9449f93ee7d69115bf0c17ab25a519db6514dfdfb70aab4d4b6820d7f380dc28 -->
 ---
 subject: Sister Yvenne
 type: npc
@@ -6,55 +6,85 @@ global: true
 exclusion: null
 aliases_used: [Sister Yvenne, Yvenne]
 first_seen: 54
-last_seen: 71
-chapters: [54, 56, 57, 71]
-n_entries: 4
-n_scenes: 4
-n_moments: 2
-range: 2-71
+last_seen: 72
+chapters: [54, 56, 57, 71, 72]
+n_entries: 5
+n_scenes: 5
+n_moments: 4
+range: 2-72
 source_kind: summary_native_npc_link
 ---
 
 ## Identity
-Sister Yvenne is an authoritative librarian and scholar at Candlekeep [ch 056 / entry]. She serves as the library's designated contact for addressing deeper questions from visitors [ch 054 / entry] and holds the formal title and function of "the public record," a role she treats with significant weight [ch 056 / entry]. She was assigned by the First Reader, Bookwyrm, to serve as the specific mentor for the party member Daz [ch 056 / 056.04].
+- Sister Yvenne is a scholar and librarian at Candlekeep. The First Reader named her as the scholar designated to speak with the party about their deeper questions [ch 054 / entry]. Bookwyrm (the First Reader) assigned Daz to her on the party's arrival [ch 056 / 056.04].
+- She works in the Hall of Divination in the Arcanium, where she describes herself as "the public record" [ch 056 / 056.07; ch 056 / moment].
+- Brother Vareth described her as threatening to confiscate everyone's bookplates over the shelf-space duels [ch 057 / 057.01; ch 057 / entry]. The summaries do not say she carried out the threat.
+- The evidence gives no age, race, or background for her. It does say Daz's disclosure left her visibly confused because he is a drow [ch 056 / 056.07]. It also places her career at less than the age of the redaction ink on the survivor list [ch 072 / 072.05].
 
 ## Personality and Motivations
-Yvenne operates on the principle that information in Candlekeep is exchanged reciprocally; she expects scholars and seekers to provide information in return for answers [ch 056 / 056.07]. She displays visible surprise and confusion when her subjects violate expected norms, such as when Daz provided immediate, total disclosure of his amnesia and plight, which she found unexpected for a drow [ch 056 / 056.07].
-
-During the "Question of the Age" controversy, Vareth said Yvenne had threatened to confiscate everyone's bookplates after duels broke out over shelf space [ch 057 / entry; ch 057 / 057.01]. In her mentorship, she communicates through careful silences and precise body language, conveying that a subject is close to a truth she cannot speak aloud, rather than stating the forbidden fact directly [ch 056 / entry].
+- **Meticulous and authoritative.** She is a keeper of the public record. She speaks with quiet weight and uses careful silences and precise body language to signal what she cannot say [ch 056 / entry].
+- **Reciprocal about information.** She tells Daz that information at Candlekeep is exchanged in both directions [ch 056 / 056.07]. Daz's full disclosure surprised and somewhat impressed her [ch 056 / 056.07].
+- **Constrained by the seals.** She says she cannot discuss one house because the public record is sealed. She points Daz to "other doors" [ch 056 / 056.07; ch 056 / moment]. She does not volunteer conclusions: she refused to tell Daz what he is, leaving it to him to decide whether to know [ch 072 / 072.05].
+- **Stern about scholarship.** In the later interview she was unimpressed by a lich-eyed book, two killed Manshoon simulacra, and Manshoon's robes, because Daz's citation list was too short. She was fooled by his illusory citations, apologized, and then said his work had apparently been in a different part of the literature [ch 072 / 072.05; ch 072 / moment; ch 072 / entry].
+- **Motivated to educate Daz.** She was eager to continue his education in Drow history and lore [ch 071 / 071.09; ch 071 / entry]. She gave him material on drow culture [ch 072 / 072.05].
+- **Willing to warn.** She told Daz to ask why the Vecna-eye book wanted him, noting that Fheminor had been glad to see it leave [ch 072 / 072.05].
+- **Analytical.** She read House T'sarran's attack as a real deployment of house blood and mages, showing personal curiosity about who paid for Daz's protection [ch 072 / 072.05]. She read the survivor list's ink as younger than her career, so someone is still maintaining the seal [ch 072 / 072.05]. She described a patient, long-term operation with cut-outs and layered resources reaching into Candlekeep [ch 072 / 072.05].
+- Her final explicit statement on the name question was that it was "possible your name is related, but it is unlikely," because the houses with those names "have all gone." Daz challenged this, and the scene ended there [ch 056 / entry; ch 056 / 056.07]. The evidence does not show her answering the challenge in that scene. In ch 072 she supplied further material on the same question [ch 072 / 072.05].
 
 ## History with the Party
-*   Mentioned by the First Reader (Bookwyrm) as the scholar designated to speak with the party regarding their deeper questions. [ch 054 / entry]
-*   Assigned as Daz's specific mentor within the library by Bookwyrm. [ch 056 / 056.04]
-*   Met Daz in the Hall of Divination, where she explained that information in Candlekeep is exchanged reciprocally and was visibly surprised by Daz's immediate, total disclosure of his amnesia, history, and current plight. [ch 056 / 056.07]
-*   Explained drow noble house politics to Daz, including the rule that failing to eliminate every member of a targeted house results in the attacking house being forfeit and destroyed by the wider drow community. [ch 056 / 056.07]
-*   Read Daz a list of houses extinct within living memory, noting that the fourth seat was marked "struck," which Daz identified as implying political censorship rather than natural elimination. [ch 056 / 056.07]
-*   Stated that she could not speak of one sealed house in that room because she is "the public record," advising Daz to seek information "through other doors" if he wanted what was behind the seals. [ch 056 / 056.07]
-*   Provided Daz with a heraldry book where he discovered a razored appendix and a footnote referencing "Daz'issin"; Yvenne explained that "Daz'issin" is a softening name used by mothers for boys they wanted to live, and that houses using it often did not last. [ch 056 / 056.07]
-*   When Daz asked if his name was related to the erased houses, she replied that it was possible but unlikely, stating that the houses with those names had all gone, while communicating through body language that Daz was close to a truth she could not speak aloud. [ch 056 / 056.07]
-*   Mentioned by Brother Vareth as having threatened to confiscate everyone's bookplates due to heated duels breaking out over library shelf space during the Question of the Age controversy, though she had not yet acted on the threat. [ch 057 / entry; ch 057 / 057.01]
-*   Waiting for Daz after the party emerged from the vault, excited to finish his education regarding his Drow heritage and history. [ch 071 / entry]
-*   Mentioned among the scholars celebrating the party's return, eager to continue Daz's education in Drow history and lore. [ch 071 / 071.09]
+- Sister Yvenne was named by the First Reader as the scholar designated to speak with the party about their deeper questions. [ch 054 / entry]
+- On the party's arrival at Candlekeep, Bookwyrm (the First Reader) assigned Daz to Sister Yvenne. Yvenne herself was not shown acting in that scene. [ch 056 / 056.04]
+- In the Hall of Divination, Yvenne explained that information at Candlekeep is exchanged reciprocally. Daz told her everything: the amnesia, the jail, the Underdark escape, the mercenaries protecting and hunting him, and the worsening headache. [ch 056 / 056.07]
+- Yvenne was visibly surprised and somewhat impressed by the totality of Daz's disclosure. [ch 056 / 056.07]
+- Yvenne explained drow noble house politics to Daz: matron mothers, the rule of intrigue, and the law that a failed attacker who leaves a member of the target house alive is forfeit and destroyed. She did not know what happened to the surviving child in her example. [ch 056 / 056.07; ch 056 / entry]
+- Yvenne read Daz a list of houses extinct within living memory. Only the fourth seat was marked "struck," and Daz (natural 20 on investigation) saw this implied censorship rather than elimination. [ch 056 / 056.07]
+- Yvenne said one house could not be spoken of in that room because the public record was sealed and she was the public record. She told Daz he would have to "want it through other doors." [ch 056 / 056.07; ch 056 / moment]
+- Yvenne noted that the fourth seat held ritual archive privileges in Menzoberranzan, making a struck-fourth seat a very political and expensive erasure. [ch 056 / 056.07]
+- Daz found a heraldry book (*Geography and Cities, Menzoberranzan, Pillars of Woe*) with its appendix removed by razor at least fifty years earlier, and a footnote naming "Daz'issin." Yvenne explained it as a softening name mothers use for boys they wanted to live, and said the houses that used it mostly did not last. [ch 056 / 056.07; ch 056 / moment]
+- Brother Vareth mentioned that Sister Yvenne had threatened to confiscate everyone's bookplates over the duels about polemic shelf space. The summaries do not say she carried out the threat, though the entry says Vareth expects it. Yvenne was spoken of, not present. [ch 057 / 057.01; ch 057 / entry]
+- After the party emerged from the vault, Sister Yvenne was reported eager to continue Daz's education in Drow history and lore. [ch 071 / 071.09; ch 071 / entry]
+- In a later interview, Yvenne was unimpressed by Daz's citation list, despite his acquiring a lich-eyed book, killing two Manshoon simulacra and wearing Manshoon's robes. Daz cast Minor Illusion to add fabricated citations. She was fooled and apologized, then said his work had apparently been in a different part of the literature. [ch 072 / 072.05; ch 072 / moment; ch 072 / entry]
+- Yvenne told Daz that House T'sarran's attack in the fungal cavern was a real deployment of house blood, a drow patrol and house mages. She read it as House T'sarran being personally curious about who paid for Daz's protection. [ch 072 / 072.05]
+- Yvenne gave Daz a sealed tube. Daz saw that the wax had been broken and resealed in a different color, and that the tube was empty. Brother Hilmin Thaer had pulled it three years earlier and died of natural causes eighteen months ago, weeks after a private audience with a visitor whose name was never logged. [ch 072 / 072.05]
+- Yvenne produced a redacted survivor list from a formally destroyed house. It showed two survivors verified deceased and one location unknown with records purged. Daz judged the redaction ink to be only years old, and Yvenne observed the ink was younger than her career. [ch 072 / 072.05]
+- Yvenne said she had once suspected Daz was an infant of Eilistraee but would know if he were, and he was not. She described a patient, long-term operation with cut-outs and layered resources reaching into Candlekeep. She refused to tell Daz what he is, leaving it to him to decide whether to know. [ch 072 / 072.05]
+- Yvenne gave Daz material on drow culture. She warned him to ask why the Vecna-eye book wanted him, noting Fheminor had been glad to see it leave. [ch 072 / 072.05; ch 072 / entry]
 
 ## Last Observed State
-Yvenne was waiting for Daz after the party emerged from the vault, displaying excitement to continue his education regarding his Drow heritage and history [ch 071 / entry]. She was among the scholars celebrating the party's return and was eager to resume his lessons in Drow lore [ch 071 / 071.09]. Her status as of the last observation in Chapter 071 is established only by her active presence and stated intent to teach.
+- Last appearance is ch 072, in an interview with Daz (scene 072.05) [ch 072 / 072.05].
+- In that scene she had just:
+  - Handed Daz a sealed tube that had been resealed in a different wax color and was empty. Brother Hilmin Thaer pulled it three years earlier and died of natural causes eighteen months ago, weeks after a private audience with a visitor whose name was never logged [ch 072 / 072.05].
+  - Produced a redacted survivor list from a formally destroyed house: two survivors verified deceased and one location unknown with records purged [ch 072 / 072.05].
+  - Said she once suspected Daz was an infant of Eilistraee but would know if he were, and he was not [ch 072 / 072.05].
+  - Told him that "Someone with a stake in a bloodline has decided you are worth keeping alive at considerable cost" [ch 072 / 072.05].
+  - Given him material on drow culture and warned him about the Vecna-eye book [ch 072 / 072.05].
+- Before that interview, at the celebration after the vault, she was reported eager to continue Daz's Drow education [ch 071 / 071.09].
+- Her whereabouts and condition after the ch 072 interview are not shown. Status not established in the summaries beyond that scene.
 
 ## Relationships
-**Bookwyrm (The First Reader):** Yvenne was assigned by Bookwyrm to mentor Daz [ch 056 / 056.04].
-
-**Daz:** Yvenne serves as Daz's mentor within the library [ch 056 / 056.04]. She provided him with detailed instruction on drow noble house politics, including the rule of forfeiture and the matron mother system [ch 056 / 056.07]. She supplied him with archival materials, including a list of extinct houses and a heraldry book with a razored appendix, which contained a footnote referencing "Daz'issin" [ch 056 / 056.07]. She advised Daz that if he wished to access information behind sealed records, he would need to find "other doors" [ch 056 / moment]. When Daz inquired about his name's connection to erased houses, Yvenne stated it was possible but unlikely, noting that the houses with such names had "all gone" [ch 056 / entry]. She is eager to continue his education on Drow heritage [ch 071 / 071.09].
-
-**Brother Vareth:** Yvenne is mentioned by Vareth as having threatened disciplinary action (confiscation of bookplates) regarding the duels that broke out over library shelf space [ch 057 / entry; ch 057 / 057.01]. Vareth expects her to act on this threat, though she had not yet done so at the time of his mention [ch 057 / entry].
+- **Daz.** Her principal contact. Bookwyrm assigned him to her [ch 056 / 056.04]. She guided his research into drow houses, the razored heraldry appendix, and the name Daz'issin [ch 056 / 056.07]. In ch 072 she shared her reading of who is protecting him, though she would not tell him what he is [ch 072 / 072.05].
+- **Bookwyrm / the First Reader.** Named Yvenne as the contact for the party's deeper questions and assigned Daz to her [ch 054 / entry; ch 056 / 056.04].
+- **Brother Vareth.** Spoke of her threat to confiscate bookplates. She was mentioned, not present [ch 057 / 057.01; ch 057 / entry].
+- **House T'sarran.** She interpreted the fungal cavern attack as House T'sarran's personal curiosity about Daz's protector [ch 072 / 072.05].
+- **Brother Hilmin Thaer.** Named in her account of the empty tube. The evidence does not show any relationship between them beyond his having pulled the tube [ch 072 / 072.05].
+- **Fheminor.** Named in her warning about the Vecna-eye book. No direct interaction is shown [ch 072 / 072.05].
 
 ## Notable Quotes
-> "If you want what is behind the seals, you will have to want it through other doors." — Sister Yvenne [ch 056 / moment]
+> "There is one house I cannot speak of in this room, not because I will not, because the public record is sealed, and I am today the public record. If you want what is behind the seals, you will have to want it through other doors." — Sister Yvenne [ch 056 / moment]
 
-> "It is a softening name. Mothers use it for boys they wanted to live." — Sister Yvenne [ch 056 / moment]
+> "It is a softening name. Mothers use it for boys they wanted to live." — Sister Yvenne, on the name Daz'issin [ch 056 / moment]
 
-> "It is possible your name is related, but it is unlikely. The houses that had those names have all gone." — Sister Yvenne [ch 056 / entry]
+> “Oh, well, I did not realize that you were such an accomplished academic, Mr. Daz.” — Sister Yvenne [ch 072 / moment]
+
+> “Someone with a stake in a bloodline has decided you are worth keeping alive at considerable cost. That is a kind of inheritance, whether or not you ever meet the person who is paying for that price.” — Sister Yvenne [ch 072 / 072.05]
 
 ## Arc-Score Candidates
-_(none verified)_
+- Trigger: "There is one house I cannot speak of in this room, not because I will not, because the public record is sealed, and I am today the public record." [ch 056 / moment]
+- Trigger: "It is a softening name. Mothers use it for boys they wanted to live." [ch 056 / moment]
+- Trigger: "But what if they weren't successfully all gone?" (Daz's challenge to Yvenne's claim that the houses with those names are gone) [ch 056 / 056.07]
+- Trigger: Yvenne hands Daz a sealed tube whose wax was broken and resealed in a different color, and which is empty. [ch 072 / 072.05]
+- Trigger: "Someone with a stake in a bloodline has decided you are worth keeping alive at considerable cost." [ch 072 / 072.05]
+- Trigger: Yvenne warns Daz to ask why the book bearing Vecna's eye wanted him. [ch 072 / 072.05]
 
 ## Secrets
 _(none authored)_

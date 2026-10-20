@@ -1,4 +1,4 @@
-<!-- published by summary_native npc-publish | source: summary_native | npc: Gundren Rockseeker | range: ch001-012 | draft run: 20261011T032539Z | draft sha256: e644d1ddc6c1d7f94382f0ec057ff1b6c690eec0d5abe8d4f3a6b8c60b4a3a51 | authored sha256: none | verify: pass | published sha256: 5b847eb3849e52653e61537a59bf0d59c6a867680c1417c2526cb28d7d22428e -->
+<!-- published by summary_native npc-publish | source: summary_native | npc: Gundren Rockseeker | range: ch001-013 | draft run: delta-ch013-20261019 | draft sha256: 865b44d58b6da207011654db4d650f9e7c6c02c44b4911b7e269dc08b9137b23 | authored sha256: none | verify: pass | published sha256: 1f41f16eef31f64589d3167c1a48aeba83e71513c8c488cebd0bd7ac94d3f1c8 -->
 ---
 subject: Gundren Rockseeker
 type: npc
@@ -6,12 +6,12 @@ global: true
 exclusion: null
 aliases_used: [Gundren, Gundren Rockseeker]
 first_seen: 1
-last_seen: 7
-chapters: [1, 2, 4, 5, 6, 7]
+last_seen: 13
+chapters: [1, 2, 4, 5, 6, 7, 13]
 n_entries: 2
-n_scenes: 16
-n_moments: 6
-range: 1-12
+n_scenes: 18
+n_moments: 7
+range: 1-13
 source_kind: summary_native_npc_link
 ---
 
@@ -41,8 +41,11 @@ Gundren is characterized by locals as a "good man" whose business contributions 
 - Rondar, a captured Redbrand, denied knowing Gundren when asked during an interrogation. [ch 006 / 006.04]
 - A letter found in Iarno Albrek's quarters ordered his capture or death and the delivery of "their dwarven maps," connecting Iarno to The Spider and to responsibility for Gundren Rockseeker's capture. [ch 007 / 007.07]
 
+- During the inn interrogation, Gorl said Gundren had passed through Cragmaw Castle and was being held there because the Spider wanted him [ch 013 / 013.03].
+- After learning that Gorl did not know the Wave Echo Cave route, Zenvon chose Cragmaw Castle as the best immediate lead for Gundren and the missing map [ch 013 / 013.04].
+
 ## Last Observed State
-Gundren was last seen alive on the Triboar Trail, where he and Sildar Hallwinter were ambushed by goblins [ch 001 / entry; ch 001 / 001.02]. Trail evidence indicated both men were dragged away alive from the ambush site [ch 001 / entry; ch 001 / 001.03]. Gundren was taken separately from Sildar [ch 004 / 004.01]. A letter found in Iarno Albrek’s quarters ordered the capture or death of the party and the delivery of "their dwarven maps," linking Iarno directly to Gundren’s capture [ch 007 / 007.07]. Gundren was not found in Cragmaw Hideout [ch 004 / entry], and a captured Redbrand, Rondar, denied knowing him when interrogated [ch 006 / 006.04]. Status not established in the summaries.
+Gorl reports Gundren held as a prisoner at Cragmaw Castle because the Spider wanted him. This is captive testimony, not a direct sighting by the party [ch 013 / 013.03]. Gorl cannot supply the Wave Echo Cave route, and the whereabouts of Gundren’s map remain unresolved; Zenvon chooses the castle as the best immediate lead [ch 013 / 013.04].
 
 ## Relationships
 *   **Sildar Hallwinter:** Gundren’s human escort and guard [ch 001 / entry]. They were ambushed together on the Triboar Trail, but Gundren was taken separately [ch 004 / 004.01].

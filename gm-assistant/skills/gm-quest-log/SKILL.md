@@ -134,9 +134,9 @@ If no character plausibly keeps notes, use a plain neutral log and say why in th
 find . -path ./.git -prune -o -type d -name handouts -print
 ```
 
-Write next to the campaign's existing player handouts if that dir exists (Out of the Abyss keeps them in `notes/sessions/handouts/`). Only fall back to creating `notes/handouts/` when the campaign has no handouts dir at all.
+Write next to the campaign's existing player handouts if that dir exists (Out of the Abyss keeps them in `notes/handouts/`). Only fall back to creating `notes/handouts/` when the campaign has no handouts dir at all.
 
-Quest logs are immutable session artifacts. **Never overwrite or delete an earlier log.** Name each new file `{author}-{session}-log.md`, using a filesystem-safe lowercase author slug and the session identifier supplied by the GM (normally the upcoming session date, such as `owlbear-20260830-log.md`). If no session identifier is supplied, infer it from the session being prepared; if that cannot be done confidently, ask the GM. An older campaign file with a legacy name such as `player_quest_log.md` remains in place and serves only as the base/reference for the new dated log.
+Quest logs are immutable session artifacts. **Never overwrite or delete an earlier log.** Name each new file `{session}-{author}-log.md` — session first, so the handouts dir sorts chronologically — using the session identifier supplied by the GM (normally the upcoming session date as `YYYYMMDD`) and a filesystem-safe lowercase author slug, such as `20260830-owlbear-log.md`. Never put the author first: `owlbear-20260830-log.md` scatters a campaign's logs by narrator instead of by date. If no session identifier is supplied, infer it from the session being prepared; if that cannot be done confidently, ask the GM. An older campaign file with a legacy name such as `player_quest_log.md` remains in place and serves only as the base/reference for the new dated log.
 
 ```
 # Quest Log
@@ -206,7 +206,7 @@ Section names should bend to the campaign. The shape is: **the spine, the paid w
 5. Run the leak checklist over the candidate list.
 6. Pick the narrator; read their voice file. Find and read any existing player handout, and match its format.
 7. Write the **We Are Here** block from the final on-screen state: current location, immediate purpose, relevant off-site situation, and opening advantage or constraint. Confirm that it orients rather than recaps.
-8. Resolve the output location; write a new `{author}-{session}-log.md`. Preserve every prior log unchanged.
+8. Resolve the output location; write a new `{session}-{author}-log.md`. Preserve every prior log unchanged.
 9. **Report back to the GM separately** — see below. This part does not go in the file.
 
 ## The report-back is not optional

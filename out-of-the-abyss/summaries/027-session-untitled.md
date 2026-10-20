@@ -34,7 +34,7 @@ Three days into their voyage across the vast, dark subterranean waters, the part
 - Gyrgum struggled to pry one loose that had latched onto him and begun to drain his blood.
 - Daz finally ended the encounter by firing a volley of unerring magical bolts that struck the last of the creatures, leaving a bloody mess across the deck.
 
-The rest of the journey passed without incident. The party arrived at a desolate, lonely beach that Sarith identified as the path toward the Lost Tomb of Khaem. They had heard about the tomb from Fargas Rumblefoot, the gnome they rescued in the spider webs long ago.
+The rest of the journey passed without incident. The party arrived at a desolate, lonely beach that Sarith identified as the path toward the Lost Tomb of Khaem. They had heard about the tomb from Fargas Rumblefoot, the halfling they rescued in the spider webs long ago.
 
 Before heading inland, the party took precautions to hide their arrival. Thorin asked whether there was anyone to sell the boat to. Sarith looked at the empty beach and said no. He pointed out they might want the boat later and proposed sinking it, then fixing it with Mending. The party scuttled their own boat, letting it sink beneath the dark waters with the plan to use magic to repair it upon their return. With the boat gone and their tracks as hidden as they could manage, Sarith led the group away from the shore and back into the winding, lightless tunnels of the Underdark, toward the tomb and whatever waited within.
 
@@ -209,7 +209,7 @@ Before heading inland, the party took precautions to hide their arrival. Thorin 
 ### Voyage Across the Darklake
 #### While traveling across the subterranean waters, the party discusses their next destination and fends off a swarm of blood-sucking stirges.
 - The DM reviews the map. Blingdenstone is the known possible exit, and the tomb, said to hold magical treasure, appears to lie on the way.
-- The party debates whether to head toward the Neverlight Grove to return Stool and Rumpadump home, or seek out the Lost Tomb of Khaem mentioned by Fargas Rumblefoot, the gnome they rescued in the spider webs.
+- The party debates whether to head toward the Neverlight Grove to return Stool and Rumpadump home, or seek out the Lost Tomb of Khaem mentioned by Fargas Rumblefoot, the halfling they rescued in the spider webs.
 - Zalthir recalls that the circle is under some demonic influence. Stool and Rumpadump insist nothing bad could happen and it is all under control.
 - Sarith feels a compulsion to go to the Grove.
 - Gyrgum is curious about the Myconid home: "dealing with demons is kind of part of the part of the job description, isn't it?"

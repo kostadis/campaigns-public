@@ -1,4 +1,4 @@
-<!-- published by summary_native npc-publish | source: summary_native | npc: Toblen Stonehill | range: ch001-012 | draft run: 20261011T032539Z | draft sha256: 4d65099295a9d61173f0a1148ff59d54c120d0f87a0a7f7a0956401a93a3983a | authored sha256: none | verify: pass | published sha256: 9b6728ee9cff18a8e3cf32d32c6c812110a5a07e770c70c1ea25ba7af228b15b -->
+<!-- published by summary_native npc-publish | source: summary_native | npc: Toblen Stonehill | range: ch001-013 | draft run: delta-ch013-20261019 | draft sha256: a9fd9f130dc4aedfb2628a47528961a8cccaeabd4aee2bab3c3e252882dfc836 | authored sha256: none | verify: pass | published sha256: 83a7296bb3317171978cf5cea016732e96ce058feb2fbdbae8ddd45702f4d6d6 -->
 ---
 subject: Toblen Stonehill
 type: npc
@@ -6,12 +6,12 @@ global: true
 exclusion: null
 aliases_used: [Toblen, Toblen Stonehill]
 first_seen: 2
-last_seen: 12
-chapters: [2, 5, 9, 10, 12]
-n_entries: 5
-n_scenes: 11
-n_moments: 7
-range: 1-12
+last_seen: 13
+chapters: [2, 5, 9, 10, 12, 13]
+n_entries: 6
+n_scenes: 13
+n_moments: 9
+range: 1-13
 source_kind: summary_native_npc_link
 ---
 
@@ -40,10 +40,11 @@ Despite his fear, Toblen possesses a practical, community-focused morality. He p
 *   Nosk, the bugbear leader, held Toblen face-down at knifepoint, using him as leverage to demand the party surrender their weapons [ch 012 / 012.06].
 *   Toblen attempted to flee the inn when Nosk signaled the truce, running past goblins blocking the exit during the chaos of Zenvon's illusion spell [ch 012 / entry; ch 012 / moment].
 
-## Last Observed State
-As of Chapter 012, Toblen was taken hostage in the Stonehill Inn by bugbears and goblins led by Nosk [ch 012 / entry; ch 012 / 012.06]. During the standoff, Nosk held Toblen face-down on the floor with a knife over his head, using him to demand the party surrender their weapons [ch 012 / 012.06]. Toblen made a run for the door during the chaos caused by Zenvon’s illusion spell, running past goblins blocking the exit [ch 012 / entry; ch 012 / moment].
+- Toblen survived the fight, protested the broken windows, and was present when the party brought Gorl back for interrogation [ch 013 / 013.02; ch 013 / 013.03].
+- He opposed releasing another bugbear and refused responsibility for housing the maimed prisoner. He demanded a council meeting; the party instead took Gorl toward Cragmaw Castle in a cart [ch 013 / entry; ch 013 / 013.03].
 
-The session ended mid-battle after Zenvon severely wounded Nosk [ch 012 / 012.06]. The evidence does not specify Toblen's condition after he exited the inn or the final outcome of the combat. Status not established in the summaries.
+## Last Observed State
+Alive at the Stonehill Inn after the battle. He objected to the broken windows, opposed releasing Gorl, and refused to house him. His demand for a council meeting is recorded, but no meeting or council resolution occurs before the party takes Gorl away [ch 013 / entry; ch 013 / 013.02; ch 013 / 013.03].
 
 ## Relationships
 *   **Tuck Stonehill:** Toblen’s nine-year-old son [ch 002 / 002.02]. Tuck threw his arms around Zenvon in a tearful embrace when the party returned with Sildar, acting as a social bridge between his father's cautiousness and the party's heroics [ch 005 / 005.01].

@@ -153,7 +153,6 @@ The session ended with the Rockblight cleansing selected as the next immediate e
 - Chief Chipgrin returned with his Goldwhisker entourage, turning Dorbo's chamber into a crowded political gathering.
 - When the usual debates threatened to derail the process again, Daz used an advantaged appeal and obtained matching results of 17, securing agreement to hold the moot within a few hours.
 - The attendees included Chief Dorbo, Senni, Chief Chipgrin, Nomi Pathshutter, Gurnik Tapfinger, Kazook Pickshine, and the ghostly Burrow Warden Uth-Jadger.
-- Gurnik was remembered as the cleric connected to the temple where Pelek had been buried.
 - Senni called the gathering together, then told Daz, “Since you are leading us, why don't you call the meeting to order, Daz?”
 - Daz formally called the meeting to order, only to be prompted to explain what the party had discovered and what everyone was supposed to do.
 - Daz reported that an amphitheater filled with oozes and slimes lay beneath Blingdenstone.
@@ -321,7 +320,7 @@ Her exchange with Gurnik is transparently rehearsed. Nomi points out that summon
 
 ### Gurnik Tapfinger
 
-A cleric associated with the temple where Pelek was buried. He strongly desires to see the Temple of the Steadfast Stone and the surrounding Rockblight cleansed.
+The head priest of Callarduran Smoothhands in the Stoneheart Enclave. He strongly desires to see the Temple of the Steadfast Stone and the surrounding Rockblight cleansed.
 
 Gurnik provides the red spell gem containing Hallow and explains that it must be placed in the temple's menhir. Only after prompting does he make clear that Ogrémoch's Bane will send servants to remove it and that the party must defend the gem until three guardians awaken.
 
