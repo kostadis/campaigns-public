@@ -10,7 +10,7 @@ With Manshoon's simulacrum already through the shattered door of Candlekeep's in
 
 In exchange for this information, A'lai begged not for freedom but for a cell in Candlekeep's null magic prison, the one place he believed no wizard — not even Manshoon — could reach him. Gyrgum pressed him for everything he knew about Manshoon's purpose, and Daz asked who was funding the forces surrounding him. When asked about those forces, A'lai admitted he could not trace the payments, only the patience behind them, and concluded with quiet certainty that only one house in Menzoberranzan could afford to wait eleven years for nothing: House Baenre. Gyrgum appealed to the Watcher Tadric, invoking the party's record of service and their deputization by Kalan Strongbranch. He also reminded Tadric that he had founded an entirely new philosophy and jokingly negotiated a jointly authored monograph. Tadric agreed to the arrangement and marched a visibly relieved A'lai toward the prison.
 
-The party regrouped in the investigator's office, conveniently near the prison, where the cryptogram questions — transcribed in full from A'lai Aivenmore's photographic memory — were spread across the floor for every sharp mind in the room to examine. Sylvira Savikas arrived shortly after, grateful for the party's efforts and eager to help Candlekeep in its moment of crisis. Unknown to her, the party had killed her son Moziqodo; when she thanked Thorin for saving Tadric, he carefully replied, “I do what I can for those that I can.”
+The party regrouped in the investigator's office, conveniently near the prison, where the cryptogram questions — transcribed in full from A'lai Aivenmore's photographic memory — were spread across the floor for every sharp mind in the room to examine. Sylvira Savikas arrived shortly after, grateful for the party's efforts and eager to help Candlekeep in its moment of crisis. The party had not told her that they killed her son Moziqodo; when she thanked Thorin for saving Tadric, he carefully replied, “I do what I can for those that I can.”
 
 Sylvira provided the true name of Miirym, the Sentinel Wyrm and dragon guardian of Candlekeep, as the answer to the first riddle. She explained that she knew Miirym's true name from a discussion about demonic possession and the power conferred by knowing such names. Sylvira also identified the Eastern Light of Mystra's Mantle as an obscure star recorded in the charts of the Orrery of the Astronomicon — though she noted with quiet unease that three people who did not work there had been inside the Orrery when she passed it.
 
@@ -88,7 +88,7 @@ Then a ten-foot section of the staircase, spanning the area around the designate
 
 - Sylvira Savikas arrives and, grateful for the party's efforts, offers her expertise to help solve the riddles. Candlekeep has suffered a tragedy of epic proportions, with many of the chief Avowed dead, and she is too weakened by illness to confront the threat herself.
 
-- Sylvira is Moziqodo's mother, but does not yet know that the party killed her son. She warmly thanks Thorin for saving Tadric, and Thorin carefully answers, “I do what I can for those that I can.”
+- Sylvira is Moziqodo's mother; the party has not told her that they killed her son. She warmly thanks Thorin for saving Tadric, and Thorin carefully answers, “I do what I can for those that I can.”
 
 - Sylvira initially laughs at the list of questions and calls them almost too easy, reflecting her deep familiarity with Candlekeep's secrets.
 
@@ -315,7 +315,7 @@ Candlekeep's Gatewarden, who has deputized the party. He arrives late and out of
 
 A powerful and knowledgeable scholar at Candlekeep who arrives at the investigator's office and assists the party in solving the vault's riddles. She provides the true name of Miirym the Sentinel Wyrm and identifies the Eastern Light of Mystra's Mantle, also warning of suspicious figures in the Orrery of the Astronomicon.
 
-Sylvira is weakened by illness but believes it is her responsibility to help Candlekeep during the crisis. She is also Moziqodo's mother and does not yet know that the party killed her son. She warmly thanks Thorin for saving Tadric, prompting a carefully guarded response.
+Sylvira is weakened by illness but believes it is her responsibility to help Candlekeep during the crisis. She is also Moziqodo's mother, and the party has not told her that they killed her son. She warmly thanks Thorin for saving Tadric, prompting a carefully guarded response.
 
 ### Batbayar
 
@@ -402,7 +402,7 @@ A magical draught belonging to **Zalthir**, concealed inside Glabbagool. Raised 
 > “I do what I can for those that I can.”
 > — Thorin
 
-*Thorin's guarded response when Sylvira — still unaware that the party killed her son Moziqodo — thanks him for saving Tadric.*
+*Thorin's guarded response when Sylvira — who has not been told that the party killed her son Moziqodo — thanks him for saving Tadric.*
 
 > “Feed the quill of Alaundo the seer. Tread as many steps as he lived in years. Sprinkle dust of Mechanus on dormant gears.”
 > — Thorin

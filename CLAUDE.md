@@ -44,7 +44,7 @@ Treat these paths as upstream-owned. Fix content in `kostadis/campaigns` and re-
 | `gm-assistant/skills/` | Deleted and rewritten wholesale |
 | `gm-assistant/README.md`, `SKILLS.md` | Overwritten |
 
-Campaigns are listed in the `CAMPAIGNS` / `NPC_CAMPAIGNS` arrays in the script (currently `obelisk`, `out-of-the-abyss`). Adding a campaign means adding it there; directory names match between the two repos.
+Campaigns are listed in the `CAMPAIGNS` / `NPC_CAMPAIGNS` arrays in the script (currently `obelisk`, `out-of-the-abyss`, `Phandalin`). Adding a campaign means adding it there; directory names match between the two repos.
 
 ## How summaries are selected
 

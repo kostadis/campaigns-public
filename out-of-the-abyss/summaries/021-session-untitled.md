@@ -5,7 +5,7 @@ Date: 2025-06-16
 ## Summary
 The dust of battle had barely settled when the Ember Vanguard, though they did not yet know that name, turned their attention to the corrupted chamber around them. As the DM put it, "our heroes have once again saved the day, or at the very least, created new problems for themselves." Every surface told a story of treachery. The party moved methodically through the space, gathering notes and documents that laid bare the Council of Savants' foul dealings and demonic entanglements.
 
-The ghost Pelek, who had seized the derro spy's body at the end of the last fight, lingered in that borrowed body while the party kept careful hold of his bones, a strange arrangement that had become oddly routine. Most precious of all was the dragon's egg. It was tough enough, and could be hidden in a bag or carried unnoticed, and its demonic corruption was a secret known only to them.
+The ghost Pelek, who had seized the derro assassin's body at the end of the last fight, lingered in that borrowed body while the party kept careful hold of his bones, a strange arrangement that had become oddly routine. Most precious of all was the dragon's egg. It was tough enough, and could be hidden in a bag or carried unnoticed, and its demonic corruption was a secret known only to them.
 
 The weight of what they had uncovered pressed heavily on the group as they debated what to do next. The DM laid out the factions one by one.
 
@@ -154,7 +154,7 @@ The rest of the party moved fast. Daz hurled bolts of magical force into the cre
 ## Scenes
 ### Aftermath in the Corrupted Chamber
 #### The party investigates a chamber filled with incriminating evidence against the Council of Savants and discusses their next steps regarding a recovered dragon's egg.
-- Opening situation, carried over from chapter 20: the party holds the dragon's egg; Daz, who carried it through the fight unnoticed, is still at full hit points; and the ghost Pelek now inhabits the derro spy's body while the party keeps his bones.
+- Opening situation, carried over from chapter 20: the party holds the dragon's egg; Daz, who carried it through the fight unnoticed, is still at full hit points; and the ghost Pelek now inhabits the derro assassin's body while the party keeps his bones.
 - The adventurers discover numerous notes linking the Council of Savants to nefarious activities and corruption.
   - The DM describes the chamber as "teeming with evidence of corruption and foul deeds connected to the Council of Savants."
   - The derro group running the place is "clearly … up to nefariously no good deeds."
@@ -294,7 +294,7 @@ The rest of the party moved fast. Daz hurled bolts of magical force into the cre
 
 ## NPCs
 ### Pelek
-A ghost who took control of the body of a derro spy during the battle, just before Daz could be attacked. The party retains possession of his physical bones.
+A ghost who took control of the body of a derro assassin during the battle, just before Daz could be attacked. The party retains possession of his physical bones.
 
 ### Themberchaud
 A powerful red dragon and potential client who desires complete information on local events. He does not know about the dragon egg. The party considers him dangerous to inform about it, as it could send him on a destructive rampage against the Keepers of the Flame and the city. The DM also calls him "too fat and lazy": if the party simply slips away, it would take him years to realise they aren't coming back. The dragon baby rattle was suggested as a possible sweetener for him.

@@ -128,7 +128,7 @@ Builds `docs/background/<module-name>-inventory.md`: every NPC, deity, location,
 
 #### `gm-quest-log` — player-facing quest log
 
-Every open promise, contract, errand, and personal thread the *party* knows about, written in the voice of a party member who keeps notes. Rebuilt from session summaries, oldest to newest — the grounding docs are a cross-check only, because they run stale. Player knowledge only: never module trackers, dossiers, or GM secrets. Written next to the campaign's existing player handouts as a new `{author}-{session}-log.md`.
+Every open promise, contract, errand, and personal thread the *party* knows about, written in the voice of a party member who keeps notes. Rebuilt from session summaries, oldest to newest — the grounding docs are a cross-check only, because they run stale. Player knowledge only: never module trackers, dossiers, or GM secrets. Written next to the campaign's existing player handouts as a new `{session}-{author}-log.md`.
 
 **Triggers:** "what quests do the players have open" • "make a quest list" • "player-facing quest log" • "what are the party's open threads" • `/gm-quest-log`
 
