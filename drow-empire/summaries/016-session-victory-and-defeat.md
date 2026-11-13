@@ -19,7 +19,7 @@ KP, "the expert tactician," exploited the dome shape of the darkness and cast sp
 
 Then a Drow emerged from the shadows offering parley. His name was Valnozz, and he demanded to speak to the leader and smartest member of the party; Rimardo was about to defer to Bayard but stepped forward, while Bayard restrained himself from killing Valnozz, though sorely tempted. Valnozz explained that "The Drow on this plane is the weak variety," trapped in the Underdark and fantasising about revenge on the sun, whereas "the Drow Empire of my mistress is much grander": her base is on the Abyss, and this plane is "simply a place we harvest resources for our real wars with the demonic forces on the Abyss." The Great Mistress, he said, makes plans with other Deities to secure her power. He shared this because they are both her enemy: "I am a follower of Vhaeraun," whose only ambition is to overthrow Lolth's clerics. Rimardo jumped in to explain who Vhaeraun is: the son of Araushnee and Corellon Larethian, who held the unique view among Drow that males and females were equally valuable and was prayed to mostly by Drow males who sought a better life than slavery under Lolth's matriarchy. Araushnee is, of course, Lolth. KP then jumped in: "We must learn more!" Valnozz snorted and continued.
 
-Xhalh oversees this planar invasion, and while the portal is intact she has access to all the resources of the Great Mistress. "The portal is like a caravan," an artifact able to take 50-100 people along a circuit around the planes; it always starts in Freedahl in the Abyss, and control of the city and the portal is key to the Drow Empire's power. The portal can be broken, and once broken, "Xhalh will have to go back to the Island to fix it with the key." The party would find the portal on the island in the Nyr Dyv. The dragons they see, he added, will soon go back to the Abyss as part of the Drow Empire's forces. When Rimardo tried to convince Valnozz to lead them to Xhalh, he laughed: "Do you think I can penetrate her spells and her paranoia? You poor fools." Instead he would signal the retreat of the Drow forces, claiming Namyn had achieved his objectives. The chapter remarks that "killing the homunculus was a good idea," since Valnozz can send the message to the armies and no one will question the source, although it earlier says the party decided not to kill the creature. He would also explain to Xhalh how "once again, the accursed Independent Contractors, thwarted us," so that the party's armies could fight another day. His parting instruction: "You must close the portal before you attempt to take Fax by force. And you must get the portal key from Xhalh." Then he disappeared into the trees.
+Xhalh oversees this planar invasion, and while the portal is intact she has access to all the resources of the Great Mistress. "The portal is like a caravan," an artifact able to take 50-100 people along a circuit around the planes; it always starts in Plagueridge Rampart in the Abyss, and control of the city and the portal is key to the Drow Empire's power. The portal can be broken, and once broken, "Xhalh will have to go back to the Island to fix it with the key." The party would find the portal on the island in the Nyr Dyv. The dragons they see, he added, will soon go back to the Abyss as part of the Drow Empire's forces. When Rimardo tried to convince Valnozz to lead them to Xhalh, he laughed: "Do you think I can penetrate her spells and her paranoia? You poor fools." Instead he would signal the retreat of the Drow forces, claiming Namyn had achieved his objectives. The chapter remarks that "killing the homunculus was a good idea," since Valnozz can send the message to the armies and no one will question the source, although it earlier says the party decided not to kill the creature. He would also explain to Xhalh how "once again, the accursed Independent Contractors, thwarted us," so that the party's armies could fight another day. His parting instruction: "You must close the portal before you attempt to take Fax by force. And you must get the portal key from Xhalh." Then he disappeared into the trees.
 
 As the party stood in shock, a terrible sight greeted them to the south. At the fringes of the retreating army, the shadows near an isolated soldier coalesced into a figure that struck him down, then another soldier a few yards away, and another. The Drow had summoned a Shadow Demon to aid them. The party was too weak to fight such monsters, but from their vantage point they could see that the bulk of the Alliance forces had escaped.
 
@@ -57,7 +57,7 @@ As the party stood in shock, a terrible sight greeted them to the south. At the 
 - Valnozz reveals that the Drow Empire is based on the Abyss and treats this plane as a resource for its wars with demonic forces.
 - He is a follower of Vhaeraun who wants Lolth's clerics overthrown; Rimardo explains Vhaeraun's lineage and creed.
 - KP: "We must learn more!"
-- Valnozz names Xhalh as overseer of the invasion and describes the portal: an artifact carrying 50-100 people on a circuit of the planes, starting in Freedahl in the Abyss; once broken, Xhalh must return to the Island to fix it with the key.
+- Valnozz names Xhalh as overseer of the invasion and describes the portal: an artifact carrying 50-100 people on a circuit of the planes, starting in Plagueridge Rampart in the Abyss; once broken, Xhalh must return to the Island to fix it with the key.
 - He refuses to lead them to Xhalh ("You poor fools"), but will signal the Drow retreat, claiming Namyn has achieved his objectives.
 - His instruction: close the portal before taking Fax by force, and get the portal key from Xhalh. He vanishes into the trees.
 
@@ -76,7 +76,7 @@ Starting point of the Alliance armies' march through the mountain villages.
 ### Fax
 The city on the main road beyond Vallaki. Valnozz warns that the portal must be closed before the party attempts to take Fax by force.
 
-### Freedahl
+### Plagueridge Rampart
 Named by Valnozz as the place in the Abyss where the portal's circuit always starts; control of "the city and the portal" is key to the Drow Empire's power.
 
 ### The Island in the Nyr Dyv
@@ -121,7 +121,7 @@ KP's gem lets him see through Namyn's darkness while the Initiates cannot.
 Namyn's means of communicating with his armies. The party decided not to kill it, and through it Valnozz can send the retreat order with no one questioning the source.
 
 ### The portal and its key
-Described by Valnozz as an artifact like a caravan, carrying 50-100 people around the planes from Freedahl in the Abyss. If broken, Xhalh must fix it with the key, which the party is told to take from her.
+Described by Valnozz as an artifact like a caravan, carrying 50-100 people around the planes from Plagueridge Rampart in the Abyss. If broken, Xhalh must fix it with the key, which the party is told to take from her.
 
 ## Memorable Moments
 **Bayard charges 600 yards across open ground.**

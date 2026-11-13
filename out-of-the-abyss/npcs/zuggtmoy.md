@@ -1,25 +1,31 @@
-<!-- published by summary_native npc-publish | source: summary_native | npc: Zuggtmoy | range: ch002-071 | draft run: 20261012T044404Z | draft sha256: fb14e1264c511a4e2c0dfe2ab21e998e6f87249be5d1d257ede4f2e561a491f8 | authored sha256: none | verify: pass | published sha256: 361b7b6b21cba00fa1b2b18f3e9ca01159549519c57fab8813ffee54c1a37077 -->
+<!-- published by summary_native npc-publish | source: summary_native | npc: Zuggtmoy | range: ch002-076 | draft run: 20261111T185138Z | draft sha256: 3afe696d7a6fa75fa612f5f39931580fa01f36fe6aec81e27152a25d97dd000e | authored sha256: none | verify: pass | published sha256: e0ce0f663ef165bed5a4247662a7f2451c92a1d8a2f169f60579a5bb33d6819d -->
 ---
 subject: Zuggtmoy
 type: npc
 global: true
 exclusion: null
-aliases_used: [Dark Lady, Demon Queen of Fungi, Lady of Decay, Zuggtmoy, the Great Seeder]
+aliases_used: []
 first_seen: 25
-last_seen: 54
-chapters: [25, 29, 31, 32, 35, 40, 43, 44, 46, 47, 48, 49, 50, 51, 53, 54]
+last_seen: 76
+chapters: [25, 29, 31, 32, 35, 40, 43, 44, 46, 47, 48, 49, 50, 51, 53, 54, 76]
 n_entries: 6
-n_scenes: 32
-n_moments: 20
-range: 2-71
-source_kind: summary_native_npc_link
+n_scenes: 33
+n_moments: 7
+range: ch002-076
+source_kind: delta
 ---
 
 ## Identity
-Zuggtmoy is a demon lord known as the Demon Queen of Fungi, the Lady of Rot, the Dark Lady, and the Great Seeder [ch 025 / entry; ch 029 / 029.05; ch 043 / entry]. She is identified as the sister of Juiblex [ch 048 / 048.07]. The party initially encountered her via a spectral manifestation and spore-induced visions, later confirming her physical presence through her influence over the Neverlight Grove and myconid madness [ch 025 / 025.07; ch 025 / 025.04].
+
+Zuggtmoy is the Demon Queen of Fungi, also called the Dark Lady, Lady of Rot and Decay, and Great Seeder. She appeared to Thorin and Gyrgum as a spectral figure shifting between beauty and decay, and later led a bridal procession in Neverlight Grove. [ch 025 / entry; ch 031 / 031.02; ch 031 / 031.06]
 
 ## Personality and Motivations
-Zuggtmoy presents herself as a force of natural, inevitable decay, inviting mortals to "bloom beyond the bounds of flesh and time" [ch 025 / entry]. She frames her corruption not as evil, but as "beauty and surrender, power and decay," seeking to dissolve the boundary between life and death [ch 025 / moment; ch 025 / 025.07]. Her primary immediate motivation observed by the party was the ritualistic mating with the primordial fungus Araumycos, intending to spread her influence across the Underdark and the Overbright [ch 031 / 031.02; ch 031 / 031.06]. She operates through seduction and infection, preferring to "move in while you're sleeping" rather than engage in direct, loud conquest [ch 048 / 048.07; ch 048 / moment]. She seeks to syncretize her power with other deities, specifically attempting to merge her identity with Lolth, an act her worshippers describe as a "fusion" [ch 053 / 053.03].
+
+She offers surrender and fungal transformation as gifts, expressing sorrow when Thorin refuses to join her endless mycelium. Her procession displays imperious indifference toward lesser beings. [ch 025 / 025.07; ch 032 / 032.01]
+
+Her plans include ritually mating with, and potentially possessing, Araumycos to spread her spores above and below ground. She also intends to exploit the ooze assault on Blingdenstone so her garden can take root afterward. [ch 031 / 031.06; ch 032 / 032.01; ch 044 / moment]
+
+Ilvara’s corrupted prayer book and ceremonial objects document the attempted identification of Zuggtmoy with Lolth; Asha Vandree’s writings condemn those claims as heresy. [ch 053 / 053.03; ch 053 / 053.04]
 
 ## History with the Party
 - Thorin and Gyrgum encountered a spectral manifestation of Zuggtmoy within a spore-induced vision in the Whorlstone Caverns [ch 025 / 025.07; ch 025 / moment].
@@ -68,17 +74,22 @@ Zuggtmoy presents herself as a force of natural, inevitable decay, inviting mort
 *   Beneath the burned remains, the party found a cloth stitched with the intertwined sigils of Lolth and Zuggtmoy, serving as physical evidence of the syncretic worship that had driven Asha and Ilvara mad. [ch 053 / 053.04]
 *   The party considered the corrupted scourge wielded by Ilvara, which could aerosolize poisonous spores, and purified it during their rest. [ch 053 / 053.03]
 *   The party donated Ilvara’s prayer book, which contained the Zuggtmoy marginalia, along with Asha’s theological argument, to the library at Candlekeep. [ch 054 / 054.05]
+- At a slaughtered campsite, Gyrgum identified gray growth on the bodies as matching that found on the plague wells, suggesting a connection to Zuggtmoy. Daz identified a nearby mark as demonic but could not determine whose sign it was; Zuggtmoy was not shown present. [ch 076 / 076.04]
 
 ## Last Observed State
-As of Chapter 054, Zuggtmoy’s direct physical presence has receded, but her corruption was actively removed from specific locations. In Chapter 053, Zalthir burned a "remnant of Zuggtmoy's corruption" located on Ilvara’s elevated stone platform at the Fungal Altar [ch 053 / 053.04]. Beneath the burned remains, the party discovered a folded cloth stitched with the intertwined sigils of Lolth and Zuggtmoy, serving as physical evidence of the syncretic worship driving their followers mad [ch 053 / 053.04]. The party later donated Ilvara’s prayer book, which contained marginalia detailing Zuggtmoy’s overtake of Ilvara’s devotion, to the library at Candlekeep [ch 054 / 054.05]. The party inferred that while Juiblex had been driven out, Zuggtmoy’s influence continued to creep through the dark like roots, exploiting power vacuums left by defeated foes [ch 048 / 048.01; ch 049 / 049.02]. Status not established in the summaries.
+
+The latest possible sign of her influence is the gray fungal growth covering wounds at the slaughtered campsite. Its connection to Zuggtmoy is considered likely, rather than confirmed. The DM stated that the growth currently affects dead things, qualifying this with “For the moment.” The nearby demonic mark remains unattributed. [ch 076 / 076.04]
+
+Status not established in the summaries.
 
 ## Relationships
-*   **Araumycos:** Zuggtmoy seeks to mate with Araumycos, the primordial fungal consciousness of the Underdark, to expand her reach. The myconids chant hymns celebrating their union [ch 031 / 031.06; ch 032 / 032.01].
-*   **Juiblex:** Zuggtmoy is the sister of Juiblex [ch 048 / 048.07]. The Pudding King, aligned with Juiblex, railed against Zuggtmoy, whom he called "the queen of rot," for attempting to take his kingdom [ch 046 / 046.09]. Jimjar noted that while Juiblex is loud, Zuggtmoy is more subtle [ch 048 / 048.07].
-*   **Lolth:** Ilvara was seduced by Zuggtmoy’s "bride" cult [ch 050 / 050.02], and the syncretism of Zuggtmoy and Lolth is described as having driven Asha and Ilvara mad [ch 053 / 053.04]. Asha’s theological writings argued that Zuggtmoy’s claims upon Lolth were heresy but detailed the attempted identification of the two powers [ch 053 / 053.03; ch 053 / 053.04].
-*   **Ilvara & Asha Vandree:** Ilvara was seduced by Zuggtmoy’s "bride" cult, while Asha avoided infection by staying clean of fungal dust. Ilvara’s prayer book showed a progression from ordinary devotion to Zuggtmoy-related marginalia, indicating she was overtaken by the demon queen [ch 050 / 050.02; ch 053 / 053.03; ch 053 / 053.04].
-*   **Thorin:** Thorin encountered Zuggtmoy in a spore vision and rejected her offer of "endless mycelium," causing her to lament his refusal [ch 025 / 025.07; ch 025 / moment]. He was later warned to be cautious near icons through which she communicated due to his prior exposure [ch 051 / 051.06].
-*   **Myconids:** Sovereign Phylo and other myconid leaders referred to her as the "Great Seeder" or "great cedar," displaying erratic behavior and hearing discordant music due to spore infection [ch 029 / 029.05; ch 031 / 031.02].
+
+- **Thorin and Gyrgum:** Both encountered her in a spore vision. Thorin refused her offer; later warnings singled out their accumulated exposure as making further contact dangerous. [ch 025 / 025.07; ch 050 / 050.03; ch 053 / 053.04]
+- **Araumycos:** Intended partner in her wedding ritual and a possible target for possession. The observed procession was a rehearsal, with the intended groom absent. [ch 032 / 032.01]
+- **Juiblex and the Pudding King:** She planned to exploit their oozes to claim an outpost. The Pudding King resented her claim to the kingdom Juiblex had promised him. Jimjar described her as Juiblex’s sister. [ch 044 / moment; ch 046 / 046.09; ch 048 / 048.07]
+- **Ilvara and Lolth:** Ilvara’s devotion was overtaken by Zuggtmoy’s influence through the “bride” cult and a mushroom artifact. Recovered objects bore intertwined sigils of Lolth and Zuggtmoy. [ch 050 / 050.02; ch 053 / 053.04]
+- **Asha Vandree:** Opposed Ilvara’s fungal heresy and demanded destruction of its mushroom conduit. Her writings argued against Zuggtmoy’s claims upon Lolth. [ch 050 / 050.03; ch 053 / 053.03]
+- **Phylo and the myconids:** Phylo promoted her promised celebration; infected myconids praised her wedding and plans to spread into the Overbright. Basidia and surviving allies fled as her rot consumed Neverlight Grove. [ch 031 / 031.02; ch 032 / 032.03]
 
 ## Notable Quotes
 > "Welcome, wanderers of flesh and bone." — Zuggtmoy [ch 025 / entry]
@@ -129,20 +140,15 @@ As of Chapter 054, Zuggtmoy’s direct physical presence has receded, but her co
 
 > "Juiblex was a loud, messy neighbor, but this sister, she prefers to move in while you're sleeping." — Jimjar [ch 048 / moment]
 
+— DM [ch 076 / 076.04]
+
 ## Arc-Score Candidates
-- Thorin and Gyrgum entered Zuggtmoy's hallucinatory spore dreamscape via a reckless decision to take Voosbur's hand [ch 025 / moment].
-- Zuggtmoy made her physical manifestation known by leading a grotesque wedding procession toward the party at the end of the session [ch 031 / moment].
-*   "The party recognizes the 'Lady of Rot' as Zuggtmoy, the demoness who almost possessed Thorin and destroyed Neverlight Grove, causing alarm among Blingdenstone's leaders." [ch 043 / moment]
-*   "Zuggtmoy psychically contacts the party, revealing her plan to use oozes to 'soften the shell' so her garden may 'take root in the flesh beneath'." [ch 044 / moment]
-*   "this is not the last you and Zuggtmoy are going to be talking to each other" [ch 048 / 048.01]
-*   "bride" [ch 049 / 049.03]
-*   "seduced by the heretical 'bride' cult of Zuggtmoy" [ch 050 / 050.02]
-*   > "a long, tedious theological argument explaining why Zuggtmoy's claims upon Lolth were heresy" [ch 053 / 053.03]
-*   > "filled with Zuggtmoy-related marginalia written in another hand" [ch 053 / 053.03]
-*   > "Zuggtmoy overtook her" [ch 053 / 053.03]
-*   > "remnant of Zuggtmoy's corruption atop Ilvara's elevated stone platform" [ch 053 / 053.04]
-*   > "folded cloth stitched with the sigils of Lolth and Zuggtmoy, one nested inside the other" [ch 053 / 053.04]
-*   > "Ilvara's prayer book with Zuggtmoy marginalia" [ch 054 / 054.05]
+
+- "Thorin feels an intense temptation but ultimately refuses the offer, citing too many responsibilities in the waking world." [ch 025 / 025.07]
+- "The Demon Lord Zuggtmoy herself appears at the head of the procession." [ch 031 / 031.06]
+- "Digest them all. I will claim this outpost." [ch 044 / moment]
+- "Zalthir volunteered his fire breath. His first attempt was weak enough to provoke jokes about draconic performance anxiety, but a second blast burned the corruption away." [ch 053 / 053.04]
+- "Gyrgum examines the humanoid remains and learns that the gray growth is the same as that seen on the plague wells — likely connected to Zuggtmoy." [ch 076 / 076.04]
 
 ## Secrets
 _(none authored)_

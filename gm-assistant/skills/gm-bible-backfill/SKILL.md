@@ -1,6 +1,6 @@
 ---
 name: gm-bible-backfill
-description: Turn a campaign's hand-written bible (one long markdown of chapters, no recordings) into GM-ruled enhanced summaries, a ruled Harptos calendar, published docs/summaries and a players' calendar page. A staged runbook, with one GM checkpoint and one PR per stage. It records what each stage produces, how it is checked, and the traps hit on the first run (stormgiants, 2026-11-06, PRs #629–#633). Invoke as /gm-bible-backfill <campaign-dir> [stage], or when the user says "do the stormgiants process for <campaign>", "backfill summaries from the bible", or "start <campaign>'s bible from the top".
+description: Turn a campaign's hand-written bible (one long markdown of chapters, no recordings) into GM-ruled enhanced summaries, a ruled Harptos calendar, published docs/summaries, a players' calendar page and GM-signed NPC dossiers. A staged runbook, with one GM checkpoint and one PR per stage. It records what each stage produces, how it is checked, and the traps hit on the first run (stormgiants, 2026-11-06, PRs #629–#633). Invoke as /gm-bible-backfill <campaign-dir> [stage], or when the user says "do the stormgiants process for <campaign>", "backfill summaries from the bible", or "start <campaign>'s bible from the top".
 ---
 
 # gm-bible-backfill
@@ -11,7 +11,8 @@ The end-to-end process first run on stormgiants (*The Hero's Journey or The War 
 - `summaries/NNN-<slug>/session-summary.md`;
 - `docs/arcs/calendar.md`;
 - `docs/summaries/`;
-- `notes/handouts/player_calendar.*`.
+- `notes/handouts/player_calendar.*`;
+- `docs/npcs/<slug>.md`, GM-signed NPC dossiers (Stage 11).
 
 Every stage is GM-ruled before the next one runs.
 
@@ -29,6 +30,7 @@ ls summaries/chapter_enhance_review/ 2>/dev/null      # consistency/, calendar/,
 test -f docs/arcs/calendar.md && grep -c 'ruled \[GM' docs/arcs/calendar.md
 ls docs/summaries | wc -l                             # Stage 9
 test -f notes/handouts/player_calendar.json && echo "Stage 10 done"
+test -f docs/npcs/summary_native/publish_log.json && echo "Stage 11 started"   # NPC dossiers
 git log --oneline -- <campaign> | head -20
 ```
 
@@ -160,6 +162,89 @@ Tell the GM which stage you are resuming at and why, then start there. Each stag
 - Publish with icon `calendar`, then write the URL into `notes/handouts/player_calendar.json`.
 - Reference: `149b68fb8`, https://claude.ai/artifact/AghHa74faiREBWh9Bq8Qd9. Day count: Curse of the Hags `450cf9eb4`, https://claude.ai/artifact/UU1tgfMiFJ7BLTQzbuDWyd.
 
+### 11. NPC dossiers (summary_native)
+Built from the published `docs/summaries/` (Stage 9), so run this stage last. The full reference is `~/src/CampaignGenerator/docs/cli/npc_dossiers_howto.md`. First run: drow-empire, 2026-11-13 (96 NPCs, PRs #716 and earlier).
+
+**What this removes from the GM:** nothing. Linking is deterministic. The model drafts the prose, a verifier checks every citation, and the GM signs each exact draft on a review page. `npc-publish` refuses anything unsigned.
+
+- **Setup:**
+  - `SN=/home/kostadis/.venv/bin/summary_native`. Every call needs `CG_BACKEND=claude-code` or `CG_BACKEND=codex-cli`, or the backend guard refuses, even `--help`. Never fall back to the API key unless the GM asks.
+  - `$SN authority init --campaign-dir .`, then `$SN review init --campaign-dir .`. Sign-off refuses with `REVIEW_AUTHORITY_REQUIRED` until both have run. Commit `docs/authority*` and `docs/reviews/`, but never `docs/authority/.lock`.
+- **Link first, then rule what it withholds:**
+  1. `$SN build --since 1 --until N --force`, then `$SN npc-link --since 1 --until N --force`. Read `docs/npcs/summary_native/ch001-NNN/link_report.md`.
+  2. Rule on every withheld form with the GM before drafting:
+     - ambiguous forms;
+     - one-word generic names (Major, Tanner, Empress) → `link_rulings` in `docs/summary_native/canon.yaml`, `safe` or `never`;
+     - NPCs whose registry `type` is wrong (deities typed `deity` get no dossier; drow-empire's GM moved four to `npc`);
+     - a name a summary heading uses that the registry lacks.
+  3. A mismatch that is really a bible error goes back to the bible and the summaries: fix it in the origin, re-split, re-verify and republish, then re-link. On drow-empire, Freedahl was named as a place where the text meant his city, Plagueridge Rampart.
+  4. The PCs: ask the GM whether they get dossiers. For a finished campaign, drow-empire's GM said yes: "now they are NPCs". In that case there is no `players.yaml`.
+  5. Re-link until the report shows 0 ambiguous forms and 0 unruled generic forms. Commit the rulings as their own commit.
+- **Draft:**
+  - Trial one NPC first (`npc-draft --name X`), read it, then `npc-draft --since 1 --until N --all`. The GM picks the backend and model; drow-empire used `--backend codex-cli --model gpt-6.1-sol --codex-reasoning-effort medium`.
+  - The run drafts, verifies and composes in one go. With codex-cli `--parallel` did not parallelise: about 50 s per NPC, roughly 90 minutes for 96. Run it in the background.
+  - Re-running `--all` redrafts only NPCs whose evidence or authored file changed (`skipped (unchanged)`). Use it after any re-link to find what moved.
+- **Review (always an artifact; this is well over 12 rulings):**
+  1. Build a selection JSON, `{"dossiers":[{"id","npc","draft_path","evidence_path","summary_paths"}]}`, one entry per `draft/npc_*.md` (skip `.verify.md`). `summary_paths` are the `docs/summaries/NNN-*.md` files for the draft frontmatter's `chapters:`. If an NPC has an authored file, add `"manual"`: its `manual` list of strings, not the path.
+  2. `$SN review create --campaign-dir . --kind npc_verification --selection sel.json --json`.
+  3. `KIT=~/.claude/skills/_shared/review-artifact`, then `python3 $KIT/npc_review_items.py docs/reviews/<id> --campaign . --out items.json` and `python3 $KIT/build_review.py --in items.json --out page.html`. Publish it with `capabilities {"artifact":{}}`.
+     - The page has one sign-off card per draft plus the verifier's findings.
+     - "Claim vs evidence" findings on status words (alive, dead, captured) are the ones that matter: the model filling a gap the chapters leave.
+     - Quote-mark findings and the grouped noise classes are cosmetic.
+  4. Read it back: an Artifact read with `path:"index.html"`, then `python3 $KIT/read_decisions.py --npc --html <saved> --review <id> --out decisions.json`.
+  5. `$SN review cards decide <id> --decisions decisions.json --reviewer GM --campaign-dir .` prints a plan. Show it to the GM, then re-run with `--write --plan-sha256 <hash>`. Never use `review decide` or `review npc sign` for page verdicts. Claude never signs.
+- **A rejected line:**
+  - The draft is never hand-edited. Ask the GM what the line should say; a bare reject has no fix in it.
+  - Put the fix in `docs/npcs/authored/<slug>.authored.yaml` (`npc-compose --since 1 --until N --init <Name>` creates it). Add it under `manual:` as a list item that cites the GM ruling and its date.
+  - Redraft that NPC (`--name`). The old sign-off goes stale, so put the new draft on a small follow-up review. Drow-empire's Molril went from "not specified" to "died in the fight at his tower (Ch 40)".
+- **Publish:** `$SN npc-publish --since 1 --until N --all` publishes every signed NPC and refuses the rest, with a reason:
+  - `NPC_DRAFT_SIGNOFF_REQUIRED` means the draft is unsigned or stale;
+  - `slug collision` means two linked subjects share a file name; it is usually a punctuation variant.
+
+  Re-run with `--name` after a follow-up review.
+- **Commit:** following Phandalin, commit `draft/`, `evidence/`, `gm/`, the link reports, `docs/reviews/`, `docs/authority*`, `docs/npcs/*.md` and `authored/`. From `runs/`, keep only `record.json`, `selection.json` and `verify.json`. The raw prompts and outputs (14 MB on drow-empire) are not tracked.
+- Reference: drow-empire `92119657c` (rulings) and `194639401` (dossiers), PR #716. Reviews `npc-review-16999e9f22ba` (134 cards) and `npc-review-9062d374b118`.
+
+## Lessons from drow-empire (Stages 0–10, 2026-11-11 to 11-13)
+
+Drow Empire was a 52-chapter, roughly 111,000-word bible played through the 21 Dan Hass Drow Campaign books, set in Greyhawk, with no recordings. PRs #686–#706 and #716. The write-up is `~/src/CampaignGenerator/docs/drow-empire-bible-backfill.md`. These are the lessons the earlier runs did not teach:
+
+- **Stage 0, the date in the heading.** The bible's chapter headings carried the date. `build_bible.py` moved each one verbatim to the line below the heading, so headings are titles only and Stage 7 can rewrite date lines without touching a heading (`70f7737f4`).
+- **Stage 1, many module books.**
+  - Write one inventory per book: 21 files, from the rpg-library 5etools JSON listed in `config/refs.yaml`. Check every name verbatim against its own book.
+  - Record cross-book variants as printed (Yagrak/Yagrat) and let the GM pick the canonical one at import. The GM also ruled that book and product titles are dropped.
+  - **Module misprints are not aliases.** Strip them from the alias list (Altylin on Antyln) and queue the bible's misspellings for Stage 2 instead (`402a7dc9f`, `706239bb2`).
+  - Create `config/party.yaml` as soon as the PCs are known. Every later name check depends on it.
+  - A PC's full name comes from the character sheet (KP).
+- **Stage 2, routing the review.**
+  - Proposals come from the Stage 1 queue, a deterministic near-miss scan and aspell for ordinary words.
+  - Stock Clef (on the Spark) scored each fix, which splits the page into bulk lists and cards. The GM still marks every item.
+  - Store the exact text sent to Clef next to its score.
+  - On the typo pass the GM approved all 126 fixes Clef scored below 80%, so a low score is a routing signal, never a reject.
+- **Look for duplicates across the whole bible, not just adjacent chapters.** Ch 39 was a revised near-copy of Ch 38 (also in the other Drive copy). The GM kept the later one (`dec17c526`). Before splitting, check for any paragraph of 120+ characters that repeats across chapters (`af16da387`).
+- **Stage 4, parallel agents and the verifier.**
+  - Ten agents, five chapters each, worked well.
+  - One agent worked around a verifier bug instead of reporting it: the bug split Graz’zt at the apostrophe, so the agent wrote "his liege", and that reversed who was liege to whom. **If the verifier fails on a name the chapter really contains, fix the verifier, never the wording** (`6961d34be`).
+  - Hold every question the batch raises in `held_questions.json` (422 on drow-empire). Each later stage works from that queue.
+- **Stage 5, the consistency pass.**
+  - Discuss notes were often settled only after reading the module (DC books). Check the module before proposing a Discuss resolution.
+  - A summary that retells a changed line needs a hand fix: 63 of the 90 mirrors on drow-empire were retold lines, not exact quotes.
+- **Stages 6–7, story order.**
+  - The bible was out of story order. The GM ruled a renumber (7↔8, 14↔15, 23↔24) and added two draft chapters that had never been pasted into the bible (`34cf9879b`). Keep a `renumber_map.json`; every later reference uses the new numbers.
+  - Greyhawk: months have 28 days, festival weeks 7 (Needfest, Growfest, Richfest, Brewfest). Use CY dates.
+  - **Time off-world** (Ch 26–51): the GM ruled that each realm counts its own days, with Day 1 being the arrival. `calendar.md` gained Realm and Realm-days columns, and the Greyhawk dates stay as the GM's record.
+- **Stage 8, unnamed people.**
+  - When the GM chooses to name the numbered extras ("Drow-4", "Human-2"), draw names from the GM's own supplements in the rpg-library and put them on a card page.
+  - Run each new name through `registry check`. "Wolf" was a fuzzy near-duplicate of WLF, so the GM renamed him Lud (`f6c90acb2`).
+  - Some "unnamed" people turn out to be a known NPC (Ch 8 "Drow 4" = Xunzmyr). That is an identity ruling, so ask the GM.
+  - A generic one-word name (Tanner, Wright, Major) will need a `link_rulings` entry in Stage 11, so note it when you create one.
+- **Stage 10, the players' calendar.**
+  - What the players cannot know is shown as unknown. Off-world date lines read "The Abyss, Day 98 (??? on Oerth)". On the players' page those months collapse into one "???" card (`unknown`).
+  - Several calendars go on one page (`parts`; the realms use `"system": "realms"`), and the page ends with the epilogue (`later`). See gm-player-calendar (#703).
+  - Review scripts that read `calendar.md` must read the `## Chapters` table by column name. The Checks table's rows once overwrote the chapter rows in the card evidence (`444aab167`).
+- **After Stage 9:** provision the campaign's mempalace with mneme (`mneme mp bringup <campaign> --dir`). The GM rules the corpus; on drow-empire `docs/chapters` became its own authoritative kind, "bible" (`d7ec6673e`).
+- **Pace:** all 11 stages took three days because each stage's rulings were applied, verified and merged before the next began. Do not start a stage on unmerged rulings.
+
 ## Traps from the first run
 
 | Trap | Fix |
@@ -175,3 +260,10 @@ Tell the GM which stage you are resuming at and why, then start there. Each stag
 | A summary retold a renamed line in its own words, so the verifier passed but the name was wrong | Run the word-overlap sentence check after every name change |
 | An agent's `before` used curly quotes where the file had straight ones | Re-find each flag on its line before applying; fix by hand the ones that don't match |
 | A regex used to pick "the aasimar questions" also caught unrelated ones (maid counts, poltergeists) | Have the scan mark each held question covered, no-change or needs-GM, and report the off-topic ones separately |
+| An agent wrote around a verifier false positive ("his liege" for Graz’zt) and reversed a relationship | Report a verifier failure on a real name; fix the verifier |
+| A review script read every table in `calendar.md`, and the Checks rows overwrote the chapter rows | Parse the named table by its column headers |
+| An invented extra's name ("Wolf") nearly collided with an existing one (WLF) | Run `registry check` for fuzzy near-dups before you apply a new name |
+| `summary_native` refused `--help`, and the config wasn't found | Set `CG_BACKEND`; bring the local main up to date with origin first (`git merge --ff-only origin/main`) |
+| A summary heading "Humph, the Champion" (with a comma) split one NPC into two, and publish refused with a slug collision | Ask the GM to add the variant as a registry alias, `registry project .`, re-link, redraft the one NPC, then a follow-up review |
+| The GM rejected an NPC line with no note | Ask what it should say; the fix goes in the authored file, never the draft |
+| `review create` refused with "manual edits must be strings" | The selection's `manual` is the list of edit strings, not the authored file's path |

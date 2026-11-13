@@ -15,7 +15,7 @@ Corrin has a brainwave: "wait, all we have to do is stop the lava!" KP uses a co
 
 KP proposes an information contract. He asks for 24 hours of truthful information; the devil counters, "24 hours? No. 1 question, 1 truthful answer, 1 magic item." KP persuades them to trade truthful answers for magical items of significant value. The devil refuses Rimardo's scroll of Hunger of Hadar on its own and rants about bags of holding — "every party has a bag of holding" — but finally agrees to the bag and two scrolls; Rimardo's attempt to offer sanctuary does not work. The final trade is a bag of holding, Hunger of Hadar, and protection from aberrations.
 
-KP asks about the Drow's trade patterns and economic systems, and the bearded devil talks non-stop for 30 minutes while KP writes frantically. The chapter explains why: Asmodeus is known across the multi-verse as the Master of Commerce and the art of the deal. Early bargains with the Devil were easily broken, but he played the long game, building "a deep legal department" until every deal favoured the Devil; legends of outwitted devils persist because up-and-coming fiends with their own legal departments lacked the archfiend's polish. "Regardless, every devil was a deep expert in markets." From the notes the group learns the portal opens every 2-8 days. Prodded to ask more, KP learns that the devils do not know how the portal works — "The Drow closely guard the secret of the portal. And it is not controlled from this site." KP recalls from earlier encounters that it is controlled from a city called Freedahl or Plagueridge Rampart. The portal was last open five days ago, so Rimardo reckons it should open in the next 2 or 3 days. The seneschal hired devils because the relationship with the demons was fraught with peril — the Drow and the Demons have an uneasy peace — and "they preferred to work with entities that would follow contracts very precisely." Asked how the Drow got in touch, the devil explains as if to a child: "rituals were cast, planes were traveled, slaves were exchanged, innocent souls were sacrificed."
+KP asks about the Drow's trade patterns and economic systems, and the bearded devil talks non-stop for 30 minutes while KP writes frantically. The chapter explains why: Asmodeus is known across the multi-verse as the Master of Commerce and the art of the deal. Early bargains with the Devil were easily broken, but he played the long game, building "a deep legal department" until every deal favoured the Devil; legends of outwitted devils persist because up-and-coming fiends with their own legal departments lacked the archfiend's polish. "Regardless, every devil was a deep expert in markets." From the notes the group learns the portal opens every 2-8 days. Prodded to ask more, KP learns that the devils do not know how the portal works — "The Drow closely guard the secret of the portal. And it is not controlled from this site." KP recalls from earlier encounters that it is controlled from Freedahl's city, Plagueridge Rampart. The portal was last open five days ago, so Rimardo reckons it should open in the next 2 or 3 days. The seneschal hired devils because the relationship with the demons was fraught with peril — the Drow and the Demons have an uneasy peace — and "they preferred to work with entities that would follow contracts very precisely." Asked how the Drow got in touch, the devil explains as if to a child: "rituals were cast, planes were traveled, slaves were exchanged, innocent souls were sacrificed."
 
 Rimardo is relieved that the abyss runs like the rest of the multi-verse, and notes, "Innocent souls are cheaper than magic items!" The devil agrees, explains it didn't offer that route because Paladins tend not to want such deals, and sees an opening: "However, Mr. Rimardo if you were to offer the Paladin’s soul in exchange…" Rimardo says, "I’ll think about it." "it would solve many of your problems." Corrin sharpens the knives and confers with Rimardo; they decide that revenge on Lundbeams is the priority, and that gaining the power to defeat her means working with Bayard. Bayard is unamused.
 
@@ -73,7 +73,7 @@ Then, 12 seconds later, two white dragons with red demonic eyes burst from the d
 - KP asks about Drow trade patterns; the devil talks for 30 minutes.
 - Aside: Asmodeus, the Master of Commerce, and his "deep legal department."
 - The portal opens every 2-8 days. The devils: "truthfully, we do not know. The Drow closely guard the secret of the portal. And it is not controlled from this site."
-- KP recalls it is controlled from a city called Freedahl or Plagueridge Rampart.
+- KP recalls it is controlled from Freedahl's city, Plagueridge Rampart.
 - The portal last opened five days ago; Rimardo expects it in 2 or 3 days.
 - KP: "with whom was the contract negotiated?" The seneschal chose devils over demons: "they preferred to work with entities that would follow contracts very precisely."
 - KP: "how did they get in touch with you?" The devil: "rituals were cast, planes were traveled, slaves were exchanged, innocent souls were sacrificed."
@@ -117,8 +117,8 @@ Famous for their collections and ease of access through magic mirrors and gnome 
 ### The lava chamber
 Where the Bearded Devils guard the portal and the threshold beyond a lava flow. Its eastern wall is where the portal opens; when closed, it is solid stone.
 
-### Freedahl / Plagueridge Rampart
-Per KP's recollection from earlier encounters, the city from which the portal is controlled.
+### Plagueridge Rampart
+Per KP's recollection from earlier encounters, Freedahl's city, from which the portal is controlled.
 
 ## NPCs
 ### The bearded devil
