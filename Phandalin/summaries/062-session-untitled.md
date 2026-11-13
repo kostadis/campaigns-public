@@ -36,7 +36,7 @@ Vukradin warned that he would leave if Valphine signed. When the devils offered 
 
 Cullen and Adrian expressed mild disappointment; Adrian reminded Cullen that he had predicted her refusal. The DM emphasized the discovery beneath the offer: the devils wanted this information badly enough to finance a cleric's mission against evil. They had targeted Valphine because they thought she might sign, not because she alone could eventually learn the name.
 
-Valphine felt Lathander's blessing and a moment of religious fervor after resisting temptation. Her eyes glowed brighter than before, and a mysterious object appeared at her feet. Brewbarry proposed leaving. The session ended with the party holding a possible route around Margaster's repair claim, no signed bargain, and a recently revived Vukradin.
+Valphine felt Lathander's blessing and a moment of religious fervor after resisting temptation. Her eyes glowed brighter than before. Brewbarry proposed leaving. The session ended with the party holding a possible route around Margaster's repair claim, no signed bargain, and a recently revived Vukradin.
 
 ## Scenes
 
@@ -222,7 +222,7 @@ Valphine felt Lathander's blessing and a moment of religious fervor after resist
   > “I told you that she wouldn't sign.”
 - The DM emphasizes that the devils' willingness to finance a campaign against evil reveals how desperately they want the information.
 - Valphine was targeted because they considered her the likeliest signatory, not because only she could learn the name.
-- Valphine feels Lathander's blessing and a moment of religious fervor. Her eyes glow brighter than before, and a mysterious object appears at her feet.
+- Valphine feels Lathander's blessing and a moment of religious fervor. Her eyes glow brighter than before.
 - The precise mechanical nature of the blessing remains undefined.
 
 ## Locations
@@ -379,7 +379,7 @@ The price is a specific name, to be delivered immediately upon Valphine's first 
 
 *She refuses the Instrument of Patronage despite its promise of resources and institutional support.*
 
-**Lathander's blessing follows Valphine's refusal: her eyes glow brighter, and a mysterious object appears at her feet.**
+**Lathander's blessing follows Valphine's refusal: her eyes glow brighter.**
 
 *The DM describes religious fervor and acknowledgment for resisting temptation; the blessing's mechanics remain undefined.*
 

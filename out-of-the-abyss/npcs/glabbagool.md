@@ -1,79 +1,37 @@
-<!-- published by summary_native npc-publish | source: summary_native | npc: Glabbagool | range: ch002-075 | draft run: delta-ch075-20261105 | draft sha256: 317ab48fba286424f9df32a1e9b261ff1688e06aa8c90bb23482eb8e005c7797 | authored sha256: none | verify: pass | published sha256: 30a093b3c448b392bc6695265f4b017aafe30ed51b679f48beef677f0daff96d -->
+<!-- published by summary_native npc-publish | source: summary_native | npc: Glabbagool | range: ch002-076 | draft run: 20261111T185138Z | draft sha256: a84e2fe27511b454a2be349d601d6d31d723929094d5de1c8eaf92ad33b9eb19 | authored sha256: none | verify: pass | published sha256: f436b6ad14f29c0785f9f1366dd7c3037e90205c904e2771e4e9aaafc127ae22 -->
 ---
 subject: Glabbagool
 type: npc
 global: true
 exclusion: null
-aliases_used:
-- Glabbagool
+aliases_used: []
 first_seen: 34
-last_seen: 75
-chapters:
-- 34
-- 35
-- 36
-- 37
-- 38
-- 39
-- 40
-- 41
-- 42
-- 43
-- 44
-- 46
-- 47
-- 48
-- 49
-- 50
-- 51
-- 53
-- 54
-- 55
-- 56
-- 57
-- 58
-- 59
-- 60
-- 61
-- 62
-- 64
-- 65
-- 67
-- 68
-- 69
-- 71
-- 72
-- 73
-- 74
-- 75
-n_entries: 35
-n_scenes: 108
-n_moments: 58
-range: 2-75
-source_kind: summary_native_npc_link
+last_seen: 76
+chapters: [34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 64, 65, 67, 68, 69, 71, 72, 73, 74, 75, 76]
+n_entries: 36
+n_scenes: 111
+n_moments: 25
+range: ch002-076
+source_kind: delta
 ---
 
 ## Identity
-- Glabbagool was an intelligent gelatinous cube when he unexpectedly gained sentience, sight and speech. He describes his former self as "an average garden variety gelatinous cube" that cleaned floors and decomposed debris [ch 034 / entry; ch 034 / 034.03].
-- The party met him in a flooding temple and kept him as a companion [ch 034 / 034.03; ch 034 / 034.08]. Thorin invited him to join the expedition [ch 034 / 034.03].
-- He believes he may be the only speaking gelatinous cube. He says he left a smaller cube behind once because he was lonely, but it could not speak [ch 035 / 035.04].
-- In ch 047 he and the Pudding King swapped bodies. Glabbagool ended up in the Pudding King's gray ooze body, and his old cube form dissolved with the Pudding King [ch 047 / 047.06; ch 047 / 047.07; ch 047 / 047.08]. He is afterward a sentient grey ooze, formerly a gelatinous cube [ch 050 / entry]. He said he had been sentient for only a few months as a cube and was not attached to the form [ch 047 / 047.10].
-- His acidic body damages anyone inside him, and he cannot control this [ch 047 / entry; ch 047 / 047.05]. As an ooze he can control his viscosity and fits in a bag of holding at any size [ch 047 / 047.10; ch 048 / 048.01].
-- He chose his googly eyes (later six pseudo-eyes) as an affectation, because people take "cute eyes" as friendlier [ch 054 / 054.06; ch 056 / entry].
-- At the Whispering Dome trial he became an eighth-level sidekick bonded to Zalthir, with Corrosive Embrace for 2 Ki when the target is grappled or restrained by Zalthir [ch 059 / 059.06].
-- Jimjar tossed a gambler's knucklebone onto him that let him speak to and calm the oozes. Khell-Vire's ritual identified it as a god's marker and a debt Callarduran Smoothhands intends to pay [ch 048 / 048.05; ch 072 / 072.06].
-- The Modrons found he had no axis of symmetry. He reshaped himself into a square and was declared "Symmetrical within Tolerance" [ch 072 / 072.04].
+
+- Glabbagool is an intelligent grey ooze and party companion, formerly a gelatinous cube that unexpectedly gained thought, sight, and speech; the cause was unknown to him [ch 034 / 034.03; ch 076 / entry].
+- During the Pudding King battle, they swapped bodies. Glabbagool retained the King’s ooze body, while his former cube body dissolved with the defeated King [ch 047 / 047.06; ch 047 / 047.08].
+- His googly eyes are deliberate affectations intended to make others friendlier toward him. He can manifest multiple pseudo-eyes and control his viscosity [ch 054 / 054.06; ch 056 / entry; ch 047 / 047.10].
+- He became an eighth-level sidekick bonded to Zalthir at the Whispering Dome. His demonstrated abilities include Shadow Step, flurries of blows, acidic shadow-ki, and Corrosive Embrace against targets grappled or restrained by Zalthir [ch 059 / 059.06].
+- He can taste and chemically analyze substances, but cannot reassemble their constituents. His stream assessment demonstrates this ability beyond food [ch 074 / 074.06; ch 076 / 076.06].
+- King Bruenor’s absorbed Ioun Stone grants him +1 AC. For the prophecy’s count of four, he is counted together with Zalthir [ch 076 / 076.01].
 
 ## Personality and Motivations
-- **Childlike and earnest.** He asks whether things are "tasty" or "friendly", is confused by body language, and enjoys games with animated statues [ch 041 / entry]. He asked "Is this a bird?" at the gargoyles [ch 040 / moment]. He was delighted by the Overbright, the sun and his first cheese [ch 053 / 053.06; ch 054 / 054.01; ch 055 / moment].
-- **Wants friends and belonging.** When offered the idea of friends, he answered "Yes, I think I could do with some friends" [ch 038 / 038.01]. He wanted to feel part of the party. The party insisted that any employer negotiate with him directly because he is his own person [ch 038 / 038.02]. Thorin proposed donating all five books so he would get a question of his own and feel like a full member [ch 054 / 054.05].
-- **Loyal.** He promised "I would never hurt my friends" and to fight any attempt by the Pudding King to hurt them [ch 046 / 046.08]. He refused the oozes' invitation, sensing "something not nice" about them [ch 038 / 038.04]. He settled over the unconscious Zalthir to guard and stabilize him [ch 064 / 064.04].
-- **Insists he is sentient and not like mindless cubes or oozes.** He said such cubes were giving sentient ones "a bad name" and moved toward the battle to show he was on "team sentience" [ch 037 / 037.06]. He claims he eats only dead garbage, not living creatures [ch 035 / 035.04].
-- **Eager to be useful.** He volunteers to scout, clean, bulldoze and carry things [ch 034 / 034.06; ch 038 / 038.02; ch 039 / 039.02; ch 040 / 040.03]. He took the duty of guarding the shrunken drow spy seriously [ch 054 / 054.05].
-- **Matter-of-fact about eating and dissolving.** He offered to eat anything the party discards and promised to digest the dead after waiting for resurrection attempts [ch 034 / 034.03; ch 034 / 034.08]. He mused about whether an Avowed wizard dissolves like other people and frightened A'lai [ch 065 / 065.02].
-- **Aspires to the shadow-monk path.** He pesters Zalthir about monk training and tries to show he has learned to walk [ch 055 / entry]. He sought silence and asked whether his silence was "too loud" [ch 060 / 060.04]. After the hive-mind he called it unpleasant ("we were all part of one big mind and then we weren't") [ch 048 / 048.05].
-- **Hero-worships Zalthir.** His delivery is earnest and likened to the main character of *Kung Fu Panda* [ch 069 / entry].
-- **Talkative.** He had to be reminded that "Invisible Rock doesn't talk" [ch 050 / 050.01] and not to announce where the key was hidden [ch 065 / 065.03].
+
+- **Seeks friendship and belonging.** He wanted friends rather than material payment and delighted in the prospect of useful work and a role in society [ch 038 / 038.01; ch 038 / 038.02].
+- **Loyal and protective.** He rejected the hostile oozes’ invitation, promised to resist attempts to hurt his friends, and guarded the unconscious Zalthir [ch 038 / 038.04; ch 046 / 046.08; ch 064 / 064.04].
+- **Earnest, curious, and talkative.** His questions concern unfamiliar creatures, social customs, and his own progress; even learning silence prompted questions about whether he was doing it correctly [ch 041 / 041.03; ch 050 / 050.01; ch 060 / moment].
+- **Committed to monk training.** He persistently sought Zalthir’s instruction, treated prisoner-watching as pre-monk practice, and completed the Whispering Dome contemplation [ch 055 / entry; ch 056 / 056.04; ch 059 / 059.06].
+- **Enjoys cheese and detailed analysis.** Rothé cheese drew his enthusiastic attention during negotiations; his chemical critique surprised Eravien. At the stream, he simplified an elaborate analysis when his listeners could not follow it [ch 074 / 074.01; ch 074 / 074.06; ch 076 / 076.06].
+- **Takes responsibility seriously.** Guarding the spy and safeguarding a High Tower key visibly mattered to him [ch 054 / 054.05; ch 065 / 065.03].
 
 ## History with the Party
 - Glabbagool is a Gelatinous Cube that unexpectedly gained sentience, sight, and speech. He describes himself as formerly "an average garden variety gelatinous cube" that cleaned floors and decomposed debris. [ch 034 / entry; ch 034 / 034.03]
@@ -255,28 +213,32 @@ source_kind: summary_native_npc_link
 - In ch 075 he occupied the party’s table during the negotiations. The GM distinguished his informal summary from the official faction handouts, and Zalthir invoked his ability to stretch in different directions while arguing for several alliances [ch 075 / 075.01; ch 075 / entry].
 - When the heroes selected vault equipment, the party argued that he was a full member who deserved consideration too. Daz proposed exchanging cheese for a valuable selection, while Zalthir sought something he could digest to gain a useful benefit [ch 075 / 075.05].
 - No suitable reward had been prepared. The GM agreed to consider a comic, useful consumable, but no specific item or resulting power was finalized [ch 075 / 075.05; ch 075 / entry].
+- King Bruenor presented Glabbagool with a magical Ioun Stone, which he promptly absorbed. The gift resolved the previously unspecified reward; it grants +1 AC, with a provisional option to defend Zalthir for +1 AC instead of attacking, spending one of Glabbagool’s own focus points to change roles [ch 076 / 076.01].
+- During the reward discussion, the DM explained that Glabbagool counts together with Zalthir among the four prophetic figures. Three dwarves also debated his citizenship, guest rights, and possible taxes; Zalthir answered them without a formal ruling being established [ch 076 / 076.01].
+- At the giant-lizard mounts, Glabbagool telepathically reported that one female smelled like water. Zalthir’s magical scrutiny found no magic [ch 076 / 076.03].
+- The party clarified that the shrunken drow noble spy formerly transported in their bag had been left with the dwarves of Gauntlgrym as a bargaining piece for future negotiations or prisoner exchange [ch 076 / 076.03].
+- At an underground stream, Glabbagool sampled the water with a pseudopod, delivered a chemical breakdown, and concluded that it was clean. His subsequent analysis of skin from the suspicious lizard established only that she was a lizard, leaving the unusual smell unexplained [ch 076 / 076.06].
 
 ## Last Observed State
-A grey ooze with the party in Gauntlgrym as it prepares to depart. The four PCs have made their equipment choices, but his proposed consumable reward remains unspecified [ch 075 / 075.05; ch 075 / entry]. His previously established limited-range telepathy and ability to taste and break down food remain unchanged [ch 074 / 074.01; ch 074 / 074.06]. The evidence still does not resolve custody of the High Tower key [ch 065 / 065.03; ch 067 / entry].
+
+Glabbagool is shown actively accompanying the underground expedition, sampling a stream and examining a lizard skin sample. He identifies the water as clean but does not explain why the female lizard smells like water [ch 076 / 076.06].
+
+He has absorbed Bruenor’s Ioun Stone for +1 AC. The option to grant Zalthir +1 AC while defending instead of attacking remains provisional and uses Glabbagool’s own focus points to switch roles [ch 076 / 076.01].
+
+The drow spy is now in dwarven custody at Gauntlgrym. Continued custody of the High Tower key is not established by the later summaries; its explicit storage inside Glabbagool was recorded earlier [ch 076 / 076.03; ch 065 / 065.03; ch 067 / entry].
 
 ## Relationships
-- **Zalthir:** Closest bond. He called Zalthir a kindred spirit and they called themselves "friendly oozes" [ch 038 / 038.02]. Zalthir mentors him in shadow-monk training [ch 055 / entry; ch 056 / 056.04]. They are bonded as sidekick and partner [ch 059 / 059.06]. Zalthir uses him as a tool for stealth: absorbing tea and pocketing the potion of flying [ch 062 / 062.03; ch 062 / 062.04]. They fight together and study together for the Modrons [ch 062 / 062.06; ch 072 / 072.04]. Zalthir said "Go Glabbagool!" [ch 072 / moment].
-- **Thorin:** Invited him along at the start [ch 034 / 034.03]. Thorin nicknamed him "Roomba" [ch 039 / 039.02] and argued for ooze rights in Waterdeep [ch 055 / 055.08].
-- **Gyrgum:** Gave him a lucky foot [ch 034 / 034.03] and fed him the Zuggtmoy puffball mushroom [ch 048 / 048.07]. He called Glabbagool "our friend and our bulldozer... And our cleaning crew" [ch 043 / 043.04] and his "secretary" [ch 061 / 061.01].
-- **Daz:** Glabbagool encouraged him after a bad combat [ch 044 / entry]. He called Daz "the general" [ch 046 / 046.08], and Daz hushed him during the negotiation with Asha [ch 050 / 050.02]. Daz also positioned a Fireball to spare him [ch 051 / 051.04].
-- **Jimjar:** Jimjar joked about "charming and humorous friend" Glabbagool in the wager [ch 034 / 034.04]. His bone let Glabbagool calm the oozes [ch 048 / 048.05; ch 072 / 072.06]. Jimjar is revealed as Callarduran Smoothhands [ch 072 / 072.06].
-- **Pudding King:** Recognised its voice as the one in the ooze cavern [ch 038 / 038.04]. They swapped bodies in ch 047, and Glabbagool's old cube form dissolved with it [ch 047 / 047.06; ch 047 / 047.08].
-- **A'lai Aivenmore:** Frightened him with remarks about dissolving an Avowed wizard [ch 065 / 065.02].
-- **The drow spy (shrunken):** He was her jailer. He describes them as "great friends" [ch 056 / entry; ch 056 / moment]. He intimidated her by manifesting many eyes [ch 054 / 054.06].
-- **Spanner and the Modrons:** They studied him and found him "Symmetrical within Tolerance" [ch 067 / 067.05; ch 072 / 072.04].
-- **Edvaldo:** The party suggested leaving him to guard the bound Edvaldo, but he stayed with the party [ch 069 / 069.04]. He was fascinated by the doppelganger Edvaldo's shapeshifting [ch 071 / 071.01].
-- **Eldeth and Jimjar (Burrow Warden task):** In ch 039 he was assigned with them to help Uth-Jadger and the ghosts [ch 039 / 039.10]. In ch 040 the plan changed and he stayed with the main party [ch 040 / 040.01].
-- **Dawnbringer:** Dawnbringer protested the fall while he cheered it on [ch 068 / entry]. She backed Thorin against the Waterdeep guard [ch 055 / 055.08].
 
-- **Eravien Haund, ch 074:** his critique of Eravien’s cheese surprises the Lords’ Alliance noble [ch 074 / 074.06].
-- **Zalthir, ch 074:** coaches him to savor the special cheese [ch 074 / 074.02].
-
-- **Daz and Zalthir, ch 075:** advocate that he receive something valuable or digestible, rather than being left out of the royal equipment discussion [ch 075 / 075.05].
+- **Zalthir:** Mentor and bonded combat partner. Glabbagool completed his apprenticeship trial, fights through their grapple-and-acid combination, and protected Zalthir when he fell unconscious. The new defensive ruling extends this partnership, provisionally [ch 059 / 059.06; ch 062 / 062.06; ch 064 / 064.04; ch 076 / 076.01].
+- **Thorin:** Invited him into the expedition, nicknamed him Roomba, and publicly defended his rights in Waterdeep [ch 034 / 034.03; ch 039 / 039.02; ch 055 / 055.08].
+- **Gyrgum:** Gave him the lucky foot, assigned him secretarial duties, and prompted public recognition of sentient oozes at the Gauntlgrym feast [ch 034 / 034.03; ch 061 / 061.01; ch 073 / 073.06].
+- **Daz:** Received Glabbagool’s earnest encouragement after poor combat performance and later positioned a Fireball to spare him [ch 044 / moment; ch 051 / 051.04].
+- **King Bruenor:** Promised him a place of honor and personally supplied the Ioun Stone that Glabbagool absorbed [ch 074 / 074.01; ch 076 / 076.01].
+- **Lord Eravien Haund:** Used special food, including cheese, to attract the party’s attention; Glabbagool’s sophisticated critique surprised him [ch 074 / 074.06; ch 076 / 076.01].
+- **Jimjar / Callarduran Smoothhands:** Jimjar’s bone briefly enabled Glabbagool to calm the ooze horde. Glabbagool retained no ongoing link; Khell-Vire later identified the bone as a divine marker [ch 048 / 048.05; ch 072 / 072.06].
+- **Spanner and the Modrons:** Studied his movement and symmetry. His carefully restrained grapple produced Dust of Mechanus without killing the volunteer Modron [ch 072 / 072.04].
+- **The drow spy:** Former prisoner under his supervision, whom he described as a friend despite her attacks and protests. She has since been left with Gauntlgrym’s dwarves [ch 056 / 056.04; ch 076 / 076.03].
+- **Pudding King:** Enemy whose body Glabbagool acquired during their unexplained swap [ch 047 / 047.06; ch 047 / 047.10].
 
 ## Notable Quotes
 > "Well, hello, hello, hello." — Glabbagool [ch 034 / 034.03]
@@ -437,67 +399,22 @@ A grey ooze with the party in Gauntlgrym as it prepares to depart. The four PCs 
 
 > "With cheese?" — Glabbagool [ch 074 / moment]
 
+— King Bruenor [ch 076 / moment]
+
+— Gyrgum [ch 076 / moment]
+
+— Zalthir [ch 076 / moment]
+
+— Glabbagool [ch 076 / 076.06]
+
 ## Arc-Score Candidates
-- "Glabbagool joins the expedition and becomes especially excited about talking to his new friend Thorin." [ch 034 / 034.03]
-- "Glabbagool discovers 112 silver pieces, three gold pieces, a drow dagger, and a vial of oil of slipperiness." [ch 034 / 034.06]
-- "Glabbagool causes more of the ceiling to collapse." [ch 034 / 034.08]
-- "The party retains Glabbagool as a new companion." [ch 034 / 034.08]
-- "I think I'm the only one in the entire universe that can speak." [ch 035 / 035.04]
-- "Glabbagool immediately defended the distinction between himself and the creatures troubling Blingdenstone" [ch 036 / 036.04]
-- "Glabbagool begins slowly moving toward the combat to show that he is on "team sentience."" [ch 037 / 037.06]
-- "Glabbagool sees the manifestation and says, "You've got pseudopods too."" [ch 037 / 037.06]
-- "When "friends" is proposed as something the gelatinous cube who has everything might want, Glabbagool replies, "Yes, I think I could do with some friends."" [ch 038 / 038.01]
-- "The party welcomes Glabbagool along, and the sergeant revises the official count of adventurers to include him." [ch 038 / 038.01]
-- "The party insists that any employer negotiate directly with Glabbagool because he is his own person, not someone they hire out." [ch 038 / 038.02]
-- "Persuaded by the appeal to friendship, Glabbagool says, "You're my friend, so we should all go together."" [ch 038 / 038.03]
-- "Glabbagool rejects the invitation: "Oh, I like you guys. I'm not quite sure that I like these guys. There's something not nice about them."" [ch 038 / 038.04]
-- "Glabbagool praises the idea but warns that oozes can move through extremely small spaces, making an improvised rubble barrier unreliable." [ch 038 / 038.05]
-- "Thorin declared, "Okay, so I'm going to now call Glabbagool Roomba from now on."" [ch 039 / 039.02]
-- "Glabbagool, Eldeth, and Jimjar would assist Uth-Jadger and the other Burrow Warden ghosts while the main group dealt with the Rockblight and Neverlight Grove." [ch 039 / 039.10]
-- "Glabbagool cleaned the tavern floor by absorbing spilled drinks, became drunk, and started singing gelatinous cube sea shanties." [ch 040 / 040.02]
-- "The party realized alcohol could intoxicate a gelatinous cube and considered bringing barrels of ethanol or spoiled booze against the Pudding King's ooze forces." [ch 040 / 040.02]
-- "Glabbagool initially appeared prepared to remain behind for 'more important activities,' but happily accompanied the party after they made it clear that they wanted his company." [ch 040 / 040.03]
-- "Suspecting a trap, the party asked Glabbagool to approach and clean the statues." [ch 040 / 040.06]
-- "Once told the creature intended to hurt the party, he became angry." [ch 040 / 040.06]
-- "Glabbagool 'may want to sit this one out.'" [ch 041 / 041.06]
-- "I would never hurt my friends... But there was that one time very early on when we went to the big pool of slimes where I heard a voice calling me" [ch 046 / moment]
-- "I can promise you I'll fight any attempt by that pudding king to hurt my friends" [ch 046 / 046.08]
-- "Glabbagool can resist the King's pull, but asking him to attack the King directly means 'all bets are off.'" [ch 046 / 046.08]
-- "well, I have many ideas about how we could get through, but you're not going to like any of them." [ch 046 / 046.07]
-- "The real Pudding King was now in Glabbagool's gelatinous-cube body, and Glabbagool was in the Pudding King's ooze body." [ch 047 / 047.06]
-- "Zalthir released the real Glabbagool, who sprouted two googly eyes on his new gray ooze body and oozed well away from the fighting." [ch 047 / 047.07]
-- "Gyrgum offers Revivify, but Glabbagool is not dead and is happy in the ooze body." [ch 047 / 047.10]
-- "Glabbagool briefly became a bridge between every ooze in the cavern" [ch 048 / 048.05]
-- "Glabbagool confirmed he no longer had any link to the oozes" [ch 048 / 048.05]
-- "Gyrgum fed the mushroom to Glabbagool" [ch 048 / 048.07]
-- "The group discusses using Glabbagool's near-invisibility when motionless" [ch 049 / 049.04]
-- "Glabbagool attempts to disguise himself as an invisible rock but struggles to remain motionless and keep his eyes still." [ch 050 / 050.01]
-- "The party passes off Glabbagool as Daz's familiar to avoid alarming Asha Vandree, who is impressed by the notion of an ooze familiar." [ch 050 / 050.03]
-- "Glabbagool suffered twenty-six damage but survived." [ch 051 / 051.02]
-- "Daz retaliated by casting a fourth-level Fireball into the darkness, positioning it to encompass the hostile drow while sparing Glabbagool." [ch 051 / 051.04]
-- "Glabbagool remained with the party. He had not known the Overbright existed and watched the new world from inside a bag of holding, his two large googly eyes peering outward." [ch 053 / 053.06]
-- "Thorin proposes giving all five books so that Glabbagool gets one question of his own, wanting him to feel like a full member of the party." [ch 054 / 054.05]
-- "Glabbagool intimidates the shrunken drow prisoner by suddenly manifesting a large number of eyes all at once, making the situation deeply unsettling." [ch 054 / moment]
-- "Glabbagool is gifted an entire wheel of cheese by the innkeeper as a curiosity." [ch 055 / 055.04]
-- "Thorin takes an immediate stand for ooze rights, arguing that sentience is sentience and deserves respect regardless of form." [ch 055 / 055.08]
-- "Zalthir — standing in dim light against a shadowed doorway — uses Shadow Step to vanish with the bag" [ch 055 / 055.08]
-- "The party decides to keep the spy under Glabbagool's watch rather than hand her over." [ch 056 / 056.04]
-- "Zalthir confirms it is absolutely pre-monk training." [ch 056 / 056.04]
-- "Zalthir pushes back: Glabbagool is "by no means mindless" — he is a student, he is already walking, he is already tormenting the pocket drow." [ch 056 / 056.05]
-- "Glabbagool attempts to use his experience with Underdark substances to identify the black residue but is unable to determine its nature." [ch 058 / 058.01]
-- "Glabbagool asks, "What is the art of movement?" and goes completely still for roughly sixty seconds." [ch 059 / 059.06]
-- "Glabbagool becomes an eighth-level sidekick bonded to Zalthir." [ch 059 / 059.06]
-- "Glabbagool belatedly realized that he could have eaten through Alkrist's safe, though doing so would have taken time." [ch 061 / 061.01]
-- "Zalthir uses Glabbagool to surreptitiously steal the potion of flying during the confusion." [ch 062 / 062.04]
-- "Zalthir uses Glabbagool, fused to his arm, to secretly absorb Bookwyrm's offered tea, with only a faint singe of acid betraying the ruse." [ch 062 / moment]
-- "Zalthir and Glabbagool brought down another, then grappled and corroded the last." [ch 062 / 062.06]
-- "Glabbagool remains on top of the fallen Zalthir, able to guard and stabilize him." [ch 064 / 064.04]
-- "Glabbagool received one of the real High Tower keys and visibly swelled with pride." [ch 065 / moment]
-- "Spanner agrees to lend the tools on the condition that Zalthir and Glabbagool submit to a study of their 'perfect symmetry' and mechanical construction." [ch 067 / 067.05]
-- "Glabbagool earnestly asked why Zalthir had not simply thrown Manshoon into the lava." [ch 069 / 069.03]
-- "Glabbagool forms himself into a square to achieve symmetry." [ch 072 / moment]
-- "Glabbagool's careful grapple produces the first Dust of Mechanus ever obtained without killing a Modron." [ch 072 / moment]
-- "The gambler's knucklebone that Jimjar tossed onto Glabbagool to communicate with and calm the oozes is identified as a divine marker." [ch 072 / 072.06]
+
+- “The party insists that any employer negotiate directly with Glabbagool because he is his own person, not someone they hire out.” [ch 038 / 038.02]
+- “Glabbagool becomes an eighth-level sidekick bonded to Zalthir.” [ch 059 / 059.06]
+- “Glabbagool remains on top of the fallen Zalthir, able to guard and stabilize him.” [ch 064 / 064.04]
+- “Glabbagool successfully grapples the volunteer while restraining his acid.” [ch 072 / 072.04]
+- “King Bruenor presents Glabbagool with a magical Ioun Stone, which the ooze promptly absorbs, acknowledging the ooze’s role in the prophecy of the Anvil.” [ch 076 / 076.01]
+- “Glabbagool uses his unique physiology to analyze the water, delivering a lengthy chemical breakdown before simply concluding it is clean.” [ch 076 / 076.06]
 
 ## Secrets
 _(none authored)_

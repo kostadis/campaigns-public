@@ -1,32 +1,27 @@
-<!-- published by summary_native npc-publish | source: summary_native | npc: Bruenor Battlehammer | range: ch002-075 | draft run: delta-ch075-20261105 | draft sha256: 532497fdde7f68ea453288b552a2aa8b7dd9eca8443fdd741132a0fe13b04987 | authored sha256: none | verify: pass | published sha256: 22ecdd6196aca85774c49282dbaed43dbe530361d398c7873ab54b9da899bf99 -->
+<!-- published by summary_native npc-publish | source: summary_native | npc: Bruenor Battlehammer | range: ch002-076 | draft run: 20261111T185138Z | draft sha256: 4bb2adfef2807e0fbb68411f7d7c58e96e44c2dc3bd548fc6237ffb6f3284c74 | authored sha256: none | verify: pass | published sha256: 3e66c61e310b2bfc54b58f0aa464485a99b967f49ac11093e52ca82b4ec6608c -->
 ---
 subject: Bruenor Battlehammer
 type: npc
 global: true
 exclusion: null
-aliases_used:
-- Bruenor
-- Bruenor Battlehammer
-- King Bruenor
-- King Bruenor Battlehammer
+aliases_used: []
 first_seen: 73
-last_seen: 75
-chapters:
-- 73
-- 74
-- 75
+last_seen: 76
+chapters: [73, 74, 75, 76]
 n_entries: 3
-n_scenes: 11
-n_moments: 5
-range: 2-75
-source_kind: summary_native_npc_link
+n_scenes: 12
+n_moments: 3
+range: ch002-076
+source_kind: delta
 ---
 
 ## Identity
-Bruenor Battlehammer is the red-haired King of Gauntlgrym, which he reclaimed from drow control with allies. He arranged the party’s one-use teleportation and received them privately before the faction summit [ch 073 / entry; ch 073 / 073.02; ch 073 / 073.05].
+Bruenor Battlehammer is the red-haired, fierce, and proud King of Gauntlgrym. He reclaimed the city from drow control with allies and works to restore it [ch 073 / entry; ch 073 / 073.02].
 
 ## Personality and Motivations
-Fierce and proud, he seeks an expedition to investigate and stop the demonic plague. Daz notices that Menzoberranzan’s possible destruction does not displease him; this is an observed strategic reaction, not a declared plan to destroy the city [ch 073 / entry; ch 073 / 073.05]. He warms to Gyrgum’s enthusiasm for fusion cuisine [ch 073 / 073.05].
+He seeks an honest effort to discover and stop the demonic plague, rather than guaranteed success. Spreading corruption at his outposts makes the expedition urgent [ch 075 / 075.01; ch 074 / 074.07].
+
+He publicly defends the party’s freedom to refuse his request and offers substantial support to secure its cooperation. He warms to Gyrgum’s enthusiasm for fusion cuisine; Daz also observes that Menzoberranzan’s possible destruction does not displease him [ch 074 / 074.01; ch 073 / 073.05].
 
 ## History with the Party
 - He arranged their arrival at Gauntlgrym and sent an officious dwarf with a flattering summons [ch 073 / 073.02; ch 073 / 073.05].
@@ -44,24 +39,33 @@ Fierce and proud, he seeks an expedition to investigate and stop the demonic pla
 - He directed the expedition through Mantol-Derith to Ghazrim DuLoc, who reportedly has a map to Gravenhollow. The contact and route were recommendations, not guarantees of safety [ch 075 / 075.04].
 - He explained that the cold Great Forge had forced him to hoard items he wanted to give the heroes because he could not replace them. The party restarted it with its only pinch of Dust of Mechanus during this chapter; this enabled him to equip the four heroes and resume their promised commissions [ch 075 / 075.04; ch 075 / 075.05; ch 075 / entry].
 - The released choices were Thorin’s Helm of the Citadel, Daz’s Stone Staff, Gyrgum’s Fiendwracker Staff, and Zalthir’s Salamander Flame Gauntlets. The discussion did not finalize a suitable reward for Glabbagool [ch 075 / 075.05].
+- He personally presented Glabbagool with a magical Ioun Stone, acknowledging his role in the prophecy of the Anvil. Glabbagool promptly absorbed it [ch 076 / 076.01].
+- He supplied horses for the party’s surface journey to the Underdark entrance, where Morista’s giant lizards awaited them [ch 076 / 076.01; ch 076 / moment].
 
 ## Last Observed State
-At Gauntlgrym as the party prepares to return below. The expedition and faction offers have been accepted, the Great Forge has been restarted, and the four heroes’ equipment choices are settled. The restored forge can begin the commissions intended for their return; those commissions are not recorded as completed yet [ch 075 / 075.04; ch 075 / 075.05; ch 075 / entry].
+Bruenor personally gives Glabbagool his reward at Gauntlgrym while the party prepares to depart. He also supplies its horses [ch 076 / 076.01].
+
+The Great Forge has been restarted, enabling royal vault rewards and work on the commissions intended for the party’s return; their completion is not established in the supplied summaries [ch 075 / 075.04; ch 075 / 075.05; ch 076 / 076.01].
 
 ## Relationships
-He treats Thorin as a fellow dwarf with a new clan tie. He praises Daz’s account of the party’s accomplishments and finds rapport with Gyrgum through food [ch 073 / 073.05]. He assembles northern factions to offer help while acknowledging that none can order the party about [ch 073 / 073.05].
-
-- **Thorin and Clan Feldrun, ch 074:** restores the clan’s lost Underdark claim in Thorin’s name, which the clan cheers [ch 074 / 074.01].
-- **Daz, ch 074:** recognizes him as a friend of Drizzt and offers sanctuary and citizenship [ch 074 / 074.01].
-- **Faction representatives, ch 074:** each has been promised a chance to present a request and an offer to the party [ch 074 / 074.01].
+- **The party:** Expedition sponsor who recognizes its independence and expects honest effort against the plague [ch 073 / 073.05; ch 075 / 075.01].
+- **Thorin and Clan Feldrun:** Restores the clan’s lost Underdark claim in Thorin’s name and celebrates the clan when the party accepts the offers [ch 074 / 074.01; ch 075 / 075.04].
+- **Daz:** Praises his account of the party’s accomplishments and offers sanctuary and citizenship as a friend of Drizzt [ch 073 / 073.05; ch 074 / 074.01].
+- **Gyrgum:** Bonds over fusion cuisine and offers him standing in Gauntlgrym [ch 073 / 073.05; ch 074 / 074.01].
+- **Zalthir and Glabbagool:** Offers Zalthir a secure, silent retreat and Glabbagool a place of honor. Later personally gives Glabbagool an Ioun Stone [ch 074 / 074.01; ch 076 / 076.01].
+- **Drizzt Do’Urden:** Named among his allies in reclaiming Gauntlgrym [ch 073 / 073.02].
 
 ## Notable Quotes
 > "You've become a power in your own right, and none of us can order you where we please." — Bruenor [ch 073 / moment]
 
 > "They don’t owe me a yes, so before anyone in this hall makes them an offer, here’s mine." — Bruenor Battlehammer [ch 074 / moment]
 
+— King Bruenor [ch 076 / moment]
+
 ## Arc-Score Candidates
-_(none verified)_
+- “He affirms the party’s freedom to refuse: “They don’t owe me a yes, so before anyone in this hall makes them an offer, here’s mine.”” [ch 074 / 074.01]
+- “The party restarts the Great Forge using the Dust of Mechanus, enabling King Bruenor to equip them with items from his royal vaults.” [ch 075 / 075.05]
+- “King Bruenor presents Glabbagool with a magical Ioun Stone, which the ooze promptly absorbs, acknowledging the ooze’s role in the prophecy of the Anvil.” [ch 076 / 076.01]
 
 ## Secrets
 _(none authored)_

@@ -45,7 +45,7 @@ Treat these paths as upstream-owned. Fix content in `kostadis/campaigns` and re-
 | `gm-assistant/skills/` | Deleted and rewritten wholesale |
 | `gm-assistant/README.md`, `SKILLS.md` | Overwritten |
 
-Campaigns are listed in the `CAMPAIGNS` / `NPC_CAMPAIGNS` arrays in the script (currently `obelisk`, `out-of-the-abyss`, `Phandalin`, `toee`, `stormgiants`, `drow-empire`, `original-group-toee`; the last two have no NPC dossiers upstream, so they are in `CAMPAIGNS` only). Adding a campaign means adding it there; directory names match between the two repos.
+Campaigns are listed in the `CAMPAIGNS` / `NPC_CAMPAIGNS` arrays in the script (currently `obelisk`, `out-of-the-abyss`, `Phandalin`, `toee`, `stormgiants`, `drow-empire`, `original-group-toee`; `original-group-toee` has no NPC dossiers upstream, so it is in `CAMPAIGNS` only). Adding a campaign means adding it there; directory names match between the two repos.
 
 ## How summaries are selected
 

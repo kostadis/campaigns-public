@@ -1,93 +1,34 @@
-<!-- published by summary_native npc-publish | source: summary_native | npc: Dawnbringer | range: ch002-075 | draft run: delta-ch075-20261105 | draft sha256: e7dda5be4bc6a3e4e15df1398e33a633bfbe5b72ca427be97c1628c0a36a6391 | authored sha256: none | verify: pass | published sha256: 5f5309b798efc36d192f2df50d2c17d225ef20476030e60335f1fb36b2ae30d6 -->
+<!-- published by summary_native npc-publish | source: summary_native | npc: Dawnbringer | range: ch002-076 | draft run: 20261111T185138Z | draft sha256: 1f47799b7974ab6a996eaea2f4e839cce102296ceccc5d741cd16404c8027a67 | authored sha256: none | verify: pass | published sha256: c67be9a6ee8de0884787359fceb06dea3fcdff5131b7d95a7fdf879cde000f14 -->
 ---
 subject: Dawnbringer
 type: npc
 global: true
 exclusion: null
-aliases_used:
-- Dawnbringer
+aliases_used: []
 first_seen: 29
-last_seen: 75
-chapters:
-- 29
-- 30
-- 31
-- 32
-- 34
-- 35
-- 37
-- 41
-- 42
-- 43
-- 45
-- 46
-- 47
-- 49
-- 50
-- 52
-- 53
-- 54
-- 55
-- 56
-- 57
-- 62
-- 63
-- 64
-- 65
-- 68
-- 69
-- 70
-- 72
-- 73
-- 75
-n_entries: 32
-n_scenes: 3
+last_seen: 76
+chapters: [29, 30, 31, 32, 34, 35, 37, 41, 42, 43, 45, 46, 47, 49, 50, 52, 53, 54, 55, 56, 57, 62, 63, 64, 65, 68, 69, 70, 72, 73, 75, 76]
+n_entries: 30
+n_scenes: 4
 n_moments: 2
-range: 2-75
-source_kind: summary_native_npc_link
+range: ch002-076
+source_kind: delta
 ---
 
 ## Identity
-- Dawnbringer is a sentient, talking magic sword. She was found in Brysis's sarcophagus, atop Brysis's mummified corpse. She speaks, reads and understands Common. When the hilt is grasped and activated she manifests a blade of pure radiance. [ch 029 / entry]
-- She is a legendary sunblade with a gilded longsword hilt. She is a +2 weapon that deals radiant damage, plus an extra 1d8 against undead. She emits sunlight in a 15-foot radius. [ch 029 / entry; ch 031 / entry]
-- Igniting the blade takes a bonus action. [ch 029 / entry]
-- She grants lesser restoration, recorded as once per day. [ch 029 / entry; ch 031 / entry]
-- She speaks in a kind feminine voice. [ch 031 / entry]
-- She identifies as female. [ch 032 / entry] At ch 045 the table treated her as genderless, and the party later settled on "she." [ch 045 / entry] Her female identity was reaffirmed in ch 065. [ch 065 / entry]
-- Master Archivist Philemon identified her as a late-Netherese sun-sword. He found profound arcane stress from millennia of darkness and noted she cannot be polished. [ch 056 / entry]
-- Her first and true wielder was Dynaphyse, a servant of Lathander whom Brysis of Khaem killed. Brysis was her captor, not her wielder. [ch 072 / entry]
-- Thorin claimed her and has carried her since. [ch 029 / entry; ch 072 / entry]
-- Her light radius is recorded as 15 feet in ch 031 and ch 042, and as twenty feet in ch 047. [ch 031 / entry; ch 042 / entry; ch 047 / entry]
+
+- Dawnbringer is a sentient magical sunblade with a gilded longsword hilt and a blade of pure radiance. She speaks, reads, and understands Common, identifies as female, and speaks with a kind feminine voice. [ch 029 / entry; ch 031 / entry; ch 032 / entry]
+- Thorin claimed her from Brysis's sarcophagus. Philemon identified her as a sun-sword of late Netherese origin. [ch 029 / entry; ch 056 / entry]
+- Her first and true wielder was Dynaphyse, a servant of Lathander. Brysis of Khaem killed Dynaphyse and imprisoned Dawnbringer with Brysis's own corpse. [ch 072 / entry]
+- She is a +2 weapon dealing radiant damage, with an additional 1d8 against undead, and grants lesser restoration, recorded as once per day. Her sunlight radius is recorded as fifteen feet in some entries and twenty feet in another. [ch 031 / entry; ch 042 / entry; ch 047 / entry]
 
 ## Personality and Motivations
-- **Fear or dislike of darkness.**
-  - She refuses to be deactivated because of a deep fear of the dark. [ch 029 / entry]
-  - After thousands of years trapped in the dark, she suffers intense anxiety about darkness and abandonment. [ch 031 / entry]
-  - She may panic and try to take control of Thorin if he enters magical darkness. [ch 031 / entry]
-  - In ch 053 she insisted she merely dislikes darkness rather than fears it. [ch 053 / entry]
-  - She reacted with "Not this again!" when Thorin plunged into another dark shaft. [ch 068 / entry]
-  - In ch 072, naming Dynaphyse let her overcome her fear of the dark. [ch 072 / entry]
-- **Strong, vain, combative personality.**
-  - She expressed disdain at being left with a monk rather than a fighter. [ch 029 / entry]
-  - She challenged Thorin's cautious use of darts with "Is that the best you can do?" [ch 037 / entry]
-  - She is enthusiastic about becoming more deadly and sees herself as a high-quality weapon. [ch 053 / entry]
-  - She is fiercely protective of her reputation and ordered Thorin never to mention that she cried. [ch 072 / entry]
-- **Motivated by light and attention.**
-  - She strongly prefers emitting light, even when it discomforts nearby myconids. [ch 032 / entry]
-  - She is "very pleased" when Thorin fights in the light. [ch 041 / entry]
-  - She enjoys the attention of locals, particularly children. [ch 045 / entry]
-  - Healing orphans and the needy made her very happy. [ch 055 / entry]
-  - Daral's promised research into sentient swords greatly pleased her. [ch 062 / entry]
-- **Can be bargained with.**
-  - She can impose her will on her wielder through charisma saving throws, but can be persuaded with promises of better treatment. [ch 041 / entry]
-  - She wants a nicer scabbard. After the deal she said "I can live with this." [ch 041 / entry]
-  - She was pleased with the Vaultmaster locking scabbard while muttering about adding bling. [ch 045 / entry]
-  - She reluctantly helped purify Ilvara's corrupted scourge once reminded of the scabbard. [ch 053 / entry]
-- **Therapy.**
-  - She rejected the suggestion that she needs therapy. [ch 053 / entry]
-  - By ch 062 she remained invested in the Candlekeep therapy and felt the first session established genuine progress. [ch 062 / entry]
-  - Philemon began a two-phase recovery: the work of light first, then the work of mourning. [ch 056 / entry]
-- **Takes offense.** She took offense when Thorin forgot her power is radiant, not fire. The slight was set aside for a future therapy session. [ch 063 / entry]
+
+- She values her quality as a weapon, enjoys becoming more deadly, and objects to being treated as a ritual implement. [ch 053 / entry]
+- She enjoys attention and elaborate accessories, but also takes pleasure in healing orphans and the needy. [ch 045 / entry; ch 055 / entry]
+- Millennia of darkness caused profound distress and fear of abandonment. Therapy with Philemon progressed from work with light to mourning; naming Dynaphyse allowed her to grieve and overcome her fear of the dark. [ch 031 / entry; ch 056 / entry; ch 072 / entry]
+- She is protective of her reputation: after grieving, she ordered Thorin never to mention that she cried. [ch 072 / entry]
+- She graciously accepted Clan Feldrun’s gifts, including an impractical sharpening tool, and asked whether she belonged to the clan. [ch 076 / 076.02]
 
 ## History with the Party
 - Found in Brysis's sarcophagus, atop her mummified corpse, as a sentient, talking magic sword. She speaks, reads and understands Common, and manifests a blade of pure radiance when the hilt is grasped and activated. [ch 029 / entry]
@@ -137,29 +78,20 @@ source_kind: summary_native_npc_link
 
 - In ch 075 Thorin declined another sentient weapon and chose the Helm of the Citadel. He described himself and Dawnbringer as a package deal, credited their relationship’s strength to their counseling, and included her in his Clan Feldrun association [ch 075 / 075.05; ch 075 / entry].
 - The discussion joked about jealousy and competing demands between two sentient weapons. These remarks do not establish a new power, a new therapy session, or a new statement of Dawnbringer’s own intentions [ch 075 / 075.05].
+- At Clan Feldrun’s farewell, Dawnbringer received straps, polish, leather conditioner for the Fancy Scabbard 2000, and a sharpening tool she could not use. She accepted the gifts graciously and asked whether she was a clan member; Thorin deferred resolving her formal membership until their next visit. [ch 076 / 076.02]
 
 ## Last Observed State
-Still Thorin’s sentient sword as the party prepares to leave Gauntlgrym. He chooses the helm rather than acquire a second sentient weapon and explicitly affirms their bond [ch 075 / 075.05; ch 075 / entry]. Her previously established Dynaphyse revelation and Lathander’s Dawn remain unchanged; ch 075 records no new power or transfer of custody [ch 072 / entry; ch 075 / 075.05].
+
+Dawnbringer actively participated in Clan Feldrun’s farewell, accepting gifts and asking about membership. Thorin postponed settling her formal clan status until their next visit. The party then set out toward the Surbrin Hills. [ch 076 / 076.02]
 
 ## Relationships
-- **Thorin (wielder).**
-  - Thorin claimed her and she appeared fond of him early on, because he carries her, speaks to her and lets her shine. [ch 029 / entry; ch 031 / entry]
-  - Thorin said their relationship was "purely platonic," and later called the Candlekeep sessions "couples counseling with Dawnbringer." [ch 037 / entry; ch 054 / entry]
-  - She argued against jumping into the acid pit, helping persuade him to take the bridge. [ch 046 / entry]
-  - She backed his argument in the Waterdeep ooze rights confrontation. [ch 055 / entry]
-  - He suggested smashing the sapphire with her hilt, saying "She wouldn't mind." [ch 064 / entry]
-  - Thorin connected her name to a high-school girlfriend named Dawn. [ch 065 / entry]
-  - She can panic and try to take control of him in magical darkness. [ch 031 / entry]
-- **Gyrgum.** He was surprised at her literacy, and she answered "seriously?" He declined to borrow her because he is proficient only with simple weapons. [ch 029 / entry; ch 030 / entry] He linked her name to the "rosy-fingered Dawn" of the *Iliad*. [ch 065 / entry]
-- **Zalthir.** Thorin channeled Lesser Restoration through her to cure Zalthir's spore-induced madness. [ch 032 / entry] Zalthir's magical darkness suppresses her sunlight. [ch 031 / entry] Her light gave him the shadows for Shadow Step. [ch 047 / entry]
-- **Philemon.** The party hoped he could help her. He identified her origin and began her therapy, and in ch 072 helped reveal Dynaphyse. [ch 054 / entry; ch 056 / entry; ch 072 / entry]
-- **Daral.** She cured his suspected poisoning, and he promised academic research into sentient swords. [ch 062 / entry] In ch 057 she spoke up for the party when he challenged their credentials. [ch 057 / entry]
-- **Brysis.** She was found in Brysis's sarcophagus. Brysis was her captor and killed her true wielder. [ch 029 / entry; ch 072 / entry]
-- **Dynaphyse.** A servant of Lathander and her first and true wielder, killed by Brysis of Khaem. [ch 072 / entry]
-- **Valen.** She halted his fungal infection and shrank his growths. [ch 049 / entry]
-- **Moziqodo.** She struck the final critical hit that killed him. [ch 063 / entry]
 
-- **Thorin, ch 075:** affirms that they are a package deal and includes her in his Clan Feldrun association; the chapter does not record a separate declaration from her [ch 075 / 075.05; ch 075 / entry].
+- **Thorin:** Her wielder and counseling partner. He describes them as a package deal and chose the Helm of the Citadel rather than acquire another sentient weapon. [ch 054 / entry; ch 075 / entry; ch 075 / 075.05]
+- **Clan Feldrun and Eldeth:** Eldeth explicitly welcomed sentient swords to the dwarves-only gathering. Thorin includes Dawnbringer in his clan association, but her formal membership remains unresolved; the clan nevertheless gave her farewell gifts, which she accepted graciously. [ch 073 / 073.02; ch 075 / entry; ch 076 / 076.02]
+- **Philemon:** Identified her arcane stress and began her therapeutic recovery. During their later session, the truth about Dynaphyse emerged, enabling her grief and recovery from fear of darkness. [ch 056 / entry; ch 072 / entry]
+- **Dynaphyse and Brysis of Khaem:** Dynaphyse was her first and true wielder; Brysis killed Dynaphyse and became Dawnbringer’s captor. [ch 072 / entry]
+- **Daral:** She cured his suspected poisoning; his promise to research sentient magical swords greatly pleased her. [ch 062 / entry]
+- **Zalthir and Valen:** Her restorative magic cured Zalthir’s spore-induced madness and halted Valen’s fungal infection. [ch 032 / entry; ch 049 / entry]
 
 ## Notable Quotes
 > "Dawnbringer here! Let me show you what I can do!" — Dawnbringer [ch 029 / entry]
@@ -181,14 +113,13 @@ Still Thorin’s sentient sword as the party prepares to leave Gauntlgrym. He ch
 > "Not this again!" — Dawnbringer [ch 068 / entry]
 
 ## Arc-Score Candidates
+
 - "She reluctantly assisted in purifying Ilvara's corrupted scourge after being reminded of her prestigious Vaultmaster Locking Scabbard." [ch 053 / entry]
-- "Later used to channel restorative magic to heal orphans and the needy in Waterdeep" [ch 055 / entry]
 - "A two-phase therapeutic recovery process is begun: the work of light first, then the work of mourning." [ch 056 / entry]
-- "Dawnbringer remains invested in the therapy begun with Candlekeep's scholars and feels that the initial session established genuine progress and connection." [ch 062 / entry]
 - "Dawnbringer cures Daral of his suspected poisoning." [ch 062 / entry]
-- "struck the final critical hit that killed him" [ch 063 / entry]
-- "Brysis was actually her captor" [ch 072 / entry]
 - "Naming Dynaphyse allows Dawnbringer to grieve, overcome her fear of the dark, and grant Thorin Lathander's Dawn." [ch 072 / entry]
+- "Dawnbringer asks whether she is a member of the clan." [ch 076 / 076.02]
+- "Thorin postpones settling her formal status until their next visit; meanwhile, she graciously accepts the clan’s kindness." [ch 076 / 076.02]
 
 ## Secrets
 _(none authored)_

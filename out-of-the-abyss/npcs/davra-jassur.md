@@ -1,29 +1,27 @@
-<!-- published by summary_native npc-publish | source: summary_native | npc: Davra Jassur | range: ch002-075 | draft run: delta-ch075-20261105 | draft sha256: 81a4a19e4c56bd41a32da763a239304c89063c1e778b7efdc655399ee4037bda | authored sha256: none | verify: pass | published sha256: 2b118bf23a71bfd5e0b63da74090247a422e021f01be027a2a625514b51a7aae -->
+<!-- published by summary_native npc-publish | source: summary_native | npc: Davra Jassur | range: ch002-076 | draft run: 20261111T185138Z | draft sha256: b192b22b1cb07ec3fe7a6df9e0df6b9e45f110e005ad9eca9b3caeb4d6b02971 | authored sha256: none | verify: pass | published sha256: 944814023e8b7ed5070094f38ef3d14f7a330d40d463778fa4a9a34f6bb23b5c -->
 ---
 subject: Davra Jassur
 type: npc
 global: true
 exclusion: null
-aliases_used:
-- Davra
-- Davra Jassur
+aliases_used: []
 first_seen: 74
-last_seen: 75
-chapters:
-- 74
-- 75
+last_seen: 76
+chapters: [74, 75, 76]
 n_entries: 2
-n_scenes: 6
-n_moments: 3
-range: 2-75
-source_kind: summary_native_npc_link
+n_scenes: 8
+n_moments: 1
+range: ch002-076
+source_kind: delta
 ---
 
 ## Identity
-Davra is the Zhentarim agent at Bruenor’s feast [ch 074 / 074.07; ch 074 / entry]. The table calls her Davra; Davra Jassur is the entity registry’s canonical name for her (GM ruling 2026-10-31).
+Davra Jassur is a Zhentarim representative who negotiated support for the party’s Underdark expedition [ch 075 / 075.03].
 
 ## Personality and Motivations
-She keeps a blasé exterior and tracks the negotiations in her ledger. Her composure could conceal either irritation or indifference [ch 074 / 074.01; ch 074 / entry].
+She maintains a blasé exterior, recording negotiations in her ledger without revealing whether Bruenor’s offer irritates her [ch 074 / entry].
+
+She values freedom for Zhentarim trade in the Underdark. She seeks intelligence about “the blink” without exclusivity or priority, refuses the names of Daz’s people, and states that further services will have separately disclosed prices [ch 075 / 075.03].
 
 ## History with the Party
 - In ch 074, when Bruenor made his offer, she merely turned a page in her ledger [ch 074 / 074.01].
@@ -34,16 +32,21 @@ She keeps a blasé exterior and tracks the negotiations in her ledger. Her compo
 - She presented the Underdark as a place of freedom for Zhentarim trade and warned that the drow stood to lose most regardless of which outside faction prevailed. She offered maps reaching Mantol-Derith where the crown’s stopped short, and named Ghazrim DuLoc as a contact, without guaranteeing safety [ch 075 / 075.03; ch 075 / entry].
 - Her price was whatever Daz discovered about the blink, without exclusivity or priority. She explicitly did not want the names of his people. Further services would have separately stated prices; the agreement did not grant an unlimited future obligation [ch 075 / 075.03].
 - Daz accepted her terms, and she was among the representatives waiting when the party publicly accepted all offers [ch 075 / 075.03; ch 075 / 075.04].
+- Rainaldus and Octavia joined the expedition as Davra’s employees, tasked with guiding the party to Mantol-Derith. Davra had instructed them to deliver the party safely [ch 076 / 076.02].
+- At the hidden cave entrance, Zhentarim sentries checked Davra’s authorization and recorded the expedition’s crossing without payment [ch 076 / 076.03].
+- Rainaldus identified the waiting mounts’ equipment as Morista’s and reported that Davra had mentioned a favor being called in [ch 076 / 076.03].
 
 ## Last Observed State
-Her private meeting with Daz is complete and the Zhentarim agreement is accepted. She has supplied maps, directions and Ghazrim’s contact name in return for non-exclusive intelligence on the blink. Future services remain separately negotiated [ch 075 / 075.03; ch 075 / 075.04; ch 075 / entry].
+Davra was present among the representatives awaiting the party’s public acceptance of the offers [ch 075 / 075.04]. Subsequent reports establish her instructions to the guides and the use of her authorization at the cave entrance; they do not establish her presence there [ch 076 / 076.02; ch 076 / 076.03].
+
+Status not established in the summaries.
 
 ## Relationships
-- **Barundin:** turns to him when the runner arrives [ch 074 / 074.05].
-- **Daz:** the one party member she asks to meet privately [ch 074 / 074.07].
-
-- **Daz, ch 075:** accepts her bargain; she draws an explicit boundary against naming his people [ch 075 / 075.03].
-- **Ghazrim DuLoc, ch 075:** the contact she recommends at Mantol-Derith; his trustworthiness is not established by the recommendation [ch 075 / 075.03].
+- **Daz:** Accepted her exchange of maps and a contact for non-exclusive intelligence about “the blink.” She explicitly refused the names of his people [ch 075 / 075.03].
+- **Rainaldus and Octavia:** Her employees and the party’s guides; she instructed them to deliver the party safely [ch 076 / 076.02].
+- **Ghazrim DuLoc:** Her recommended contact at Mantol-Derith [ch 075 / 075.03].
+- **Barundin:** Opened a map when she turned to him after the runner’s report [ch 074 / 074.05].
+- **Morista:** Rainaldus identified the mounts’ equipment as Morista’s and said Davra had mentioned a favor being called in; the direction of the obligation is unspecified [ch 076 / 076.03].
 
 ## Notable Quotes
 > "I don't sell safe information, I sell known information." — Davra Jassur [ch 075 / moment]
@@ -51,7 +54,9 @@ Her private meeting with Daz is complete and the Zhentarim agreement is accepted
 > "No names of your people, I'd think less of you if you gave them." — Davra Jassur [ch 075 / moment]
 
 ## Arc-Score Candidates
-_(none verified)_
+- “Daz agrees to the Zhentarim’s terms, securing their support for the journey ahead.” [ch 075 / 075.03]
+- “Davra has instructed them to deliver the party safely.” [ch 076 / 076.02]
+- “At a hidden cave entrance, six black-clad Zhentarim sentries checked Davra’s authorization and recorded the crossing.” [ch 076 / 076.03]
 
 ## Secrets
 _(none authored)_
