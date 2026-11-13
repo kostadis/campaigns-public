@@ -1,4 +1,4 @@
-<!-- published by summary_native npc-publish | source: summary_native | npc: Eldeth Feldrun | range: ch002-072 | draft run: 20261016T020627Z | draft sha256: 894ea013ee7443677813b17c8a48910e46a3a5b160edb434d0fc5dd9c3e01c4e | authored sha256: none | verify: pass | published sha256: e59655c918a4166b7eaf77540a24dfc8df3d82ea8b1c795018d318d1a66ca4ee -->
+<!-- published by summary_native npc-publish | source: summary_native | npc: Eldeth Feldrun | range: ch002-074 | draft run: delta-ch074-20261031 | draft sha256: 8145f02b2774033956c52889150c35569b28d9f44b2da3c82b058fe26116c4c9 | authored sha256: none | verify: pass | published sha256: cda8ae0ad01285f6a1cb677a1dd1591d0ad89b95c6de9c34fcc5533a97899548 -->
 ---
 subject: Eldeth Feldrun
 type: npc
@@ -6,12 +6,12 @@ global: true
 exclusion: null
 aliases_used: [Eldeth, Eldeth Feldrun]
 first_seen: 2
-last_seen: 72
-chapters: [2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 18, 20, 22, 27, 28, 29, 31, 32, 34, 35, 39, 40, 43, 49, 54, 55, 69, 71, 72]
-n_entries: 26
-n_scenes: 38
-n_moments: 8
-range: 2-72
+last_seen: 74
+chapters: [2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 18, 20, 22, 27, 28, 29, 31, 32, 34, 35, 39, 40, 43, 49, 54, 55, 69, 71, 72, 73, 74]
+n_entries: 28
+n_scenes: 45
+n_moments: 15
+range: 2-74
 source_kind: summary_native_npc_link
 ---
 
@@ -89,13 +89,18 @@ source_kind: summary_native_npc_link
 - The note said the dwarves of Gauntlgrym have questions only the party can answer, and that the forge has been cold long enough that someone will need to relight it. The way was arranged to go at dusk, and whoever held the paper would be teleported to Gauntlgrym. This left the party one day to finish its business in Candlekeep. [ch 072 / 072.01; ch 072 / entry]
 - Her current whereabouts and status are not established in the summaries. The last item shows only that she sent the note. [ch 072 / 072.01]
 
+- In ch 073 Eldeth welcomed the party at Gauntlgrym with embraces. She explained that their presence supplies witnesses for her warnings and arranged Thorin’s induction into Clan Feldrun, explicitly welcoming Dawnbringer [ch 073 / 073.02; ch 073 / entry].
+- Thorin praised her courage before her kin; she visibly gained confidence. The clan disclosed that she had been captured on clan business, while relatives celebrated her return after some had believed her dead [ch 073 / 073.03].
+- The restaurant waiter reported that her expedition had sought territory and mining opportunities, with almost all companions presumed killed. The GM identified violent claw wounds as evidence of a demon attack; the waiter nevertheless dismissed her warnings as the effects of drow captivity. This is reported testimony, not a new eyewitness encounter with the expedition [ch 073 / 073.04; ch 073 / entry].
+- Her travels with Daz challenged her prejudice against drow. At the feast she brought veterans whose existing unit had renamed itself the Ember Vanguards, inspired by her stories. She later made room for faction representatives [ch 073 / 073.02; ch 073 / 073.06; ch 073 / entry].
+
+- In ch 074 Eldeth attended the royal feast with the new Ember Vanguards, who were celebrating the party [ch 074 / 074.01; ch 074 / entry].
+- Thorin learned from another dwarf that Clan Feldrun’s claim to a stretch of the deep had been lost when Eldeth’s expedition was wiped out. Bruenor restored it in Thorin’s name [ch 074 / 074.01; ch 074 / entry].
+- Before the runner arrived, the party overheard a minor lord dismiss her “mushroom stories” [ch 074 / 074.05; ch 074 / entry].
+- The runner’s report of gray, furred well water and foul shaft air at an outpost vindicated her. She had warned the leadership for months, and said that securing the party’s invitation had already required persuasion [ch 074 / 074.05; ch 074 / moment].
+
 ## Last Observed State
-- **Last evidence (ch 072, Candlekeep).** The party received a note from Eldeth Feldrun [ch 072 / 072.01]. In it she says the lords of Mithral Hall and Gauntlgrym believe her and have for two months. She says they were waiting for someone whose word outweighed a soldier's. She says the Gauntlgrym dwarves have questions only the party can answer, and that the cold forge needs relighting. The way is arranged for dusk, and whoever holds the paper will be teleported to Gauntlgrym. She closes with "Do not make me a liar." [ch 072 / 072.01; ch 072 / entry]
-- **Ch 071 note.** Ch 071 also records a note from Eldeth summoning the party to Gauntlgrym, with magical transportation. The summaries do not say whether this is the same note as ch 072 [ch 071 / 071.10; ch 071 / entry].
-  - The ch 071 scene says she "had brought" the transportation, and its entry says she "arranged" it [ch 071 / 071.10; ch 071 / entry].
-  - The ch 071 entry says the note came "from Gauntlgrym". The scene text does not say where she wrote it [ch 071 / entry; ch 071 / 071.10].
-- **Prophecy.** In ch 069 a conjured voice said "A dwarf will return to the Hall of Stone with the names of demons in her mouth." The summary says the dwarf "appeared to be Eldeth." She was spoken of, not present [ch 069 / 069.04; ch 069 / moment].
-- **Status.** Her current whereabouts and condition are not established in the summaries. The last item shows only that she sent the note [ch 072 / 072.01]. Status not established in the summaries.
+Alive, at the Gauntlgrym feast with the party. The runner’s report has borne out her months of warnings about corruption in the Underdark, and the assembled leadership now has evidence it cannot ignore [ch 074 / 074.05; ch 074 / 074.07]. The claim lost with her expedition has been restored in Thorin’s name [ch 074 / 074.01]. Thorin’s induction into Clan Feldrun stands [ch 073 / 073.03].
 
 ## Relationships
 - **Thorin:** He has "kind of got a thing for Eldeth" [ch 010 / 010.03]. She called him "Giant friend" and "like brothers" at the surface [ch 054 / moment]. She swore to make his acceptance by her clan a "statement of purpose," and they shook on it [ch 054 / 054.01]. She had told him about Mirabar [ch 055 / 055.03]. She warned him about the gray ooze and his chain shirt [ch 004 / 004.03].
@@ -108,6 +113,13 @@ source_kind: summary_native_npc_link
 - **Glabbagool and the ghosts:** Ch 039 assigned Glabbagool, Eldeth and Jimjar to assist Uth-Jadger and the Burrow Warden ghosts. Ch 040 names Eldeth, Jimjar and Spiderbait instead, and has Glabbagool staying with the main party. The summaries conflict [ch 039 / 039.10; ch 040 / 040.01].
 - **Duergar:** She is hostile to them as a people [ch 010 / moment]. She discussed their nature with Sarith while the party questioned the duergar prisoner Brannum Redmarch [ch 011 / 011.01].
 - **Dwarven lords of Mithral Hall and Gauntlgrym:** She reports she has convinced them [ch 072 / 072.01]. Whether they act on this is not established in the summaries.
+
+- **Thorin:** now a member of Clan Feldrun; his public praise strengthens her confidence and standing among her relatives [ch 073 / 073.03].
+- **Daz:** traveling with him has challenged her earlier prejudice against drow, though she expresses this awkwardly [ch 073 / 073.02].
+- **Ember Vanguards:** a veterans’ unit renamed after the party because of her advocacy, distinct from the adventuring party Ember Vanguard [ch 073 / 073.06].
+
+- **Clan Feldrun’s claim, ch 074:** the stretch of the deep lost with her expedition is now Thorin’s to reclaim with the clan [ch 074 / 074.01].
+- **Gauntlgrym’s leadership, ch 074:** her warnings were dismissed until the runner’s report; a minor lord still mocked them at the feast [ch 074 / 074.05].
 
 ## Notable Quotes
 > "Save Eldeth because, you know, dwarves stick together." — Thorin [ch 005 / moment]
@@ -141,6 +153,8 @@ source_kind: summary_native_npc_link
 > “A dwarf will return to the Hall of Stone with the names of demons in her mouth.” — Disembodied Voice [ch 069 / moment]
 
 > “I've spoken to the lords of Mithral Hall and the lords of Gauntlgrym. They believe me. They have believed me for two months. They were waiting for someone whose word weighed more than a soldier's. Yours does. Come to Gauntlgrym. The dwarves of Gauntlgrym have questions only you can answer, and the forge has been cold enough that someone is going to need to relight it. The way is arranged, it goes at dusk. Do not make me a liar.” — Eldeth Feldrun [ch 072 / 072.01]
+
+> "Finally, those dipshits believed me!" — Eldeth [ch 074 / moment]
 
 ## Arc-Score Candidates
 - "Eldeth warns Thorin that gray oozes eat armor, strengthening his desire to preserve his newly acquired chain shirt." [ch 004 / 004.03]

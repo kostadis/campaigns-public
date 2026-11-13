@@ -1,0 +1,255 @@
+<title>__TITLE__</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<!-- cg-generated - do not hand-edit. Built by gm-assistant/skills/gm-player-calendar/build_calendar.py from the campaign's player_calendar.json -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Alegreya:ital,wght@0,400;0,600;1,400&family=Alegreya+Sans+SC:wght@500;700&display=swap">
+<style>
+/* Layout: a Harptos almanac (each month three tendays of ten days; festival days alone between months); with "system":"greyhawk", Common Year months of four seven-day weeks and festival weeks between them; or, with "system":"days", a day count drawn in cards of ten days; or, with "system":"realms", one day count per realm (cards of ten, empty runs collapsed). Colour = where the party was. */
+:root{
+  --bg:#ecebf0; --paper:#f7f6fa; --ink:#221f2b; --muted:#625d70; --rule:#cfcbd9; --empty:#e1dee8;
+  --g1:#8b5a9e; --g2:#3f7f8c; --g3:#6f8a3a; --g4:#b07a2a; --g5:#9c3f4a; --g6:#4a5fa8; --g7:#2f7d5b; --g8:#8a6a55;
+  --on-band:#ffffff;
+  --display:"IM Fell English SC", "Iowan Old Style", Georgia, serif;
+  --body:"Alegreya", "Iowan Old Style", Georgia, serif;
+  --label:"Alegreya Sans SC", "Gill Sans", "Trebuchet MS", sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#16141c; --paper:#1f1c27; --ink:#e9e6f0; --muted:#a39db3; --rule:#363144; --empty:#2a2634;
+  --g1:#a97bbd; --g2:#5aa3b0; --g3:#8fab55; --g4:#cf9a45; --g5:#c4606b; --g6:#7086d0; --g7:#4fae86; --g8:#b6957d;
+  --on-band:#14121a; color-scheme:dark }}
+:root[data-theme="dark"]{
+  --bg:#16141c; --paper:#1f1c27; --ink:#e9e6f0; --muted:#a39db3; --rule:#363144; --empty:#2a2634;
+  --g1:#a97bbd; --g2:#5aa3b0; --g3:#8fab55; --g4:#cf9a45; --g5:#c4606b; --g6:#7086d0; --g7:#4fae86; --g8:#b6957d;
+  --on-band:#14121a; color-scheme:dark }
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.5}
+.wrap{max-width:1100px;margin:0 auto;padding-left:max(16px, env(safe-area-inset-left, 0px));padding-right:max(16px, env(safe-area-inset-right, 0px));padding-block:32px 56px;display:flex;flex-direction:column;gap:28px}
+header{display:flex;flex-direction:column;gap:6px}
+h1{font-family:var(--display);font-weight:400;font-size:clamp(2rem,5vw,3.1rem);line-height:1.05;margin:0;text-wrap:balance}
+.sub{color:var(--muted);margin:0;max-width:62ch}
+.today{font-family:var(--label);letter-spacing:.06em;font-size:.9rem;color:var(--ink)}
+.legend{display:flex;flex-wrap:wrap;gap:8px 18px;font-family:var(--label);font-size:.9rem;letter-spacing:.04em}
+.legend span{display:inline-flex;align-items:center;gap:7px}
+.legend i{width:14px;height:14px;border-radius:3px;display:inline-block}
+.months{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,500px),1fr));gap:20px}
+.month{background:var(--paper);border:1px solid var(--rule);border-radius:6px;padding:16px;display:flex;flex-direction:column;gap:12px;min-width:0}
+.mhead{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+.mhead h2{font-family:var(--display);font-weight:400;font-size:1.6rem;margin:0}
+.mhead .gloss{font-family:var(--label);color:var(--muted);font-size:.85rem;letter-spacing:.05em}
+.grid{display:grid;grid-template-columns:auto repeat(10,1fr);gap:3px;align-items:stretch}
+.wd{font-family:var(--label);font-size:.72rem;color:var(--muted);letter-spacing:.05em;text-align:center;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.td{font-family:var(--label);font-size:.72rem;color:var(--muted);letter-spacing:.05em;display:flex;align-items:center;padding-right:6px;white-space:nowrap}
+.d{aspect-ratio:1;max-width:100%;border-radius:3px;background:var(--empty);font-family:var(--label);font-size:.78rem;display:flex;align-items:flex-start;justify-content:flex-start;padding:3px 4px;font-variant-numeric:tabular-nums;color:var(--muted);position:relative;border:0;cursor:default}
+.d.on{color:var(--on-band);font-weight:700;cursor:pointer}
+.d.on:focus-visible{outline:2px solid var(--ink);outline-offset:1px}
+.d.sel{box-shadow:0 0 0 2px var(--ink)}
+.d .mk{position:absolute;right:3px;bottom:2px;font-size:.66rem}
+.d.now::after{content:"";position:absolute;inset:-3px;border:2px dashed var(--ink);border-radius:5px}
+.events{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px;border-top:1px solid var(--rule);padding-top:12px}
+.events li{display:grid;grid-template-columns:30px 1fr;gap:10px;align-items:start}
+.events li.sel .what{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:3px}
+.num{font-family:var(--label);font-weight:700;font-size:.8rem;width:26px;height:26px;border-radius:50%;display:flex;align-items:center;justify-content:center;color:var(--on-band)}
+.what{font-weight:600;margin:0}
+.when{font-family:var(--label);font-size:.85rem;color:var(--muted);letter-spacing:.03em;margin:0}
+.desc{margin:2px 0 0;max-width:62ch}
+.fest{display:flex;align-items:center;gap:14px;background:var(--paper);border:1px solid var(--rule);border-radius:6px;padding:12px 16px}
+.fest .d{width:46px;flex:none}
+.fest h2{font-family:var(--display);font-weight:400;font-size:1.3rem;margin:0}
+.fest p{margin:0;color:var(--muted);font-size:.95rem}
+.d.unk{background:repeating-linear-gradient(45deg,var(--empty) 0 4px,var(--rule) 4px 8px);font-weight:700}
+.unkblock{grid-column:1 / -1;display:flex;gap:16px;align-items:flex-start;background:var(--paper);border:1px dashed var(--muted);border-radius:6px;padding:14px 16px}
+.unkblock .q{font-family:var(--display);font-size:2.2rem;line-height:1;color:var(--muted)}
+.unkblock h2{font-family:var(--display);font-weight:400;font-size:1.3rem;margin:0}
+.unkblock p{margin:0;color:var(--muted)}
+.later{background:var(--paper);border:1px solid var(--rule);border-radius:6px;padding:16px;display:flex;flex-direction:column;gap:12px}
+.later h2{font-family:var(--display);font-weight:400;font-size:1.6rem;margin:0}
+.later .events li{grid-template-columns:1fr}
+.realm{grid-column:1 / -1;display:flex;flex-direction:column;gap:2px;border-bottom:2px solid var(--rule);padding:8px 2px 6px;margin-top:6px}
+.realm h2{font-family:var(--display);font-weight:400;font-size:1.9rem;margin:0}
+.realm p{margin:0;color:var(--muted)}
+.gap{grid-column:1 / -1;font-family:var(--label);color:var(--muted);letter-spacing:.05em;font-size:.9rem;border:1px dashed var(--rule);border-radius:6px;padding:8px 14px}
+.part{display:flex;flex-direction:column;gap:28px;scroll-margin-top:16px}
+.part+.part{border-top:3px double var(--rule);padding-top:40px}
+.parts{display:flex;flex-wrap:wrap;gap:8px 20px;font-family:var(--label);letter-spacing:.05em;font-size:.95rem}
+.parts a{color:var(--ink);text-underline-offset:3px}
+footer{color:var(--muted);font-size:.9rem;max-width:70ch}
+@media (max-width:460px){.td{font-size:.62rem;padding-right:3px}.d{font-size:.66rem;padding:2px}.d .mk{display:none}}
+@media (prefers-reduced-motion:no-preference){.d.on{transition:transform .12s}.d.on:hover{transform:scale(1.08)}}
+</style>
+
+<div class="wrap" id="root"><nav class="parts" id="nav" hidden></nav></div>
+<template id="part"><section class="part"><header><h1 class="h1"></h1><p class="sub"></p><p class="today"></p></header>
+  <div class="legend"></div><div class="cal months"></div><section class="later" hidden></section><footer class="foot"></footer></section></template>
+
+<script>
+// One page may hold several calendars ("parts"); render() draws each into its own section.
+const MONTHS=["Hammer","Alturiak","Ches","Tarsakh","Mirtul","Kythorn","Flamerule","Eleasis","Eleint","Marpenoth","Uktar","Nightal"];
+const GLOSS={Hammer:"Deepwinter",Alturiak:"The Claw of Winter",Ches:"The Claw of the Sunsets",Tarsakh:"The Claw of Storms",Mirtul:"The Melting",Kythorn:"The Time of Flowers",Flamerule:"Summertide",Eleasis:"Highsun",Eleint:"The Fading",Marpenoth:"Leaffall",Uktar:"The Rotting",Nightal:"The Drawing Down"};
+const FEST_AFTER={Hammer:["Midwinter"],Tarsakh:["Greengrass"],Flamerule:["Midsummer"],Eleint:["Highharvestide"],Uktar:["Feast of the Moon"]};
+const GH_UNITS=[["Needfest",7],["Fireseek",28],["Readying",28],["Coldeven",28],["Growfest",7],["Planting",28],["Flocktime",28],["Wealsun",28],["Richfest",7],["Reaping",28],["Goodmonth",28],["Harvester",28],["Brewfest",7],["Patchwall",28],["Ready'reat",28],["Sunsebb",28]];
+const GH_FEST=new Set(["Needfest","Growfest","Richfest","Brewfest"]);
+const GH_WEEK=["Starday","Sunday","Moonday","Godsday","Waterday","Earthday","Freeday"];
+function render(DATA,root){
+// Range: whole months from DATA.from_month to DATA.to_month ("Eleasis 1491").
+const days=[];
+const COUNT=DATA.system==="days";
+const REALMS=DATA.system==="realms";
+const GH=DATA.system==="greyhawk";
+if(GH)(function build(){
+  const sp=s=>{const i=s.lastIndexOf(" ");return [s.slice(0,i),+s.slice(i+1)]};
+  let [m,y]=sp(DATA.from_month);const [tm,ty]=sp(DATA.to_month);
+  let ui=GH_UNITS.findIndex(u=>u[0]===m);
+  for(;;){const [name,n]=GH_UNITS[ui];
+    for(let d=1;d<=n;d++)days.push({key:`${d} ${name} ${y}`,unit:name,day:d,year:y,ghfest:GH_FEST.has(name)});
+    if(name===tm&&y===ty)break; ui++; if(ui===GH_UNITS.length){ui=0;y++}
+  }})();
+else if(COUNT){for(let n=DATA.from_day;n<=DATA.to_day;n++)days.push({key:`Day ${n}`,day:n})}
+else if(REALMS){DATA.realms.forEach(r=>{for(let n=r.from_day;n<=r.to_day;n++)days.push({key:`${r.id}:Day ${n}`,day:n,realm:r.id,label:`Day ${n}, ${r.name}`})})}
+else (function build(){
+  let [m,y]=DATA.from_month.split(" ");y=+y;let mi=MONTHS.indexOf(m);
+  const [tm,ty]=DATA.to_month.split(" ");
+  for(;;){const mon=MONTHS[mi];
+    for(let d=1;d<=30;d++)days.push({key:`${d} ${mon} ${y}`,month:mon,day:d,year:y});
+    const f=(FEST_AFTER[mon]||[]).slice(); if(mon==="Flamerule"&&y%4===0)f.push("Shieldmeet");
+    f.forEach(n=>days.push({key:`${n} ${y}`,fest:n,year:y}));
+    if(mon===tm&&y===+ty)break; mi++; if(mi===12){mi=0;y++}
+  }})();
+const idx=k=>{const i=days.findIndex(d=>d.key===k);if(i<0)throw new Error("no day "+k);return i};
+const GROUPS=Object.fromEntries(DATA.groups.map((g,i)=>[g.id,{name:g.name,v:`--g${i+1}`}]));
+const rk=(e,d)=>REALMS?`${e.realm}:${d}`:d;
+const EVENTS=DATA.events.map((e,i)=>({n:i+1,g:e.group,s:idx(rk(e,e.from)),e:idx(rk(e,e.to)),from:e.from,to:e.to,what:e.what,ch:e.chapters,desc:e.desc}));
+const UNK=new Set();(DATA.unknown||[]).forEach(u=>{for(let i=idx(u.from);i<=idx(u.to);i++)UNK.add(i)});
+const TODAY=DATA.today_day?idx(REALMS?`${DATA.today_day.realm}:${DATA.today_day.day}`:DATA.today_day):-1;
+root.querySelector(".h1").textContent=DATA.title;
+root.querySelector(".sub").textContent=DATA.subtitle;
+root.querySelector(".today").textContent=DATA.today_label?`Today: ${DATA.today_label}`:"";
+root.querySelector(".foot").textContent=DATA.footer;
+const cover=days.map((_,i)=>EVENTS.filter(ev=>ev.s<=i&&i<=ev.e));
+const owner=cover.map(c=>c.length?c[c.length-1]:null);
+const startsOn={};EVENTS.forEach(ev=>{(startsOn[ev.s]=startsOn[ev.s]||[]).push(ev.n)});
+const col=g=>`var(${GROUPS[g].v})`;
+const fmt=ev=>ev.from===ev.to?ev.from:`${ev.from} – ${ev.to}`;
+function dayCell(i,label){
+  const b=document.createElement(owner[i]?"button":"div");
+  b.className="d";b.dataset.i=i;
+  if(UNK.has(i)){b.classList.add("unk");label="?";b.title="Unknown: the party was not here to count it"}
+  b.appendChild(document.createTextNode(label));
+  if(owner[i]){b.classList.add("on");b.style.background=col(owner[i].g);b.type="button";
+    b.setAttribute("aria-label",`${days[i].label||days[i].key}: ${cover[i].map(e=>e.what).join(", ")}`);
+    b.addEventListener("click",()=>select(i));}
+  if(startsOn[i]){const m=document.createElement("span");m.className="mk";m.textContent=startsOn[i].join("·");b.appendChild(m)}
+  if(i===TODAY)b.classList.add("now");
+  return b;
+}
+function eventList(a,z){
+  const evs=EVENTS.filter(ev=>ev.e>=a&&ev.s<=z);if(!evs.length)return null;
+  const ul=document.createElement("ul");ul.className="events";
+  evs.forEach(ev=>{const li=document.createElement("li");li.dataset.n=ev.n;
+    li.innerHTML=`<span class="num" style="background:${col(ev.g)}">${ev.n}</span><div><p class="what"></p><p class="when"></p><p class="desc"></p></div>`;
+    li.querySelector(".what").textContent=ev.what;
+    li.querySelector(".when").textContent=ev.ch?`${fmt(ev)} · ${ev.ch}`:fmt(ev);
+    li.querySelector(".desc").textContent=ev.desc||"";ul.appendChild(li)});
+  return ul;
+}
+const cal=root.querySelector(".cal");
+const unkBlock=(a,z)=>{const u=(DATA.unknown||[]).find(u=>idx(u.from)<=a&&z<=idx(u.to));
+  const b=document.createElement("section");b.className="unkblock";
+  b.innerHTML=`<span class="q">???</span><div><h2></h2><p class="when"></p><p></p></div>`;
+  b.querySelector("h2").textContent=u.what||"Unknown";
+  b.querySelector(".when").textContent=u.chapters||"";
+  b.querySelectorAll("p")[1].textContent=u.desc||"";cal.appendChild(b)};
+if(GH)for(let i=0;i<days.length;){
+  const d=days[i],n=d.ghfest?7:28,start=i,end=i+n-1;
+  if(UNK.has(start)&&UNK.has(end)){let z=end;
+    while(z+1<days.length){const m=days[z+1].ghfest?7:28;if(UNK.has(z+1)&&UNK.has(z+m))z+=m;else break}
+    unkBlock(start,z);i=z+1;continue}
+  const sec=document.createElement("section");sec.className="month";
+  if(d.ghfest)sec.style.gridColumn="1 / -1";
+  sec.innerHTML=`<div class="mhead"><h2></h2><span class="gloss"></span></div>`;
+  sec.querySelector("h2").textContent=`${d.unit} ${d.year} CY`;
+  sec.querySelector(".gloss").textContent=d.ghfest?"Festival week":"";
+  const g=document.createElement("div");g.className="grid";g.style.gridTemplateColumns="repeat(7,1fr)";
+  GH_WEEK.forEach(w=>{const h=document.createElement("div");h.className="wd";h.textContent=w.replace(/day$/,"");h.title=w;g.appendChild(h)});
+  for(let k=start;k<=end;k++)g.appendChild(dayCell(k,String(days[k].day)));
+  sec.appendChild(g);const ul=eventList(start,end);if(ul)sec.appendChild(ul);
+  cal.appendChild(sec);i=end+1;
+}
+else if(REALMS)DATA.realms.forEach(r=>{
+  const head=document.createElement("section");head.className="realm";head.innerHTML=`<h2></h2><p></p>`;
+  head.querySelector("h2").textContent=r.name;
+  head.querySelector("p").textContent=(r.gloss?r.gloss+" · ":"")+(r.from_day===r.to_day?`Day ${r.from_day}`:`Days ${r.from_day}–${r.to_day}`);
+  cal.appendChild(head);
+  const a=idx(`${r.id}:Day ${r.from_day}`),z=idx(`${r.id}:Day ${r.to_day}`);let gapFrom=null;
+  const flush=end=>{if(gapFrom===null)return;const g=document.createElement("div");g.className="gap";
+    g.textContent=`Days ${days[gapFrom].day}–${days[end].day}: the party was not here`;cal.appendChild(g);gapFrom=null};
+  for(let i=a;i<=z;i+=10){const start=i,end=Math.min(i+9,z);
+    let any=false;for(let k=start;k<=end;k++)if(owner[k])any=true;
+    if(!any&&z-a>=10){if(gapFrom===null)gapFrom=start;if(end===z)flush(end);continue}
+    flush(start-1);
+    const sec=document.createElement("section");sec.className="month";
+    sec.innerHTML=`<div class="mhead"><h2></h2><span class="gloss"></span></div>`;
+    sec.querySelector("h2").textContent=start===end?`Day ${days[start].day}`:`Days ${days[start].day}–${days[end].day}`;
+    sec.querySelector(".gloss").textContent=r.name;
+    const g=document.createElement("div");g.className="grid";g.style.gridTemplateColumns="repeat(10,1fr)";
+    for(let k=start;k<start+10;k++){if(k<=end)g.appendChild(dayCell(k,String(days[k].day)));else{const e=document.createElement("div");e.className="d";e.style.visibility="hidden";g.appendChild(e)}}
+    sec.appendChild(g);const ul=eventList(start,end);if(ul)sec.appendChild(ul);
+    cal.appendChild(sec);}
+});
+else if(COUNT)for(let i=0;i<days.length;i+=10){
+  const start=i,end=Math.min(i+9,days.length-1);
+  const sec=document.createElement("section");sec.className="month";
+  sec.innerHTML=`<div class="mhead"><h2></h2><span class="gloss"></span></div>`;
+  sec.querySelector("h2").textContent=start===end?days[start].key:`Days ${days[start].day}–${days[end].day}`;
+  sec.querySelector(".gloss").textContent=DATA.count_gloss||"";
+  const g=document.createElement("div");g.className="grid";g.style.gridTemplateColumns="repeat(10,1fr)";
+  for(let k=start;k<start+10;k++){if(k<=end)g.appendChild(dayCell(k,String(days[k].day)));else{const e=document.createElement("div");e.className="d";e.style.visibility="hidden";g.appendChild(e)}}
+  sec.appendChild(g);const ul=eventList(start,end);if(ul)sec.appendChild(ul);
+  cal.appendChild(sec);
+}
+else for(let i=0;i<days.length;){
+  const d=days[i];
+  if(d.fest){
+    const box=document.createElement("section");box.className="fest";box.style.gridColumn="1 / -1";
+    box.appendChild(dayCell(i,"✦"));
+    const t=document.createElement("div");t.innerHTML=`<h2></h2><p></p>`;
+    t.querySelector("h2").textContent=`${d.fest}, ${d.year} DR`;
+    t.querySelector("p").textContent=cover[i].length?cover[i].map(e=>e.what).join(" · "):"Festival day";
+    box.appendChild(t);cal.appendChild(box);i++;continue;
+  }
+  const start=i,end=i+29;
+  const sec=document.createElement("section");sec.className="month";
+  sec.innerHTML=`<div class="mhead"><h2></h2><span class="gloss"></span></div>`;
+  sec.querySelector("h2").textContent=`${d.month} ${d.year}`;
+  sec.querySelector(".gloss").textContent=GLOSS[d.month]||"";
+  const g=document.createElement("div");g.className="grid";
+  ["1st tenday","2nd tenday","3rd tenday"].forEach((t,r)=>{
+    const l=document.createElement("div");l.className="td";l.textContent=t;g.appendChild(l);
+    for(let c=0;c<10;c++){const k=start+r*10+c;g.appendChild(dayCell(k,String(days[k].day)))}
+  });
+  sec.appendChild(g);const ul=eventList(start,end);if(ul)sec.appendChild(ul);
+  cal.appendChild(sec);i=end+1;
+}
+if(DATA.later){const L=root.querySelector(".later");L.hidden=false;
+  L.innerHTML=`<div class="mhead"><h2></h2><span class="gloss"></span></div><ul class="events"></ul>`;
+  L.querySelector("h2").textContent=DATA.later.title;L.querySelector(".gloss").textContent=DATA.later.chapters||"";
+  DATA.later.items.forEach(it=>{const li=document.createElement("li");li.innerHTML=`<div><p class="what"></p><p class="desc"></p></div>`;
+    li.querySelector(".what").textContent=it.what;li.querySelector(".desc").textContent=it.desc;L.querySelector("ul").appendChild(li)})}
+const lg=root.querySelector(".legend");
+DATA.groups.forEach(g=>{const s=document.createElement("span");s.innerHTML=`<i style="background:var(${GROUPS[g.id].v})"></i>`;s.appendChild(document.createTextNode(g.name));lg.appendChild(s)});
+function select(di){
+  document.querySelectorAll(".sel").forEach(x=>x.classList.remove("sel"));
+  root.querySelectorAll(`.d[data-i="${di}"]`).forEach(x=>x.classList.add("sel"));
+  const ns=cover[di].map(e=>e.n);let first=null;
+  root.querySelectorAll(".events li").forEach(li=>{if(ns.includes(+li.dataset.n)){li.classList.add("sel");first=first||li}});
+  const cell=root.querySelector(`.d[data-i="${di}"]`);const host=cell&&cell.closest(".month,.fest");
+  const target=(host&&host.querySelector(".events li.sel"))||first;
+  if(target)target.scrollIntoView({block:"nearest",behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth"});
+}
+}
+const PARTS=[].concat(__DATA__);
+const wrapEl=document.getElementById("root"),tpl=document.getElementById("part");
+PARTS.forEach((D,k)=>{const sec=tpl.content.firstElementChild.cloneNode(true);sec.id=`part-${k+1}`;wrapEl.appendChild(sec);render(D,sec)});
+// The undated aftermath ("later") closes the whole page, after every part.
+wrapEl.querySelectorAll(".later:not([hidden])").forEach(L=>wrapEl.appendChild(L));
+if(PARTS.length>1){const nav=document.getElementById("nav");nav.hidden=false;
+  PARTS.forEach((D,k)=>{const a=document.createElement("a");a.href=`#part-${k+1}`;a.textContent=D.title;nav.appendChild(a)})}
+</script>

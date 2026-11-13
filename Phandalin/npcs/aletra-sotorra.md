@@ -1,4 +1,4 @@
-<!-- published by summary_native npc-publish | source: summary_native | npc: Aletra Sotorra | range: ch002-057 | draft run: 20261014T034750Z | draft sha256: d02886e9cc084f3277a909e53950f4ac34f721601dacc81638b5778e3c9b4f3a | authored sha256: none | verify: pass | published sha256: cd9736a36246d8d47fd1e3d5faa960bb8ee9164afa94702de44c8b9c3968ae7c -->
+<!-- published by summary_native npc-publish | source: summary_native | npc: Aletra Sotorra | range: ch002-061 | draft run: delta-ch061-20261105 | draft sha256: 220dec0f6e27946e3f2d625a0d80c894b968cdca64281085caaf59ea367d51e1 | authored sha256: none | verify: pass | published sha256: 8ce7efcf71fa70e5c11c918ffa73c75d1c542a6f0632601419e0c7bfeb45eae2 -->
 ---
 subject: Aletra Sotorra
 type: npc
@@ -6,12 +6,12 @@ global: true
 exclusion: null
 aliases_used: [Aletra]
 first_seen: 30
-last_seen: 55
-chapters: [30, 31, 32, 49, 55]
-n_entries: 3
-n_scenes: 13
-n_moments: 21
-range: 2-57
+last_seen: 61
+chapters: [30, 31, 32, 49, 55, 59, 60, 61]
+n_entries: 6
+n_scenes: 27
+n_moments: 45
+range: 2-61
 source_kind: summary_native_npc_link
 ---
 
@@ -22,6 +22,10 @@ Aletra Sotorra is the fourth daughter of House Sotorra and the sister of Valphin
 Aletra is pragmatic, cynical, and driven by profit and efficiency, displaying a disdain for moral safeguards in her work. She instructed Valphine to keep Brewbarry alive only to prevent the Rift Weavers from turning on her, comparing him to a disposable decoy in a family trap, which revealed her concern was solely for her own safety and business continuity rather than altruism [ch 031 / entry; ch 031 / 031.03]. She lied to the party about the machine’s "spatial equilibrium" to trick them into serving as cover for her extraction of valuable poison crates [ch 031 / entry; ch 031 / 031.02]. Her notes on the Calliope manual expressed frustration with the machine’s "moral compass" and a desire to operate without oversight from a figure named "KP" [ch 032 / entry; ch 032 / 032.02].
 
 She maintains a cold, transactional relationship with her family, dismissing Valphine as obsessed with pain and mocking her devotion to Lathander [ch 030 / entry; ch 030 / 030.06]. Despite this, she was pleased that Valphine made a genuine attempt to betray her, though she left angry about lost cargo and disappointing her boss [ch 031 / entry; ch 031 / 031.06]. Aletra is knowledgeable about the dangers of her trade, carrying specialized equipment to counter Rift Weavers, which she knew were a predictable side effect of the machinery [ch 032 / entry; ch 032 / 032.01].
+
+Before the warehouse confrontation, her stated aim was explicitly the restoration of House Sotorra, with Valphine invited to abandon Lathander and return to the family. She expects to become Matron Sotorra and treats the Model 1486 manual as urgently important [ch 059 / 059.04].
+
+During captivity she remained relaxed and almost bored, repeatedly encouraged her captors to kill her, and chose poison rather than answer the question about the manual truthfully. This establishes her decision in this interrogation, not a confirmed explanation for the machinery or her patron [ch 060 / 060.05].
 
 ## History with the Party
 - Aletra is the fourth daughter of the Sotorra family and Valphine’s sister; she has sharp cheekbones, cold violet eyes, and a distinct scent of sickly sweet lavender perfume and chemical bleach from the family’s poison labs [ch 030 / entry; ch 030 / 030.06].
@@ -54,10 +58,21 @@ She maintains a cold, transactional relationship with her family, dismissing Val
 *   Valphine revealed Aletra’s name and identified her family as House Sotorra to the Harper representative [ch 055 / 055.02].
 *   The Harper representative stated she had believed House Sotorra to be dead and noted that threat assessments would need to be updated [ch 055 / 055.02].
 
-## Last Observed State
-Aletra was alive when she escaped Axeholm through a portal; her current location is not established in the summaries. [ch 031 / 031.06] She escaped from Axeholm via a portal before the interdimensional device collapsed, dropping several vials of poison during her escape [ch 031 / entry; ch 031 / 031.06; ch 032 / entry]. The party later discovered her makeshift quarters in Axeholm, which contained a silk bedroll, a black Zurkhwood folding desk, the *Operator’s Guide to the Model 1489 Spatial Rectification Calliope*, and a hidden bag with four vials of Midnight Tears poison worth 2,000 gold pieces, a platinum coin, a malachite gem, and fine wine [ch 032 / 032.02].
+- Soma entered through Tamsin’s parcel satchel and found Aletra in a pocket-dimension laboratory. Aletra fired Magic Missile at the apparent rat, recognized Valphine’s druid when Soma survived, and made her a messenger [ch 059 / 059.03; ch 059 / 059.04].
+- Aletra demanded the Model 1486 manual through a future dead drop, refused a personal meeting, offered 300 gold for Vukradin’s studio, and gave a private family detail to authenticate the message. She said her plans would restore House Sotorra and urged Valphine to abandon her light god and rejoin the family [ch 059 / 059.04].
+- Aletra activated a laboratory transport machine and sent Soma to the supposedly broken receiver in a Neverwinter warehouse. This demonstrates a working receiving path, not every function of the network [ch 059 / 059.04].
+- Tamsin described Aletra’s well-paid retainer, repeated accurate logistical predictions, collection of curios including the familiar wolf pelt, competition with an unidentified Collector, and a claimed powerful unnamed magic-user employer. Tamsin could not explain Aletra’s repeated promise to regain everything [ch 059 / 059.05].
+- The GM clarified that Aletra already had the Model 1489 manual; its transfer route was not resolved. The party retained and copied the Model 1486 manual, awaited the dead-drop details, and discussed confronting Aletra without launching an attack [ch 059 / 059.06; ch 059 / 059.07].
 
-In Chapter 049, Qelline Alderleaf agreed to set aside a fine round of cheese for Aletra and her assistants to collect [ch 049 / 049.04]. By Chapter 055, Valphine privately suspects Aletra is the Drow influencing Lord Neverember in Neverwinter, though she has not confirmed this to the Harpers, only revealing her name and house affiliation [ch 055 / 055.02]. A Harper representative stated she believed House Sotorra to be dead but noted that threat assessments would need to be updated [ch 055 / 055.02].
+- Aletra arrived through the warehouse machine with Armor of Agathys already active. Her spells knocked Brewbarry unconscious; she crossed his body and pressed one keypad key, whose purpose was not explained [ch 060 / 060.03; ch 060 / 060.04].
+- Vukradin paralyzed her and Soma subdued her non-lethally. Restrained and revived for questioning, Aletra urged the party to finish killing her and remarked on Valphine's restraint compared with their mother [ch 060 / 060.04; ch 060 / 060.05].
+- Under Zone of Truth she evaded questions about her employer, claimed the manual as her property, and chose hidden poison rather than explain its value. The GM confirmed the choice; the poison and delivery mechanism remained unidentified. The machine broke at the same moment [ch 060 / 060.05].
+- Her body remained at the warehouse when Aldus Hern arrived. He noticed the resemblance to Valphine but did not recognize the family connection [ch 060 / 060.07].
+
+- The session opened with Aletra's corpse beside the damaged machine. Valphine later requested church custody and protection against resurrection; Aldus could arrange transport, but the transfer was not shown. True Resurrection was discussed as a possibility, without a guaranteed outcome [ch 061 / 061.01; ch 061 / 061.04].
+
+## Last Observed State
+Dead following the warehouse interrogation, with her corpse present at the opening of this session. Valphine wants her remains protected at the church against resurrection, but completed transport is not recorded. The GM allowed that True Resurrection might work; no return to life occurred. Soma's proposed soul bond with the machine remains a hypothesis, and its precise failure mechanism remains unexplained [ch 060 / 060.05; ch 061 / 061.01; ch 061 / 061.04].
 
 ## Relationships
 *   **Valphine:** Valphine is Aletra’s sister. Aletra mocks Valphine’s devotion to Lathander and dismisses her as not "the sharpest tool in the shed," and she was grudgingly pleased that Valphine tried to betray her when Valphine blinded her during her escape [ch 030 / entry; ch 030 / 030.06; ch 031 / entry; ch 031 / 031.04; ch 031 / 031.06]. Valphine privately suspects Aletra is influencing Lord Neverember but keeps this conclusion secret from the Harpers [ch 055 / 055.02]. Valphine noted that Aletra’s possessions would pass to her as next of kin if Aletra died, prompting Vukradin to joke about an "accident" [ch 032 / 032.02; ch 032 / moment].
@@ -67,6 +82,10 @@ In Chapter 049, Qelline Alderleaf agreed to set aside a fine round of cheese for
 *   **The Harpers:** The Harper representative believed House Sotorra was dead and said she would have to update certain threat levels after Valphine revealed Aletra’s name and her house [ch 055 / 055.02].
 *   **Chief Accountant:** The Chief Accountant believed Aletra had killed her, speculating it may have been over the override paperwork Aletra left behind; the party later concluded a forged ledger entry in Aletra’s quarters was likely the tampering the Accountant had caught [ch 030 / 030.05; ch 032 / 032.02].
 *   **KP:** Aletra’s notes indicate she desires to operate the Calliope machine without "KP’s oversight" [ch 032 / entry; ch 032 / 032.02].
+
+Tamsin serves as a paid courier on retainer and fears losing Aletra’s business after the failed parcel delivery. Tamsin knows the rival Collector only through agents and reports Aletra’s claim to serve an unnamed powerful magic user; neither identity is established by that testimony [ch 059 / 059.05].
+
+In the warehouse, Soma insisted on capture and delivered the non-lethal finishing attack. Aletra acknowledged Valphine's restraint, contrasting it with their mother's behavior; Valphine's reply about having more goals was Valphine's own statement [ch 060 / 060.03; ch 060 / 060.04; ch 060 / 060.05].
 
 ## Notable Quotes
 > “Upper management only, sister. Go play in the mud with the other surface dwellers. The adults have a deadline.” — Aletra [ch 030 / 030.06]

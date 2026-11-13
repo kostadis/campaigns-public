@@ -188,7 +188,7 @@ Brewbarry, meanwhile, had caused his own brand of chaos by refusing to surrender
 
 - She asks the party to advocate for her firm and to persuade Neverember to treat repairing the manifold as a matter of royal urgency.
 
-- Ilsbeth reveals that the planar manifold has been down for roughly seven weeks and was originally arranged by the Commission about ten years ago.
+- Ilsbeth reveals that the planar manifold has been down for roughly seven tendays and was originally arranged by the Commission about ten years ago.
 
 - She describes it as powerful magic that appeared about ten years earlier and became a convenient mechanism for transporting goods.
 
@@ -386,7 +386,7 @@ A powerful magical machine near Neverwinter’s docks, used by the Commission to
 
 The machine required maintenance every ten days to suppress Rift Weaver activity. After approximately two years of increasingly unsustainable operation, an unknown person received prolonged access and installed technically superior but unauthorized routing modifications outside the official register.
 
-The manifold has been non-functional for roughly seven weeks after those modifications apparently burned it out, though the true cause remains unresolved. Its collapse has disrupted trade, quadrupled costs for businesses such as Marrow and Sons, and allowed House Margaster to profit from its control of conventional shipping. Bimble can operate and tune it but does not know how to obtain replacement parts.
+The manifold has been non-functional for roughly seven tendays after those modifications apparently burned it out, though the true cause remains unresolved. Its collapse has disrupted trade, quadrupled costs for businesses such as Marrow and Sons, and allowed House Margaster to profit from its control of conventional shipping. Bimble can operate and tune it but does not know how to obtain replacement parts.
 
 ### Mayoral Decree of Phandalin
 

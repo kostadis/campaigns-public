@@ -48,6 +48,9 @@ So:
 4. Any session dir with **neither** of the two filenames above — check for `gm-assist.md` instead. (A dir holding only `session_YYYY_MM_DD_*.md` is not a gap; that file *is* the summary.) A missing summary does not mean a missing session, and quests get handed out in exactly those gaps. (obelisk session 004 had no summary and contained two of the campaign's four paid contracts.)
 5. The campaign's opening doc if present (`notes/open.md`, `notes/session1_*.md`) — the founding job usually lives there and nowhere else.
 6. The four grounding docs, last, as a cross-check.
+7. **`docs/party.md`, always, whoever the narrator is.** It is the reference for every PC's pronouns, role, title and current state. The narrator writes about the whole party, so read it before you write a line about any of them. (Failure this fixes: the 20261031 Sequoia log called Zinnia "her" in two places. The narrator's voice file was read; nobody checked the rest of the party.)
+
+**Prior quest logs are not sources.** A row carried forward from an older log is only as good as the summary it came from, and summaries get re-cut. Re-check every carried-forward row against the current summary. (Failure this fixes: three older ToEE logs carried "Jira and Marek asked us to speak to their parents." The current Ch. 4 summary has Marek and **Althea** begging the party *not* to tell their parents. The name and the offer were both wrong.)
 
 ### Establish the summary coverage window first
 
@@ -71,9 +74,18 @@ The template below is a *default*, not a house style. Out of the Abyss had an es
 
 What to carry over from an existing handout: table-vs-prose density, how suspicion is marked, emphasis conventions, whether it addresses the party as *you* or is written as *we*. A GM-authored tracker addressed to the players says "you"; a quest log kept by a named party member says "we" — adapt rather than copy.
 
+## Put a dateline under the title
+
+Every quest log carries a dateline directly under `# Quest Log`: the **in-world date** and the **location** at the moment play resumes, e.g. `**16 Kythorn 1495 DR · Neverwinter, the machine house by the docks**`.
+
+- **The date is in-world, from a GM ruling.** Take it from the players' calendar if the campaign has one (`notes/handouts/player_calendar.json`, its `today_label`), else from the GM-ruled calendar (`docs/arcs/calendar.md`, its "Today" line). Write it as the players' calendar does; leave off GM-side margins such as "±2 days".
+- **No ruling, no date.** If neither source covers the last session, ask the GM. Never count days yourself from the summaries, and never invent a date.
+- **Never the real-world date or weekday.** The session identifier in the filename is a table date, not an in-game one. (Failure this fixes: the 20261103 Valphine log said "Tuesday", the real session day.)
+- **The location** is the same place the We Are Here block opens on, with every proper noun resolved against canon.
+
 ## Open with "We Are Here"
 
-Every quest log must orient the players before presenting the quest list. Immediately after the title, narrator byline, and current-as-of line, include a compact **We Are Here** block answering:
+Every quest log must orient the players before presenting the quest list. Immediately after the title, dateline, narrator byline, and current-as-of line, include a compact **We Are Here** block answering:
 
 - **Where the party physically is now** — the specific settlement, dungeon area, ship, camp, or other table-start location.
 - **Why they are there now** — the immediate purpose that brought them to this place.
@@ -141,6 +153,8 @@ Quest logs are immutable session artifacts. **Never overwrite or delete an earli
 ```
 # Quest Log
 
+**{In-world date, from the campaign calendar} · {Current location}**
+
 *Kept by {narrator}, {one clause establishing why they're the one writing}.*
 *Current as of {the last on-screen event, in the party's words}.*
 
@@ -205,9 +219,12 @@ Section names should bend to the campaign. The shape is: **the spine, the paid w
 4. Build the offer/closure ledger. Note every disagreement with the grounding docs.
 5. Run the leak checklist over the candidate list.
 6. Pick the narrator; read their voice file. Find and read any existing player handout, and match its format.
-7. Write the **We Are Here** block from the final on-screen state: current location, immediate purpose, relevant off-site situation, and opening advantage or constraint. Confirm that it orients rather than recaps.
-8. Resolve the output location; write a new `{session}-{author}-log.md`. Preserve every prior log unchanged.
-9. **Report back to the GM separately** — see below. This part does not go in the file.
+7. Write the **dateline**: the in-world date from the players' calendar or `docs/arcs/calendar.md`, and the current location. If no calendar ruling covers the last session, ask the GM for the date before writing it. Then write the **We Are Here** block from the final on-screen state: current location, immediate purpose, relevant off-site situation, and opening advantage or constraint. Confirm that it orients rather than recaps.
+8. Resolve the output location; write the draft as a new `{session}-{author}-log.md`. Preserve every prior log unchanged.
+9. **Validate every proper noun against the registry.** Run `registry_resolve_name` (the `registry` MCP server) on every NPC, place, faction and named item in the draft: one call per name, all in parallel. `resolved` with `is_change: false` is fine. `is_change: true` is a name change: show it to the GM with its source. `ambiguous` and `not_canon` go to the GM before the log ships, with the summary lines that use the name. **A family name or short form gives a false `not_canon`.** Before you flag one, resolve the full name from the summary ("the Glimmerfields" → "Aldous Glimmerfield", "Lenora Glimmerfield") and grep `docs/entity_registry.yaml` for it. (Failure this fixes: the 20261031 run reported "Glimmerfield" as not canon; both Glimmerfields had been in the registry all along.) Never invent or normalise a spelling. Check pronouns against `docs/party.md` and the summaries at the same time.
+10. **Re-render through the voice file.** The draft settles the facts; the re-render settles the voice. Hand the draft, the narrator's voice file and `docs/party.md` to a **fresh agent** (not one anchored on your draft) and ask it to rewrite the wording only, into a scratchpad file. Constraints for it: no new fact, quote, proper noun or backstory; quotes verbatim with the same speaker; tables, headings and status lines unchanged; at most two or three of the voice file's stock phrases; table mechanics (rolls, checks, natural 20s) stay: these logs are for the players, so don't flag them as off-voice; and a list of lines it could not fix without changing a fact.
+11. **Verify the re-render mechanically before you accept it.** The table blocks must be byte-identical, and so must the sorted set of quotes and the sorted set of numbers. The only new capitalised words allowed are sentence starts. Read the word diff. Restore anything it cut that was a verbatim table line, then copy it over the draft.
+12. **Report back to the GM separately** — see below. This part does not go in the file. Include the registry results that need a ruling, and the lines the re-render flagged.
 
 ## The report-back is not optional
 

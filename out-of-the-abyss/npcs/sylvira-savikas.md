@@ -1,4 +1,4 @@
-<!-- published by summary_native npc-publish | source: summary_native | npc: Sylvira Savikas | range: ch002-072 | draft run: 20261016T020627Z | draft sha256: d62d5eef58200a7c9a3e684904af656a21c39ec21849d0e01cddf78cc7fb7312 | authored sha256: 2aff1f3f5b8c46ace1d3ab1f46995da6b796a55ec0d447fac67ec32dc06c40c7 | verify: pass | published sha256: 246937dcf4a28b04585efa496c6a845de87cbfca0ff6f7c2da4401c6608baefd -->
+<!-- published by summary_native npc-publish | source: summary_native | npc: Sylvira Savikas | range: ch002-073 | draft run: delta-ch073-20261022 | draft sha256: 4e0e1c0c2cf3e91b7f62c68103c05199fca0b2ab87bc939176b1325cdf63823e | authored sha256: 2aff1f3f5b8c46ace1d3ab1f46995da6b796a55ec0d447fac67ec32dc06c40c7 | verify: pass | published sha256: 28abf7dd8948e902fd8194105b765b4d12b6305667b8ddf901c15e72b2016f5a -->
 ---
 subject: Sylvira Savikas
 type: npc
@@ -6,12 +6,12 @@ global: true
 exclusion: null
 aliases_used: [Sylvira, Sylvira Savikas]
 first_seen: 57
-last_seen: 72
-chapters: [57, 58, 59, 60, 61, 63, 64, 67, 71, 72]
-n_entries: 8
-n_scenes: 25
-n_moments: 8
-range: 2-72
+last_seen: 73
+chapters: [57, 58, 59, 60, 61, 63, 64, 67, 71, 72, 73]
+n_entries: 9
+n_scenes: 26
+n_moments: 12
+range: 2-73
 source_kind: summary_native_npc_link
 ---
 
@@ -28,7 +28,7 @@ source_kind: summary_native_npc_link
 - **Motivation, stated:** "We must focus on the problem at hand, capturing the person who murdered my love and who is impersonating me." [ch 061 / 061.05]
 - **Sense of being a target.** She said prejudiced people in the Overbright see a tiefling and assume "abyssal spawn", and that her infernal-plane research deepens that [ch 061 / entry; ch 061 / 061.05].
 - **Professional judgment.** She declined to intercede for Kalan with Janussi because she thought his research "third rate at best" [ch 061 / 061.05].
-- **Anger at the party (ch 072).** She is angry that the party never told her what happened to her son [ch 072 / entry; ch 072 / 072.06] [GM].
+- **Prior anger at the party (ch 072).** She is angry that the party never told her what happened to her son [ch 072 / entry; ch 072 / 072.06] [GM].
 
 ## History with the Party
 - Sylvira Savikas was spoken of as a Great Reader who curates the Infernal Fortress (Candlekeep's library of the Abyss and the Nine Hells). She was absent from the council meeting because of a lingering illness. [ch 057 / entry]
@@ -82,13 +82,12 @@ source_kind: summary_native_npc_link
 - The party never told Sylvira that they killed Moziqodo. That does not mean she did not know: Tadric told her, and she is angry at the party's silence. [GM]
 - Her plague was tied to Moziqodo's life and has been fading since his death. She is getting better, not yet well. [GM]
 
+- In ch 073 Thorin came to her office with Tadric, apologized for Moziqodo’s death and listened. She acknowledged his remorse and said her symptoms were receding after her son’s death; she identified his illness as unnatural and connected to the demonic crisis [ch 073 / 073.01; ch 073 / entry].
+- Regarding the party as fellow victims, she gave Thorin a research scroll she had intended to withhold. The first question is free, later questions cost one thousand gold each; she can research unknown answers, but cannot supply immediate local intelligence [ch 073 / 073.01; ch 073 / entry].
+- She reacted with horror to the Cult of Claudien, warning against dependence on an alien god and forbidding its name in the fortress. Her reaction is genuine; no cult presence at Candlekeep was established [ch 073 / 073.01; ch 073 / entry].
+
 ## Last Observed State
-- **Last seen in person:** ch 067. She came to the investigator's office, grateful and eager to help Candlekeep, but too weakened by illness to confront the threat herself. The party had not told her they killed Moziqodo, and Thorin answered her thanks guardedly [ch 067 / entry; ch 067 / 067.03; ch 067 / moment].
-- **Ch 071:** only mentioned. An Avowed scholar offered Daz a citation or a small monograph with her if he shared what the Book of Vile Darkness told him. Daz was more concerned about his hometown, and the summaries record no response from her [ch 071 / 071.07; ch 071 / entry].
-- **Ch 072:** only mentioned, as "Sylvira" [ch 072 / entry] [GM]. Tadric reminded the party that they never told her what happened to her son. Tadric had to explain it himself, and she is angry with the party [ch 072 / 072.06]. Not telling her did not mean she did not know [GM].
-- **Pending:** Thorin volunteered to approach her with Dawnbringer before the party left for Gauntlgrym, to handle the conversation empathetically [ch 072 / 072.06]. The summaries do not show whether that conversation happened.
-- **Health:** Her plague was tied to Moziqodo's life and has been fading since his death. She is getting better, not yet well [GM].
-- **Status:** alive, per ch 067 [ch 067 / entry] and ch 072, where she is angry [ch 072 / 072.06]. Her whereabouts after ch 072 are not established in the summaries.
+Alive and directly encountered in her Candlekeep office before the party departed for Gauntlgrym. She accepted Thorin’s remorse and gave him the research scroll; the free question remains unused [ch 073 / 073.01; ch 073 / entry]. Her symptoms are receding following Moziqodo’s death; this establishes improvement, not complete recovery [ch 073 / 073.01; ch 073 / entry] [GM]. The earlier pending apology has now happened. She remains a scholarly resource for the party and strongly opposes the Cult of Claudien [ch 073 / 073.01; ch 073 / entry].
 
 ## Relationships
 - **Janussi:** on-and-off lover. Their breakups were as explosive as their reunions [ch 058 / 058.05]. She screamed that he was a traitor on his last morning [ch 058 / 058.04]. She denied calling him a traitor, and said their meeting ended in an argument over a private matter [ch 061 / 061.05]. She speaks of him as "my love" [ch 061 / 061.05].
@@ -103,6 +102,8 @@ source_kind: summary_native_npc_link
 - **Bookwyrm:** the party noted that Bookwyrm seemed to prefer they speak to Sylvira, though she never said so [ch 059 / 059.01]. Sylvira said Bookwyrm pushed hardest against Kalan's methodology [ch 061 / entry].
 - **Hollypocket and Queenie:** both described the lovers' quarrel with Janussi [ch 058 / 058.04; ch 058 / 058.06].
 - **The impersonator:** an unidentified figure assumed her appearance and was seen on the night of the murder. It used a lantern and avoided speaking. Queenie said it did not smell like her [ch 058 / 058.06; ch 060 / 060.06; ch 061 / 061.01]. The impersonation was still unresolved at the end of ch 061 [ch 061 / 061.08].
+
+- **Thorin and the party, ch 073:** reconciliation changes her willingness to help: she provides research access after his apology. She describes them as fellow victims of demons [ch 073 / 073.01; ch 073 / entry].
 
 ## Notable Quotes
 > "I was never sure but what the keeper saw in her, but he certainly incurred her wrath that morning. Raging she was, screamed that he was a traitor!" — Hollypocket [ch 058 / moment]

@@ -1,4 +1,4 @@
-<!-- published by summary_native npc-publish | source: summary_native | npc: Aurelan Vance | range: ch002-057 | draft run: 20261008T041935Z | draft sha256: f3756c9c72aa32da4cc97c45692a7193ec79e40b5bef2830d51541d9679ea39d | authored sha256: none | verify: pass | published sha256: 219c8625074994fce4c1fecc5517252fc754fd1f178df7644cf65f1736eb4a8c -->
+<!-- published by summary_native npc-publish | source: summary_native | npc: Aurelan Vance | range: ch002-061 | draft run: delta-ch061-20261105 | draft sha256: 1ace12de1bbf2fae88c285ec0cf1001dd3c1cf26fc7002d113304105bca7b854 | authored sha256: none | verify: pass | published sha256: 4294a7eb9993d30a20ce35cc485e565bae624227e13c8e12354dea9ced682094 -->
 ---
 subject: Aurelan Vance
 type: npc
@@ -6,12 +6,12 @@ global: true
 exclusion: null
 aliases_used: [Aurelan, Aurelan Vance, Vance]
 first_seen: 51
-last_seen: 53
-chapters: [51, 52, 53]
-n_entries: 3
-n_scenes: 5
+last_seen: 61
+chapters: [51, 52, 53, 61]
+n_entries: 4
+n_scenes: 6
 n_moments: 5
-range: 2-57
+range: 2-61
 source_kind: summary_native_npc_link
 ---
 
@@ -35,8 +35,10 @@ Aurelan is professionally composed but easily intimidated by aggressive negotiat
 *   Aurelan reveals he is on first-name terms with Brewbarry, asking to be called “Ori,” and shares that Bimble’s payments stopped abruptly with no severance or forwarding instructions, concluding the contract was abandoned rather than ended [ch 053 / 053.01].
 *   Aurelan deduces that someone must be feeding the missing gnome to keep him hidden, advising the party to find who feeds Bimble to find Bimble [ch 053 / 053.01].
 
+- After seeking the party at the Spire of the Morninglord, Aurelan intercepted them near the Guild Registry and Counting House, sweating from the exertion, and brought a request for an immediate Commission meeting. They accepted [ch 061 / 061.04].
+
 ## Last Observed State
-Aurelan is alive and actively assisting the party. He was last seen outside the Spire of the Morninglord in Chapter 053, where he arrived breathless after working through the night to analyze Bimble’s paperwork [ch 053 / 053.01; ch 053 / entry]. He provided the party with critical data regarding Bimble Nackle: the gnome had been on a maintenance roll for eleven years, but payments ceased abruptly seven tendays prior with no severance or forwarding instructions [ch 053 / 053.01]. Aurelan deduced that because Bimble has not banked, borrowed, or left the city, he is being kept hidden locally, advising the party to find who feeds him [ch 053 / 053.01]. He patted himself down to restore decorum after rushing to meet the party [ch 053 / 053.01].
+Last encountered near the Guild Registry and Counting House after searching at the Spire of the Morninglord. He delivered the Commission's summons, which the party accepted. The record establishes this messenger role, without establishing membership in the Commission or a new financial agreement [ch 061 / 061.04].
 
 ## Relationships
 *   **Brewbarry:** Initially intimidated by Brewbarry’s barbarian presence and halberd, Aurelan signed loan paperwork under duress [ch 051 / 051.02]. Their relationship evolved into a reciprocal “favor-based” alliance, with Aurelan providing financial intelligence [ch 052 / 052.05]. Aurelan now refers to him as “Brew” and considers him a friend [ch 053 / 053.01].

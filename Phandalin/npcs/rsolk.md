@@ -1,4 +1,4 @@
-<!-- published by summary_native npc-publish | source: summary_native | npc: Rsolk | range: ch002-057 | draft run: 20261008T044003Z | draft sha256: b9471c55c67814cef8d20f802a3f94a4f66053476c9720fb9b5604eb13070759 | authored sha256: none | verify: pass | published sha256: daab59f3475016b54426428bb1c0b69183b8946e62fcd0f48d462efa1752b034 -->
+<!-- published by summary_native npc-publish | source: summary_native | npc: Rsolk | range: ch002-059 | draft run: delta-ch058-059-20261021 | draft sha256: 19fbdb2d514f4e8732734463fa8bfb60efe75b7d1ba8a854f0d21124b5ec3318 | authored sha256: none | verify: pass | published sha256: d528af22e6b3d2539d6c09557e02ed813e3a73bdf8205d4996cfa572bda23d27 -->
 ---
 subject: Rsolk
 type: npc
@@ -6,17 +6,19 @@ global: true
 exclusion: null
 aliases_used: [Rsolk]
 first_seen: 54
-last_seen: 55
-chapters: [54, 55]
-n_entries: 2
-n_scenes: 3
-n_moments: 8
-range: 2-57
+last_seen: 58
+chapters: [54, 55, 58]
+n_entries: 3
+n_scenes: 5
+n_moments: 11
+range: 2-59
 source_kind: summary_native_npc_link
 ---
 
 ## Identity
 Rsolk is the leader of the Dead Rats, a group of tunnel dwellers operating within the Neverwinter sewers [ch 054 / entry; ch 055 / entry]. He manages a specific section of the sewer network, distinct from the entirety of the city’s underground, and is responsible for the routes and safety of his people in that territory [ch 054 / 054.03; ch 054 / moment]. He is a man who values territorial control but is highly susceptible to celebrity influence [ch 054 / 054.03].
+
+Chapter 58 explicitly identifies Rsolk as a wererat smuggler [ch 058 / entry].
 
 ## Personality and Motivations
 Rsolk initially presents as a hostile territorial gatekeeper, demanding to know how intruders enter his domain and reacting with suspicion to unexplained presence [ch 054 / 054.03; ch 054 / moment]. However, his demeanor shifts rapidly from confrontational to protective and accommodating upon recognizing notable individuals, such as the bard Vukradin [ch 054 / 054.03; ch 054 / moment]. This change leads him to prioritize the safety and comfort of celebrities, going so far as to organize escorted exits to prevent them from getting lost [ch 054 / 054.03; ch 054 / moment].
@@ -36,8 +38,11 @@ Rsolk is pragmatic and willing to trade favors for results. He lacks strong barg
 *   Rsolk initially offered two hundred gold pieces to the party to remove the Rift Weavers (referred to as spiders in the first meeting) from the junction. [ch 055 / entry; ch 055 / 055.04]
 *   After Vukradin challenged his bargaining position, Rsolk agreed to pay two hundred and fifty gold pieces for the job. [ch 055 / entry; ch 055 / 055.04]
 
+- Rsolk paid the agreed 250 gold to Soma and thanked the party for restoring his routes. He asked her to pass his regards to Zeleen, accepted a guest-list invitation and a seat at Soma’s table, and ordered his men to bring the finest roses [ch 058 / 058.04].
+- At the Common Chord concert he threw flowers and hoped to be called on stage. When he tried to present Valphine with a large bouquet, her glowing-eyed stare sent him back to his seat for the rest of the evening [ch 058 / 058.06].
+
 ## Last Observed State
-Rsolk was last seen in Chapter 055, where he conducted a negotiation with the party in the sewers [ch 055 / 055.04]. He greeted Vukradin with the remark, “Found yourself then,” referencing the bard’s previous disorientation [ch 055 / 055.04; ch 055 / moment]. While pleased to see Vukradin, Rsolk expressed disappointment at the presence of an armed expedition accompanying the bard [ch 055 / entry; ch 055 / 055.04]. He engaged in a haggling session to secure the party’s services to remove Rift Weavers (referred to as spiders) from a specific junction, ultimately agreeing to pay 250 gold pieces [ch 055 / entry; ch 055 / 055.04]. He remained attached to the name “Dead Rats” for his gang despite a suggestion to rename it [ch 055 / 055.04]. Status not established in the summaries beyond this negotiation; no outcome of the contract is recorded in the provided evidence.
+The 250-gold obligation is paid and his routes have been restored. Last seen seated at the Common Chord after Valphine discouraged his attempt to bring a bouquet on stage [ch 058 / 058.04; ch 058 / 058.06].
 
 ## Relationships
 **Vukradin:** Rsolk is a fan of Vukradin, identifying him as a famous singer. This recognition instantly de-escalated their initial hostile confrontation and led to an autograph session and a protective escort out of the tunnels [ch 054 / 054.03; ch 054 / moment]. Rsolk remembers Vukradin getting lost during their first meeting and uses this memory to greet him upon their reunion [ch 055 / 055.04]. He is willing to negotiate with Vukradin but yielded to Vukradin’s bargaining pressure regarding payment [ch 055 / 055.04].

@@ -4,7 +4,7 @@ Date: 2026-10-12
 
 ## Summary
 
-Morning came to Candlekeep after a long night of celebration, and the party woke fully rested. With the morning came a note from Eldeth Feldrun, the dwarf they had come to know:
+Morning came to Candlekeep after a long night of celebration, and the party woke fully rested. During that long rest, Daz attuned to the black Robe of the Archmagi he had recovered from Manshoon's first simulacrum. With the morning came a note from Eldeth Feldrun, the dwarf they had come to know:
 
 > “I've spoken to the lords of Mithral Hall and the lords of Gauntlgrym. They believe me. They have believed me for two months. They were waiting for someone whose word weighed more than a soldier's. Yours does. Come to Gauntlgrym. The dwarves of Gauntlgrym have questions only you can answer, and the forge has been cold enough that someone is going to need to relight it. The way is arranged, it goes at dusk. Do not make me a liar.”
 
@@ -102,7 +102,7 @@ Yvenne said she had once suspected Daz might have been an infant of Eilistraee, 
 
 > “Someone with a stake in a bloodline has decided you are worth keeping alive at considerable cost. That is a kind of inheritance, whether or not you ever meet the person who is paying for that price.”
 
-Daz concluded that a house which once held the fourth seat and used the name Daz'issin had been formally annihilated; one of its three survivors remained alive somewhere; and someone with current institutional reach was still actively erasing the trail. He compared himself to “the Fresh Prince of Bel-Air, but underground,” though Yvenne's evidence did not establish that he was the lost heir—only that someone might believe he was. Daz understood that some people were protecting him, while House T'sarran wanted to know who would expend such resources to protect “a nobody.” His name and possible heritage had placed him in the middle of a larger drow intrigue.
+Yvenne's evidence showed that a house which once held the Fourth Seat and used the name Daz'issin had been formally annihilated, that one of its three survivors might still be alive, and that someone with current institutional reach was still erasing the trail. Daz did not draw the conclusion for himself. He compared himself to “the Fresh Prince of Bel-Air, but underground,” though Yvenne's evidence did not establish that he was the lost heir—only that someone might believe he was. Daz understood that some people were protecting him, while House T'sarran wanted to know who would expend such resources to protect “a nobody.” His name and possible heritage had placed him in the middle of a larger drow intrigue.
 
 Yvenne gave him material about drow culture so he could begin understanding that heritage. She also warned him about the book bearing Vecna's eye. Fheminor had been very glad to see it leave, and Yvenne thought Daz should ask himself why a book had wanted him. The warning carried additional weight because it was after Daz flipped through the Book of Vile Darkness that he had been prompted to take the Vecna book.
 
@@ -261,6 +261,7 @@ As dusk approached, the party could feel the teleportation magic gathering. Tadr
 #### The party awakens from a long rest following a celebration at Candlekeep and receives a summons from Eldeth Feldrun to travel to Gauntlgrym before dusk.
 
 - The party awakens fully rested after a large celebration at Candlekeep.
+- Daz completes attunement to the black Robe of the Archmagi recovered from Manshoon's first simulacrum during the long rest (GM ruling, 2026-10-26).
 - A message arrives from Eldeth Feldrun, stating that the lords of Mithral Hall and Gauntlgrym are ready to hear the party's testimony.
 - Eldeth explains that the dwarven lords have believed her for two months but were waiting for testimony from people whose word carried more weight than that of a soldier.
 - “Yours does,” Eldeth writes.
@@ -417,8 +418,8 @@ As dusk approached, the party could feel the teleportation magic gathering. Tadr
 - She instead sees a long-term, patient operation involving cut-outs, layered resources, institutional reach into Candlekeep, and the deliberate erasure of protected information.
 - Yvenne refuses to tell Daz what he is, saying it is for him to decide whether to learn that truth.
 - She confirms that someone with a stake in a bloodline considers him worth keeping alive at considerable cost.
-- Daz determines that a house which held the fourth seat and used the name Daz'issin was formally annihilated.
-- One of its three survivors remains alive somewhere.
+- Yvenne's evidence shows that a house which held the Fourth Seat and used the name Daz'issin was formally annihilated; Daz did not draw the conclusion himself.
+- One of its three survivors might still be alive; the survivor's location is unknown and the corresponding records are purged.
 - Someone with present-day institutional reach is still actively erasing the trail.
 - Daz compares his situation to being “The Fresh Prince of Bel-Air, but underground.”
 - The evidence does not prove that Daz is the lost heir, only that someone may believe he is.
@@ -623,6 +624,10 @@ A survivor list for a formally annihilated drow house. It records two survivors 
 ### Tome of the Stilled Tongue
 
 An arcane book bearing the eye of an evil lich that left Candlekeep with Daz. Sister Yvenne believes Fheminor was pleased to see it depart and warns Daz to ask why the book wanted him. Daz was prompted toward it only after he had flipped through the Book of Vile Darkness.
+
+### Robe of the Archmagi
+
+The legendary black robe Daz recovered from Manshoon's first defeated simulacrum. He had worn it for style since recovering it; during the long rest that opens this chapter he completed attunement, gaining its powers (GM ruling, 2026-10-26).
 
 ### Yvenne's Drow Materials
 

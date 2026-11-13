@@ -1,4 +1,4 @@
-<!-- published by summary_native npc-publish | source: summary_native | npc: Lord Cassian Meliamne | range: ch002-057 | draft run: 20261008T043957Z | draft sha256: 90f95da38772520614babec7007edef548b19d6e242a34b23c655465bcfc3ed5 | authored sha256: none | verify: pass | published sha256: 394e5205aa2c4134d1cb4de292848d5ad2f248aa8f99982ae66af3ccf3cdf4fe -->
+<!-- published by summary_native npc-publish | source: summary_native | npc: Lord Cassian Meliamne | range: ch002-059 | draft run: delta-ch058-059-20261021 | draft sha256: 41056b0e2ff6bceff519d073c14e8b641aad7ff281e3f6de664e59e282982af0 | authored sha256: none | verify: pass | published sha256: 1fd943051d159f1feca58cd150d65ebf79085187150cdd757cb9fd52f8d27ffb -->
 ---
 subject: Lord Cassian Meliamne
 type: npc
@@ -6,12 +6,12 @@ global: true
 exclusion: null
 aliases_used: [Cassian, Lord Cassian Meliamne]
 first_seen: 27
-last_seen: 55
-chapters: [27, 49, 50, 51, 55]
-n_entries: 3
-n_scenes: 9
-n_moments: 0
-range: 2-57
+last_seen: 58
+chapters: [27, 49, 50, 51, 55, 58]
+n_entries: 4
+n_scenes: 10
+n_moments: 4
+range: 2-59
 source_kind: summary_native_npc_link
 ---
 
@@ -37,8 +37,11 @@ Politically, Cassian appears easily intimidated by the power of House Margaster.
 - Cassian accepted Valphine’s invitation to meet the party at his residence for a private conversation, after the party realized the Moonstone Mask was not the place for a private conversation [ch 050 / 050.06].
 - The party noted that a tea with Lord Cassian remained an outstanding obligation on their social calendar while preparing for other engagements [ch 055 / 055.03].
 
+- The party attended the promised tea. Cassian was relieved to learn that Bimble was alive and sheltered at the Spire. He presented a Commission–Lionshield service contract, Elara’s records request and final note, and a forged harbor writ made by Cullen Sharpe [ch 058 / 058.02].
+- Cassian accused House Margaster of blackmail and of killing Elara beyond resurrection, but acknowledged that his certainty was not yet a legal case. He offered a substantial studio donation and equivalent rewards for the others if they obtained proof, and suggested avoiding the Commission [ch 058 / 058.02].
+
 ## Last Observed State
-As of the most recent evidence, Lord Cassian Meliamne is alive and active in Neverwinter society. A tea with Lord Cassian was still noted as an outstanding obligation on the party’s calendar [ch 050 / 050.06; ch 055 / 055.03]. He continues to manage his cousin’s commercial interests and legal battles against House Margaster [ch 049 / entry].
+Alive at his residence after the tea, which has now occurred. He awaits hard evidence linking House Margaster to Elara’s murder; the amount of his promised reward is unspecified. His accusation remains attributed to him rather than treated as a completed case [ch 058 / 058.02].
 
 ## Relationships
 *   **Elara Seasong Meliamne:** His cousin, whom he called his sister, who was killed eight days prior to the party’s arrival at the Moonstone Mask [ch 027 / entry; ch 049 / entry; ch 050 / entry]. Their relationship was close; Cassian mourns her death deeply and continues her work [ch 050 / 050.04; ch 050 / 050.05].

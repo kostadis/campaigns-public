@@ -1,4 +1,4 @@
-<!-- published by summary_native npc-publish | source: summary_native | npc: Tadric | range: ch002-072 | draft run: 20261016T014327Z | draft sha256: 3612563f729338a68daa73f0b4bde74db9623e9d5c62fa76358a42c48a091cf6 | authored sha256: 35d49ec8d2cf710f7b22c90306da8b0c730fa1a7921faa63aa9469f25ee0d8d9 | verify: pass | published sha256: 75d34f1af21f5b13127ae9048fdad7ef10e20e29c38004c26ed3b2744fc15438 -->
+<!-- published by summary_native npc-publish | source: summary_native | npc: Tadric | range: ch002-073 | draft run: delta-ch073-20261022 | draft sha256: 3fc4c36b873978e460feb790880e4b78e625f6506f5af25a78be4effb6f4dfbd | authored sha256: 35d49ec8d2cf710f7b22c90306da8b0c730fa1a7921faa63aa9469f25ee0d8d9 | verify: pass | published sha256: c415aaf5cbe8569c801ced394299af7a1d7c88822a0789454f4ceb3315e9c1dd -->
 ---
 subject: Tadric
 type: npc
@@ -6,12 +6,12 @@ global: true
 exclusion: null
 aliases_used: [Tadric]
 first_seen: 57
-last_seen: 72
-chapters: [57, 58, 63, 64, 65, 67, 72]
-n_entries: 7
-n_scenes: 14
+last_seen: 73
+chapters: [57, 58, 63, 64, 65, 67, 72, 73]
+n_entries: 8
+n_scenes: 15
 n_moments: 10
-range: 2-72
+range: 2-73
 source_kind: summary_native_npc_link
 ---
 
@@ -64,15 +64,10 @@ source_kind: summary_native_npc_link
 - Tadric was forced to explain Sylvira's son's fate to her himself, and she was angry with the party. [ch 072 / 072.06; ch 072 / entry]
 - Thorin volunteered to speak to Sylvira, with Dawnbringer, before the party departed for Gauntlgrym. [ch 072 / 072.06]
 
+- In ch 073 Tadric guided Thorin to Sylvira’s office for the apology before the party left for Gauntlgrym. His disclosure of Moziqodo’s death and warning about her anger were previous-session events [ch 073 / 073.01; ch 073 / entry].
+
 ## Last Observed State
-- **Chapter 067.** He signed off on A'lai Aivenmore's bargain and took A'lai into custody. He marched him toward Candlekeep's null magic prison. [ch 067 / 067.02; ch 067 / entry]
-  - Gyrgum's appeal rested on the party's deputization by Kalan Strongbranch and on their having defeated Moziqodo and saved Tadric's life. [ch 067 / 067.02]
-  - Sylvira Savikas thanked Thorin for saving Tadric. [ch 067 / 067.03]
-- **Chapter 072, the last appearance.** As the teleportation magic gathered at dusk, he reminded the party they had never told Sylvira what happened to her son. [ch 072 / 072.06; ch 072 / entry]
-  - He had been forced to explain it himself, and Sylvira was angry with the party. [ch 072 / 072.06; ch 072 / entry]
-  - Thorin volunteered to speak to her, with Dawnbringer, before the party left for Gauntlgrym. [ch 072 / 072.06]
-- **Status.** Tadric is alive and well [GM].
-- Whether Thorin actually spoke to Sylvira is not established in the summaries.
+Alive and well [GM]. In ch 073 he guides Thorin to Sylvira’s office; Thorin’s apology actually takes place before the party departs for Gauntlgrym [ch 073 / 073.01; ch 073 / entry]. His subsequent movements are not established. His earlier custody of A’lai remains historical rather than a new sighting [ch 067 / 067.02].
 
 ## Relationships
 - **Kalan Strongbranch.** Tadric's superior. Tadric defended him in ch 057. [ch 057 / 057.06] Kalan gave him the genuine high tower key and posted him alone in the North Galleries without telling him what he carried. [ch 063 / 063.03; ch 063 / 063.04]

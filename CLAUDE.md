@@ -29,6 +29,7 @@ A `uv run --script` file (deps declared inline). It mirrors every `.md` (except 
 - Docs are updated in place, never deleted and recreated. That keeps their file IDs stable, so NotebookLM sources that point at them keep working. Unchanged files are skipped by comparing the source md5 stored in the Doc's `appProperties`.
 - It uses the `drive.file` scope, so it sees only files it created. A hand-made folder of the same name is invisible to it.
 - `SKILL.md` Docs take their skill directory's name, because NotebookLM shows sources by title only.
+- A run that creates or updates Docs writes a NotebookLM log (Doc title, Drive folder, URL; new ones to add, updated ones to re-sync) to `~/.local/state/campaigns-public/notebooklm-<timestamp>.txt`, or `--log PATH`; `notebooklm-latest.txt` in that directory always links to the newest one. The log is rewritten after every Doc, so an interrupted run still lists what it created, and its path is printed at the start of the run. It stays outside the repo because any `.md` in the repo would itself be mirrored.
 - Auth uses the OAuth client at `~/.config/gdrive-cli/credentials.json`, the same location `gdrive-cli`/`drive-tagger` use. The token is cached in `token-campaigns-public.json` next to it.
 
 Run it after the `sync-from-campaigns.sh` diff has been reviewed and committed, not before. Drive is a second publication target.
@@ -44,7 +45,7 @@ Treat these paths as upstream-owned. Fix content in `kostadis/campaigns` and re-
 | `gm-assistant/skills/` | Deleted and rewritten wholesale |
 | `gm-assistant/README.md`, `SKILLS.md` | Overwritten |
 
-Campaigns are listed in the `CAMPAIGNS` / `NPC_CAMPAIGNS` arrays in the script (currently `obelisk`, `out-of-the-abyss`, `Phandalin`). Adding a campaign means adding it there; directory names match between the two repos.
+Campaigns are listed in the `CAMPAIGNS` / `NPC_CAMPAIGNS` arrays in the script (currently `obelisk`, `out-of-the-abyss`, `Phandalin`, `toee`, `stormgiants`, `drow-empire`, `original-group-toee`; the last two have no NPC dossiers upstream, so they are in `CAMPAIGNS` only). Adding a campaign means adding it there; directory names match between the two repos.
 
 ## How summaries are selected
 

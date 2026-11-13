@@ -6,7 +6,7 @@ Date: 2025-12-09
 
 The session opened with the realization that the party should already have advanced to level four after completing the Butterskull Ranch and Loggers’ Camp quests. The players updated their characters and discussed feats, ability-score increases, and possible combinations such as Observant and Tavern Brawler. The GM assured the group that powerful choices would not be a problem: “if it becomes an issue, I know how to make the monsters harder.”
 
-The party arrived at the Falcon Hunting Lodge with their collection of prisoners and rescued companions in tow. Among them was a disoriented Teega the Smith, two Emerald Enclave guards freed from captivity, and a criminal named Shrimpy. Falcon greeted them with surprise, particularly pleased to see his friend Vukradin had returned safely. When Shrimpy asked whether he could finally leave, the party refused and presented him to Falcon as “a genuine criminal.”
+The party arrived at the Falcon's Hunting Lodge with their collection of prisoners and rescued companions in tow. Among them was a disoriented Teega the Smith, two Emerald Enclave guards freed from captivity, and a criminal named Shrimpy. Falcon greeted them with surprise, particularly pleased to see his friend Vukradin had returned safely. When Shrimpy asked whether he could finally leave, the party refused and presented him to Falcon as “a genuine criminal.”
 
 Teega, still confused and suffering from severe memory gaps, asked who the party was and why she was there. Careful observation of her muscular arms, hands, and fingers revealed that she was a blacksmith. She explained that the last thing she remembered was working at the Wayside Inn, a roadside tavern complex with an attached forge near the High Road and Triboar Trail. Vukradin recounted the story of her capture and rescue, emphasizing the party’s heroism; although his performance was merely average, Teega was still impressed.
 
@@ -148,9 +148,9 @@ He then asks the party to clarify its intentions:
 
 - The party updates maximum hit points and related level-four statistics during the later combat.
 
-### Arrival at Falcon Hunting Lodge
+### Arrival at Falcon's Hunting Lodge
 
-#### The party arrives at the Falcon Hunting Lodge with prisoners and a rescued Teega the Smith, where Falcon greets them with surprise.
+#### The party arrives at the Falcon's Hunting Lodge with prisoners and a rescued Teega the Smith, where Falcon greets them with surprise.
 
 - Before resolving the arrival, the party recalls that Valphine personally killed and decapitated their previous prisoner rather than surrendering him alive, specifically to prevent resurrection.
 
@@ -398,7 +398,7 @@ He then asks the party to clarify its intentions:
 
 ### Falcon
 
-A hunter and ranger who owns the Falcon Hunting Lodge. He is surprised but pleased to see the party return and accepts Vukradin’s claim that they are friends.
+A hunter and ranger who owns the Falcon's Hunting Lodge. He is surprised but pleased to see the party return and accepts Vukradin’s claim that they are friends.
 
 Falcon provides information about the poisoned waters surrounding Mountain’s Toe Gold Mine. He said that Don-Jon was involved with a Neverwinter mining consortium that had invested in the mine and revealed that he had obtained his own discounted stake by supplying local scouting and consulting expertise. The investment was substantial enough to crimp his liquidity, leaving him unable to provide a significant cash reward up front.
 

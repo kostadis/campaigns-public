@@ -19,9 +19,9 @@ BRANCH="${1:-main}"
 DEST="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 
 # Campaign directories (same name in both repos) whose summaries are published.
-CAMPAIGNS=(obelisk out-of-the-abyss Phandalin)
+CAMPAIGNS=(obelisk out-of-the-abyss Phandalin toee stormgiants drow-empire original-group-toee)
 # Campaigns whose top-level docs/npcs/*.md are copied to <campaign>/npcs/.
-NPC_CAMPAIGNS=(obelisk out-of-the-abyss Phandalin)
+NPC_CAMPAIGNS=(obelisk out-of-the-abyss Phandalin toee stormgiants)
 
 tmp="$(mktemp -d)"
 trap 'rm -rf "$tmp"' EXIT

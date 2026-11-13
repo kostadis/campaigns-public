@@ -1,4 +1,4 @@
-<!-- published by summary_native npc-publish | source: summary_native | npc: Sister Yvenne | range: ch002-072 | draft run: 20261016T014327Z | draft sha256: 2babf3491a866063ccb30bd0e4c5faef75d3b12e413e2b5affc9bce32f139d52 | authored sha256: none | verify: pass | published sha256: 9449f93ee7d69115bf0c17ab25a519db6514dfdfb70aab4d4b6820d7f380dc28 -->
+<!-- published by summary_native npc-publish | source: summary_native | npc: Sister Yvenne | range: ch002-073 | draft run: revised-ch072-20261026 | draft sha256: 0e88d4ac5fe6e4fcaac2b5143fe372abaf999425fab2983b1d60b985d3929d2f | authored sha256: none | verify: pass | published sha256: e2c8c62716266b818e043cf15c4d49b36bed24a73acd5af99878cb83f200ccc4 -->
 ---
 subject: Sister Yvenne
 type: npc
@@ -51,6 +51,7 @@ source_kind: summary_native_npc_link
 - Yvenne gave Daz material on drow culture. She warned him to ask why the Vecna-eye book wanted him, noting Fheminor had been glad to see it leave. [ch 072 / 072.05; ch 072 / entry]
 
 ## Last Observed State
+- Her Chapter 72 evidence indicated that the formally annihilated house had used the name Daz'issin and that one of its three survivors might still be alive. Daz did not draw that conclusion himself; the evidence did not establish him as the lost heir [ch 072 / 072.05].
 - Last appearance is ch 072, in an interview with Daz (scene 072.05) [ch 072 / 072.05].
 - In that scene she had just:
   - Handed Daz a sealed tube that had been resealed in a different wax color and was empty. Brother Hilmin Thaer pulled it three years earlier and died of natural causes eighteen months ago, weeks after a private audience with a visitor whose name was never logged [ch 072 / 072.05].

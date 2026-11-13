@@ -1,17 +1,17 @@
-<!-- published by summary_native npc-publish | source: summary_native | npc: Aldus Hern | range: ch002-057 | draft run: 20261008T041935Z | draft sha256: 9a32c0beb67b5761279d893a6c664fc2818e3b5f6b45f77788756ea7b9cd860b | authored sha256: none | verify: pass | published sha256: f3e47fa9f375ca1bf9d4c5fd8fcf7be359ce10e194fa115b414195a458ce270c -->
+<!-- published by summary_native npc-publish | source: summary_native | npc: Aldus Hern | range: ch002-061 | draft run: delta-ch061-20261105 | draft sha256: 148bfc7064ec96b5016d4eb96de995c6d036f33f23e7b3e65bdf70d36edc7fef | authored sha256: none | verify: pass | published sha256: c6a61334cb16d8b4000ff3b67c3e5d0471e1ecc1a975e6411f7a881453df316b -->
 ---
 subject: Aldus Hern
 type: npc
 global: true
 exclusion: null
-aliases_used: [Aldus]
+aliases_used: [Aldus, Aldus Hern]
 first_seen: 50
-last_seen: 57
-chapters: [50, 52, 54, 57]
-n_entries: 3
-n_scenes: 5
-n_moments: 1
-range: 2-57
+last_seen: 61
+chapters: [50, 52, 54, 57, 58, 60, 61]
+n_entries: 6
+n_scenes: 9
+n_moments: 4
+range: 2-61
 source_kind: summary_native_npc_link
 ---
 
@@ -38,8 +38,16 @@ He is careful and cautious, often apologizing immediately after delivering blunt
 *   Aldus reviewed the financial implications of Universal Basic Treasure and assured Lord Neverember that the numbers supported what the Lord Protector already wished to decide [ch 057 / entry; ch 057 / 057.07].
 *   Aldus moved in and out of the dining room during the formal dinner, attending to Lord Neverember [ch 057 / 057.07].
 
+- During the continuation of dinner, Aldus clarified that Vukradin could call an election as mayor, supplied the relevant clause, and drafted the Commission introduction and temporary harbor relief for Marrow and Sons [ch 058 / 058.01].
+
+- Sent after the commission reported machine-room activity to Neverember, Aldus entered the warehouse, saw Aletra's corpse and two dead Margaster representatives beside the broken machine, and fainted [ch 060 / 060.07].
+- Revived, he reminded the party of its Leilon rebuilding obligation, the condition for reopening Universal Basic Treasure, and a caravan already heading there. The exchange used the title Acting Mayor Pro Tem [ch 060 / 060.07].
+- He agreed to relay the party's explanation to Neverember, reiterated House Margaster's repair subcontract, and undertook to involve the commission and guards in the cleanup. He noticed the resemblance between Valphine and Aletra but dismissed it as a general Drow similarity [ch 060 / 060.07].
+
+- Aldus again urged the party to stop delaying and head for Leilon. The GM reported that he and Neverember were handling the aftermath and that he could arrange transport for Aletra's body [ch 061 / 061.01; ch 061 / 061.04].
+
 ## Last Observed State
-Aldus was last observed attending a formal dinner with the party and Lord Neverember at the Lord Protector’s estate [ch 057 / 057.07]. Earlier in the night, he sent two urgent *sending* messages to the party, noting that Neverember had been waiting for over an hour [ch 057 / entry; ch 057 / 057.06]. Upon the party’s arrival, Aldus welcomed them and thanked Vukradin for the autograph intended for his “daughter,” confirming she had been delighted by it [ch 057 / entry; ch 057 / 057.07]. During the dinner, Aldus moved in and out of the dining room to attend to Neverember’s needs [ch 057 / 057.07]. He was present in the dining room (with approximately twelve to fifteen others) when the magical cleaning effects on the party’s sewer-caked clothing wore off, causing a sudden stench that prompted Neverember to offer the party fresh clothes [ch 057 / 057.07].
+Last directly present at the machine warehouse urging departure for Leilon. Later reported, with Neverember, to be handling the aftermath; he could arrange the requested transport of Aletra's remains to the church. Completed transport is not recorded [ch 061 / 061.01; ch 061 / 061.04].
 
 ## Relationships
 **Lord Dagult Neverember:** Aldus serves as the Lord Protector’s steward, scheduler, and financial auditor. He facilitates the Lord Protector’s meetings and ensures that administrative data, such as the economics of Universal Basic Treasure, aligns with Neverember’s intentions [ch 050 / entry; ch 057 / entry; ch 057 / 057.07].
@@ -49,6 +57,8 @@ Aldus was last observed attending a formal dinner with the party and Lord Nevere
 **Valphine:** Aldus contacted Valphine directly via *sending* to manage her group’s tardiness to dinner, characterizing their delay as a matter of civic importance to protect her reputation with Neverember [ch 057 / entry; ch 057 / 057.06].
 
 **Brewbarry:** Aldus endured Brewbarry’s heckling regarding the Lord Protector’s beverages and bathrobes during the initial summons, maintaining strained composure throughout [ch 050 / entry; ch 050 / 050.07].
+
+**The party:** He heard their account of a Drow attack and agreed to pass on their explanation for the machine's breakdown. Although he noticed Valphine's resemblance to Aletra, he did not identify them as sisters [ch 060 / 060.07].
 
 ## Notable Quotes
 > “I must say, I am quite the fan” — Aldus [ch 050 / 050.07]

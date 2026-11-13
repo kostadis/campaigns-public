@@ -11,12 +11,12 @@ This directory is **self-contained** — the skills themselves live here under `
 ```
 gm-assistant/
 ├── README.md                          ← you are here
-├── SKILLS.md                          ← canonical index of the 12-skill family
+├── SKILLS.md                          ← canonical index of the 17-skill family
 ├── skills/                            ← THE CANONICAL skill files (symlinked from ../.claude/skills/)
 │   ├── gm-session-prep/SKILL.md
 │   ├── gm-faction-network/SKILL.md
 │   ├── gm-strategy-doc/SKILL.md
-│   ├── gm-handout/SKILL.md
+│   ├── gm-handout/SKILL.md            (+ build_handout_pdf.py)
 │   ├── gm-npc-build/SKILL.md
 │   ├── gm-improv/SKILL.md
 │   ├── gm-npc-voice/SKILL.md
@@ -24,6 +24,11 @@ gm-assistant/
 │   ├── gm-social-encounter/SKILL.md
 │   ├── gm-module-inventory/SKILL.md   (+ example-module-inventory.md)
 │   ├── gm-quest-log/SKILL.md
+│   ├── gm-arc/SKILL.md                (+ templates.md)
+│   ├── gm-module-playbook/SKILL.md    (+ module_source.py)
+│   ├── gm-npc-dossier-cleanup/SKILL.md (+ briefs/, scripts/)
+│   ├── gm-player-calendar/SKILL.md    (+ build_calendar.py, template.html)
+│   ├── gm-bible-backfill/SKILL.md
 │   └── gm-voice-reconstruction/SKILL.md
 ├── profiles/
 │   └── finished-gm.md                 ← v1 GM style profile, drawn from one finished campaign (Hero's Journey)
@@ -40,7 +45,7 @@ And at the workspace root:
 campaigns/.claude/skills/
 ├── gm-session-prep → ../../gm-assistant/skills/gm-session-prep   (symlink)
 ├── gm-faction-network → ../../gm-assistant/skills/gm-faction-network
-├── ... (all 12 gm-* skills are relative symlinks back to gm-assistant/skills/)
+├── ... (all 17 gm-* skills are relative symlinks back to gm-assistant/skills/)
 ├── oota-chapter-release/                                          (real dir — pre-existing)
 └── phandalin-chapter-release/                                     (real dir — pre-existing)
 ```
@@ -49,7 +54,7 @@ campaigns/.claude/skills/
 
 ## What the system does
 
-Twelve Claude Code skills, invokable by trigger phrase or `/skill-name`, that give Kostadis tool-shaped support for:
+Seventeen Claude Code skills, invokable by trigger phrase or `/skill-name`, that give Kostadis tool-shaped support for:
 
 - **Pre-session prep** — generating session-prep docs, in-world handouts, NPC dossiers, antagonist strategy docs, faction-network maps.
 - **At-the-table play** — emergency improv when the party goes off-script, on-demand NPC voice, on-the-fly stat blocks, structured prisoner-interrogation / social-encounter scenes via the local `flexai-social` tool.

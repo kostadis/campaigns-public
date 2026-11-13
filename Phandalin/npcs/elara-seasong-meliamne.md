@@ -1,17 +1,17 @@
-<!-- published by summary_native npc-publish | source: summary_native | npc: Elara Seasong Meliamne | range: ch002-057 | draft run: 20261014T034750Z | draft sha256: 74ec48c4095ef5580632630d29ae761064b4eedfeced78ac1344a4355bbfb9c2 | authored sha256: none | verify: pass | published sha256: dee19ce36ae01f9d28cb55a82dcb55592d8a238fdea975fe39832cf736fe59d4 -->
+<!-- published by summary_native npc-publish | source: summary_native | npc: Elara Seasong Meliamne | range: ch002-059 | draft run: delta-ch058-059-20261021 | draft sha256: d7d39bd18bab2eccc386e131227e391aaa5a8ec308452ca09e9f17a86b911d1d | authored sha256: none | verify: pass | published sha256: d1bff76a7a11d733737546aabc18120bb002fe310289b369db01cbd2d7d42de7 -->
 ---
 subject: Elara Seasong Meliamne
 type: npc
 global: true
 exclusion: null
-aliases_used: [Elara Seasong Meliamne, Lady Elara Meliamne]
+aliases_used: [Elara, Elara Seasong Meliamne, Lady Elara Meliamne]
 first_seen: 27
-last_seen: 50
-chapters: [27, 34, 49, 50]
+last_seen: 58
+chapters: [27, 34, 49, 50, 58]
 n_entries: 4
-n_scenes: 2
+n_scenes: 3
 n_moments: 0
-range: 2-57
+range: 2-59
 source_kind: summary_native_npc_link
 ---
 
@@ -32,10 +32,10 @@ Elara Seasong Meliamne was a wealthy sea elf noblewoman of House Meliamne and a 
 *   Elara’s death was so severe that resurrection was impossible [ch 050 / entry; ch 050 / 050.03].
 *   Before her death, Elara had been investigating the malfunction of the Planar Manifold, meeting with a gnome technician at the docks and documenting her unease regarding him [ch 050 / entry].
 
+- Cassian showed the party Elara’s records-request slip concerning the manifold and her final note that the failure would be profitable only if someone knew the route would remain closed. He did not know who had seen her inquiry and acknowledged that his accusation against House Margaster still needed proof [ch 058 / 058.02].
+
 ## Last Observed State
-Elara Seasong Meliamne is dead. She was killed eight days prior to the party's arrival in Neverwinter during a festival that resulted in a "catastrophic, catastrophic, spectacular and bloody disaster" [ch 049 / entry; ch 050 / entry; ch 050 / 050.03].
-*   **Circumstances:** The official ruling by Lord Neverember declared the death a "tragic accident," though contradictory rumors suggested a love affair gone wrong, a raid, or a magical accident [ch 050 / entry; ch 050 / 050.03]. Her cousin, Cassian Meliamne, attributes her death to House Margaster [ch 049 / entry; ch 050 / entry].
-*   **Resurrection:** Her death was so severe that it is beyond the ability to be raised, and resurrection is impossible [ch 050 / entry; ch 050 / 050.03].
+Deceased; the new evidence consists of her records request and final note, presented by Cassian. He attributes her murder and inability to be raised to House Margaster, but says he lacks a case and seeks further proof. The identity of whoever saw her query remains unresolved [ch 050 / entry; ch 058 / 058.02].
 
 ## Relationships
 *   **Lord Cassian Meliamne:** Her cousin, whom she called her brother. He hosted a weeks-long gala in Neverwinter that Elara attended before her death [ch 027 / 027.06; ch 050 / entry]. Following her death, the staff directed the party to Cassian at the inn [ch 050 / 050.03]. The staff noted that Cassian did not seem eager to pursue raising Elara, despite the impossibility [ch 050 / 050.03].
