@@ -185,7 +185,11 @@ class Mirror:
             self.counts["unchanged"] += 1
             return existing["id"]
 
-        props = {"source_md5": md5, "source_path": rel}
+        # Drive caps each app property at 124 bytes of key + value; source_path
+        # is informational only, so long paths are cut to fit.
+        room = 124 - len("source_path")
+        props = {"source_md5": md5,
+                 "source_path": rel.encode()[:room].decode(errors="ignore")}
         drive_dir = "/".join((ROOT_FOLDER, *Path(rel).parent.parts))
         media = MediaInMemoryUpload(data, mimetype="text/markdown", resumable=False)
         if existing:
