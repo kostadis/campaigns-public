@@ -1,0 +1,4 @@
+.obsidian/
+.zvec-grep/
+__pycache__/
+sync.log

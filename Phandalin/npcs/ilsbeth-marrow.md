@@ -1,4 +1,4 @@
-<!-- published by summary_native npc-publish | source: summary_native | npc: Ilsbeth Marrow | range: ch002-057 | draft run: 20261008T043957Z | draft sha256: 3af6a00d005d6bd867531479245046462864ac08576d36375de9d2d981112ba9 | authored sha256: none | verify: pass | published sha256: 613d13ae380f8673f989ea83b29abb8732719c310769ffcfc0b3884ede206995 -->
+<!-- published by summary_native npc-publish | source: summary_native | npc: Ilsbeth Marrow | range: ch002-061 | draft run: delta-ch061-20261105 | draft sha256: 562e7aedc086749592853afa33efe5e094a26b261e90eb9900dbdaca0317284b | authored sha256: none | verify: pass | published sha256: f604faf30c122062c551a885cc465970da11853253dbe297c58ac93ecba018ba -->
 ---
 subject: Ilsbeth Marrow
 type: npc
@@ -6,12 +6,12 @@ global: true
 exclusion: null
 aliases_used: [Ilsbeth Marrow]
 first_seen: 57
-last_seen: 57
-chapters: [57]
-n_entries: 1
-n_scenes: 1
+last_seen: 61
+chapters: [57, 58, 61]
+n_entries: 2
+n_scenes: 3
 n_moments: 0
-range: 2-57
+range: 2-61
 source_kind: summary_native_npc_link
 ---
 
@@ -31,8 +31,12 @@ She possesses knowledge regarding the manifold’s history, stating it appeared 
 - She states the manifold appeared about ten years earlier through an arrangement made by the Commission but does not know its original source [ch 057 / entry].
 - When asked about ties to House Margaster, she reacts with transparent horror, which Valphine accepts as genuine [ch 057 / 057.06].
 
+- The party honored its promise to raise her company’s quadrupled harbor fees with Neverember. He granted Marrow and Sons temporary harbor relief, and Aldus prepared the paperwork before dessert was cleared [ch 058 / 058.01].
+
+- After retrieving their sending stone, the party arranged an ordinary postal letter telling Ilsbeth that they had secured her temporary harbor-fee relief. Delivery and receipt are not confirmed [ch 061 / 061.05].
+
 ## Last Observed State
-Ilsbeth approached Valphine and the party as they were leaving the temple, requesting a private moment [ch 057 / 057.06]. Valphine invited her to walk with the entire group instead [ch 057 / 057.06]. During this interaction, Ilsbeth introduced herself, explained her company’s plight, and requested political intervention [ch 057 / 057.06]. She was subjected to scrutiny by the party regarding her loyalties but reacted with visible horror to the implication of Margaster ties [ch 057 / 057.06]. Status not established in the summaries beyond this departure from the temple scene [ch 057 / 057.06].
+Her firm has temporary harbor relief through the party's advocacy. The party has now arranged a postal letter notifying her of that concession, but no delivery, reply or new encounter with Ilsbeth is recorded [ch 058 / 058.01; ch 061 / 061.05].
 
 ## Relationships
 *   **Valphine:** Ilsbeth believed Valphine to be an advisor to Lord Neverember and sought her advocacy [ch 057 / entry; ch 057 / 057.06].

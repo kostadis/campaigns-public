@@ -1,17 +1,49 @@
-<!-- published by summary_native npc-publish | source: summary_native | npc: Dawnbringer | range: ch002-072 | draft run: 20261016T014327Z | draft sha256: de5c81b1f02cd58e9ad145c5f2995589d641b5abc53a4a86a50320507026a264 | authored sha256: none | verify: pass | published sha256: 980ea3dcfb5424795ab911f56f3277963dfcb847a15b206c1a1319e50426e824 -->
+<!-- published by summary_native npc-publish | source: summary_native | npc: Dawnbringer | range: ch002-075 | draft run: delta-ch075-20261105 | draft sha256: e7dda5be4bc6a3e4e15df1398e33a633bfbe5b72ca427be97c1628c0a36a6391 | authored sha256: none | verify: pass | published sha256: 5f5309b798efc36d192f2df50d2c17d225ef20476030e60335f1fb36b2ae30d6 -->
 ---
 subject: Dawnbringer
 type: npc
 global: true
 exclusion: null
-aliases_used: [Dawnbringer]
+aliases_used:
+- Dawnbringer
 first_seen: 29
-last_seen: 72
-chapters: [29, 30, 31, 32, 34, 35, 37, 41, 42, 43, 45, 46, 47, 49, 50, 52, 53, 54, 55, 56, 57, 62, 63, 64, 65, 68, 69, 70, 72]
-n_entries: 31
-n_scenes: 0
-n_moments: 0
-range: 2-72
+last_seen: 75
+chapters:
+- 29
+- 30
+- 31
+- 32
+- 34
+- 35
+- 37
+- 41
+- 42
+- 43
+- 45
+- 46
+- 47
+- 49
+- 50
+- 52
+- 53
+- 54
+- 55
+- 56
+- 57
+- 62
+- 63
+- 64
+- 65
+- 68
+- 69
+- 70
+- 72
+- 73
+- 75
+n_entries: 32
+n_scenes: 3
+n_moments: 2
+range: 2-75
 source_kind: summary_native_npc_link
 ---
 
@@ -101,18 +133,13 @@ source_kind: summary_native_npc_link
 - With Philemon, Thorin learned that Brysis was her captor, not her wielder. Her first and true wielder was Dynaphyse, a servant of Lathander whom Brysis of Khaem killed. Naming Dynaphyse let her grieve, overcome her fear of the dark, and grant Thorin Lathander's Dawn. She ordered Thorin never to mention that she cried. [ch 072 / entry]
 - Status is not in question in these summaries. She is shown in Thorin's possession through ch 072, and no later change of custody is stated in this chunk. [ch 072 / entry]
 
+- In ch 073 the therapy Dawnbringer and Thorin had undergone encouraged him to be honest and take responsibility in his conversation with Sylvira. Eldeth explicitly welcomed sentient swords to the otherwise dwarves-only clan gathering, allowing Dawnbringer to accompany Thorin [ch 073 / 073.01; ch 073 / 073.02].
+
+- In ch 075 Thorin declined another sentient weapon and chose the Helm of the Citadel. He described himself and Dawnbringer as a package deal, credited their relationship’s strength to their counseling, and included her in his Clan Feldrun association [ch 075 / 075.05; ch 075 / entry].
+- The discussion joked about jealousy and competing demands between two sentient weapons. These remarks do not establish a new power, a new therapy session, or a new statement of Dawnbringer’s own intentions [ch 075 / 075.05].
+
 ## Last Observed State
-- **Custody and status.** In ch 072 she is with Thorin. Her status is not in question in these summaries, and no later change of custody is stated. [ch 072 / entry]
-- **Backstory resolved.** During her session with Philemon, Thorin realized Brysis was her captor. Her first and true wielder was Dynaphyse, a servant of Lathander whom Brysis of Khaem killed before burying Dawnbringer with Brysis's own corpse. [ch 072 / entry]
-- **Emotional state.**
-  - Naming Dynaphyse let her grieve and overcome her fear of the dark. [ch 072 / entry]
-  - She granted Thorin Lathander's Dawn. [ch 072 / entry]
-  - She ordered Thorin never to mention that she cried. [ch 072 / entry]
-- **Capabilities.** Thorin's attack bonus with her was +10 in ch 064. [ch 064 / entry] She communicates telepathically and emits radiant light. [ch 072 / entry]
-- **Recent use.**
-  - In ch 070 Alaundo's prophecy referred to her as the "bright blade." Thorin's Menacing Attack with her frightened Edvaldo. [ch 070 / entry]
-  - In ch 069 she was the primary light source in the tower. [ch 069 / entry]
-- **Open thread.** The two-phase therapy began in ch 056 with the work of light first, then the work of mourning. Ch 072 shows the grief step, but the summaries do not say whether the therapy is complete. [ch 056 / entry; ch 072 / entry]
+Still Thorin’s sentient sword as the party prepares to leave Gauntlgrym. He chooses the helm rather than acquire a second sentient weapon and explicitly affirms their bond [ch 075 / 075.05; ch 075 / entry]. Her previously established Dynaphyse revelation and Lathander’s Dawn remain unchanged; ch 075 records no new power or transfer of custody [ch 072 / entry; ch 075 / 075.05].
 
 ## Relationships
 - **Thorin (wielder).**
@@ -131,6 +158,8 @@ source_kind: summary_native_npc_link
 - **Dynaphyse.** A servant of Lathander and her first and true wielder, killed by Brysis of Khaem. [ch 072 / entry]
 - **Valen.** She halted his fungal infection and shrank his growths. [ch 049 / entry]
 - **Moziqodo.** She struck the final critical hit that killed him. [ch 063 / entry]
+
+- **Thorin, ch 075:** affirms that they are a package deal and includes her in his Clan Feldrun association; the chapter does not record a separate declaration from her [ch 075 / 075.05; ch 075 / entry].
 
 ## Notable Quotes
 > "Dawnbringer here! Let me show you what I can do!" — Dawnbringer [ch 029 / entry]

@@ -110,6 +110,26 @@ Use `toee/notes/handouts/04_kelno_unsent_letter.md` as the template:
 4. Draft the file. Open with a 2-3 sentence summary of how you're reading the author's voice so the user can catch a mis-read before the artifact is fixed in place.
 5. Produce the handout in the structure above.
 6. End the GM wrapper with the **single line the author would say if asked about it later** — this is what makes the artifact recurringly useful.
+7. **Build the player PDF only after the GM approves the in-world wording.** The Markdown file is the origin; the PDF is its replica, so to change the PDF, edit the code block and rebuild.
+
+   ```bash
+   ~/.venv/bin/python <gm-assistant>/skills/gm-handout/build_handout_pdf.py notes/handouts/NN_short-title.md
+   ```
+
+   - **Output:** it writes `output/pdf/NN_short-title.pdf` beside the campaign's `notes/`.
+   - **Verification:** it checks that the PDF carries exactly the words of the code block. If it fails, don't ship the PDF.
+   - **ReportLab:** it is installed in `~/.venv` (install with `uv pip install --python ~/.venv/bin/python reportlab`).
+   - **Layout:** it comes from the fixed-width text: indented header lines centered, capitals as headings, numbered and lettered items hung, and short-line paragraphs (signatures, titles) kept as written.
+   - **Options:** look options go in an invisible comment in the Markdown file:
+
+     ```
+     <!-- handout-pdf: title="..." author="..." italic="Signer Name; Other Signer"
+          accent="DRAFT. NOT ADOPTED." border=true seal="N" -->
+     ```
+
+     `italic` and `accent` take exact lines from the code block, separated by `;`. `border` draws a double rule round the page; use it for official documents. `seal` puts a wax-seal roundel bottom right.
+   - **Check it by eye:** render a preview (`pdftoppm -r 50 -png <pdf> <prefix>`) and look at it before you hand it over.
+   - **Linking:** link the PDF from the session prep beat that hands it out (`**Give players:** [..](../../output/pdf/NN_short-title.pdf)`).
 
 ## What this skill is NOT for
 

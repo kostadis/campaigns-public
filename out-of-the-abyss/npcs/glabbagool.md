@@ -1,22 +1,60 @@
-<!-- published by summary_native npc-publish | source: summary_native | npc: Glabbagool | range: ch002-072 | draft run: 20261016T014327Z | draft sha256: 9937f5eaa6e5be7bee6f643e609f8e142e5c2827c7391eff6e3aa7dc8fca437b | authored sha256: none | verify: pass | published sha256: f8338692b90f3accc50e1a0daceed5b67d9a940b5bd7f49181f958e168d6db12 -->
+<!-- published by summary_native npc-publish | source: summary_native | npc: Glabbagool | range: ch002-075 | draft run: delta-ch075-20261105 | draft sha256: 317ab48fba286424f9df32a1e9b261ff1688e06aa8c90bb23482eb8e005c7797 | authored sha256: none | verify: pass | published sha256: 30a093b3c448b392bc6695265f4b017aafe30ed51b679f48beef677f0daff96d -->
 ---
 subject: Glabbagool
 type: npc
 global: true
 exclusion: null
-aliases_used: [Glabbagool]
+aliases_used:
+- Glabbagool
 first_seen: 34
-last_seen: 72
-chapters: [34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 64, 65, 67, 68, 69, 71, 72]
-n_entries: 32
-n_scenes: 98
-n_moments: 52
-range: 2-72
+last_seen: 75
+chapters:
+- 34
+- 35
+- 36
+- 37
+- 38
+- 39
+- 40
+- 41
+- 42
+- 43
+- 44
+- 46
+- 47
+- 48
+- 49
+- 50
+- 51
+- 53
+- 54
+- 55
+- 56
+- 57
+- 58
+- 59
+- 60
+- 61
+- 62
+- 64
+- 65
+- 67
+- 68
+- 69
+- 71
+- 72
+- 73
+- 74
+- 75
+n_entries: 35
+n_scenes: 108
+n_moments: 58
+range: 2-75
 source_kind: summary_native_npc_link
 ---
 
 ## Identity
-- Glabbagool is an intelligent gelatinous cube who unexpectedly gained sentience, sight and speech. He describes his former self as "an average garden variety gelatinous cube" that cleaned floors and decomposed debris [ch 034 / entry; ch 034 / 034.03].
+- Glabbagool was an intelligent gelatinous cube when he unexpectedly gained sentience, sight and speech. He describes his former self as "an average garden variety gelatinous cube" that cleaned floors and decomposed debris [ch 034 / entry; ch 034 / 034.03].
 - The party met him in a flooding temple and kept him as a companion [ch 034 / 034.03; ch 034 / 034.08]. Thorin invited him to join the expedition [ch 034 / 034.03].
 - He believes he may be the only speaking gelatinous cube. He says he left a smaller cube behind once because he was lonely, but it could not speak [ch 035 / 035.04].
 - In ch 047 he and the Pudding King swapped bodies. Glabbagool ended up in the Pudding King's gray ooze body, and his old cube form dissolved with the Pudding King [ch 047 / 047.06; ch 047 / 047.07; ch 047 / 047.08]. He is afterward a sentient grey ooze, formerly a gelatinous cube [ch 050 / entry]. He said he had been sentient for only a few months as a cube and was not attached to the form [ch 047 / 047.10].
@@ -206,12 +244,20 @@ source_kind: summary_native_npc_link
 - Khell-Vire's ritual identified Jimjar as Callarduran Smoothhands. The gambler's knucklebone Jimjar tossed onto Glabbagool, so he could speak to and calm oozes, was identified as a god's marker and a debt Callarduran intends to pay. [ch 072 / 072.06; ch 072 / entry]
 - Status not established in the summaries beyond ch 072: Glabbagool was last shown at the House of Mechanus survey, with the party about to leave for Gauntlgrym. [ch 072 / 072.04; ch 072 / 072.06]
 
+- In ch 073 Glabbagool accompanied the party in Gauntlgrym. Zalthir requested Rothé cheese for him at the restaurant. Eldeth’s curiosity prompted discussion and teasing about their relationship; a possible apprenticeship was discussion, not a newly established change of status [ch 073 / 073.02; ch 073 / 073.04; ch 073 / entry].
+- At the feast Gyrgum looked pointedly at him; after Glabbagool displayed his eyes, a veteran included sentient oozes among the peoples whose cooperation strengthens the party [ch 073 / 073.06; ch 073 / entry].
+
+- In ch 074 Bruenor promised Glabbagool a place of honor in Gauntlgrym. His telepathic reply, “With cheese?”, reached the party but not the whole hall because his telepathy has a limited range [ch 074 / 074.01; ch 074 / moment].
+- At Eravien’s opening course he received cheese on a plate. At Zalthir’s urging to savor it, he narrowed a pseudopod and took a delicate bite [ch 074 / 074.02].
+- He urged the party to visit Eravien in hope of more cheese, then gave a chemically precise critique of the food that astonished Eravien, who had not thought oozes could talk [ch 074 / 074.06; ch 074 / moment].
+- Lanniver named Glabbagool’s acid among the legitimate means of fighting the enemy [ch 074 / 074.04].
+
+- In ch 075 he occupied the party’s table during the negotiations. The GM distinguished his informal summary from the official faction handouts, and Zalthir invoked his ability to stretch in different directions while arguing for several alliances [ch 075 / 075.01; ch 075 / entry].
+- When the heroes selected vault equipment, the party argued that he was a full member who deserved consideration too. Daz proposed exchanging cheese for a valuable selection, while Zalthir sought something he could digest to gain a useful benefit [ch 075 / 075.05].
+- No suitable reward had been prepared. The GM agreed to consider a comic, useful consumable, but no specific item or resulting power was finalized [ch 075 / 075.05; ch 075 / entry].
+
 ## Last Observed State
-- At the last chunk's end (ch 072) he was at the House of Mechanus survey with Zalthir. He grappled a volunteer Modron while restraining his acid, which produced the first Dust of Mechanus taken without a Modron dying [ch 072 / 072.04]. The party was about to leave for Gauntlgrym [ch 072 / 072.06].
-- He is a sentient grey ooze companion, bonded to Zalthir as an eighth-level sidekick [ch 059 / 059.06; ch 072 / entry].
-- He was entrusted with hiding one of the real High Tower keys inside his body [ch 065 / 065.03; ch 067 / entry]. The evidence does not say whether he still holds it after ch 067. Status not established in the summaries.
-- The House of Mechanus still wanted to study him and Zalthir, and the promised dance maneuvers were owed [ch 071 / 071.09]. The survey took place in ch 072 [ch 072 / 072.04].
-- He was not shown acting in Gauntlgrym. Nothing in the summaries settles his status after ch 072. Status not established in the summaries.
+A grey ooze with the party in Gauntlgrym as it prepares to depart. The four PCs have made their equipment choices, but his proposed consumable reward remains unspecified [ch 075 / 075.05; ch 075 / entry]. His previously established limited-range telepathy and ability to taste and break down food remain unchanged [ch 074 / 074.01; ch 074 / 074.06]. The evidence still does not resolve custody of the High Tower key [ch 065 / 065.03; ch 067 / entry].
 
 ## Relationships
 - **Zalthir:** Closest bond. He called Zalthir a kindred spirit and they called themselves "friendly oozes" [ch 038 / 038.02]. Zalthir mentors him in shadow-monk training [ch 055 / entry; ch 056 / 056.04]. They are bonded as sidekick and partner [ch 059 / 059.06]. Zalthir uses him as a tool for stealth: absorbing tea and pocketing the potion of flying [ch 062 / 062.03; ch 062 / 062.04]. They fight together and study together for the Modrons [ch 062 / 062.06; ch 072 / 072.04]. Zalthir said "Go Glabbagool!" [ch 072 / moment].
@@ -226,6 +272,11 @@ source_kind: summary_native_npc_link
 - **Edvaldo:** The party suggested leaving him to guard the bound Edvaldo, but he stayed with the party [ch 069 / 069.04]. He was fascinated by the doppelganger Edvaldo's shapeshifting [ch 071 / 071.01].
 - **Eldeth and Jimjar (Burrow Warden task):** In ch 039 he was assigned with them to help Uth-Jadger and the ghosts [ch 039 / 039.10]. In ch 040 the plan changed and he stayed with the main party [ch 040 / 040.01].
 - **Dawnbringer:** Dawnbringer protested the fall while he cheered it on [ch 068 / entry]. She backed Thorin against the Waterdeep guard [ch 055 / 055.08].
+
+- **Eravien Haund, ch 074:** his critique of Eravien’s cheese surprises the Lords’ Alliance noble [ch 074 / 074.06].
+- **Zalthir, ch 074:** coaches him to savor the special cheese [ch 074 / 074.02].
+
+- **Daz and Zalthir, ch 075:** advocate that he receive something valuable or digestible, rather than being left out of the royal equipment discussion [ch 075 / 075.05].
 
 ## Notable Quotes
 > "Well, hello, hello, hello." — Glabbagool [ch 034 / 034.03]
@@ -383,6 +434,8 @@ source_kind: summary_native_npc_link
 > "Go Glabbagool!" — Zalthir [ch 072 / moment]
 
 > "Symmetrical within Tolerance." — the thirteen Modrons [ch 072 / 072.04]
+
+> "With cheese?" — Glabbagool [ch 074 / moment]
 
 ## Arc-Score Candidates
 - "Glabbagool joins the expedition and becomes especially excited about talking to his new friend Thorin." [ch 034 / 034.03]

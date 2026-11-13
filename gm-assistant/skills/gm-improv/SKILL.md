@@ -30,10 +30,13 @@ Default to *no other questions*. The user can correct mid-stream.
 
 Whatever is already loaded in this Claude Code session. If the campaign context isn't loaded:
 
+- `docs/gm_doctrine.md` — if present, the standing rulings section only (skip the design index); one fast read
 - `docs/campaign_state.md` — current state, one fast read
 - The most recent session summary under `summaries/` — one fast read
 
 Do not read more. Speed matters more than completeness here. If you don't know something, name what you don't know in one of the three options.
+
+**Villain moves still pass the Evil Overlord test** (workspace `CLAUDE.md`): any option where a BBEG acts must not depend on the villain ignoring a counter they know about, nor on the villain knowing something it has no source for (`gm-assistant/references/evil_overlord_dnd.md`). Check it in your head; don't write it up.
 
 ## Style notes for this output
 

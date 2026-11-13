@@ -34,6 +34,7 @@ Refuse if the working directory isn't a campaign subdir.
 5. Any session summary where this NPC appeared (search `summaries/` for the name)
 6. `docs/background/` — for source-canon details if relevant
 7. Sibling strategy/network docs already produced for adjacent NPCs (`notes/*_strategy.md`, `notes/*_network.md`) — link them rather than re-derive
+8. `docs/arcs/` when present — the arcs this NPC appears in (their `villains:` frontmatter) and the sandbox they sit in. Link them; possible beats live in the arcs, not here.
 
 ## Style notes for this output
 
@@ -60,14 +61,22 @@ GM-only working doc. Updated as of {date stamp}.
 do they think is happening right now. Not from the GM's perspective — from theirs.}
 
 ## Their Current Position
-- {Bullet points: where they are, who's around them, what's the pressure.}
+- {Bullet points: where they are, who's around them, what's the pressure. As of Ch. N, from the summaries.}
+
+## Next Move
+{One move: what they do next from this position. No pre-scripted phases. The villain reacts to play, so this section is rewritten after each recorded session. Possible beats belong in the arcs.}
+
+## Ledger — what they know about the party, and the source
+| Fact | Source (witness / spy / scrying / …) | Ch. N | Tag |
+|---|---|---|---|
+{**This doc owns the ledger.** Arcs, sandboxes and session prep link here and never keep their own copy. `/gm-arc record` proposes new rows only when a summary shows the NPC gaining a source. Under the Evil Overlord rule, the NPC acts only on rows in this table.}
 
 ## Their Secret
 {The one thing they know that no one else in the campaign knows. The lever. GM-only.}
 
 ## The Optimal Play (For Them)
 {Numbered. What would they do this week if the GM played them as smart as they are?
-Walk through the plan they would execute in the background.}
+Walk through the plan they would execute in the background. This is the plan *as of now*, built only on Ledger facts. It is not a script: re-derive it whenever the position changes.}
 
 ## The Optimal Play (Against Them)
 {Numbered. What's the party's actual best path? The GM should know this so they can
@@ -94,6 +103,7 @@ onto it and can give it weight.}
 improvising mid-session.}
 
 ## Cross-references
+- Arcs: {[arc title](../docs/arcs/<slug>.md)}, and the sandbox they sit in.
 - See {sibling strategy doc} for the rival/ally angle.
 - See {network doc} for the operational picture they sit inside.
 
@@ -107,7 +117,8 @@ improvising mid-session.}
 2. Ask the 1-4 inputs the user hasn't supplied, one at a time.
 3. Draft to `notes/{npc-slug}_strategy.md`.
 4. Open with a 2-3 sentence summary of how you're reading this NPC — let the user catch you if you've got them wrong.
-5. Produce the dossier.
+5. Produce the dossier. Fill the Ledger only with facts that have a named source; anything else is the GM's call under Open decisions.
+5a. If `docs/arcs/` exists, run `/gm-arc mine <npc>` and list the useful threads under Open decisions as plot ideas the players already planted. They are suggestions only.
 6. End with **Open decisions** and **Cross-references**.
 
 ## What this skill is NOT for

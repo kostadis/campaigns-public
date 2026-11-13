@@ -1,6 +1,6 @@
 # gm-assistant skills — canonical index
 
-Twelve workspace-scoped Claude Code skills. **Canonical files** live at `gm-assistant/skills/gm-*/SKILL.md`. **Runtime symlinks** at `.claude/skills/gm-*` point back to those — Claude Code auto-discovers them when you open any project inside the campaigns repo.
+Seventeen workspace-scoped Claude Code skills. **Canonical files** live at `gm-assistant/skills/gm-*/SKILL.md`. **Runtime symlinks** at `.claude/skills/gm-*` point back to those — Claude Code auto-discovers them when you open any project inside the campaigns repo.
 
 Edit the files in `gm-assistant/skills/`. The symlinks update transparently.
 
@@ -133,6 +133,56 @@ Every open promise, contract, errand, and personal thread the *party* knows abou
 **Triggers:** "what quests do the players have open" • "make a quest list" • "player-facing quest log" • "what are the party's open threads" • `/gm-quest-log`
 
 **Use when:** You want something you can hand straight to the players.
+
+---
+
+#### `gm-arc` — arcs and sandboxes across sessions
+
+Tracks each campaign's arcs (storylines with a question, possible beats, rulings, and what the party has seen) and sandboxes (places the party lives in for several sessions, with factions and an affordance menu), kept in `clocks.md` and `junctions.md` under `docs/arcs/`. Three verbs: `new` drafts an arc or sandbox for GM confirmation, `record` writes a played session's summary into the arcs as a GM-approved delta, and `mine` searches the thread pool for plot ideas the players already planted. Design rulings are in `working/arc-tracking/DESIGN.md` and `DECISIONS.md`.
+
+**Triggers:** "make an arc for…" • "set up the sandbox for…" • "record last session into the arcs" • "what threads touch…" • `/gm-arc new|record|mine`
+
+**Use when:** A storyline or place needs to carry the GM's intent across several sessions, so session prep stops rediscovering it.
+
+---
+
+#### `gm-module-playbook` — the published module, played straight
+
+Turns a published-module section into a table playbook: what to say and when, in the module's own order and wording, with read-aloud text verbatim, triggers, NPC behaviour as written, checks with the printed DCs, branches, how the scene ends, an "easy to miss" list, and what the module leaves unsaid. A deterministic script numbers every paragraph, box, sidebar, list item and table, then checks the playbook cites all of them, quotes read-aloud verbatim, and prints no DC the module doesn't.
+
+**Triggers:** "how does the module run this" • "what does the book say to do here" • "play it straight" • "no overlays" • `/gm-module-playbook [source] [section]`
+
+**Use when:** Before a session that touches a module section, and you want the book's version with no campaign overlays.
+
+---
+
+#### `gm-npc-dossier-cleanup` — taking NPC dossiers to GM-signed and published
+
+Drives a campaign's summary-native NPC dossiers from "registered but undrafted or failing verify" to "GM-signed and published": assess, identity checks, re-link, draft, verify, one GM corrections page, apply, freeze, flag review, sign-off, publish, commit. Wraps CampaignGenerator's `summary_native` CLI and never reimplements it. Every wording change, sign-off and identity ruling goes to the GM. The procedure and its history are in `working/summary-native-npc-dossiers/WORKFLOW.md`.
+
+**Triggers:** "clean up the NPC dossiers" • "draft the remaining NPCs" • "run the NPC workflow" • `/gm-npc-dossier-cleanup [campaign-dir]`
+
+**Use when:** Summary-native NPC dossiers are registered but undrafted, or failing verify, and need to reach the published state.
+
+---
+
+#### `gm-player-calendar` — "The Road So Far" for the players
+
+Builds or updates a player-facing Calendar of Harptos page showing the major events the party has lived through, day by day, from the campaign's GM-ruled `docs/arcs/calendar.md`. Claude drafts the event wording; every proper noun is checked against canon; the GM reviews the event list before anything is published. A deterministic script then builds the page from the reviewed JSON, republished to the same link.
+
+**Triggers:** "show the players a calendar" • "update the players' calendar" • `/gm-player-calendar` • from `gm-session-prep`'s calendar step
+
+**Use when:** The players should see the party's timeline, and the GM has ruled the dates.
+
+---
+
+#### `gm-bible-backfill` — a hand-written bible into ruled summaries
+
+A staged runbook that turns a campaign's hand-written bible (one long markdown of chapters, no recordings) into `docs/chapters/`, per-chapter `session-summary.md` files, a GM-ruled Harptos calendar (`docs/arcs/calendar.md`), published `docs/summaries/`, and a players' calendar page. Each stage ends at a GM checkpoint and in its own PR; the skill works out which stages are already done and resumes there. Claude finds, counts, drafts and applies under count guards; every spelling, identity, date and wording is the GM's ruling. First run: stormgiants, 2026-11-06 (PRs #629–#633).
+
+**Triggers:** "do the stormgiants process for {campaign}" • "backfill summaries from the bible" • "start {campaign}'s bible from the top" • `/gm-bible-backfill <campaign-dir> [stage]`
+
+**Use when:** A campaign has a bible but no session recordings behind it, and needs summaries, a calendar and player-facing pages.
 
 ---
 

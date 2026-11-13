@@ -1,6 +1,6 @@
 # Chapter 9: Conflict-free gold, a curious side quest, and a delightful ambush
 
-Date: 03-02 to 07-02 of Taraskh 1495
+Date: 03-02 to 07-02 of Tarsakh 1495
 
 ## Summary
 The party’s departure for the Tower of Storms was interrupted almost immediately. Rounding a bend, they found a small trade cart overturned and half-swallowed by undergrowth, and huddled behind it two badly shaken travellers — Ellarrah, a middle-aged human merchant, and Jarek, her groom — with their pack horses nowhere in sight. Vukradin, taking stock of the rescue party bearing down on these terrified strangers (an aasimar, an Uthgardt barbarian, a drow, a large tortle, and one human who looked like a bandit in armour stripped off a corpse), stepped forward to be reassuring and to see whether a coin could be earned here without anyone having to die for it. Ellarrah’s opening line — “Orcs attacked us” — was answered by Soma in her guttural, patronizing, motherly register: “We aren’t orcs.” Vukradin wanted to scream that this was obvious. Asked who they actually were, Valphine got there first with a single shouted word, “Lathander!”, which Ellarrah received as devotion — “Oh, Priestess! The faith must be strong in you!” — and Valphine confirmed with the beatific look of the widely misunderstood: “He’s painful!” Ellarrah admitted she had never heard that teaching.

@@ -1,17 +1,17 @@
-<!-- published by summary_native npc-publish | source: summary_native | npc: Harper Seat | range: ch002-057 | draft run: 20261014T034750Z | draft sha256: 7ac1543d4a0b10e56f8aa1c442849cc9e0b0815edc867d374a1be15bb9943887 | authored sha256: none | verify: pass | published sha256: 05f99f6c79d987e33f04f09482284fd4f6971ba44e67fd78be5a413a0dabfbf0 -->
+<!-- published by summary_native npc-publish | source: summary_native | npc: Harper Seat | range: ch002-061 | draft run: delta-ch061-20261105 | draft sha256: 92273982ee55046ffee7804d4930bb03aeddd063dfee1d73b225475479792bcb | authored sha256: none | verify: pass | published sha256: 13c7e4a7e94e19205ccd85172fc12dbfc2189c42fbaf595f2baec93ed83f37a7 -->
 ---
 subject: Harper Seat
 type: npc
 global: true
 exclusion: null
-aliases_used: [Harper Seat]
+aliases_used: [Harper Seat, The Seat]
 first_seen: 55
-last_seen: 55
-chapters: [55]
-n_entries: 1
-n_scenes: 2
-n_moments: 7
-range: 2-57
+last_seen: 61
+chapters: [55, 61]
+n_entries: 2
+n_scenes: 3
+n_moments: 12
+range: 2-61
 source_kind: summary_native_npc_link
 ---
 
@@ -34,8 +34,12 @@ Harper Seat is guarded, skilled at extracting information, and presents ignoranc
 - When Vukradin asked if he was being patronized regarding his fame, Harper Seat replied "Absolutely not. You are, in fact, the incredible Vukradin," before listing the various events and rumors contributing to his reputation [ch 055 / 055.03; ch 055 / moment].
 - Harper Seat admitted she had not seriously investigated the source of Vukradin’s sudden fame, initially suggesting he might be being manipulated [ch 055 / 055.03; ch 055 / moment].
 
+- At the House of a Thousand Faces, the Seat acknowledged the party's clearing of the Rift Weavers and honored discounted fabric shipping through the reopened route, bypassing Margaster's prices. Brewbarry accepted the fabric and sealed the bargain with a handshake; the GM identified the arrangement as smuggling [ch 061 / 061.06].
+- She exchanged Margaster intelligence for a future favor from Vukradin, who accepted after raising objections to illegal or immoral requests. She described Margaster as an infernal institution reputed to serve as lawyers for a powerful entity, explaining that the Harpers keep their distance [ch 061 / 061.06].
+- She attributed her knowledge of the party's two killings to surveillance and inference around the machine building. She said special partner contracts persist through death and return slain agents as infernal beings, describing the killings as promotions while distinguishing Bimble's ordinary agreement. Identifying the relevant plane would require a diabolist; no infernal return was directly witnessed [ch 061 / 061.06].
+
 ## Last Observed State
-Harper Seat was last seen at the House of a Thousand Faces during a meeting with the party [ch 055 / 055.02]. She tasked the party with clearing a sewer junction of Rift Weavers to reopen a critical Harper food route that passes through Dead Rat territory [ch 055 / entry; ch 055 / 055.02]. She arranged for the party to have access to washing facilities, clean clothing, and disguises to prepare for their evening dinner with Lord Neverember [ch 055 / 055.03]. She acknowledged that her organization’s threat assessments regarding House Sotorra required updating after learning the family survived [ch 055 / 055.02].
+At the House of a Thousand Faces after honoring the fabric bargain and receiving the sewer-clearance report. She holds Vukradin's accepted obligation of a future favor. Her account of Margaster's infernal partner contracts is intelligence given to the party, without a direct sighting of the slain agents' return or identification of their home plane [ch 061 / 061.06].
 
 ## Relationships
 *   **House Margaster**: A rival whose contracts contain hidden traps to seize control of clients and trade routes [ch 055 / 055.02].

@@ -94,6 +94,9 @@ the character mid-session.}
 4. Draft the dossier to `docs/npcs/<slug>.md`. Use the slug form `firstname-lastname` or `epithet-name`.
 5. Open with the proposed name + a one-sentence pitch ("This is your innkeeper — she's a former smuggler hiding from her past, and she runs the place because the previous owner owed her money") so the user can redirect before you commit.
 6. Produce the dossier.
+7. If the campaign has `docs/arcs/`:
+   - Run `/gm-arc mine <npc or place>` and offer any useful hits as plot ideas the players already planted. They are suggestions only.
+   - Name the arcs and sandbox this NPC touches, so the GM can add them to the sandbox roster or an arc's cast through a GM-approved delta. Never edit the arc files from this skill.
 
 ## What this skill is NOT for
 

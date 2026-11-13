@@ -20,11 +20,11 @@ When Vukradin returned from his walk, Harbin quickly claimed that the temple fun
 
 The next morning, Vukradin spoke with Ser Kaelen about tracking down the rightful owners of the treasure they had found. Ser Kaelen explained that he was waiting for information from Neverwinter and should have answers in a few days. He suggested the party could check out Mountain’s Toe or deliver supplies to the Loggers’ Camp while they waited. Sister Kaella’s promised intelligence would likewise take several days, so the party still did not know the Carver’s location.
 
-The party chose the supply delivery, partly because Harbin’s supposed generosity toward the temple left Vukradin feeling obliged to help him. At Barthen’s Provisions, Barthen handed them an inventory listing two heavy crates filled with dried meats, blocks of cheese, loaves of bread, casks of ale, and flasks of oil. The crates were loaded onto a two-wheeled cart pulled by an ox named Vincent, both of which Barthen expected to be returned. Brewbarry immediately objected to the culinary imbalance: “Those crates have bread and cheese and no wine? That doesn’t seem right.” Barthen recommended a detour to the Falcon Hunting Lodge, renowned for fine wine.
+The party chose the supply delivery, partly because Harbin’s supposed generosity toward the temple left Vukradin feeling obliged to help him. At Barthen’s Provisions, Barthen handed them an inventory listing two heavy crates filled with dried meats, blocks of cheese, loaves of bread, casks of ale, and flasks of oil. The crates were loaded onto a two-wheeled cart pulled by an ox named Vincent, both of which Barthen expected to be returned. Brewbarry immediately objected to the culinary imbalance: “Those crates have bread and cheese and no wine? That doesn’t seem right.” Barthen recommended a detour to the Falcon's Hunting Lodge, renowned for fine wine.
 
 Before they departed, Barthen described Falcon’s lodge as a sanctuary in the heart of Neverwinter Wood. Falcon served as a guide to nobles who would not last long in the forest without his protection and survival skills. The compound included a main house, guest accommodations, a combined stable and smithy, an outhouse, and livestock pens. Vukradin persuaded Barthen to provide a signed letter of introduction confirming that the party came on his recommendation. Valphine also considered selling her old chain shirt from the Underdark; Vukradin accepted her assurance that it had genuinely belonged to her and therefore was not blood money.
 
-After a peaceful two-day journey through Neverwinter Wood, the party arrived at the fortified Falcon Hunting Lodge. The trip was so uneventful that Vukradin jokingly complained about the absence of magical confusion, obscured ruins, or navigation trouble. The party instead enjoyed a nature hike, sang songs, drank, and—by Vukradin’s accounting—did not steal anything.
+After a peaceful two-day journey through Neverwinter Wood, the party arrived at the fortified Falcon's Hunting Lodge. The trip was so uneventful that Vukradin jokingly complained about the absence of magical confusion, obscured ruins, or navigation trouble. The party instead enjoyed a nature hike, sang songs, drank, and—by Vukradin’s accounting—did not steal anything.
 
 A thin fog surrounded the lodge, which stood in a clearing on the east side of a narrow river. A ten-foot-high log palisade enclosed a two-story main building with a high-pitched roof, gables, shutters, and a stone chimney. A blocky gray stone tower with battlements adjoined it, while a gatehouse, stable house, stone bridge, and bell completed the visible defenses. Soma rang the bell and was met by Corwin, who demanded to know who they were. Once shown Barthen’s note, he welcomed them inside. Corwin explained, “My name’s Corwin, although my friends called me Chef. You’re not my friends yet, so you can call me Corwin.”
 
@@ -109,7 +109,7 @@ As the party settled in for the night, Vukradin privately resolved to search the
 
 ### Morning Preparations and Supply Run
 
-#### The party discusses their next quests with Ser Kaelen and prepares to deliver supplies to the Loggers’ Camp, with a planned detour to the Falcon Hunting Lodge for wine.
+#### The party discusses their next quests with Ser Kaelen and prepares to deliver supplies to the Loggers’ Camp, with a planned detour to the Falcon's Hunting Lodge for wine.
 
 - The next morning, Vukradin asks Ser Kaelen, “How are you doing in tracking down the rightful owners of all this treasure we’ve found that needs to be returned?”
 - Ser Kaelen says a message has been sent to Neverwinter and that he expects information back in a few days.
@@ -123,7 +123,7 @@ As the party settled in for the night, Vukradin privately resolved to search the
 - The crates are loaded onto a two-wheeled cart pulled by an ox named Vincent. Barthen expects both Vincent and the cart to be returned.
 - Brewbarry objects, “Those crates have bread and cheese and no wine? That doesn’t seem right.”
 - He explains, “Cheese, bread, you gotta have wine.”
-- Barthen recommends the Falcon Hunting Lodge, a sanctuary in the heart of Neverwinter Wood known for fine wine.
+- Barthen recommends the Falcon's Hunting Lodge, a sanctuary in the heart of Neverwinter Wood known for fine wine.
 - Barthen describes Falcon as a wilderness guide for nobles unlikely to survive without his protection and survival skills.
 - The lodge contains a main house, guest house, combined stable and smithy, outhouse, and pens for livestock.
 - Vukradin asks Barthen to send word ahead describing who the party is “and how awesome we are.”
@@ -132,13 +132,13 @@ As the party settled in for the night, Vukradin privately resolved to search the
 - Valphine considers selling her old chain shirt from the Underdark. Vukradin accepts that it is legitimate property after she assures him, “That’s definitely mine.”
 - The party sets out with the cart and supplies, taking the hunting-lodge detour in pursuit of wine.
 
-### Arrival at Falcon Hunting Lodge
+### Arrival at Falcon's Hunting Lodge
 
 Falcon the Hunter soon appeared, sporting impressive mutton chops and enthusiastically greeting the rare visitors. Delighted that Barthen had sent them, he invited the party to stay the night for a fine meal. Vukradin offered the band’s musical services, and Falcon eagerly accepted. Falcon also revealed that another drow was staying at the lodge and suggested she might enjoy meeting Valphine.
 
-#### After a peaceful two-day journey through Neverwinter Wood, the party arrives at the fortified Falcon Hunting Lodge and is greeted by its proprietor.
+#### After a peaceful two-day journey through Neverwinter Wood, the party arrives at the fortified Falcon's Hunting Lodge and is greeted by its proprietor.
 
-- The party travels for two days to the Falcon Hunting Lodge without incident, enjoying nature, singing songs, and drinking.
+- The party travels for two days to the Falcon's Hunting Lodge without incident, enjoying nature, singing songs, and drinking.
 - Vukradin is surprised that the trip involves no magical interference, navigation trouble, obscured ruins, or attacks.
 - The DM describes it as “just a boring, you know, two-day trip,” while Soma calls it “a nice nature hike.”
 - Vukradin notes approvingly, “We didn’t steal anything.”
@@ -298,7 +298,7 @@ A shop in Phandalin where the party picks up supplies for the Loggers’ Camp. B
 
 ### Loggers’ Camp
 
-A remote camp in the forest that requires a supply delivery, serving as the party’s primary destination for this journey. The party does not reach it during this session because it stops overnight at the Falcon Hunting Lodge.
+A remote camp in the forest that requires a supply delivery, serving as the party’s primary destination for this journey. The party does not reach it during this session because it stops overnight at the Falcon's Hunting Lodge.
 
 ### Falcon’s Hunting Lodge
 
@@ -308,7 +308,7 @@ The compound includes a two-story main building with a high-pitched roof, gables
 
 ### Woodland Manse
 
-An abandoned, overgrown stone manse located roughly 10 miles southwest of the Falcon Hunting Lodge. Evil half-orcs currently inhabit it and appear to be cooperating with increasingly organized orc groups in the region. Falcon says its occupants do not currently bother him, but he offers boots of elvenkind if the party eventually deals with them and cautions that they may need more experience first.
+An abandoned, overgrown stone manse located roughly 10 miles southwest of the Falcon's Hunting Lodge. Evil half-orcs currently inhabit it and appear to be cooperating with increasingly organized orc groups in the region. Falcon says its occupants do not currently bother him, but he offers boots of elvenkind if the party eventually deals with them and cautions that they may need more experience first.
 
 ### Mountain’s Toe Gold Mine
 
@@ -316,7 +316,7 @@ A gold mine mentioned by Ser Kaelen as a potential quest destination. The associ
 
 ### Neverwinter Wood
 
-A large forest through which the party travels on its two-day journey to the Falcon Hunting Lodge. Despite previous experiences with magical navigation problems and obscured ruins, this trip is peaceful and uneventful. The party enjoys nature, sings, drinks, and arrives without losing or damaging the cart.
+A large forest through which the party travels on its two-day journey to the Falcon's Hunting Lodge. Despite previous experiences with magical navigation problems and obscured ruins, this trip is peaceful and uneventful. The party enjoys nature, sings, drinks, and arrives without losing or damaging the cart.
 
 ## NPCs
 
@@ -354,11 +354,11 @@ The tavern keeper who serves beers to the party, particularly keeping Soma well 
 
 ### Corwin
 
-The chef and one of Falcon’s retainers at the Falcon Hunting Lodge. He greets the party at the gate and initially insists that only his friends may call him “Chef.” After seeing Barthen’s note, he welcomes them inside and fetches Falcon. He avoids answering questions that he believes should be directed to his employer and repeatedly supplies wine during dinner.
+The chef and one of Falcon’s retainers at the Falcon's Hunting Lodge. He greets the party at the gate and initially insists that only his friends may call him “Chef.” After seeing Barthen’s note, he welcomes them inside and fetches Falcon. He avoids answering questions that he believes should be directed to his employer and repeatedly supplies wine during dinner.
 
 ### Falcon the Hunter
 
-The owner and proprietor of the Falcon Hunting Lodge, a retired adventurer with full mutton chops who abhors city life and prefers a rustic existence. He serves as a guide to nobles traveling through Neverwinter Wood and enjoys hunting, caring for livestock, entertaining guests, serving fine meals, and drinking fine wine.
+The owner and proprietor of the Falcon's Hunting Lodge, a retired adventurer with full mutton chops who abhors city life and prefers a rustic existence. He serves as a guide to nobles traveling through Neverwinter Wood and enjoys hunting, caring for livestock, entertaining guests, serving fine meals, and drinking fine wine.
 
 Falcon is arrogant but hospitable. He believes the nearby orcs know not to attack him and boasts that any who try will die. He reports that orcs displaced by the dragon have become more organized and are working with evil half-orcs at the Woodland Manse.
 
@@ -366,7 +366,7 @@ Falcon believes successful adventurers should retire after accumulating a fortun
 
 ### Sridar
 
-A drow traveler and refugee staying at the Falcon Hunting Lodge under Falcon’s protection. She is neither an adventurer nor a member of the Emerald Enclave. She is initially suspicious that Valphine’s Lathander worship is an elaborate Lolthite ruse, especially after hearing Valphine’s death chant.
+A drow traveler and refugee staying at the Falcon's Hunting Lodge under Falcon’s protection. She is neither an adventurer nor a member of the Emerald Enclave. She is initially suspicious that Valphine’s Lathander worship is an elaborate Lolthite ruse, especially after hearing Valphine’s death chant.
 
 Sridar collects curious artifacts with planar connections and became fascinated with planar transformations after the blink in the Underdark, when the Faerzress changed and demons appeared. She initially assumes the local phenomena are natural but takes Brewbarry’s suggestion of intentional coordination seriously. She identifies as an interventionist, particularly after what happened in Menzoberranzan.
 

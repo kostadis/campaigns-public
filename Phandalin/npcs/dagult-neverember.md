@@ -1,4 +1,4 @@
-<!-- published by summary_native npc-publish | source: summary_native | npc: Dagult Neverember | range: ch002-057 | draft run: 20261014T034750Z | draft sha256: b09a6c1589a256a077faf3e9ad90bf99a0ee0cd4943e3595a91f91cde1f3c51b | authored sha256: none | verify: pass | published sha256: 1b52dbf446626aff89964a769703ce5d0de9866609908dc817d224a0505deda2 -->
+<!-- published by summary_native npc-publish | source: summary_native | npc: Dagult Neverember | range: ch002-061 | draft run: delta-ch061-20261105 | draft sha256: cc9ca3540e59121ab0aba1c2f3a78b99bf3eaacfc0316685e5544ffff4f1b5a2 | authored sha256: none | verify: pass | published sha256: 511ad1a79d323b556bdeacb000531a7fb19ba2e1f3df519cd8dc1d833ca0c2f9 -->
 ---
 subject: Dagult Neverember
 type: npc
@@ -6,12 +6,12 @@ global: true
 exclusion: null
 aliases_used: [Lord Dagult Neverember, Lord Neverember, Lord Protector, Neverember]
 first_seen: 2
-last_seen: 57
-chapters: [2, 4, 6, 8, 16, 17, 19, 27, 49, 50, 51, 52, 53, 54, 55, 56, 57]
-n_entries: 8
-n_scenes: 36
-n_moments: 14
-range: 2-57
+last_seen: 61
+chapters: [2, 4, 6, 8, 16, 17, 19, 27, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 61]
+n_entries: 11
+n_scenes: 43
+n_moments: 18
+range: 2-61
 source_kind: summary_native_npc_link
 ---
 
@@ -75,8 +75,14 @@ Neverember is pragmatic, fiscally oriented, and focused on maintaining control o
 *   Brewbarry refused to surrender his combat blades, claiming they were his cutting knives, and damaged cutlery and plates during the meal despite Neverember’s attempts to explain simpler utensils exist. [ch 057 / 057.07]
 *   The party departed holding a mayoral appointment for Vukradin, a mission in Leilon, and political entanglements. [ch 057 / 057.07]
 
+- At the continuation of dinner, Neverember accepted Aldus’s explanation that Vukradin could call an election himself, granted temporary harbor relief to Marrow and Sons, and directed Aldus to provide a Commission introduction [ch 058 / 058.01].
+- The party’s Common Chord performance portrayed Neverember as a puppet, prompting a popular crowd chant; the identity or existence of a controller was not established by the performance [ch 058 / 058.06].
+- A citizen explained that resentment of Neverember’s taxes and controls had turned Brewbarry’s image into an independence-themed protest fashion. Neverember had publicly presented the party as adventurers hired to secure the hinterlands. Brewbarry urged the citizen to redirect blame toward Margaster [ch 059 / 059.06].
+
+- In discussion of the Margaster threat, the GM described Neverember as governing a city battered by two wars, balancing powerful constituencies and paying adventurers to address problems his armies would normally handle. The party's belief that he was a puppet remained unsupported. Later, the GM reported that Neverember and Aldus were handling the warehouse aftermath [ch 061 / 061.02; ch 061 / 061.04].
+
 ## Last Observed State
-In Chapter 057, Neverember hosted a formal dinner at his estate for the party [ch 057 / 057.07]. He received the party after they were late due to other obligations, as confirmed by his steward Aldus [ch 057 / 057.06]. During the dinner, Neverember expressed approval of Vukradin’s Universal Basic Treasure proposal insofar as the numbers supported his pre-existing intent [ch 057 / 057.07]. He produced a written decree appointing Vukradin as the mayor of Phandalin, replacing Harbin Wester, to secure Neverwinter’s border against Waterdeep’s influence [ch 057 / 057.07; ch 057 / moment]. He tasked the party with protecting Phandalin by assisting with ongoing work in Leilon [ch 057 / 057.07]. When asked about the planar manifold, he admitted he did not know its origins, assuming it was a magical object purchased by the Commission [ch 057 / entry; ch 057 / 057.07]. He expressed surprise that the manifold might be repairable, as the Commission had previously insisted it could not be fixed [ch 057 / 057.07]. He promised to ask around for replacement parts and directed the party to speak with the Commission or its Factor [ch 057 / 057.07]. Midway through the meal, when the magical cleaning effects on the party’s clothes wore off, revealing a sewer stench, Neverember offered fresh clothes, clarifying the offer was "not so much for you, it’s for me" [ch 057 / 057.07; ch 057 / moment]. He attempted to explain conventional cutlery to Brewbarry, who used combat blades to eat, damaging fine dining ware [ch 057 / 057.07]. The party departed holding the mayoral appointment and the Leilon mission [ch 057 / 057.07].
+No new direct encounter. The GM reports that he and Aldus are handling the warehouse aftermath. The party continues to suspect outside control, but has no proof that Margaster or anyone else controls him. His known pressures include two wars, powerful constituencies and reliance on adventurers; this explains the reported constraints without identifying a hidden controller [ch 061 / 061.02; ch 061 / 061.04].
 
 ## Relationships
 *   **The Party:** Neverember hires them as contractors, allowing them to keep found treasure [ch 002 / entry]. He follows their economic and cultural impact with interest [ch 050 / entry]. He views Valphine as a potential ally for "direct action" and praised her patriotic approach to the manifold issue [ch 052 / 052.03; ch 057 / 057.07]. He appointed Vukradin mayor to counter Waterdeep’s influence and tasked him with "big picture" governance [ch 057 / 057.07]. He was visibly annoyed by the party’s poor hygiene and Brewbarry’s destructive dining habits [ch 057 / 057.07].

@@ -1,4 +1,4 @@
-<!-- published by summary_native npc-publish | source: summary_native | npc: Moziqodo | range: ch002-071 | draft run: 20261012T044404Z | draft sha256: 3c334f125cb4469ee334303cacf861728426490fd9900f3003c60006d4e36107 | authored sha256: none | verify: pass | published sha256: 9e86fdacb660e6a33c38f23f0bc981af1690eda0208c9c1d99d0c78cec22ac6d -->
+<!-- published by summary_native npc-publish | source: summary_native | npc: Moziqodo | range: ch002-073 | draft run: delta-ch073-20261022 | draft sha256: 97a7649fcd6ed2939d2b0076f2bfdcb4161651b4bf956feb6f2c6cd76412d067 | authored sha256: none | verify: pass | published sha256: 6c7c2684f4a98f81e9de3a7b40951f84d39114b19e2016467e8b02ecddcdfae1 -->
 ---
 subject: Moziqodo
 type: npc
@@ -6,12 +6,12 @@ global: true
 exclusion: null
 aliases_used: [Moziqodo]
 first_seen: 63
-last_seen: 67
-chapters: [63, 64, 65, 67]
+last_seen: 73
+chapters: [63, 64, 65, 67, 73]
 n_entries: 3
-n_scenes: 9
-n_moments: 3
-range: 2-71
+n_scenes: 10
+n_moments: 4
+range: 2-73
 source_kind: summary_native_npc_link
 ---
 
@@ -37,6 +37,8 @@ Moziqodo acted as a lethal operative in a conspiracy involving the High Tower ke
 - A'lai Aivenmore remained unaware of Moziqodo's death in Chapters 064 and 065, waiting for him to arrive at the High Tower. [ch 064 / entry] [ch 064 / 064.03] [ch 065 / entry]
 - Moziqodo had delivered Bookwyrm's key to A'lai before the party killed him; the party later stripped that key from A'lai and hid it inside Glabbagool. [ch 065 / entry] [ch 065 / 065.03]
 - In Chapter 067, Sylvira Savikas arrived and thanked Thorin for saving Tadric, unaware that the party had killed her son Moziqodo. [ch 067 / 067.03]
+
+- In ch 073 Sylvira explained that Moziqodo’s illness was unnatural, connected to the arrival of demon spawn and demon lords in the Underdark, and had also been killing her. His death coincided with her symptoms receding. This is her explanation after his death, not a new appearance or a change in his deceased status [ch 073 / 073.01].
 
 ## Last Observed State
 Status: Deceased.

@@ -121,7 +121,32 @@ For **quick mode** (mid-session):
 **How they fight:** {2-3 sentences. Their tactical preference. When they break and run.}
 ```
 
-For **full mode**, add after the quick block:
+For **full mode**, the file **opens with How to play them**, above the quick block. The GM reads this first at the table; the numbers are for lookup. (GM 2026-10-27: mechanics bury structure, so the playing guide comes before the math. Model: `Phandalin/notes/statblocks/aletra-sotorra.md`.)
+
+```
+## How to play them (read this first)
+
+**One idea:** {one sentence the GM can hold in their head: "a busy executive at a meeting she has already decided".}
+
+**Their body.** {How they stand, move and react when hit.}
+
+**Their voice.** {Register and two or three words they use. Link the voice file or strategy doc's voice samples; don't copy them.}
+
+**Round by round:**
+1. {Opening: what the party notices first.}
+2. {Their first real move.}
+3. {The pivot: what changes mid-fight.}
+4. {The end: death, retreat, surrender or capture, and the line they say.}
+
+**Lines you can use or cut** (mark any you wrote as not canon):
+- {Trigger}: *"{line}"*
+
+**Never:** {what they would never say or do, from the strategy doc.}
+
+**If a player works it out:** {what the GM does when a player names the tell or the plan.}
+```
+
+Then, after the quick block, add:
 
 ```
 **Reactions**
@@ -149,6 +174,14 @@ On initiative count 20, the {creature} can take one of the following lair action
 
 {1-2 paragraphs. How this creature actually plays the fight. Opening move, mid-fight pivot, escape condition. The "when they break and run" line is load-bearing.}
 
+**Tells**
+
+{What the players can see that reveals the plan or the weakness. A player who reads them has earned something.}
+
+**Flaw and blind spot** *(villains only)*
+
+{The flaw the GM recorded in the strategy doc or doctrine, and the blind spot it opens in this fight. The villain thinks the flaw is correct, so write the tactic as they would defend it; the flaw should be the only weakness in how they fight. Never invent the flaw; if none is recorded, ask the GM.}
+
 **Treasure**
 
 {What's on the body if they die. Tied to the campaign — Kelno-style "the dagger of venom he was saving for one of his rivals" is the kind of specificity that matters.}
@@ -170,7 +203,7 @@ This block uses {published 5e block, e.g., "Priest (MM p348)"} as its mathematic
 4. Once chassis is confirmed, produce the stat block in the requested mode.
 5. Save the result depending on context:
    - Quick mode mid-session: just print to chat; do not file.
-   - Full mode beforehand: save to `notes/statblocks/{npc-slug}.md` (create the dir if needed).
+   - Anything built before the session, quick or full: save to `notes/statblocks/{npc-slug}.md` (create the dir if needed). A full-mode file opens with **How to play them**. **Link it from the prep it was built for** ("Open alongside", and the scene it appears in) in the same step, or ask the GM which prep. A session prep never copies the numbers into the scene (`gm-session-prep`, step 10). *Failure this fixes: at the machine-room session (Phandalin, played 2026-10-28), Bimble's quick block had been filed but was linked from nothing. The GM said "I thought I had created a stat block" and had to hunt for the numbers mid-combat.*
 6. End with the CR calibration line and source/chassis line, so the user can re-derive at the table if something feels off.
 
 ## Common pitfalls to avoid

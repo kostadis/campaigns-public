@@ -113,7 +113,7 @@ At Conyberry the party found the ruins as described and searched for names, prop
 - The set is received less well than the last time they played.
 - The members of the Emerald Enclave arrive and sit at the party’s table after Vukradin invites them.
 - Vukradin opens with, “So are you sticking with Lyra?”
-- The oldest drinks the beer Spiderman brought: “We’ve sworn our lives and our honor to the Emerald Enclave, and Lyra was just upset. The quest… her goal was to save the tree and to save the forest, and all that happened was… and that all failed.”
+- The oldest drinks the beer Spider-Man brought: “We’ve sworn our lives and our honor to the Emerald Enclave, and Lyra was just upset. The quest… her goal was to save the tree and to save the forest, and all that happened was… and that all failed.”
 
 ### What Lyra Did
 #### one Enclave agent and another Enclave agent explain a leader who went around her own organisation.
@@ -177,7 +177,7 @@ The party’s first attempt to sell the pelts. Barthen looks the goods over and 
 Managed by Linene Graywind. She pays more than twice Barthen’s offer for the pelts and interrogates the party about where and how they were found, noting that her bosses “will be very interested in this particular planar effect.” The table connects the Coster’s eagerness to the background that that the Coster relied on a Commission-operated interplanar shipping device which had stopped working.
 
 ### The Stonehill Tavern
-Where the party plays an off set, and where the Emerald Enclave’s agents join their table for the chapter’s long conversation. Spiderman brings the beer.
+Where the party plays an off set, and where the Emerald Enclave’s agents join their table for the chapter’s long conversation. Spider-Man brings the beer.
 
 ### Whispering Grove
 Not visited in this chapter. Named by one Enclave agent as the place Lyra had “a particular affection for,” and the reason she pursued the ritual when the Enclave would not act.

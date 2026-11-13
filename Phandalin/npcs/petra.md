@@ -1,4 +1,4 @@
-<!-- published by summary_native npc-publish | source: summary_native | npc: Petra | range: ch002-057 | draft run: 20261008T044003Z | draft sha256: d41a4956f53b2e81d2a2590c237d372a02d49741ed7b1ef882bbc3699c132f0a | authored sha256: none | verify: pass | published sha256: 242aec41455681066869723aa8947c34e640c6bb3b6d1351527418f6b6fbfa9f -->
+<!-- published by summary_native npc-publish | source: summary_native | npc: Petra | range: ch002-059 | draft run: delta-ch058-059-20261021 | draft sha256: 0b1807709ea9b74a08b831d4c6f8a4e7dfc972fd5fae5ebbf34d3d3b4fce8be2 | authored sha256: none | verify: pass | published sha256: dd3a53b6bc16789ded9c7dc227865899c2db355fe04e8e3caed1a3116de21829 -->
 ---
 subject: Petra
 type: npc
@@ -6,12 +6,12 @@ global: true
 exclusion: null
 aliases_used: [Petra]
 first_seen: 53
-last_seen: 54
-chapters: [53, 54]
-n_entries: 2
-n_scenes: 3
+last_seen: 58
+chapters: [53, 54, 58]
+n_entries: 3
+n_scenes: 5
 n_moments: 4
-range: 2-57
+range: 2-59
 source_kind: summary_native_npc_link
 ---
 
@@ -22,10 +22,11 @@ Petra is the half-elf proprietor of the Common Chord, a tavern in Neverwinter th
 Petra is a sharp, pragmatic businesswoman who prioritizes profit and image preservation. She negotiates quickly to close deals before terms can change, shaking on agreements immediately [ch 053 / entry; ch 053 / 053.08]. When faced with legal threats regarding her unauthorized use of Vukradin’s likeness, she avoids immediate cash payouts by converting the “value” of past infringement into future performance rights and perpetual licensing for her cover act [ch 053 / entry; ch 053 / 053.08]. She is astute enough to deflect unfavorable terms, asking “Is that after or before expenses?” when presented with a revenue-share proposal [ch 053 / entry; ch 053 / 053.08]. She expresses genuine, if cynical, admiration for Vukradin’s growth, noting, “You’ve learned something... you’re not the same guy I used to remember” [ch 053 / entry; ch 053 / 053.08]. Her motivation appears to be monetizing the association with fame while managing legal risks, evidenced by her sworn statement, “I respect the image of the one, the only, the great Vukradin,” which secured the perpetual rights to the cover act [ch 053 / entry; ch 053 / 053.08].
 
 ## History with the Party
-_(none verified)_
+- At the Common Chord, the GM clarified that the 500-gold likeness-rights value was settled through the exclusive performance rather than a separate cash payment. The band’s actual concert compensation was half the gross [ch 058 / 058.05].
+- Petra paid Lorniel 25 gold to stand aside for the evening. The concert earned the party 1,875 gold from a gross of 3,750 gold, with no separate additional studio-donation amount [ch 058 / 058.05; ch 058 / 058.06].
 
 ## Last Observed State
-Petra was last observed managing the Common Chord in Chapter 054. She had transformed the venue into a high-end, polished operation with fancy food and good beer, replacing the “swill” of the past [ch 053 / 053.08; ch 054 / 054.01]. As of the most recent evidence, her financial obligation to the party—a 500 gold piece settlement for likeness rights—remained pending, tied to an upcoming performance scheduled for two days later [ch 054 / entry; ch 054 / 054.01]. The party maintained an “arm’s-length relationship” with Petra, limiting direct contact to transactional matters [ch 054 / 054.03]. Old Hesp, a regular patron, explicitly criticized Petra for making the venue “too commercial” and unaffordable [ch 054 / moment; ch 054 / 054.01]. Status not established in the summaries.
+Managing the Common Chord after the completed performance. The likeness-rights arrangement has been satisfied by that exclusive show; a separate 500-gold payment is not outstanding. The party’s concert share is 1,875 gold, half the gross [ch 058 / 058.05; ch 058 / 058.06].
 
 ## Relationships
 **Vukradin:** Petra is his former employer and current business rival/negotiator. She claims credit for discovering him when nobody else wanted to put him on stage [ch 053 / 053.08]. She views him as a major investment and profit source, reacting with shock to his increased business acumen: “Brewbarry, what did you do to this guy? This guy used to be the nicest guy!” [ch 053 / entry; ch 053 / 053.08].
