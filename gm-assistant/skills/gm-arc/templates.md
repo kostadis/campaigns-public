@@ -75,6 +75,7 @@ arcs: [<arc-slug>]
 # <Place>
 
 > GM-owned origin file. The players' side: what they can do here.
+> Roadside tables: [<Place> tables](<place-slug>-tables.md).
 
 ## The stage
 <geography, key rooms> [MODULE §x]
@@ -96,6 +97,38 @@ arcs: [<arc-slug>]
 ## Arcs running here
 - [<Title>](../<arc-slug>.md) — <one-line status>
 ```
+
+## Sandbox tables — `docs/arcs/sandboxes/<place-slug>-tables.md`
+
+Roadside tables for the sandbox: random colour, sound, ground and non-fight encounters the GM rolls when the pace needs breaking (GM ruling, 2026-11-14).
+
+**What they are for** (GM, 2026-11-14): **the mundane trivialities of the place, so it doesn't feel like a Disneyland ride, and so it has an existence outside the adventurers.** Most rows are ordinary life going on regardless of the party: work, weather, smells, people with their own small problems. **And the mundane intersects with what the party did** (GM, 2026-11-14): the farmers' market is talking about the thing they blew up. The best rows are ordinary people living with the consequences of the party's actions, as they understand them (rumour, half-truth, a price that went up, a road that's closed now).
+- **Three kinds of row** (GM, 2026-11-14):
+  - *life*: mundane activity that would still be happening without the party.
+  - *echo*: ordinary life bent by something the party did, citing the chapter (`[TABLE Ch. N]`).
+  - *local*: a small story of the place's own that may have nothing to do with the main adventure (a feud, a courtship, a lost animal, a debt). The party can take it up or walk past it; it goes on either way.
+- **Echo rows know only what's public.** A commoner gossips about what they could have seen or heard; the secrecy check applies (GM-only facts never reach a table row).
+- **Main-adventure hooks are the exception** and get a `[HOOK]` mark; a table that is mostly hooks is a plot generator, not a place. *Local* stories are not hooks: they are the place having a life. One file per sandbox, linked from the sandbox file's header. Every row carries a state, so a played session or a ruling can kill a row without anyone deleting it.
+
+```markdown
+# <Place> — roadside tables
+
+> GM-owned origin file. Linked from [<Place>](<place-slug>.md). Session preps link this file; they never copy it.
+> **Rolling:** roll the table's die; a row whose state isn't `live` (or whose `only if` doesn't hold tonight) means roll again.
+
+## T1 — <name> (d<N>)
+<when to use it, one line; any scope, e.g. "only when the army marches together">
+
+| d<N> | Row | State | Tag |
+|---|---|---|---|
+| 1 | <one line of colour> | live | [MODULE §x] / [TABLE Ch. N] / [OVERLAY] |
+| 2 | <…> | struck (why) · Ch. N / R<n> | [OVERLAY] |
+| 3 | <…> | only if <condition> | [OVERLAY] |
+| 4 | <…> | placed (Ch. N, where) | [OVERLAY] |
+```
+
+**Row states:** `live` · `struck (why) · <ruling or Ch. N>` · `only if <condition>` · `placed (Ch. N, where)` (taken off the dice and run as a fixed beat).
+**Rules:** a struck row is never deleted (the reason is the record). A row's wording changes only through a GM ruling, and the ruling is cited. New rows are `[OVERLAY]` proposals until the GM rules. A whole table can be scoped ("only when …"), so one condition doesn't cost twenty strikes.
 
 ## `docs/arcs/clocks.md`
 

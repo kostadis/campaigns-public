@@ -20,6 +20,7 @@ Run this from inside a campaign directory (`obelisk/`, `Phandalin/`, `out-of-the
 docs/arcs/
   <arc-slug>.md                  # one per arc
   sandboxes/<place-slug>.md      # one per sandbox
+  sandboxes/<place-slug>-tables.md  # the sandbox's roadside tables (row states)
   clocks.md                      # small obligations, minor NPCs not yet promoted
   calendar.md                    # the in-fiction date, and days per chapter
   junctions.md                   # where arcs CAN meet
@@ -66,6 +67,7 @@ Drafts one arc or one sandbox.
 
    For a sandbox:
    - Draft the faction roster (state · want · clock).
+   - Draft the **roadside tables** (`<place-slug>-tables.md`, template in `templates.md`): a few short tables of the place's **mundane trivialities**: ordinary life, ordinary life talking about what the party has done (echo rows citing `[TABLE Ch. N]`), and small local stories that may have nothing to do with the main adventure; main-adventure hooks are the exception, marked `[HOOK]`, drawn first from the module, earlier preps and the summaries. Every invented row is an `[OVERLAY]` proposal for the GM.
    - Draft standing rules, **party goals** (players' own words, with a chapter citation), the affordance menu (each entry with the arcs it pushes, and labelled *not exhaustive*), and the arcs running here.
 4. **Run `mine <name>`** and list up to 5 pool threads under the draft as *"plot ideas the players already planted"*. They are not part of the file unless the GM pulls them in.
 5. **List junctions.** These are people, objects or places this arc shares with existing arcs. Propose any new `junctions.md` rows.
@@ -80,6 +82,7 @@ Runs after a session's `summaries/<session>/session-summary.md` exists. If no se
 2. **Build the delta.** Every entry cites `Ch. N / scene`.
    - **Beats:** pending → `seen Ch. N`, or → `dead (why)` when play removed a gate. A dead beat is never carried forward or re-offered.
    - **Seen by the party:** new on-screen sightings for each arc.
+   - **Roadside tables:** propose a state change for every row this session killed or placed (e.g. a faction destroyed, an NPC dead, a mystery answered), with the citation. Never delete a row; strike it. Then propose **one to three new echo rows** from what the party did this session that ordinary people in the sandbox would have seen or heard about (the market talking about what they blew up), each citing `[TABLE Ch. N]`, each a proposal for the GM.
    - **Affordances:** state changes. **Unlisted player actions are appended** to the sandbox menu, not treated as off-plan.
    - **Clocks touched:** new state, `last touched: Ch. N`.
    - **Calendar** (when `calendar.md` exists): a proposed row for the chapter. Give the days it covered, its end date and how it was dated (`stated` / `counted` / `travel` / `?`), and quote the summary lines the count rests on. New routes go in the Travel table. A count is a precision decision: the GM rules it, and an unruled row stays `?`. Give any clock that just got a start day its `Due` date. Recount every check (a line that counts time, like "seventy-three days"), and flag any that no longer holds. Flag any GM-approved date the new row moves. The lessons from Phandalin's backfill are in `templates.md`, under *What the Phandalin calendar taught*.
