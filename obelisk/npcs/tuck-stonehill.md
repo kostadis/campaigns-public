@@ -1,25 +1,25 @@
-<!-- published by summary_native npc-publish | source: summary_native | npc: Tuck Stonehill | range: ch001-012 | draft run: 20261011T184427Z | draft sha256: 96f0575c4d0bc13a99041e2d5f0844d9fdd99133fce55bcc7feab1563254e3ae | authored sha256: none | verify: pass | published sha256: 9f15020d271e94061268b3531ae07c66ddab26656dc107821995ffbdaf1d71cb -->
+<!-- published by summary_native npc-publish | source: summary_native | npc: Tuck Stonehill | range: ch001-017 | draft run: 20261116T205432Z | draft sha256: 9121bf48029f73912eafffcc6164356421a3713ac0e82d25e8888e5c331dbe4c | authored sha256: none | verify: pass | published sha256: dd77c2481ede5f9577a5b52c1b260fee08a43aa2891660748e9379d6c97c1ac1 -->
 ---
 subject: Tuck Stonehill
 type: npc
 global: true
 exclusion: null
-aliases_used: [Tuck, Tuck Stonehill]
+aliases_used: []
 first_seen: 2
-last_seen: 5
-chapters: [2, 5]
-n_entries: 2
+last_seen: 17
+chapters: [2, 5, 17]
+n_entries: 3
 n_scenes: 1
 n_moments: 1
-range: 1-12
-source_kind: summary_native_npc_link
+range: ch001-017
+source_kind: delta
 ---
 
 ## Identity
-Tuck Stonehill is a nine-year-old boy, the son of Toblen, the innkeeper. He has sandy hair, a missing front tooth, and knees that are scuffed from forbidden climbing. He is noted for trying to stand with the posture of a guard [ch 002 / entry; ch 002 / 002.02].
+Tuck Stonehill is Toblen’s young son, described in Chapter 002 as nine years old, with sandy hair, a missing front tooth, and knees scuffed from forbidden climbing. He tries to stand like a guard [ch 002 / entry; ch 005 / entry].
 
 ## Personality and Motivations
-Tuck is enthusiastic and eager to help, displaying excitement when sharing information but becoming solemn when discussing the dangers facing the town. He anxiously asked the party whether they would rescue Gundren, noting that "People who get taken don't always come back" [ch 002 / entry; ch 002 / 002.02; ch 002 / moment]. He eagerly offered to show the party the tunnel his friend Carp found [ch 002 / entry; ch 002 / 002.02]. He reacts with joyous relief when promises are kept, celebrating that the missing man had been found [ch 005 / entry].
+Tuck eagerly shares information and offers help, but becomes solemn when discussing people being taken. He anxiously asks whether the party will rescue Gundren [ch 002 / entry; ch 002 / 002.02]. He expresses joy through hugs, embracing Zenvon after Sildar’s rescue and Gundren upon his return [ch 005 / entry; ch 017 / entry].
 
 ## History with the Party
 - Tuck Stonehill is the innkeeper Toblen’s nine-year-old son, described as having sandy hair, a missing front tooth, and scuffed knees [ch 002 / entry; ch 002 / 002.02].
@@ -28,21 +28,25 @@ Tuck is enthusiastic and eager to help, displaying excitement when sharing infor
 - Tuck asked the party if they would rescue Gundren and noted that many people had been taken before [ch 002 / entry; ch 002 / 002.02].
 - Tuck was overjoyed by the rescue of Sildar and ran to hug Zenvon, repeatedly celebrating the missing man’s return [ch 005 / entry].
 - Tuck’s status is not explicitly established in the summaries regarding his fate, though he is active in Chapter 005 [ch 005 / entry].
+- Tuck rushes to hug Gundren upon his return [ch 017 / entry].
 
 ## Last Observed State
-In Chapter 005, Tuck was active in Phandalin. He was overjoyed by the rescue of Sildar Halvert, running up to hug Zenvon and repeatedly celebrating the man's return. Zenvon confirmed to him that he had kept his promise regarding the rescue [ch 005 / entry]. Status not established in the summaries.
+Tuck is described as a young resident of Phandalin who rushes to hug Gundren upon his return. Status not established in the summaries [ch 017 / entry].
 
 ## Relationships
-*   **Toblen:** His father, the innkeeper of Phandalin [ch 002 / entry].
-*   **Carp Alderleaf:** Tuck’s friend. Carp discovered a tunnel in the woods and was nearly caught by red cloaks; his mother instructed him not to discuss it, but Tuck attempted to share the secret with the party [ch 002 / entry; ch 002 / 002.02].
-*   **Zenvon:** A member of the party whom Tuck hugged to celebrate Sildar’s rescue [ch 005 / entry].
-*   **Sildar Halvert:** A missing man whose rescue Tuck celebrated in Chapter 005 [ch 005 / entry].
+- **Toblen:** Tuck’s father, the innkeeper [ch 002 / entry; ch 005 / entry].
+- **Carp Alderleaf:** His friend, whose discovery of a tunnel Tuck reports to the party. Tuck offers to guide them, though he may need Carp’s help [ch 002 / entry].
+- **Zenvon:** Tuck hugs him while celebrating Sildar’s rescue; Zenvon says he has kept his promise [ch 005 / entry].
+- **Sildar:** His rescue leaves Tuck overjoyed [ch 005 / entry].
+- **Gundren:** Tuck anxiously asks whether the party will rescue him and later rushes to hug him upon his return [ch 002 / 002.02; ch 017 / entry].
 
 ## Notable Quotes
 > "You're gonna get him, right?" — Tuck Stonehill [ch 002 / moment]
 
 ## Arc-Score Candidates
-- Tuck reveals information about the tunnel and asks the party to rescue Gundren [ch 002 / entry; ch 002 / 002.02].
+- “He offers to show the party, though he may need Carp’s help.” [ch 002 / entry]
+- “He runs up and hugs Zenvon, repeatedly celebrating that the missing man has been found.” [ch 005 / entry]
+- “A young resident of Phandalin who rushes to hug Gundren upon his return.” [ch 017 / entry]
 
 ## Secrets
 _(none authored)_

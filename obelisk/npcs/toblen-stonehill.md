@@ -1,27 +1,31 @@
-<!-- published by summary_native npc-publish | source: summary_native | npc: Toblen Stonehill | range: ch001-013 | draft run: delta-ch013-20261019 | draft sha256: a9fd9f130dc4aedfb2628a47528961a8cccaeabd4aee2bab3c3e252882dfc836 | authored sha256: none | verify: pass | published sha256: 83a7296bb3317171978cf5cea016732e96ce058feb2fbdbae8ddd45702f4d6d6 -->
+<!-- published by summary_native npc-publish | source: summary_native | npc: Toblen Stonehill | range: ch001-017 | draft run: 20261116T210241Z | draft sha256: e5cb8944a24ad7cc2df083c9e7b7c50020bd6740b96624bfa7f1444179fd0baf | authored sha256: db5f31c3ed76f49efe04541874f7fd411c762da214cbb213f7f7e13322135831 | verify: pass | published sha256: 6e9aad032f96491b099c6181a12e2e78762064946b8f12ac8b108bebaf77b124 -->
 ---
 subject: Toblen Stonehill
 type: npc
 global: true
 exclusion: null
-aliases_used: [Toblen, Toblen Stonehill]
+aliases_used: []
 first_seen: 2
-last_seen: 13
-chapters: [2, 5, 9, 10, 12, 13]
-n_entries: 6
-n_scenes: 13
-n_moments: 9
-range: 1-13
-source_kind: summary_native_npc_link
+last_seen: 17
+chapters: [2, 5, 9, 10, 12, 13, 17]
+n_entries: 7
+n_scenes: 15
+n_moments: 3
+range: ch001-017
+source_kind: delta
 ---
 
 ## Identity
-Toblen Stonehill is the owner and proprietor of the Stonehill Inn in Phandalin [ch 002 / entry; ch 005 / entry]. He is described as a broad-shouldered young human with sandy hair, tired blue eyes, and sleeves rolled up and dusted with flour and hearth ash [ch 002 / entry; ch 002 / 002.01]. He is the father of Tuck Stonehill, a nine-year-old boy [ch 002 / 002.02].
+
+Toblen Stonehill owns the Stonehill Inn in Phandalin. He is a broad-shouldered young human with sandy hair, tired blue eyes, and rolled-up sleeves dusted with flour and hearth ash. Tuck Stonehill is his nine-year-old son. [ch 002 / entry; ch 002 / 002.01; ch 002 / 002.02]
 
 ## Personality and Motivations
-Toblen is characterized by caution, fear, and a strong desire to avoid drawing attention to himself or his establishment. When questioned about enemies or trouble in Phandalin, he retreats into evasiveness, warning, "Trouble in Phandalin has a habit of walking home with you." [ch 002 / 002.01; ch 002 / moment]. He speaks softly and nervously when discussing the Redbrands, even among friends, because he witnessed their murder of Thel Dendrar in broad daylight and the subsequent disappearance of the victim's family [ch 002 / 002.02; ch 002 / moment].
 
-Despite his fear, Toblen possesses a practical, community-focused morality. He provided free lodging to the party after they cleared the Redbrand threat, stating, "since you guys did us a good deed with the Redbrand, tonight's free" [ch 009 / entry]. He remembers Gundren Rockseeker fondly as a merchant whose business benefited the town, clarifying that they were not related but acknowledging Gundren's positive impact [ch 002 / 002.01]. His advice regarding other locations, such as the ruins of Conyberry, is often based on fear and hearsay rather than firsthand experience; an Insight check revealed he had never visited the site, though his historical facts were correct [ch 010 / 010.03].
+Toblen is cautious about threats to his household and establishment. He watches the door when voices rise and lowers his voice even among friends when reporting the Redbrands’ murder of Thel Dendrar and the disappearance of his family. [ch 002 / 002.01; ch 002 / 002.02]
+
+He expresses gratitude through hospitality: he welcomed the party after Sildar’s rescue, provided free lodging after their actions against the Redbrands, and continued greeting them as heroes upon their return with Gundren. [ch 005 / 005.01; ch 009 / 009.08; ch 017 / 017.06]
+
+His caution does not always reflect firsthand knowledge: he had never visited Conyberry, although the summaries confirm his historical account was accurate. After the inn attack, he opposed releasing another bugbear and refused responsibility for housing the incapacitated prisoner. [ch 010 / 010.03; ch 013 / 013.03]
 
 ## History with the Party
 *   Toblen is the owner of the Stonehill Inn in Phandalin, described as broad-shouldered with sandy hair and tired blue eyes [ch 002 / entry; ch 002 / 002.01].
@@ -42,14 +46,20 @@ Despite his fear, Toblen possesses a practical, community-focused morality. He p
 
 - Toblen survived the fight, protested the broken windows, and was present when the party brought Gorl back for interrogation [ch 013 / 013.02; ch 013 / 013.03].
 - He opposed releasing another bugbear and refused responsibility for housing the maimed prisoner. He demanded a council meeting; the party instead took Gorl toward Cragmaw Castle in a cart [ch 013 / entry; ch 013 / 013.03].
+- Toblen welcomed the returning party as heroes at the Stonehill Inn, whose broken doors and glass had been repaired. [ch 017 / 017.06]
+- Toblen served alongside Sildar as a witness to Gundren’s mining agreement with the party, which secured ten percent of the gross before taxes and expenses. Veyra reviewed and amended the document before the agreement was accepted. [ch 017 / 017.07]
 
 ## Last Observed State
-Alive at the Stonehill Inn after the battle. He objected to the broken windows, opposed releasing Gorl, and refused to house him. His demand for a council meeting is recorded, but no meeting or council resolution occurs before the party takes Gorl away [ch 013 / entry; ch 013 / 013.02; ch 013 / 013.03].
+
+Alive and present at the Stonehill Inn, welcoming the party and subsequently witnessing their mining agreement with Gundren alongside Sildar. The inn’s earlier damage had been repaired. [ch 017 / 017.06; ch 017 / 017.07]
 
 ## Relationships
-*   **Tuck Stonehill:** Toblen’s nine-year-old son [ch 002 / 002.02]. Tuck threw his arms around Zenvon in a tearful embrace when the party returned with Sildar, acting as a social bridge between his father's cautiousness and the party's heroics [ch 005 / 005.01].
-*   **Gundren Rockseeker:** Toblen regarded Gundren as a good man and merchant whose business mattered to Phandalin [ch 002 / 002.01]. He clarified that Gundren was not his relative [ch 002 / 002.01].
-*   **The Party (Zenvon, Veyra, Pip, Sister Maela):** Initially cautious, Toblen treated them with relief and gratitude after they rescued Sildar and defeated the Redbrands [ch 005 / 005.01; ch 009 / entry]. He identified a suspicious patron (a Redbrand associate) to them through wary behavior, helping them recognize the threat [ch 005 / entry; ch 005 / 005.02]. Later, he was taken hostage by bugbears seeking revenge on the party for actions at Tresendar Manor, becoming a pawn in a confrontation between Nosk and the party [ch 012 / 012.06].
+
+- **Tuck Stonehill:** His nine-year-old son, who embraced Zenvon after Sildar’s rescue and later embraced Gundren upon his return. [ch 002 / 002.02; ch 005 / 005.01; ch 017 / 017.06]
+- **Gundren Rockseeker:** A merchant Toblen remembers as a good man whose business benefited Phandalin; they are not relatives. Toblen later witnessed Gundren’s mining agreement with the party. [ch 002 / 002.01; ch 017 / 017.07]
+- **The party:** Guests he rewards and celebrates for helping the town. Their conflict with Nosk brought a hostage crisis into his inn; afterward, Toblen objected to both releasing the surviving prisoner and keeping him there. [ch 009 / 009.08; ch 012 / 012.06; ch 013 / 013.03; ch 017 / 017.06]
+- **Sildar Hallwinter:** Toblen greeted Sildar’s safe return with relief; the two later served together as witnesses to the mining agreement. [ch 005 / 005.01; ch 017 / 017.07]
+- **Elsa:** Toblen calls on her to serve drinks at the inn, including a beer for Zenvon during a celebratory welcome. [ch 010 / 010.03]
 
 ## Notable Quotes
 > "Well, yeah, let's not make any assumptions. We still have not lost him. I'm gonna bring him back." — Zenvon Forepot [ch 002 / moment]
@@ -66,14 +76,17 @@ Alive at the Stonehill Inn after the battle. He objected to the broken windows, 
 
 > "You have embarrassed me." — Nosk [ch 012 / moment]
 
+> "My heroes."
+> — Toblen Stonehill [ch 017 / 017.06] [GM]
+
 ## Arc-Score Candidates
-*   "Toblen Stonehill, the broad-shouldered owner with sandy hair and tired blue eyes, offered rooms and hot stew, glancing toward the door whenever voices rose." [ch 002 / 002.01]
-*   "Toblen reveals the daylight murder of Thel Dendrar and the subsequent disappearance of his wife and children." [ch 002 / 002.02]
-*   "His behavior helps expose the suspicious breakfast patron: he gives the man a wary look, avoids him, and moves behind the bar to maintain distance." [ch 005 / entry]
-*   "Toblen Stonehill offered them a free night's stay in gratitude for ridding the town of the Redbrands." [ch 009 / 009.09]
-*   "An Insight check revealed that his warnings were based more on caution and imagination than personal experience." [ch 010 / entry]
-*   "One of them held Toblen Stonehill face-down on the floor with a knife over his head, while their leader, Nosk, did the talking." [ch 012 / 012.05]
-*   "He makes a run for the door during the chaos of Zenvon's illusion, past the two goblins blocking the exit, and runs out of the inn." [ch 012 / entry]
+
+- "Toblen reveals the daylight murder of Thel Dendrar and the subsequent disappearance of his wife and children." [ch 002 / 002.02]
+- "His behavior helps expose the suspicious breakfast patron: he gives the man a wary look, avoids him, and moves behind the bar to maintain distance." [ch 005 / entry]
+- "He makes a run for the door during the chaos of Zenvon's illusion, past the two goblins blocking the exit, and runs out of the inn." [ch 012 / entry]
+- "Toblen objects to being responsible for the prisoner and says a council meeting will be needed to decide what to do." [ch 013 / 013.03]
+- "At the repaired Stonehill Inn, Toblen welcomed the party as heroes." [ch 017 / 017.06]
+- "Back at the inn, after his drink, Gundren calls Sildar and Toblen to witness the contract." [ch 017 / 017.07]
 
 ## Secrets
 _(none authored)_

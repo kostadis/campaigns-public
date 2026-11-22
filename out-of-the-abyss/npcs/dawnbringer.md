@@ -1,4 +1,4 @@
-<!-- published by summary_native npc-publish | source: summary_native | npc: Dawnbringer | range: ch002-076 | draft run: 20261111T185138Z | draft sha256: 1f47799b7974ab6a996eaea2f4e839cce102296ceccc5d741cd16404c8027a67 | authored sha256: none | verify: pass | published sha256: c67be9a6ee8de0884787359fceb06dea3fcdff5131b7d95a7fdf879cde000f14 -->
+<!-- published by summary_native npc-publish | source: summary_native | npc: Dawnbringer | range: ch002-077 | draft run: 20261121T052737Z | draft sha256: acfd9cc5c0f183a6522782f0c90e50cc91c1c28987b429a5822b6aa34302ba10 | authored sha256: none | verify: pass | published sha256: 66bb579904ae361e7727a13b16c09c0a4568902445201cdabf6fd2663964bf1a -->
 ---
 subject: Dawnbringer
 type: npc
@@ -6,12 +6,12 @@ global: true
 exclusion: null
 aliases_used: []
 first_seen: 29
-last_seen: 76
-chapters: [29, 30, 31, 32, 34, 35, 37, 41, 42, 43, 45, 46, 47, 49, 50, 52, 53, 54, 55, 56, 57, 62, 63, 64, 65, 68, 69, 70, 72, 73, 75, 76]
+last_seen: 77
+chapters: [29, 30, 31, 32, 34, 35, 37, 41, 42, 43, 45, 46, 47, 49, 50, 52, 53, 54, 55, 56, 57, 62, 63, 64, 65, 68, 69, 70, 72, 73, 75, 76, 77]
 n_entries: 30
-n_scenes: 4
+n_scenes: 5
 n_moments: 2
-range: ch002-076
+range: ch002-077
 source_kind: delta
 ---
 
@@ -79,10 +79,11 @@ source_kind: delta
 - In ch 075 Thorin declined another sentient weapon and chose the Helm of the Citadel. He described himself and Dawnbringer as a package deal, credited their relationship’s strength to their counseling, and included her in his Clan Feldrun association [ch 075 / 075.05; ch 075 / entry].
 - The discussion joked about jealousy and competing demands between two sentient weapons. These remarks do not establish a new power, a new therapy session, or a new statement of Dawnbringer’s own intentions [ch 075 / 075.05].
 - At Clan Feldrun’s farewell, Dawnbringer received straps, polish, leather conditioner for the Fancy Scabbard 2000, and a sharpening tool she could not use. She accepted the gifts graciously and asked whether she was a clan member; Thorin deferred resolving her formal membership until their next visit. [ch 076 / 076.02]
+- Thorin wielded Dawnbringer against a grappled Hooked Horror while carrying his shield, dealing eight and ten damage. Her additional damage against undead did not apply. Thorin also knocked the creature prone and frightened it; Gyrgum subsequently killed it with Guiding Bolt. The party completed the crossing without pursuing the surviving Horror. [ch 077 / 077.04]
 
 ## Last Observed State
 
-Dawnbringer actively participated in Clan Feldrun’s farewell, accepting gifts and asking about membership. Thorin postponed settling her formal clan status until their next visit. The party then set out toward the Surbrin Hills. [ch 076 / 076.02]
+Dawnbringer was wielded by Thorin during the fight against the Hooked Horrors in the spore-infested cavern. After Gyrgum killed the wounded Horror and the other fled, the party completed the crossing. The scene records no speech or emotional reaction from Dawnbringer. [ch 077 / 077.04]
 
 ## Relationships
 

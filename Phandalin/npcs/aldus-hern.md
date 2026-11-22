@@ -1,18 +1,18 @@
-<!-- published by summary_native npc-publish | source: summary_native | npc: Aldus Hern | range: ch002-061 | draft run: delta-ch061-20261105 | draft sha256: 148bfc7064ec96b5016d4eb96de995c6d036f33f23e7b3e65bdf70d36edc7fef | authored sha256: none | verify: pass | published sha256: c6a61334cb16d8b4000ff3b67c3e5d0471e1ecc1a975e6411f7a881453df316b -->
+<!-- published by summary_native npc-publish | source: summary_native | npc: Aldus Hern | range: ch002-063 | draft run: 20261121T181833Z | draft sha256: 754be45c6dccf345160c0b63516a55ee2fb387133f45913b543bec7638f37e05 | authored sha256: none | verify: pass | published sha256: db499d2a6317618b61acf65ba1846244f8bbd7274ba8715047fdcfa4eb3695bc -->
 ---
 subject: Aldus Hern
 type: npc
 global: true
 exclusion: null
-aliases_used: [Aldus, Aldus Hern]
+aliases_used: []
 first_seen: 50
-last_seen: 61
-chapters: [50, 52, 54, 57, 58, 60, 61]
-n_entries: 6
-n_scenes: 9
-n_moments: 4
-range: 2-61
-source_kind: summary_native_npc_link
+last_seen: 63
+chapters: [50, 52, 54, 57, 58, 60, 61, 63]
+n_entries: 7
+n_scenes: 10
+n_moments: 3
+range: ch002-063
+source_kind: delta
 ---
 
 ## Identity
@@ -45,9 +45,13 @@ He is careful and cautious, often apologizing immediately after delivering blunt
 - He agreed to relay the party's explanation to Neverember, reiterated House Margaster's repair subcontract, and undertook to involve the commission and guards in the cleanup. He noticed the resemblance between Valphine and Aletra but dismissed it as a general Drow similarity [ch 060 / 060.07].
 
 - Aldus again urged the party to stop delaying and head for Leilon. The GM reported that he and Neverember were handling the aftermath and that he could arrange transport for Aletra's body [ch 061 / 061.01; ch 061 / 061.04].
+- Aldus sent word during the party’s journey that the Eastern Quay was operating normally, its clerk had returned, House Margaster had filed no complaint, and the Lord Protector wanted to know why they had visited [ch 063 / 063.03].
+- The party replied that it had broken into the contract archive and discovered a restriction allowing only someone unsigned with House Margaster to repair the machine. The reply identified Bimbo as ineligible because of his signature; Aldus sent no further message [ch 063 / 063.03].
 
 ## Last Observed State
-Last directly present at the machine warehouse urging departure for Leilon. Later reported, with Neverember, to be handling the aftermath; he could arrange the requested transport of Aletra's remains to the church. Completed transport is not recorded [ch 061 / 061.01; ch 061 / 061.04].
+Aldus’s latest recorded action is a magical message reporting conditions at the Eastern Quay and relaying the Lord Protector’s question. No further reply follows the party’s candid account of the archive break-in [ch 063 / entry; ch 063 / 063.03].
+
+His last direct presence is at the machine warehouse, urging the party toward Leilon. He was subsequently reported to be handling the aftermath with Neverember and able to arrange transport of Aletra’s body; completed transport is not recorded in that account [ch 061 / 061.01; ch 061 / 061.04].
 
 ## Relationships
 **Lord Dagult Neverember:** Aldus serves as the Lord Protector’s steward, scheduler, and financial auditor. He facilitates the Lord Protector’s meetings and ensures that administrative data, such as the economics of Universal Basic Treasure, aligns with Neverember’s intentions [ch 050 / entry; ch 057 / entry; ch 057 / 057.07].
@@ -73,10 +77,14 @@ Last directly present at the machine warehouse urging departure for Leilon. Late
 
 > “His lordship has been seated for an hour. I have told him you are delayed by a matter of civic importance. Please let it be one.” — Aldus [ch 057 / moment]
 
+> “Eastern Quay, open as usual. Clerk back at his desk. Margaster files no complaint about its clerk. Lord Protector asks why you went.” — Aldus [ch 063 / 063.03]
+
 ## Arc-Score Candidates
 *   “charmed — ‘I must say, I am quite the fan’” [ch 050 / 050.07]
 *   “Aldus, accompanying Lord Neverember, nervously confirms the party’s upcoming dinner invitation” [ch 052 / 052.03]
 *   “Aldus, he explained, had confirmed that the numbers supported what Neverember already intended to decide” [ch 057 / 057.07]
+
+- “Aldus sends no further message.” [ch 063 / 063.03]
 
 ## Secrets
 _(none authored)_

@@ -1,4 +1,4 @@
-<!-- published by summary_native npc-publish | source: summary_native | npc: Snarl | range: ch001-015 | draft run: 20261107T071321Z | draft sha256: 5792f9ae660ea464cf744354996dc0dc8411b8579917eebef2e9c5ab70066c87 | authored sha256: none | verify: pass | published sha256: e62f33b013c47a93bb24ef045e952dfbc5a8f6d2c8e4e8453ddca6229298a91e -->
+<!-- published by summary_native npc-publish | source: summary_native | npc: Snarl | range: ch001-016 | draft run: 20261116T040021Z | draft sha256: 7943d243792e1b4e100481dcb056f5c3112c1fe4abd6e807d62357f226721377 | authored sha256: none | verify: pass | published sha256: 111300f8dfd957a26ed0d57f6c3392d5d9bda328802f069a204d1bfc8dcc059b -->
 ---
 subject: Snarl
 type: npc
@@ -6,12 +6,12 @@ global: true
 exclusion: null
 aliases_used: []
 first_seen: 14
-last_seen: 15
-chapters: [14, 15]
+last_seen: 16
+chapters: [14, 15, 16]
 n_entries: 2
-n_scenes: 2
+n_scenes: 3
 n_moments: 1
-range: ch001-015
+range: ch001-016
 source_kind: delta
 ---
 
@@ -24,9 +24,10 @@ Described as snarling; no further personality or motivations established [ch 014
 ## History with the Party
 Lhupo identifies him. At the close he is present beside Grol and the drow visitor over Gundren [ch 014 / entry; ch 014 / 014.04; ch 014 / 014.05].
 - Zenvon’s brazier attack set Snarl ablaze, forcing it to spend an action extinguishing itself [ch 015 / entry].
+- Sister Maela’s unnamed offensive cantrip killed Snarl after he failed the saving throw [ch 016 / 016.04].
 
 ## Last Observed State
-Snarl’s latest recorded action was extinguishing itself after Zenvon’s brazier attack set it ablaze. Status not established in the summaries [ch 015 / entry].
+Dead: Sister Maela’s unnamed offensive cantrip killed him before another round was needed [ch 016 / 016.04].
 
 ## Relationships
 King Grol’s pet. The party encountered Snarl unrestrained beside Grol and the Drow woman, standing over the unconscious Gundren Rockseeker [ch 014 / entry; ch 014 / 014.05].
@@ -36,6 +37,7 @@ _(none verified)_
 
 ## Arc-Score Candidates
 - “Zenvon’s brazier attack set Snarl ablaze, forcing it to spend an action extinguishing itself.” [ch 015 / entry]
+- “Snarl fails the saving throw, and the magic kills him before another round is needed.” [ch 016 / 016.04]
 
 ## Secrets
 _(none authored)_

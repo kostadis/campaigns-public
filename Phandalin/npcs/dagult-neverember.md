@@ -1,18 +1,18 @@
-<!-- published by summary_native npc-publish | source: summary_native | npc: Dagult Neverember | range: ch002-061 | draft run: delta-ch061-20261105 | draft sha256: cc9ca3540e59121ab0aba1c2f3a78b99bf3eaacfc0316685e5544ffff4f1b5a2 | authored sha256: none | verify: pass | published sha256: 511ad1a79d323b556bdeacb000531a7fb19ba2e1f3df519cd8dc1d833ca0c2f9 -->
+<!-- published by summary_native npc-publish | source: summary_native | npc: Dagult Neverember | range: ch002-063 | draft run: 20261121T181833Z | draft sha256: f1579c8486008f7a9a871b15e05c009dbd219cb55fcb1cf0feb2a229c4a11820 | authored sha256: none | verify: pass | published sha256: 87faf4c5ed865dc955ddd0c7ed771742d48a8a7c9b4c89f66f6510d1d4347c4b -->
 ---
 subject: Dagult Neverember
 type: npc
 global: true
 exclusion: null
-aliases_used: [Lord Dagult Neverember, Lord Neverember, Lord Protector, Neverember]
+aliases_used: []
 first_seen: 2
-last_seen: 61
-chapters: [2, 4, 6, 8, 16, 17, 19, 27, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 61]
+last_seen: 63
+chapters: [2, 4, 6, 8, 16, 17, 19, 27, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 61, 63]
 n_entries: 11
-n_scenes: 43
-n_moments: 18
-range: 2-61
-source_kind: summary_native_npc_link
+n_scenes: 44
+n_moments: 9
+range: ch002-063
+source_kind: delta
 ---
 
 ## Identity
@@ -80,9 +80,15 @@ Neverember is pragmatic, fiscally oriented, and focused on maintaining control o
 - A citizen explained that resentment of Neverember’s taxes and controls had turned Brewbarry’s image into an independence-themed protest fashion. Neverember had publicly presented the party as adventurers hired to secure the hinterlands. Brewbarry urged the citizen to redirect blame toward Margaster [ch 059 / 059.06].
 
 - In discussion of the Margaster threat, the GM described Neverember as governing a city battered by two wars, balancing powerful constituencies and paying adventurers to address problems his armies would normally handle. The party's belief that he was a puppet remained unsupported. Later, the GM reported that Neverember and Aldus were handling the warehouse aftermath [ch 061 / 061.02; ch 061 / 061.04].
+- Aldus relayed that the Eastern Quay was operating normally, its clerk had returned, House Margaster had filed no complaint, and the Lord Protector wanted to know why the party had visited. The party replied that it had broken into the contract archive and learned that only someone without a House Margaster contract could repair the machine. Aldus sent no further message. [ch 063 / 063.03]
 
 ## Last Observed State
-No new direct encounter. The GM reports that he and Aldus are handling the warehouse aftermath. The party continues to suspect outside control, but has no proof that Margaster or anyone else controls him. His known pressures include two wars, powerful constituencies and reliance on adventurers; this explains the reported constraints without identifying a hidden controller [ch 061 / 061.02; ch 061 / 061.04].
+
+The latest report comes through Aldus, who conveys the Lord Protector’s question about the party’s Eastern Quay visit; Neverember does not appear directly in that scene. [ch 063 / 063.03]
+
+His most recent direct encounter is the continuation of dinner, when he orders a Commission introduction and grants Marrow and Sons temporary harbor relief. [ch 058 / 058.01]
+
+
 
 ## Relationships
 *   **The Party:** Neverember hires them as contractors, allowing them to keep found treasure [ch 002 / entry]. He follows their economic and cultural impact with interest [ch 050 / entry]. He views Valphine as a potential ally for "direct action" and praised her patriotic approach to the manifold issue [ch 052 / 052.03; ch 057 / 057.07]. He appointed Vukradin mayor to counter Waterdeep’s influence and tasked him with "big picture" governance [ch 057 / 057.07]. He was visibly annoyed by the party’s poor hygiene and Brewbarry’s destructive dining habits [ch 057 / 057.07].
@@ -136,11 +142,15 @@ No new direct encounter. The GM reports that he and Aldus are handling the wareh
 
 > “Well, it’s not so much for you, it’s for me.” — Lord Neverember [ch 057 / moment]
 
+> “Eastern Quay, open as usual. Clerk back at his desk. Margaster files no complaint about its clerk. Lord Protector asks why you went.” — Aldus [ch 063 / 063.03]
+
 ## Arc-Score Candidates
 *   "Lord Neverember would be appalled" [ch 008 / 008.12]
 *   "Lord Neverember would treat it as an attack on his authority and send troops" [ch 019 / 019.07]
 *   "He officially declared Lady Elara’s death a tragic accident and ordered the city to mourn and move on." [ch 050 / entry]
 *   "The Lord Protector has an interest in Neverwinter’s cultural future, and separately an interest in the economic questions recently raised by the Candlekeep report regarding adventuring parties and the circulation of wealth." — Aldus [ch 050 / 050.07]
+
+- “Eastern Quay, open as usual. Clerk back at his desk. Margaster files no complaint about its clerk. Lord Protector asks why you went.” [ch 063 / 063.03]
 
 ## Secrets
 _(none authored)_

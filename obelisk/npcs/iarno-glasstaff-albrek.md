@@ -1,25 +1,33 @@
-<!-- published by summary_native npc-publish | source: summary_native | npc: Iarno "Glasstaff" Albrek | range: ch001-012 | draft run: 20261011T185028Z | draft sha256: 8eb9d66a9f840087219154a4de6c3ab66718edbc354b390c583e4c89ff29d2fd | authored sha256: none | verify: pass | published sha256: 5c29126aca1af50738a70329fe3a54e4581a397d3f626a2edd512f69fc3594b8 -->
+<!-- published by summary_native npc-publish | source: summary_native | npc: Iarno "Glasstaff" Albrek | range: ch001-017 | draft run: 20261116T205432Z | draft sha256: be6ae35c97fa2ece2a0adb4b00ecda3de3884c4d977b6ba1ec25b8697ef28ff8 | authored sha256: none | verify: pass | published sha256: 9fb4c1bba2d8f4fa31f476c0a6fc23a860fef23998abf497e14bddae4d341369 -->
 ---
 subject: Iarno "Glasstaff" Albrek
 type: npc
 global: true
 exclusion: null
-aliases_used: [Glasstaff, Iarno, Iarno "Glasstaff" Albrek, Iarno Albrek]
+aliases_used: []
 first_seen: 2
-last_seen: 10
-chapters: [2, 3, 5, 6, 7, 8, 9, 10]
-n_entries: 5
-n_scenes: 16
-n_moments: 11
-range: 1-12
-source_kind: summary_native_npc_link
+last_seen: 17
+chapters: [2, 3, 5, 6, 7, 8, 9, 10, 17]
+n_entries: 6
+n_scenes: 17
+n_moments: 6
+range: ch001-017
+source_kind: delta
 ---
 
 ## Identity
-Iarno Albrek, also known by his alias "Glasstaff," is a human wizard and the former leader of the Redbrand gang in Phandalin [ch 002 / 002.03; ch 006 / 006.04]. He was previously a Lords' Alliance agent sent to Phandalin on official business who ceased reporting [ch 005 / 005.02]; Rondar later described him as a Lords' Alliance agent gone bad [ch 006 / 006.04]. Iarno led the Redbrands and worked for the Spider (also called the Black Spider) [ch 007 / 007.07; ch 009 / 009.05]. He is distinct from other gang leaders; Wick notes he is "a wizard, not just a muscle with a title" who can drop a man with a spell, no weapon drawn [ch 008 / moment].
+
+Iarno Albrek, also known as Glasstaff, is a wizard who led the Redbrands from Tresendar Manor and worked for The Spider, also called the Black Spider. Rondar revealed his dual identity; recovered correspondence confirmed his allegiance [ch 006 / 006.04; ch 007 / entry; ch 007 / 007.07; ch 009 / 009.05].
+
+Sildar recommended him for a Lords’ Alliance assignment to establish a constabulary in Phandalin. Iarno subsequently stopped reporting [ch 005 / entry; ch 005 / 005.02].
 
 ## Personality and Motivations
-Rondar called him "the boss who thinks he's the boss", hinting that he answers to someone above him [ch 006 / moment]. He berated a Nothic for eating bodies instead of guarding an entrance [ch 007 / moment]. He worked for the Spider, under orders to capture or kill the party and retrieve their maps, and when the party confronted him he fled rather than surrender [ch 007 / 007.06; ch 007 / 007.07].
+
+Wick described Iarno as a dangerous wizard and claimed to have seen him incapacitate a man with a spell before any weapon was drawn [ch 008 / 008.07].
+
+Iarno’s documented orders were to capture the party if possible, kill them if necessary, and deliver their dwarven maps. When pursued, he escaped rather than surrender and berated the Nothic for feeding instead of guarding the entrance [ch 007 / 007.06; ch 007 / 007.07].
+
+Wick believed Iarno received orders from someone in Phandalin, based on overheard complaints about orders from town; this was Wick’s interpretation [ch 008 / 008.07].
 
 ## History with the Party
 - The leader of the Redbrands was first named to the party by Daran Edermath, as Glasstaff, someone who needs to be confronted, with the gang's safe house located beneath Tresendar Manor [ch 002 / 002.03].
@@ -40,16 +48,22 @@ Rondar called him "the boss who thinks he's the boss", hinting that he answers t
 - Sildar noted that Iarno had likely fled to his master, suggesting the party might capture the Black Spider and Iarno simultaneously [ch 009 / 009.09].
 - Halia Thornton expressed suspicious interest in Iarno’s correspondence, offering 100 gold for any letters the party had recovered, and seemed disappointed that Iarno had escaped rather than died [ch 009 / 009.11].
 *   The NPC was mentioned in the context of a separate bounty distinct from the Lords' Alliance offer regarding Cragmaw Castle [ch 010 / 010.04].
+- During the report to Sildar after Cragmaw Castle, Iarno was mentioned but was not present. Zenvon reported no success finding him and hoped Gundren could help locate both Iarno and the Black Spider. Sildar reiterated the separate two-hundred-gold reward for dealing with Iarno [ch 017 / 017.06].
 
 ## Last Observed State
-The party directly confronted Iarno in his quarters within Tresendar Manor in Chapter 007. During this encounter, he was wounded by Veyra’s *Fire Bolt* and Pip’s javelin, and survived Maela’s *Sacred Flame* [ch 007 / 007.06; ch 007 / moment]. Rather than surrender, he used teleportation magic to escape the party and the immediate threat of their combined attacks [ch 007 / 007.06; ch 007 / moment]. He was last seen fleeing through a secret door, berating a Nothic guardian as he departed [ch 007 / 007.06; ch 007 / moment]. As of Chapter 010, Iarno has not been seen again by the party or NPCs. He is currently the subject of Sildar Hallwinter's bounty, but his physical location and survival beyond the escape from Tresendar Manor remain unconfirmed by direct observation [ch 009 / 009.09; ch 010 / 010.04]. Status not established in the summaries.
+
+The last direct encounter described shows Iarno wounded by Veyra’s Fire Bolt and Pip’s javelin, then escaping through the cavern route using movement and teleportation magic [ch 007 / 007.06].
+
+The Chapter 017 entry explicitly describes him as missing and not found at Cragmaw Castle. Sildar still seeks him and reiterates a separate two-hundred-gold reward. His present location and survival after the escape are unconfirmed: Status not established in the summaries [ch 017 / entry; ch 017 / 017.06].
 
 ## Relationships
-*   **Sildar Hallwinter:** Sildar was Iarno’s mentor and handler, having recommended him for the Lords' Alliance constabulary assignment [ch 005 / 005.02]. Sildar expresses horror at Iarno’s betrayal and has shifted from a rescue contract to a bounty for capture or death [ch 009 / 009.09].
-*   **Rondar:** A Redbrand lieutenant who revealed Iarno’s dual identity as Glasstaff and his connection to the Lords' Alliance past [ch 006 / 006.04].
-*   **The Nothic:** Iarno maintained a bargain with a Nothic to guard a secret entrance to Tresendar Manor, feeding it bodies in exchange for its guardianship [ch 006 / 006.05; ch 007 / moment].
-*   **The Black Spider / The Spider:** Iarno receives orders from this entity, including directives to retrieve the party’s maps and neutralize them [ch 007 / 007.07; ch 009 / 009.05].
-*   **The Party:** Iarno is hostile to the adventurers, having received specific orders to capture or kill them [ch 007 / 007.07]. They have physically wounded him and exposed his network [ch 007 / 007.06; ch 009 / 009.09].
+
+- **Sildar Hallwinter:** His former professional mentor, who recommended him for the constabulary assignment. After receiving proof of his betrayal, Sildar offered a bounty, preferring capture for trial in Neverwinter. He continues seeking Iarno [ch 005 / 005.02; ch 009 / 009.09; ch 017 / 017.06].
+- **The Spider / Black Spider:** Iarno’s superior. A sealed letter directed him to capture or kill the party and deliver their maps; Nosk also confirmed his subordinate position [ch 007 / 007.07; ch 009 / 009.05].
+- **Redbrands:** Iarno led the gang. Rondar exposed his identity under interrogation, while Wick described fearing his spellcasting [ch 006 / 006.04; ch 008 / 008.07].
+- **Nothic:** Iarno arranged food in exchange for guarding the entrance. During his escape, he reprimanded it for neglecting that duty [ch 006 / 006.05; ch 007 / 007.06].
+- **The party:** Targets of his superior’s orders; they wounded him, recovered evidence of his allegiance, and remain interested in locating him [ch 007 / 007.06; ch 007 / 007.07; ch 017 / 017.06].
+- **Halia Thornton:** Reacted poorly to news of his escape and offered one hundred gold for his correspondence, claiming concern about deeper plots affecting local trade [ch 009 / 009.11].
 
 ## Notable Quotes
 > “Otherwise, you can find someone else.” — Zenvon Forepot [ch 005 / moment]
@@ -69,13 +83,12 @@ The party directly confronted Iarno in his quarters within Tresendar Manor in Ch
 > "leave it to a Redbrand to think he's in charge." — Nosk [ch 009 / moment]
 
 ## Arc-Score Candidates
-- Daran names the gang’s leader as Glasstaff and says someone must stand against him [ch 002 / 002.03].
-- The party attempts to pass themselves off as admirers of Glasstaff during a goblin encounter, resulting in a failed deception and combat [ch 003 / 003.02].
-- Sildar tasks the party with finding his missing contact, Iarno Albrek, negotiating payment for his safe return [ch 005 / 005.02].
-- Rondar reveals the true identity of Glasstaff as Iarno Albrek under threat of violence [ch 006 / 006.04].
-- The party pursues Iarno Albrek through Tresendar Manor, exchanging blows before he escapes via teleportation [ch 007 / 007.06].
-- The party finds correspondence on Iarno’s desk confirming his allegiance to The Spider and orders to attack them [ch 007 / 007.07].
-- Sildar receives the Black Spider’s letter proving Iarno’s betrayal, paying the remaining reward and issuing a new bounty for Iarno’s capture or death [ch 009 / 009.09].
+
+- “Pip’s blade at Rondar’s throat finally forces him to identify Glasstaff as Iarno Albrek.” [ch 006 / 006.04]
+- “Sister Maela casts Sacred Flame, but Iarno succeeds on his saving throw and escapes.” [ch 007 / 007.06]
+- “The letter supplies proof of Iarno's allegiance that may be valuable to Sildar.” [ch 007 / 007.07]
+- “Sildar offers a new bounty for the capture of Iarno Albrek, ultimately settling on 200 gold if brought back alive, 100 if dead, and 50 if he cannot be raised from the dead.” [ch 009 / 009.09]
+- “Zenvon reports no success but expresses confidence that Gundren can help them find Iarno and the Black Spider.” [ch 017 / 017.06]
 
 ## Secrets
 _(none authored)_

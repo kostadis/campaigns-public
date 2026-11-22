@@ -1,27 +1,31 @@
-<!-- published by summary_native npc-publish | source: summary_native | npc: Daran Edermath | range: ch001-012 | draft run: 20261011T032539Z | draft sha256: 5135ea8279e6e8bf7162a733d408c97d22ce9cb9da4336e34428c7e69f1328bd | authored sha256: none | verify: pass | published sha256: 76a6dea59993b19e9253012e20724b65199b063e7f5b1442d22e16f175593539 -->
+<!-- published by summary_native npc-publish | source: summary_native | npc: Daran Edermath | range: ch001-017 | draft run: 20261116T205432Z | draft sha256: d810a2e72e2bbde0d85f69ef6f1a7b37e7a2676009489fac993609c914fdda8d | authored sha256: none | verify: pass | published sha256: f317e05d6fdb52d7bf5b84fc3abf816abc65f633737a739a88a1e6cf34b4aa11 -->
 ---
 subject: Daran Edermath
 type: npc
 global: true
 exclusion: null
-aliases_used: [Daran, Daran Edermath]
+aliases_used: []
 first_seen: 2
-last_seen: 12
-chapters: [2, 10, 12]
+last_seen: 17
+chapters: [2, 10, 12, 17]
 n_entries: 3
-n_scenes: 10
-n_moments: 7
-range: 1-12
-source_kind: summary_native_npc_link
+n_scenes: 12
+n_moments: 3
+range: ch001-017
+source_kind: delta
 ---
 
 ## Identity
-Daran Edermath is a retired drow adventurer, over five hundred years old [ch 002 / entry]. He serves as a marshal and herald and tends an orchard on the edge of Phandalin [ch 002 / entry; ch 010 / entry]. He is knowledgeable about the region, the Redbrands, and the history of the Netheril Empire, having served in the Dragon Coast lands before returning to the Neverwinter region [ch 002 / entry; ch 010 / 010.02].
+
+Daran Edermath is a retired drow adventurer more than five hundred years old who tends an orchard on the edge of Phandalin. He formerly served as a marshal and herald in the Dragon Coast lands before returning to his home region around Neverwinter [ch 002 / entry; ch 010 / entry].
 
 ## Personality and Motivations
-Daran is warm and encouraging toward those who wish to help communities, specifically approving of Pip Thistlewick’s desire to use a "good sword arm" for the public good [ch 002 / 002.03]. He possesses a pragmatic, experienced view of adventure, noting that survivors are those who choose to stop adventuring [ch 010 / 010.02]. He enjoys sharing advice and stories, delivering a lengthy lecture on general survival (posture, vigilance, sharp swords) that delighted Zenvon Forepot’s patient note-taking [ch 010 / 010.02; ch 010 / moment].
 
-His primary motivation regarding the party was to ensure they investigated Old Owl Well for threats to Phandalin, specifically fearing the retrieval of dangerous Netheril magic or the brewing of evil power [ch 002 / 002.03; ch 010 / 010.02]. He is urgent and decisive when lives are at stake, scolding the party for delaying Gundren’s rescue to talk to him [ch 002 / moment]. He values keeping promises, as demonstrated by rewarding the party with his Boots of Striding and Springing [ch 012 / 012.04].
+Daran warmly encourages service to communities and approves of Pip Thistlewick’s wish to help others. When he learns Gundren remains missing, he urges immediate rescue rather than further conversation [ch 002 / 002.03].
+
+He enjoys sharing adventuring advice and appreciates Zenvon Forepot’s attentive note-taking. He declines further adventuring, explaining that choosing retirement is how old adventurers survive [ch 010 / 010.02].
+
+His concern at Old Owl Well is the safety of Phandalin, particularly the possible recovery of dangerous Netheril magic. He keeps his promised reward after accepting Zenvon’s invented explanation of Hamun Kost’s activities; the family feud is Zenvon’s fabrication, not an established motive for Hamun [ch 012 / 012.04].
 
 ## History with the Party
 *   Elsa recommended Daran to the party as a retired drow adventurer, marshal, and herald experienced in the region [ch 002 / 002.01].
@@ -38,15 +42,19 @@ His primary motivation regarding the party was to ensure they investigated Old O
 *   Upon the party's return, Daran expressed alarm upon hearing of a "meal with a red wizard" and an "army of zombies" at Old Owl Well [ch 012 / 012.04].
 *   Daran was relieved when Zenvon explained that the wizard’s zombie activities were for an intra-Thayan family feud rather than an attempt to pull out Netheril magic [ch 012 / 012.04].
 *   Daran fulfilled his promise by gifting the party the Boots of Striding and Springing, which the group decided should be given to Zenvon [ch 012 / 012.04].
+- Daran was present at the Stonehill Inn when the party returned with Gundren and reported to Sildar Hallwinter; no speech or individual action is recorded for him during that reunion [ch 017 / 017.06].
 
 ## Last Observed State
-During the final observed chapter, Daran was active at Edermath Orchard in Phandalin [ch 012 / 012.04]. He greeted the party upon their return from Old Owl Well, initially alarming them by reacting with shock to details of their encounter with Hamun Kost (a Red Wizard with zombies) [ch 012 / 012.04]. After accepting Zenvon’s revised explanation that the wizard’s activities were part of an intra-Thayan family feud rather than a threat to the town, Daran expressed relief and fulfilled his promise by gifting the party the Boots of Striding and Springing [ch 012 / 012.04]. Status not established in the summaries beyond this interaction.
+
+Daran was present among the villagers at the repaired Stonehill Inn during the party’s return with Gundren. The scene records no individual reaction from him [ch 017 / 017.06]. Status not established in the summaries.
 
 ## Relationships
-*   **Pip Thistlewick:** Daran has a strong personal affinity for Pip, stating, "Pip, you are my kind of man," in response to Pip’s declaration of intent to help communities [ch 002 / 002.03; ch 002 / moment].
-*   **Zenvon Forepot:** Daran served as a mentor figure, giving Zenvon a one-time +1 bonus for patiently enduring a lecture on survival tactics [ch 010 / 010.02; ch 010 / moment]. Zenvon also prioritized Daran’s quest to ensure he kept his word to the retired adventurer [ch 010 / 010.04]. Daran entrusted the Boots of Striding and Springing to the party, which they assigned to Zenvon [ch 012 / 012.04].
-*   **The Party (General):** Daran greeted them as the "heroes of Phandalin" after they dealt with the Redbrands [ch 010 / 010.02]. He relied on them to investigate Old Owl Well and identify threats to the settlement [ch 002 / 002.03].
-*   **Elsa:** Daran was recommended to the party by Elsa, the barmaid at the Stonehill Inn, who described him as an experienced retired adventurer [ch 002 / 002.01].
+
+- **Pip Thistlewick:** Daran explicitly approves of Pip’s commitment to helping communities, telling him he is his “kind of man” [ch 002 / 002.03; ch 002 / moment].
+- **Zenvon Forepot:** Zenvon’s patient note-taking delights Daran. Later, Daran accepts Zenvon’s fabricated family-feud explanation and rewards the party with boots that they assign to Zenvon [ch 010 / 010.02; ch 012 / 012.04].
+- **The party:** Daran praises their handling of the Redbrands, commissions their investigation of Old Owl Well, and fulfills his promise of Boots of Striding and Springing [ch 010 / 010.02; ch 002 / 002.03; ch 012 / 012.04].
+- **Elsa:** Elsa recommends Daran as an experienced retired adventurer whom the party should consult [ch 002 / 002.01].
+- **Hamun Kost:** Daran learns about Hamun through the party’s report. His alarm about the Red Wizard and zombies eases after Zenvon supplies the invented family-feud story [ch 012 / 012.04].
 
 ## Notable Quotes
 > "Pip, you are my kind of man." — Daran Edermath [ch 002 / moment]
@@ -70,8 +78,10 @@ During the final observed chapter, Daran was active at Edermath Orchard in Phand
 > "my concern was that they were going to be pulling out Netheril magic, but apparently this guy's just trying to assemble a zombie army to get revenge and deal with some intra-Thayan nonsense." — Daran Edermath [ch 012 / 012.04]
 
 ## Arc-Score Candidates
-*   "Daran Edermath, upon learning the party stopped to chat with him instead of immediately rescuing Gundren, scolds them with a mix of amusement and genuine urgency." [ch 002 / moment]
-*   "Daran Edermath launched into ten minutes of vague adventuring advice — keeping one's back straight, sword sharpened, eyes up, and “head on a swivel” — and Zenvon dutifully took notes on all of it, delighting the old man." [ch 010 / moment]
+
+- “Daran Edermath, upon learning the party stopped to chat with him instead of immediately rescuing Gundren, scolds them with a mix of amusement and genuine urgency.” [ch 002 / moment]
+- “Zenvon keeps his word to Daran and maintains that Old Owl Well remains the party's immediate destination.” [ch 010 / 010.04]
+- “Daran rewards the party with a pair of magical Boots of Striding and Springing — he made a promise, and he keeps it — but has no more pairs, so the party must decide who gets them.” [ch 012 / 012.04]
 
 ## Secrets
 _(none authored)_
