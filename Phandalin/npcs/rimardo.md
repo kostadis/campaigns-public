@@ -1,18 +1,18 @@
-<!-- published by summary_native npc-publish | source: summary_native | npc: Rimardo | range: ch002-057 | draft run: 20261008T044003Z | draft sha256: 19efe46fb751d73e9b5e1268a512f14bdab8529dbf62c2e553940aebf8c90581 | authored sha256: none | verify: pass | published sha256: c805ca0bd6f2cc23a363f235373b45249586d40a7ad21f35cd740a2e5e2e2951 -->
+<!-- published by summary_native npc-publish | source: summary_native | npc: Rimardo | range: ch002-063 | draft run: 20261121T181833Z | draft sha256: 54a235ae6ba67d97efef8195ea3120c34729f5b90f585886e97887902069e6a4 | authored sha256: none | verify: pass | published sha256: dff31cb8433589607f1d1c56d05e6158608b6b6d70abec51689a87cfa7a47d68 -->
 ---
 subject: Rimardo
 type: npc
 global: true
 exclusion: null
-aliases_used: [Rimardo]
+aliases_used: []
 first_seen: 47
-last_seen: 51
-chapters: [47, 48, 51]
-n_entries: 2
-n_scenes: 5
-n_moments: 14
-range: 2-57
-source_kind: summary_native_npc_link
+last_seen: 63
+chapters: [47, 48, 51, 63]
+n_entries: 3
+n_scenes: 6
+n_moments: 3
+range: ch002-063
+source_kind: delta
 ---
 
 ## Identity
@@ -22,6 +22,8 @@ Rimardo is a tall man who wears a coat that is “just a little too fine” [ch 
 Rimardo speaks with the flair of a seasoned actor, treating real-life battles and tragedies as theatrical performances to be critiqued for pacing and blocking [ch 047 / entry]. He displays a detached, cynical sense of humor, mocking destruction as aesthetic choices (e.g., calling a missing door an “open-air concept”) and mourning the loss of wine as the “true tragedy” of a siege [ch 047 / 047.01; ch 047 / moment]. He ignores objections and denials, calling his own ignoring of the Falcon “heroic” and claiming to be under a contract no one remembers signing [ch 047 / 047.01; ch 047 / moment].
 
 His motivations appear tied to the narrative structure of events rather than traditional adventuring rewards. He states they are “here for the show”; the party read the pair as “not sending you on a quest” but “telling you what’s already happening in the wrong genre” [ch 047 / moment; ch 047 / 047.02]. He provides cryptic warnings about the convergence of multiple gods of fate, asserting that if six gods believe they are the headliner, none of them are [ch 047 / 047.01; ch 047 / moment]. He is motivated to “audit” the moral economy of those he encounters, assessing their financial and ethical compliance with theatrical rigor [ch 051 / moment]. He offers a cryptic promise to perform with Vukradin “at the very end” after Vukradin impressed him with a performance [ch 047 / 047.01; ch 047 / moment].
+
+He invokes contractual limits: he says the dangerous part of the roadside show is excluded by contract, denies signing contracts with fiends, and distinguishes the free preview from the paid show [ch 063 / 063.04; ch 063 / moment].
 
 ## History with the Party
 *   Rimardo, a tall man in a slightly too-fine coat who claims to be an actor and comedian, arrived uninvited at Falcon’s Lodge with his silent companion Corrin, interrupting the party’s dinner to deliver a theatrical critique of their recent battle against a boar [ch 047 / 047.01; ch 047 / entry].
@@ -43,11 +45,13 @@ His motivations appear tied to the narrative structure of events rather than tra
 *   Rimardo audited the party’s “moral economy,” accusing Vukradin of laundering dirty money through better penmanship while Corrin produced receipts from every establishment the party had visited [ch 051 / 051.03; ch 051 / entry; ch 051 / moment].
 *   Corrin stamped the party’s subcommittee charter as “comedically compliant” and the credit receipt as “approved,” after which the pair departed promptly [ch 051 / 051.03].
 *   The party received a credit receipt for two hundred gold pieces as a dividend from the Mountain’s Toe Gold Mine, paid by the Neverwinter Commission [ch 051 / 051.03].
+- During the party’s journey toward Phandalin, Rimardo and Corrin appeared beside the road near dusk and offered an exclusive preview. Corrin displayed a card showing skulls at an inn door, with four slashes and six skulls; Rimardo complained that this was supposed to be the second act [ch 063 / 063.04].
+- Rimardo said they would meet the party at the inn afterward and that their contract excluded the dangerous part. When Valphine asked whether the contract involved House Margaster, he stated that they did not sign contracts with fiends [ch 063 / 063.04].
+- After reminding the party that the preview was free but the show was not, Rimardo entered the cart with Corrin, and the cart disappeared. The party subsequently reached the Wayside Inn and found it under attack by undead [ch 063 / 063.04].
 
 ## Last Observed State
-In Chapter 051, Rimardo and Corrin were encountered at the Counting House in Neverwinter, operating behind a velvet rope with a queue of zero [ch 051 / 051.03]. Rimardo accepted a letter from the party (from the Falcon) and stated they had been waiting for the party “for some time” [ch 051 / 051.03; ch 051 / moment]. He audited the party’s “moral economy,” accusing Vukradin of laundering dirty money through better penmanship, while Corrin produced receipts for every establishment the party had visited [ch 051 / 051.03; ch 051 / moment].
 
-Rimardo and Corrin stamped the party’s subcommittee charter as “comedically compliant” and their credit receipt as “approved” before departing promptly without ceremony [ch 051 / 051.03; ch 051 / entry]. They left behind a credit receipt for 200 gold pieces, identified as a dividend from the Mountain’s Toe Gold Mine paid by the Neverwinter Commission [ch 051 / 051.03]. Status after departure is not established in the summaries [ch 051 / entry].
+Rimardo entered the cart with Corrin after promising to meet the party at the inn afterward; the cart disappeared. The supplied account does not establish a subsequent reunion. Status not established in the summaries [ch 063 / 063.04].
 
 ## Relationships
 **Corrin**: Rimardo’s silent companion, who carries a small case and a deck of cards [ch 047 / 047.01]. Corrin works silently beside Rimardo, using magical props to illustrate Rimardo’s cryptic warnings and physically redacting Rimardo’s house rules [ch 047 / 047.01; ch 047 / 047.02]. They operate as a duo in both their theatrical and accounting capacities, with Rimardo speaking and Corrin producing receipts and stamps [ch 047 / 047.01; ch 051 / 051.03].
@@ -83,10 +87,18 @@ Rimardo and Corrin stamped the party’s subcommittee charter as “comedically 
 
 > “What the hell was that?” — Brewbarry [ch 051 / 051.03]
 
+> “no, Mrs. Valphine, we don't, we don't sign contracts with fiends.” — Rimardo [ch 063 / moment]
+
+> “well, the preview is free, the show is not.” — Rimardo [ch 063 / moment]
+
 ## Arc-Score Candidates
 *   “We’re here for the show. Top Billing.” [ch 047 / 047.01; ch 047 / moment]
 *   “You don’t get six headliners — you get six opening acts in a house that hasn’t announced who they’re warming up for.” [ch 047 / 047.01; ch 047 / moment]
 *   “You’ll be a better one in Leilon. You’ll have context.” [ch 047 / 047.01; ch 047 / moment]
+
+- “no, Mrs. Valphine, we don't, we don't sign contracts with fiends.” [ch 063 / moment]
+
+- “well, the preview is free, the show is not.” [ch 063 / moment]
 
 ## Secrets
 _(none authored)_

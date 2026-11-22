@@ -1,29 +1,35 @@
-<!-- published by summary_native npc-publish | source: summary_native | npc: Sildar Hallwinter | range: ch001-012 | draft run: 20261011T032539Z | draft sha256: 75e8f6e7f637d60993da7bb893490eaed64d687249aaeae855b79ac483d5a7ee | authored sha256: none | verify: pass | published sha256: 42f07e0d85f8d41ac2e29fc85c706fb8bae31cfe4cd1be80b49e846e9c0b0cb1 -->
+<!-- published by summary_native npc-publish | source: summary_native | npc: Sildar Hallwinter | range: ch001-017 | draft run: 20261116T205432Z | draft sha256: 4bfdcd796d21c9c1c069a59f040aae99bb8b511d7d3608ee04e171093484367e | authored sha256: none | verify: pass | published sha256: 2f47ae942374d66dcde180df3a7cc76249a1975efdace3d63ed2ceb1f3606d13 -->
 ---
 subject: Sildar Hallwinter
 type: npc
 global: true
 exclusion: null
-aliases_used: [Sildar, Sildar Hallwinter]
+aliases_used: []
 first_seen: 1
-last_seen: 12
-chapters: [1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12]
-n_entries: 7
-n_scenes: 18
-n_moments: 15
-range: 1-12
-source_kind: summary_native_npc_link
+last_seen: 17
+chapters: [1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 17]
+n_entries: 8
+n_scenes: 20
+n_moments: 7
+range: ch001-017
+source_kind: delta
 ---
 
 ## Identity
-Sildar Hallwinter is a warrior escort and operative for the Lords' Alliance [ch 004 / 004.01; ch 010 / entry]. He initially served as the bodyguard for Gundren Rockseeker before being captured by goblins on the Triboar Trail [ch 001 / 001.01; ch 001 / 001.02]. He identifies himself with the authority of Lord Neverember regarding local matters, specifically the rights over Wave Echo Cave [ch 005 / 005.02]. He uses the name "Sildar" as his preferred form of address, correcting attempts to add honorifics like "Mr." [ch 010 / 010.04].
+
+Sildar Hallwinter is a human warrior, Gundren Rockseeker’s escort, and a member of the Lords’ Alliance. He represents Alliance interests in Phandalin and asserts Neverwinter’s authority over Wave Echo Cave’s riches [ch 003 / entry; ch 004 / 004.01; ch 005 / 005.02].
+
+He asks Pip to address him as “Sildar” rather than “Mr. Sildar” [ch 010 / 010.04].
 
 ## Personality and Motivations
-Sildar displays a pragmatic, transactional approach to alliances, prioritizing results over sentimentality. He acknowledged his surprise at the "honor" of Zenvon (a rogue from Neverwinter’s disreputable areas), noting that he could "always be surprised" by such character, though this remark was perceived as lacking in compliment [ch 005 / 005.02; ch 005 / moment].
 
-His primary motivation appears to be the protection and expansion of the Lords' Alliance interests. He is willing to offer substantial monetary rewards—such as the 500 gold pieces for clearing Cragmaw Castle—and implies that future favors and status within the Alliance are available to those who succeed [ch 010 / 010.04]. He engages in subtle recruitment tactics, such as complimenting Pip’s sword to hint at membership potential for Pip [ch 010 / 010.04; ch 010 / moment].
+Sildar is class-conscious. His praise of Zenvon’s honor repeatedly invokes surprise at Zenvon’s background, and he distinguishes his professional mentorship of Iarno Albrek from social intimacy [ch 005 / 005.02; ch 009 / 009.09].
 
-Sildar is persistent in seeking information and delivering lectures, a trait that has become burdensome to the party [ch 012 / 012.05]. He maintains a rigid view of justice regarding betrayals; he desired Iarno Albrek captured alive for trial, though he pragmatically accepted Iarno's death as a secondary outcome if capture was impossible, prioritizing the defeat of the Black Spider over the capture of its agent [ch 009 / 009.09; ch 010 / entry].
+He prioritizes centralized authority and Alliance influence. His initial dismissiveness toward goblins changes to political interest when he learns of Lhupo’s paladinhood; he conditions the outstanding Cragmaw Castle payment on her formal alignment with the Alliance [ch 005 / 005.02; ch 017 / 017.06].
+
+He rewards results and cultivates potential recruits. He praises Pip’s honorable conduct and suggests a future place in the Lords’ Alliance [ch 017 / 017.06].
+
+He seeks Iarno Albrek and the Black Spider, preferring Iarno alive for trial while accepting lesser rewards for his death. He concedes that defeating Iarno’s superior matters more than capturing Iarno himself [ch 009 / 009.09].
 
 ## History with the Party
 - Sildar Hallwinter served as the warrior escort for Gundren Rockseeker and rode ahead of the supply wagon to meet it at Barthen's Provisions [ch 001 / 001.01].
@@ -55,17 +61,28 @@ Sildar is persistent in seeking information and delivering lectures, a trait tha
 - Veyra later consulted her notes regarding Sildar’s account of a strange goblin with an elongated head encountered during the Cragmaw ambush [ch 011 / 011.06].
 - Upon the party's return to Phandalin, Sildar was still present at the Stonehill Inn [ch 012 / entry; ch 012 / 012.05].
 - The party chose to ignore Sildar and slip past him without speaking because they had no new information to report and wished to avoid "another twenty-minute lecture" [ch 012 / entry; ch 012 / 012.05].
+- At the Stonehill Inn, Sildar received the party’s report with greater respect. Zenvon explained that allied goblins under Lhupo, now a paladin, still occupied Cragmaw Castle [ch 017 / 017.06].
+- Sildar paid 300 gold pieces of the original 500-gold reward and conditioned the remaining 200 on Lhupo signing an agreement aligning with the Lords’ Alliance. Zenvon agreed to pursue this; Lhupo had not signed [ch 017 / 017.06].
+- Sildar approved after Zenvon reported returning captive Gorl to the castle, where the goblins dealt with him. The discussion explicitly distinguished Gorl from King Grol [ch 017 / 017.06].
+- Sildar praised Pip’s honorable bearing of his sword and suggested a place in the Lords’ Alliance if he continued demonstrating such purpose [ch 017 / 017.06].
+- Sildar asked about Iarno Albrek and reiterated the separate 200-gold reward. Mentioning Gundren’s assistance sharpened his interest in whether the party knew Wave Echo Cave’s location; Zenvon avoided confirming it [ch 017 / 017.06].
+- Sildar and Toblen witnessed Gundren’s mining contract with the party, securing the party ten percent of the gross before taxes and expenses [ch 017 / 017.07].
 
 ## Last Observed State
-As of the return to Phandalin, Sildar Hallwinter was present at the Stonehill Inn, waiting for information from the party [ch 012 / entry; ch 012 / 012.05]. He had no active engagement with the party at this time; the group chose to ignore him and slip past without speaking because they had no new intelligence to report and wished to avoid another lengthy lecture [ch 012 / 012.05]. Status not established in the summaries.
+
+Sildar was at the Stonehill Inn and witnessed Gundren’s mining contract alongside Toblen [ch 017 / 017.07].
+
+He had paid 300 gold pieces toward the Cragmaw Castle reward, with another 200 conditional on Lhupo’s formal Alliance alignment. That agreement remained unsigned. He also reiterated the separate 200-gold reward concerning Iarno Albrek [ch 017 / 017.06].
 
 ## Relationships
-*   **Gundren Rockseeker:** Former employer and client. Sildar was ambushed while escorting him; Gundren was specifically targeted for a map to Wave Echo Cave [ch 001 / 001.01; ch 005 / 005.02]. Sildar maintains that Gundren will be compensated for his role [ch 005 / 005.02].
-*   **Iarno Albrek:** An agent Sildar sent to Phandalin for Alliance business, whom Sildar tasked the party to locate [ch 005 / 005.02]. Sildar was appalled upon learning of Iarno’s betrayal and connection to the Black Spider, subsequently posting a bounty for his capture (200 gold alive, 100 gold dead) [ch 009 / 009.09; ch 010 / entry].
-*   **Pip Thistlewick:** Sildar views Pip as a candidate for recruitment into the Lords' Alliance, indicated by his pointed admiration of Pip’s magical sword ("fine, noble sword") and his suggestion of Alliance favor [ch 010 / 010.04; ch 010 / moment]. He corrected Pip’s use of the title "Mr. Sildar," preferring the informal name [ch 010 / 010.04].
-*   **Zenvon:** The party member who negotiated Sildar’s bounties and payment structures, including the 100 gold upfront advance and the 200 gold for Iarno’s return [ch 005 / 005.02]. Sildar noted Zenvon’s honorable conduct despite his rogue background [ch 005 / moment].
-*   **Yeemik and Klarg:** Yeemik was the goblin boss who captured Sildar, but Sildar corrected the party’s assumption of Yeemik's leadership, identifying Klarg (a bugbear) as the true commander [ch 003 / 003.04].
-*   **Black Spider:** The alias of the antagonist behind the ambush and Iarno’s betrayal, whom Sildar identified as the primary threat after Iarno’s defection [ch 004 / 004.01; ch 009 / 009.09].
+
+- **Lords’ Alliance:** His affiliation and political priority. He offers rewards, promotes its authority, and seeks Lhupo’s formal alignment [ch 004 / 004.01; ch 005 / 005.02; ch 017 / 017.06].
+- **Gundren Rockseeker:** Sildar escorted him before their capture and later witnessed his mining contract. Gundren’s possible knowledge of Wave Echo Cave commands Sildar’s immediate interest [ch 001 / entry; ch 017 / 017.06; ch 017 / 017.07].
+- **Zenvon Forepot:** Negotiates assignments and payments with Sildar. Sildar’s earlier condescension gives way to greater respect when the party reports back from Cragmaw Castle [ch 005 / 005.02; ch 009 / 009.09; ch 017 / 017.06].
+- **Pip Thistlewick:** A prospective Alliance recruit whom Sildar praises for honor, dignity, and purpose [ch 017 / 017.06].
+- **Iarno Albrek:** Sildar’s former agent and professional mentee, whose betrayal appalled him. Sildar continues seeking him through a separate bounty [ch 005 / 005.02; ch 009 / 009.09; ch 017 / 017.06].
+- **Lhupo:** A goblin paladin allied with the party whom Sildar wants formally aligned with the Lords’ Alliance [ch 017 / 017.06].
+- **Black Spider:** The figure linked to Iarno’s betrayal whom Sildar agrees is the more important target [ch 009 / 009.09].
 
 ## Notable Quotes
 > "I'm fine now, I'm fine now, but we need to move." — Sildar Hallwinter [ch 003 / 003.04]
@@ -80,12 +97,15 @@ As of the return to Phandalin, Sildar Hallwinter was present at the Stonehill In
 
 > “my, my, my, that is a fine, noble sword, Pip.” — Sildar Hallwinter [ch 010 / moment]
 
+No new qualifying attributed quotes about Sildar appear in the supplied chapter 017 evidence [ch 017 / entry; ch 017 / 017.06; ch 017 / 017.07].
+
 ## Arc-Score Candidates
-- "Sildar greets them with relief: “You're alive! That's good news!”" [ch 003 / 003.04]
-- "Sildar identifies himself as a member of the Lords' Alliance and urges the party to capture or eliminate Klarg before he can send word ahead." [ch 004 / 004.01]
-- "Sildar expresses surprise that a rogue from Neverwinter’s disreputable neighborhoods has proved honorable. Zenvon objects that this did not sound like a compliment." [ch 005 / 005.02]
-- "Sildar handed over 100 gold without verbally confirming the remaining balance, to Pip’s visible delight." [ch 005 / 005.02]
-- "Sildar is appalled: “Well, this was not the reward I was hoping for when I signed it, but I did offer a reward, did I not?”" [ch 009 / 009.09]
+
+- “Sildar expresses surprise that a rogue from Neverwinter’s disreputable neighborhoods has proved honorable. Zenvon objects that this did not sound like a compliment.” [ch 005 / 005.02]
+- “Sildar’s dismissiveness toward goblins gives way to excited political interest when he learns that one has become a paladin.” [ch 017 / 017.06]
+- “He explains that the Lords’ Alliance does not regard a goblin-held castle as cleared, pays three hundred gold, and offers the final two hundred if Lhupo signs an agreement aligning with the Alliance.” [ch 017 / 017.06]
+- “Sildar praises Pip’s sword as the weapon of an important man and says Pip has carried it with honor and dignity. He suggests a place in the Lords’ Alliance if Pip continues demonstrating such purpose.” [ch 017 / 017.06]
+- “Back at the inn, after his drink, Gundren calls Sildar and Toblen to witness the contract.” [ch 017 / 017.07]
 
 ## Secrets
 _(none authored)_

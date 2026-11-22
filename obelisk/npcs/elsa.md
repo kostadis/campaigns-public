@@ -1,25 +1,29 @@
-<!-- published by summary_native npc-publish | source: summary_native | npc: Elsa | range: ch001-012 | draft run: 20261011T032539Z | draft sha256: 96216ce1ca8807c85b64d9cfdaa3e20dea7d37fbb36d98bc5f78642de281f2c4 | authored sha256: none | verify: pass | published sha256: f39f1c53da078259173ab1f9afaa62c9abf291c30b8b2c35889dfc0a144a3a0f -->
+<!-- published by summary_native npc-publish | source: summary_native | npc: Elsa | range: ch001-017 | draft run: 20261116T205432Z | draft sha256: 8ca4aa73961bde9cfd6bd35c1e25c239ac564e3d6341c0f5b0572059ee3511c7 | authored sha256: none | verify: pass | published sha256: 5056686b7bf19eb67ce88c45a8f5610ebc92b02331056a6ac70f7f52a8533f56 -->
 ---
 subject: Elsa
 type: npc
 global: true
 exclusion: null
-aliases_used: [Elsa]
+aliases_used: []
 first_seen: 2
-last_seen: 12
-chapters: [2, 5, 9, 10, 12]
-n_entries: 3
-n_scenes: 5
+last_seen: 17
+chapters: [2, 5, 9, 10, 12, 17]
+n_entries: 4
+n_scenes: 6
 n_moments: 0
-range: 1-12
-source_kind: summary_native_npc_link
+range: ch001-017
+source_kind: delta
 ---
 
 ## Identity
-Elsa is a compact dwarf bartender with copper-brown skin, thick black braids worn beneath a kerchief, and watchful dark eyes [ch 002 / entry; ch 002 / 002.01]. She works at the Stonehill Inn, where she is noted for polishing mugs with an "interrogator’s intensity" [ch 002 / entry]. She has a scholar sister living in Neverwhiter whom she frequently praises, though the sister remains unnamed in the records [ch 002 / entry; ch 002 / 002.01].
+
+Elsa is a compact dwarf bartender at the Stonehill Inn, with copper-brown skin, thick black braids beneath a kerchief, and watchful dark eyes. She polishes mugs with an interrogator’s intensity [ch 002 / entry].
 
 ## Personality and Motivations
-Elsa is observant and socially engaged, warmly accepting drinks offered by patrons while maintaining a professional but inquisitive demeanor [ch 002 / entry]. She takes exceptional pride in her family’s standing, repeatedly emphasizing the education and accomplishments of her scholar sister, believing her sister’s knowledge surpasses that of the adventuring party or other visitors [ch 002 / entry; ch 002 / 002.01; ch 005 / entry; ch 005 / 005.01]. Despite her pride, she is helpful to the party, offering practical advice by directing them to Daran Edermath, a retired adventurer at a nearby orchard, for regional knowledge they might need [ch 002 / entry; ch 002 / 002.01].
+
+Elsa takes exceptional pride in her scholar sister’s education and accomplishments, confidently suggesting that her sister could resolve questions about the old stones and would become an even greater hero than the party [ch 002 / 002.01; ch 005 / entry].
+
+She welcomes the party warmly, celebrates their successes with ale, and offers useful local leads, including a recommendation to consult Daran Edermath [ch 002 / 002.01; ch 005 / 005.01; ch 012 / 012.05].
 
 ## History with the Party
 *   Elsa, a dwarf bartender with copper-brown skin and thick black braids, accepted a beer from Zenvon upon the party's arrival at the Stonehill Inn and warmly engaged with them [ch 002 / entry; ch 002 / 002.01].
@@ -30,23 +34,31 @@ Elsa is observant and socially engaged, warmly accepting drinks offered by patro
 *   Elsa was present at the Stonehill Inn during the party's post-Redbrand celebration and during their return from the manor for a long rest [ch 005 / 005.01; ch 009 / 009.08].
 *   At Toblen Stonehill's request, Elsa poured a beer for Zenvon when the party returned to announce their upcoming journey to Old Owl Well [ch 010 / entry; ch 010 / 010.03].
 *   Upon the party's awkward return from Tresendar Manor, Elsa was present at the inn and expressed genuine happiness to see them [ch 012 / 012.05].
+- When the party returned with Gundren, Elsa expressed astonishment and relief at seeing him alive [ch 017 / entry; ch 017 / 017.06].
 
 ## Last Observed State
-Elsa was last observed at the Stonehill Inn during the party's return from Tresendar Manor in the late afternoon [ch 012 / 012.05]. She expressed genuine happiness to see the party, noting that Pip was also happy to see the inn's patrons [ch 012 / 012.05]. The party collapsed into a long rest immediately following this interaction [ch 012 / 012.05]. No evidence indicates Elsa's condition or status following the long rest or the subsequent arrival of bugbears led by Nosk later that morning, as the summaries do not describe her actions during that confrontation. Status not established in the summaries.
+
+Elsa was behind the bar at the repaired Stonehill Inn when the party returned with Gundren. She reacted with astonishment and relief at his survival [ch 017 / entry; ch 017 / 017.06].
 
 ## Relationships
-*   **Toblen Stonehill:** Elsa works for or alongside Toblen, the inn's owner. She serves drinks upon his request, such as when he ordered a beer for Zenvon [ch 010 / entry; ch 010 / 010.03], and is present during his interactions with the party [ch 005 / 005.01; ch 009 / 009.08].
-*   **Zenvon Forepot:** Elsa has a cordial relationship with Zenvon. She accepted a beer from him when he took a seat at the bar to listen for gossip [ch 002 / entry; ch 002 / 002.01], poured him celebratory ale after the goblin rescue [ch 005 / entry; ch 005 / 005.01], and served him again before the party departed for Old Owl Well [ch 010 / entry; ch 010 / 010.03].
-*   **The Party:** Elsa views the party with warmth and pride. She celebrated their return from the Cragmaw Hideout by serving ale [ch 005 / 005.01] and was present during their recovery periods in later chapters [ch 009 / 009.08; ch 012 / 012.05].
-*   **Scholar Sister:** Elsa is highly proud of her unnamed sister, a scholar in Neverwinter. Elsa claims her sister could resolve the party's questions about the old stones and asserts that the sister will eventually be a "bigger hero" than the party herself [ch 002 / entry; ch 002 / 002.01; ch 005 / entry; ch 005 / 005.01].
-*   **Daran Edermath:** Elsa knows of Daran, a retired adventurer living at a nearby orchard, and recommends him to the party for specific regional knowledge [ch 002 / entry; ch 002 / 002.01].
+
+- **Her sister:** An unnamed scholar in Neverwinter whose education and accomplishments Elsa repeatedly praises. Veyra thinks Professor Orryn Voss knew her, but does not personally know her [ch 002 / entry; ch 002 / 002.01].
+- **Toblen Stonehill:** The inn’s owner calls on Elsa to serve drinks; she poured Zenvon a beer at his request [ch 010 / entry; ch 010 / 010.03].
+- **Zenvon Forepot:** Elsa accepted his offer of a beer and shared information about scholarly visitors and Daran Edermath [ch 002 / entry; ch 002 / 002.01].
+- **The party:** Elsa serves celebratory ale for their successes and is happy to see them return [ch 005 / 005.01; ch 012 / 012.05].
+- **Daran Edermath:** Elsa recommends him as a source of regional knowledge [ch 002 / entry; ch 002 / 002.01].
+- **Gundren:** Elsa expresses astonishment and relief when he returns alive [ch 017 / entry].
 
 ## Notable Quotes
 > "Well, yeah, let's not make any assumptions. We still have not lost him. I'm gonna bring him back." — Zenvon Forepot [ch 002 / 002.01]
 
+No new attributed quotes about Elsa appear in the supplied chapter 017 evidence [ch 017 / entry; ch 017 / 017.06].
+
 ## Arc-Score Candidates
-*   Elsa poured celebratory ale for the party after they rescued Sildar and defeated the goblin bandits [ch 005 / 005.01].
-*   Elsa expressed happiness to see the party upon their return from Tresendar Manor [ch 012 / 012.05].
+
+- “Elsa serves ale for rescuing one of their own and clearing out the goblin bandits, while insisting her sister will be an even greater hero when she arrives.” [ch 005 / 005.01]
+- “Pip is happy to see the inn folks, and Elsa is really happy to see the party; the party doesn't volunteer what happened — not if they don't ask.” [ch 012 / 012.05]
+- “She reacts with astonishment and relief at seeing Gundren alive.” [ch 017 / entry]
 
 ## Secrets
 _(none authored)_

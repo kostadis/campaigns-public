@@ -1,4 +1,4 @@
-<!-- published by summary_native npc-publish | source: summary_native | npc: Glabbagool | range: ch002-076 | draft run: 20261111T185138Z | draft sha256: a84e2fe27511b454a2be349d601d6d31d723929094d5de1c8eaf92ad33b9eb19 | authored sha256: none | verify: pass | published sha256: f436b6ad14f29c0785f9f1366dd7c3037e90205c904e2771e4e9aaafc127ae22 -->
+<!-- published by summary_native npc-publish | source: summary_native | npc: Glabbagool | range: ch002-077 | draft run: 20261121T052737Z | draft sha256: b1354f33690d3c0715a667b591c59ca3813663377ef63c2dc32b300d25402cf1 | authored sha256: none | verify: pass | published sha256: a8eab4f8ed5560a91f74458b97c780b198201129f22a6e9785d8b612d55b1bc7 -->
 ---
 subject: Glabbagool
 type: npc
@@ -6,12 +6,12 @@ global: true
 exclusion: null
 aliases_used: []
 first_seen: 34
-last_seen: 76
-chapters: [34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 64, 65, 67, 68, 69, 71, 72, 73, 74, 75, 76]
-n_entries: 36
-n_scenes: 111
-n_moments: 25
-range: ch002-076
+last_seen: 77
+chapters: [34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 64, 65, 67, 68, 69, 71, 72, 73, 74, 75, 76, 77]
+n_entries: 37
+n_scenes: 112
+n_moments: 26
+range: ch002-077
 source_kind: delta
 ---
 
@@ -32,6 +32,7 @@ source_kind: delta
 - **Committed to monk training.** He persistently sought Zalthir’s instruction, treated prisoner-watching as pre-monk practice, and completed the Whispering Dome contemplation [ch 055 / entry; ch 056 / 056.04; ch 059 / 059.06].
 - **Enjoys cheese and detailed analysis.** Rothé cheese drew his enthusiastic attention during negotiations; his chemical critique surprised Eravien. At the stream, he simplified an elaborate analysis when his listeners could not follow it [ch 074 / 074.01; ch 074 / 074.06; ch 076 / 076.06].
 - **Takes responsibility seriously.** Guarding the spy and safeguarding a High Tower key visibly mattered to him [ch 054 / 054.05; ch 065 / 065.03].
+- Zalthir’s invented rivet-naming assignment immediately alarms him: he protests that he was never told about it [ch 077 / 077.06; ch 077 / moment].
 
 ## History with the Party
 - Glabbagool is a Gelatinous Cube that unexpectedly gained sentience, sight, and speech. He describes himself as formerly "an average garden variety gelatinous cube" that cleaned floors and decomposed debris. [ch 034 / entry; ch 034 / 034.03]
@@ -218,10 +219,11 @@ source_kind: delta
 - At the giant-lizard mounts, Glabbagool telepathically reported that one female smelled like water. Zalthir’s magical scrutiny found no magic [ch 076 / 076.03].
 - The party clarified that the shrunken drow noble spy formerly transported in their bag had been left with the dwarves of Gauntlgrym as a bargaining piece for future negotiations or prisoner exchange [ch 076 / 076.03].
 - At an underground stream, Glabbagool sampled the water with a pseudopod, delivered a chemical breakdown, and concluded that it was clean. His subsequent analysis of skin from the suspicious lizard established only that she was a lizard, leaving the unusual smell unexplained [ch 076 / 076.06].
+- At camp, Glabbagool raised four eye stalks and watched Octavia spend an hour examining Zalthir’s gauntlet. When Zalthir claimed Glabbagool had been naming its rivets, he protested that he had never been told to do so; the memorable moment identifies the assignment as Zalthir’s invention [ch 077 / 077.06; ch 077 / moment].
 
 ## Last Observed State
 
-Glabbagool is shown actively accompanying the underground expedition, sampling a stream and examining a lizard skin sample. He identifies the water as clean but does not explain why the female lizard smells like water [ch 076 / 076.06].
+Glabbagool is actively accompanying the party at camp, watching Octavia inspect Zalthir’s gauntlet and protesting the supposed rivet-naming responsibility [ch 077 / 077.06].
 
 He has absorbed Bruenor’s Ioun Stone for +1 AC. The option to grant Zalthir +1 AC while defending instead of attacking remains provisional and uses Glabbagool’s own focus points to switch roles [ch 076 / 076.01].
 
@@ -229,7 +231,7 @@ The drow spy is now in dwarven custody at Gauntlgrym. Continued custody of the H
 
 ## Relationships
 
-- **Zalthir:** Mentor and bonded combat partner. Glabbagool completed his apprenticeship trial, fights through their grapple-and-acid combination, and protected Zalthir when he fell unconscious. The new defensive ruling extends this partnership, provisionally [ch 059 / 059.06; ch 062 / 062.06; ch 064 / 064.04; ch 076 / 076.01].
+- **Zalthir:** Mentor and bonded combat partner. Glabbagool completed his apprenticeship trial, fights through their grapple-and-acid combination, and protected Zalthir when he fell unconscious. The new defensive ruling extends this partnership, provisionally [ch 059 / 059.06; ch 062 / 062.06; ch 064 / 064.04; ch 076 / 076.01]. At camp, Zalthir invents a rivet-naming assignment that Glabbagool worries he has failed [ch 077 / moment].
 - **Thorin:** Invited him into the expedition, nicknamed him Roomba, and publicly defended his rights in Waterdeep [ch 034 / 034.03; ch 039 / 039.02; ch 055 / 055.08].
 - **Gyrgum:** Gave him the lucky foot, assigned him secretarial duties, and prompted public recognition of sentient oozes at the Gauntlgrym feast [ch 034 / 034.03; ch 061 / 061.01; ch 073 / 073.06].
 - **Daz:** Received Glabbagool’s earnest encouragement after poor combat performance and later positioned a Fireball to spare him [ch 044 / moment; ch 051 / 051.04].
@@ -239,6 +241,7 @@ The drow spy is now in dwarven custody at Gauntlgrym. Continued custody of the H
 - **Spanner and the Modrons:** Studied his movement and symmetry. His carefully restrained grapple produced Dust of Mechanus without killing the volunteer Modron [ch 072 / 072.04].
 - **The drow spy:** Former prisoner under his supervision, whom he described as a friend despite her attacks and protests. She has since been left with Gauntlgrym’s dwarves [ch 056 / 056.04; ch 076 / 076.03].
 - **Pudding King:** Enemy whose body Glabbagool acquired during their unexplained swap [ch 047 / 047.06; ch 047 / 047.10].
+- **Octavia:** Glabbagool watches her examine Zalthir’s gauntlet with four eye stalks [ch 077 / 077.06].
 
 ## Notable Quotes
 > "Well, hello, hello, hello." — Glabbagool [ch 034 / 034.03]
@@ -415,6 +418,7 @@ The drow spy is now in dwarven custody at Gauntlgrym. Continued custody of the H
 - “Glabbagool successfully grapples the volunteer while restraining his acid.” [ch 072 / 072.04]
 - “King Bruenor presents Glabbagool with a magical Ioun Stone, which the ooze promptly absorbs, acknowledging the ooze’s role in the prophecy of the Anvil.” [ch 076 / 076.01]
 - “Glabbagool uses his unique physiology to analyze the water, delivering a lengthy chemical breakdown before simply concluding it is clean.” [ch 076 / 076.06]
+- “Zalthir invents an assignment, and Glabbagool immediately worries about failing it.” [ch 077 / moment]
 
 ## Secrets
 _(none authored)_

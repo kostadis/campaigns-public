@@ -1,4 +1,4 @@
-<!-- published by summary_native npc-publish | source: summary_native | npc: Eravien Haund | range: ch002-076 | draft run: 20261111T185138Z | draft sha256: 43f8d2a2f9d1777dda1fd94490314ca71b197d06b07873dfa5c69449e36c9031 | authored sha256: none | verify: pass | published sha256: c5d64ccbab27a21486c1c09b42650907dfa55d800cf34abc6ed4de87c76c55bf -->
+<!-- published by summary_native npc-publish | source: summary_native | npc: Eravien Haund | range: ch002-077 | draft run: 20261121T052737Z | draft sha256: 5cf657f0f0fb306181bdd91ba8d0a835c3433516a7f9fd3642a07c7ab078611f | authored sha256: none | verify: pass | published sha256: 90e4ef5798dabd5ba3696beef2e513ff7f9f123ad7ed3b27eba447df0c87de98 -->
 ---
 subject: Eravien Haund
 type: npc
@@ -6,12 +6,12 @@ global: true
 exclusion: null
 aliases_used: []
 first_seen: 74
-last_seen: 76
-chapters: [74, 75, 76]
+last_seen: 77
+chapters: [74, 75, 76, 77]
 n_entries: 2
-n_scenes: 6
+n_scenes: 7
 n_moments: 1
-range: ch002-076
+range: ch002-077
 source_kind: delta
 ---
 
@@ -38,19 +38,21 @@ He seeks elimination of the Underdark threat or actionable intelligence sufficie
 - The party received the Alliance Brief: historical and political background on Menzoberranzan, plus a substantial tome allowing one question before each questline. Answers distinguish certain knowledge from partial information [ch 076 / 076.01].
 - Eravien arranged for Sigrun, an experienced ranger and archivist, to accompany the expedition for mapping and information gathering. She claims no faction membership [ch 076 / 076.01].
 - An additional note accompanying the Alliance material offered further rewards for further services [ch 076 / entry].
+- At camp, Sigrun openly showed Gyrgum her expedition notes for Lord Eravien and the Alliance. She sought memorable remarks from the party and recorded Gyrgum’s account of the battle. Her reporting prompted questions about whether she was spying; Gyrgum observed that spies were usually more secretive [ch 077 / 077.05].
 
 ## Last Observed State
 
-His faction’s offer has been accepted, and the party has received its Alliance information material. Sigrun joins the expedition through his arrangement; the summaries do not establish completion of the promised archivist escort [ch 075 / 075.04; ch 076 / 076.01].
+The party has accepted his faction’s offer and received its information material. Sigrun, whose participation he arranged, is accompanying the expedition and collecting observations for him and the Alliance [ch 075 / 075.04; ch 076 / 076.01; ch 077 / 077.05].
 
-Chapter 076 records his arrangements and further offers without depicting him speaking or acting in person. Status not established in the summaries [ch 076 / entry; ch 076 / 076.01].
+The latest scene mentions him as a recipient of Sigrun’s notes without depicting him present. Status not established in the summaries [ch 077 / 077.05].
+The summaries do not establish completion of the promised archivist escort [ch 075 / 075.04; ch 076 / 076.01].
 
 ## Relationships
 
 - **Lords’ Alliance:** Represents its interests and offers access to its information network. The received Alliance brief permits one question before each questline, with answers distinguished as certain or partial. Eravien arranged Sigrun’s participation as the expedition’s mapper [ch 076 / 076.01].
 - **The party:** Accepted his faction’s offer; he subsequently offered additional rewards for further service [ch 075 / 075.04; ch 076 / 076.01].
 - **Glabbagool:** Included him in his hospitality with cheese and was surprised by his sophisticated critique and ability to speak. The cheese remained a memorable part of his approach to the party [ch 074 / 074.06; ch 076 / 076.01].
-- **Sigrun:** Arranged her participation in the expedition, although she claims no faction membership [ch 076 / 076.01].
+- **Sigrun:** Arranged her participation in the expedition, although she claims no faction membership [ch 076 / 076.01]. She openly collects expedition observations for him and the Alliance, showing Gyrgum her notes [ch 077 / 077.05].
 - **Thorin:** Expressed skepticism about the proposed non-combat escort while affirming support for academic endeavors [ch 074 / 074.06].
 
 ## Notable Quotes
@@ -61,6 +63,7 @@ Chapter 076 records his arrangements and further offers without depicting him sp
 - “Glabbagool provides a sophisticated chemical critique of the cheese, surprising Eravien with his intelligence.” [ch 074 / 074.06]
 - “Gyrgum raises a glass to the offers, and the party formally accepts them all.” [ch 075 / 075.04]
 - “He arranged for Sigrun to accompany the expedition and offers further rewards in exchange for more services.” [ch 076 / entry]
+- “Sigrun openly shows him her notes and concludes she has enough for Lord Eravien.” [ch 077 / 077.05]
 
 ## Secrets
 _(none authored)_

@@ -1,4 +1,4 @@
-<!-- published by summary_native npc-publish | source: summary_native | npc: Gorl | range: ch001-015 | draft run: 20261107T065713Z | draft sha256: 8324a61cb2ca818522e358a3b717f0b3b61b1d3a7c7f03e8f4efc91b940155f6 | authored sha256: none | verify: pass | published sha256: ee7c419d2830b4ba65d7ea9fe4e67dc76ff01801624669dc125d74e9b001ddd2 -->
+<!-- published by summary_native npc-publish | source: summary_native | npc: Gorl | range: ch001-017 | draft run: 20261116T205432Z | draft sha256: 3ec0e08d07cf6d69ceb6ae1ff8a7fb35f7afd5ab95711f07f175d5a0eaf7907b | authored sha256: none | verify: pass | published sha256: 8782440f3368f6fc64ebbd8ca92d9fd15c5b36a40dd5007cc029a2e91252eea6 -->
 ---
 subject: Gorl
 type: npc
@@ -6,22 +6,24 @@ global: true
 exclusion: null
 aliases_used: []
 first_seen: 13
-last_seen: 15
-chapters: [13, 14, 15]
-n_entries: 2
-n_scenes: 10
+last_seen: 17
+chapters: [13, 14, 15, 16, 17]
+n_entries: 3
+n_scenes: 12
 n_moments: 2
-range: ch001-015
+range: ch001-017
 source_kind: delta
 ---
 
 ## Identity
-Gorl is a smaller-than-average bugbear with a perpetual nervous twitch. He spells his name G-O-R-L and is distinct from King Grol. He served in the Scarlet Fist under Nosk and belongs to King Grol’s tribe [ch 013 / 013.04; ch 013 / 013.05; ch 014 / entry].
+Gorl was a smaller-than-average bugbear with a perpetual nervous twitch, distinct from King Grol. He served in the Scarlet Fist under Nosk and belonged to King Grol’s tribe [ch 013 / 013.04; ch 014 / entry].
 
 ## Personality and Motivations
-Gorl describes himself as hired muscle rather than a strategist. He alternates between defiance and terror; Veyra’s threats secure answers after Zenvon’s persuasion fails [ch 013 / entry; ch 013 / 013.03].
+Gorl described himself as hired muscle rather than a strategist. He alternated between defiance and terror, yielding to Veyra’s threats after resisting Zenvon’s persuasion [ch 013 / 013.03].
 
-He wants release and distance from his captors. His agreement to wait outside the castle is not established as sincere [ch 013 / 013.05]. He curiously admires the party’s literal observance of its promise to keep him alive, but becomes terrified when they consider abandoning him among people who would scorn his inability to fight [ch 014 / entry; ch 014 / 014.05].
+He sought release and distance from his captors; the sincerity of his agreement to wait outside the castle remained uncertain. He curiously admired the party’s literal observance of its promise to keep him alive, yet feared abandonment among bugbears who would scorn his inability to fight [ch 013 / 013.05; ch 014 / entry; ch 014 / 014.05].
+
+His history of tormenting, beating, and killing goblins contributed to their desire to execute him [ch 016 / entry].
 
 ## History with the Party
 - Zenvon pursued Gorl and knocked him unconscious with his shortsword’s hilt; the party bound him and carried him into the inn [ch 013 / 013.02; ch 013 / 013.03].
@@ -34,18 +36,20 @@ He wants release and distance from his captors. His agreement to wait outside th
 - The party brought Gorl into Cragmaw Castle under its rescued-traveler cover. The GM noted that he curiously admired their literal observance of the promise not to kill him despite his maiming [ch 014 / 014.01].
 - Fearing he would scream when left behind, the party knocked him unconscious and hid him behind barrels in the ruined storage tower; Vorl and Lhupo approved [ch 014 / 014.05].
 - Gorl was mentioned during the audience with King Grol, who asked where he was after receiving the watchers’ report. Zenvon claimed the party had found him injured, brought him home, and left him resting after the journey [ch 015 / 015.01].
+- During the victory celebrations, goblins brought Gorl before the gathering. Zenvon considered his promise fulfilled and did not intervene; the goblins executed Gorl and celebrated his death [ch 016 / 016.01].
+- Gorl was spoken of when Sildar asked about the captive after the party returned to Stonehill Inn. Zenvon reported that the goblins had dealt with him and maintained that he personally had kept his word; Sildar approved [ch 017 / 017.06].
 
 ## Last Observed State
-Last directly observed unconscious and concealed behind barrels in Cragmaw Castle’s ruined storage tower after the party knocked him out. His legs had previously been amputated [ch 014 / entry; ch 014 / 014.05].
-
-In the subsequent audience, Gorl was only spoken of; Zenvon’s claim that he was resting was part of the deception. His condition after concealment is not established in the summaries [ch 015 / 015.01].
+Dead: goblins executed Gorl during the victory celebrations at Cragmaw Castle while Zenvon declined to intervene. The later report to Sildar concerned his fate, without establishing any new presence [ch 016 / 016.01; ch 017 / 017.06].
 
 ## Relationships
-- **Nosk:** Led Gorl’s Scarlet Fist group. Gorl said Nosk worked directly for the Spider and that his own assignment was to help Nosk clean up his mistakes [ch 013 / 013.03; ch 013 / 013.04].
-- **Brakka:** According to Gorl, Brakka alone knew the Wave Echo Cave route and kept it secret; Gorl does not know the way [ch 013 / 013.04].
-- **The party:** Zenvon controlled his captivity and amputated his legs; Veyra intimidated him; Sister Maela threatened to kill him if he betrayed their cover [ch 013 / 013.03; ch 013 / 013.06].
-- **King Grol:** Gorl belongs to his tribe. The king asked after him when the party arrived for its audience [ch 014 / entry; ch 015 / 015.01].
-- **Vorl and Lhupo:** Both approved when the party knocked Gorl unconscious and concealed him [ch 014 / 014.05].
+- **Nosk:** Led Gorl’s Scarlet Fist group and worked directly for the Spider. Gorl’s assignment was to help Nosk clean up his mistakes [ch 013 / 013.03; ch 013 / 013.04].
+- **Brakka:** Gorl identified him as the sole keeper of the Wave Echo Cave route, which Gorl did not know [ch 013 / 013.04].
+- **The party:** Captured him and coerced his support for their rescue deception. Zenvon amputated his legs, Veyra intimidated him, and Sister Maela threatened him against betrayal. Zenvon later allowed his execution, considering his promise fulfilled [ch 013 / 013.03; ch 013 / 013.06; ch 016 / 016.01].
+- **King Grol:** Gorl belonged to his tribe. The king asked after him during the party’s audience [ch 014 / entry; ch 015 / 015.01].
+- **Vorl and Lhupo:** Approved when the party knocked Gorl unconscious and concealed him behind barrels [ch 014 / 014.05].
+- **The goblins:** His previous violence against them motivated their desire to kill him. They executed him and celebrated his death [ch 016 / entry; ch 016 / 016.01].
+- **Sildar Hallwinter:** Asked about Gorl and approved after Zenvon reported his fate [ch 017 / 017.06].
 
 ## Notable Quotes
 > "You attacked me and chopped off my legs." — Gorl [ch 013 / 013.06]
@@ -54,6 +58,7 @@ In the subsequent audience, Gorl was only spoken of; Zenvon’s claim that he wa
 - “Zenvon uses his scimitar to amputate the prisoner’s legs.” [ch 013 / 013.03]
 - “Gorl offers more detailed faction information in exchange for being allowed to leave.” [ch 013 / 013.05]
 - “Forepot authorizes knocking Gorl unconscious. The party conceals him behind barrels.” [ch 014 / 014.05]
+- “Zenvon considers his own promise fulfilled and does not intervene. The goblins execute Gorl and celebrate his death.” [ch 016 / 016.01]
 
 ## Secrets
 _(none authored)_

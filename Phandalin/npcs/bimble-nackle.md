@@ -1,4 +1,4 @@
-<!-- published by summary_native npc-publish | source: summary_native | npc: Bimble Nackle | range: ch002-062 | draft run: 20261112T014047Z | draft sha256: e8b7f136d17ba80ab0b3e819c32614a7d4bedbaf58aaddf004bf776fafb2c0c9 | authored sha256: none | verify: pass | published sha256: bdf9dc589e570184e8c9abb8b1262f13fafb6ed56d39668d81aa71f91e49561d -->
+<!-- published by summary_native npc-publish | source: summary_native | npc: Bimble Nackle | range: ch002-063 | draft run: 20261121T181833Z | draft sha256: 9a0630de448ef16d7e928d740d0ec28f1ad6b67e6243762f4bfbc940d2acc1f3 | authored sha256: none | verify: pass | published sha256: 5bffe1072b4e2daad604319d7b1aff0c565e48c6eff93a4984662331fa9baa37 -->
 ---
 subject: Bimble Nackle
 type: npc
@@ -6,12 +6,12 @@ global: true
 exclusion: null
 aliases_used: []
 first_seen: 52
-last_seen: 62
-chapters: [52, 53, 55, 56, 57, 58, 59, 60, 61, 62]
-n_entries: 9
-n_scenes: 31
+last_seen: 63
+chapters: [52, 53, 55, 56, 57, 58, 59, 60, 61, 62, 63]
+n_entries: 10
+n_scenes: 33
 n_moments: 7
-range: ch002-062
+range: ch002-063
 source_kind: delta
 ---
 
@@ -63,11 +63,14 @@ Chapter 62 adds no directly depicted conduct by Bimble from which to infer a cha
 - At the inn after a long rest, he admired his equipment's perfect packing, cleaning and sharpening under a House Margaster courtesy card. Frightened by the party's warnings, he resolved to sign no further contracts. He has a copy of his agreement, but the magical NDA still prevents access to restricted portions [ch 061 / 061.07].
 - The party went to House Margaster’s Eastern Quay warehouse seeking information, evidence, or a way to free Bimble from his agreement; the scene refers to him as “Bimbo” without establishing his presence [ch 062 / 062.01].
 - In the records room, the party found his contract with its NDA provisions still blacked out. The readable restoration contract exposed a possible alternative: someone who had never signed with House Margaster could perform the repair using a component outside its specified supply. The party proposed taking Bimble for expertise while doing the work themselves, but whether his guidance would preserve that loophole remained unconfirmed [ch 062 / 062.08].
+- Bimble accompanied the party when they left town that evening; the journey included an encounter with kobolds hired by House Margaster [ch 063 / 063.02].
+- Vukradin reported to Aldus that their contract-archive investigation showed Bimble’s Margaster signature made him ineligible to perform the repair under the discovered loophole. Aldus sent no further reply [ch 063 / 063.03].
 
 ## Last Observed State
-Bimble’s latest directly depicted activity is at the party’s usual inn, admiring equipment packed, cleaned, and sharpened under a House Margaster courtesy card. He possesses a copy of his agreement and refuses further Margaster contracts; restricted terms remain inaccessible [ch 061 / 061.07].
 
-During the subsequent records search, he was spoken of and his contract was examined. His whereabouts and presence during that investigation are not established. No release from the agreement is recorded; its NDA provisions remain blacked out [ch 062 / 062.01; ch 062 / 062.08].
+Bimble is traveling with the party after their evening departure from town [ch 063 / 063.02].
+
+His archived contract’s NDA provisions remained blacked out during the records search. Subsequently, the party described his Margaster signature as disqualifying him from performing the repair; whether he could advise an unsigned repairer without compromising the loophole remains unconfirmed [ch 062 / 062.08; ch 063 / 063.03].
 
 ## Relationships
 
@@ -129,6 +132,8 @@ No new direct speech attributed to Bimble appears in the supplied Chapter 62 [ch
 - Brother Aldric agrees to shelter Bimble in the Spire of the Morninglord [ch 057 / 057.05]
 - A dead drow says "The sage wanted the book back" [ch 057 / 057.02]
 - “The party proposes letting Bimbo explain the work while someone else performs it. Whether that assistance satisfies the loophole remains unconfirmed.” [ch 062 / 062.08]
+
+- “The party chooses to leave that evening rather than wait until morning. Bimbo travels with them.” [ch 063 / 063.02]
 
 ## Secrets
 _(none authored)_
